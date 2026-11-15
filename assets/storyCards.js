@@ -24,6 +24,15 @@ var cardGroups = {
   'newhorizons': [2, 2, 1]
 };
 
+var flipSound = new Audio('./assets/sfx/card-flip.mp3');
+flipSound.preload = 'auto';
+
+// a copy each time so quick flips can overlap
+function playFlip() {
+  var copy = flipSound.cloneNode();
+  copy.play().catch(function () {});
+}
+
 function makeParts(story, id) {
   var counts = cardGroups[id];
   var total = 0;
@@ -122,6 +131,7 @@ export default function StoryCards(props) {
 
   function makeSetter(index, open) {
     return function () {
+      playFlip();
       setFlipped(function (old) {
         var next = old.slice();
         next[index] = open;
@@ -137,7 +147,7 @@ export default function StoryCards(props) {
       makeSetter(index, open)();
       // the face with the button goes hidden, so move focus to the other one
       window.setTimeout(function () {
-        var next = turn.querySelector(open ? '.storyCardTurnBack' : '.storyCardFront');
+        var next = turn.querySelector(open ? '.storyCardBack' : '.storyCardFront');
         if (next) next.focus({ preventScroll: true });
       }, 0);
     };
@@ -186,7 +196,7 @@ export default function StoryCards(props) {
               jsx.jsx('span', { className: 'storyCardHint', children: t('story.reveal') })
             ]
           }, 'front'),
-          jsxBack(paragraphs, partLabel, makeFlipper(i, false), t('story.turnBack'))
+          jsxBack(paragraphs, partLabel, makeFlipper(i, false))
         ]
       })
     }, i));
@@ -214,24 +224,21 @@ export default function StoryCards(props) {
 }
 
 // back of a card, kept out of the loop so it stays readable
-function jsxBack(paragraphs, partLabel, turnBack, turnBackLabel) {
+function jsxBack(paragraphs, partLabel, turnBack) {
   return jsx.jsxs('div', {
     className: 'storyCardBack',
+    role: 'button',
+    tabIndex: 0,
+    onClick: turnBack,
+    onKeyDown: function (event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        turnBack(event);
+      }
+    },
     children: [
       jsx.jsx('div', { className: 'storyCardText', children: paragraphs }),
-      jsx.jsxs('div', {
-        className: 'storyCardFoot',
-        children: [
-          jsx.jsx('span', { className: 'storyCardPart', children: partLabel }),
-          jsx.jsx('button', {
-            type: 'button',
-            className: 'storyCardTurnBack',
-            onClick: turnBack,
-            'aria-label': turnBackLabel,
-            children: '\u21BA'
-          })
-        ]
-      })
+      jsx.jsx('div', { className: 'storyCardFoot', children: jsx.jsx('span', { className: 'storyCardPart', children: partLabel }) })
     ]
   }, 'back');
 }
