@@ -16,10 +16,18 @@ export default function SpeedControl() {
   const live = React.useSyncExternalStore(liveClock.subscribe, liveClock.getSnapshot);
   // In the hub, "Real positions" drives the planets, so the speed controls are locked while it is on.
   const locked = scene === 'hub' && live.enabled;
+  // Real positions runs on its own clock, so the speed goes back to 1× while it is on. That keeps the
+  // asteroid belt and globe spin at normal speed and the locked slider showing the true value.
+  React.useEffect(() => {
+    if (locked && speed !== 1) setSpeed(1);
+  }, [locked, speed, setSpeed]);
   React.useEffect(() => {
     if (speed !== 0) previousSpeed.current = speed;
   }, [speed]);
   const es = locale === 'es';
+  // ◀◀ lowers and ▶▶ raises the speed by one step (through 0 into reverse), within -10× to +10×.
+  const STEP = 1;
+  const nudge = change => setSpeed(Math.max(-10, Math.min(10, Math.round((speed + change) * 4) / 4)));
   const label = es ? 'Velocidad' : 'Speed';
   const paused = speed === 0;
   const lockHint = es ? 'Desactiva «Posiciones reales» en el panel de posiciones en vivo para usar estos controles.'
@@ -40,17 +48,17 @@ export default function SpeedControl() {
       jsx.jsxs('div', { className: 'simulation-speed__lockzone', title: locked ? lockHint : undefined, children: [
       locked && jsx.jsx('span', { className: 'simulation-speed__hint', 'aria-hidden': true, children: lockHint }),
       jsx.jsxs('div', { className: 'simulation-speed__buttons', children: [
-        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked,
-          onClick: () => setSpeed(-Math.abs(speed || previousSpeed.current)),
-          'aria-label': es ? 'Retroceder' : 'Reverse motion', 'aria-pressed': speed < 0,
+        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked || speed <= -10,
+          onClick: () => nudge(-STEP),
+          'aria-label': es ? 'Reducir la velocidad' : 'Decrease speed',
           children: jsx.jsx('span', { 'aria-hidden': true, children: '◀◀' }) }),
         jsx.jsx('button', { type: 'button', className: 'simulation-speed__button simulation-speed__pause', disabled: locked,
           onClick: () => setSpeed(paused ? previousSpeed.current : 0),
           'aria-label': paused ? (es ? 'Reanudar movimiento' : 'Resume motion') : (es ? 'Pausar movimiento' : 'Pause motion'),
           children: jsx.jsx('span', { 'aria-hidden': true, children: paused ? '▶' : 'Ⅱ' }) }),
-        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked,
-          onClick: () => setSpeed(Math.abs(speed || previousSpeed.current)),
-          'aria-label': es ? 'Avanzar' : 'Forward motion', 'aria-pressed': speed > 0,
+        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked || speed >= 10,
+          onClick: () => nudge(STEP),
+          'aria-label': es ? 'Aumentar la velocidad' : 'Increase speed',
           children: jsx.jsx('span', { 'aria-hidden': true, children: '▶▶' }) }),
       ] }),
       jsx.jsxs('div', { className: 'simulation-speed__slider',
