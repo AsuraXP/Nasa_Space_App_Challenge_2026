@@ -6,12 +6,13 @@ import { P as Planet } from './Planet-BHsR4hM3.js';
 import { PLANETS, AXIAL_SPINS } from './solar-system.js';
 import { NasaPlanet } from './NasaPlanet.js';
 import { createOrbitalMotion } from './orbital-motion.js';
+import { liveClock } from './ephemeris.js';
 import AsteroidBelt from './AsteroidBelt.js';
 
 const amber = '#f2a541';
 // Positions remain shared with destination callbacks, so camera flights follow
 // the current location. Keep simulation time across visits to the overview.
-const motion = createOrbitalMotion(PLANETS, hub.earth, hub.mars, hub.moon);
+const motion = createOrbitalMotion(PLANETS, hub.earth, hub.mars, hub.moon, liveClock);
 const positions = Object.fromEntries([
   ...PLANETS.map(planet => [planet.id, planet.position]),
   ['earth', hub.earth], ['mars', hub.mars], ['moon', hub.moon],

@@ -1,5 +1,6 @@
 import { r as React, j as jsx } from './r3f-BNacQy8Q.js';
 import { a as useScene, u as useSettings } from './index-BS4g53at.js';
+import LivePositions from './LivePositions.js';
 
 export default function SpeedControl() {
   const scene = useScene(state => state.scene);
@@ -21,7 +22,7 @@ export default function SpeedControl() {
   const formatted = `${speed > 0 ? '+' : ''}${speed}×`;
   if (scene === 'intro') return null;
   const progress = (speed + 10) / 20;
-  return jsx.jsxs('section', {
+  const speedPanel = jsx.jsxs('section', {
     className: 'simulation-speed', hidden: Boolean(selectedId), 'aria-label': label,
     'data-reduced-motion': reduceMotion ? 'true' : 'false',
     children: [
@@ -59,4 +60,8 @@ export default function SpeedControl() {
         children: es ? 'Velocidad negativa para retroceder, cero para pausar y positiva para avanzar.' : 'Negative speed reverses, zero pauses, and positive speed moves forward.' }),
     ],
   });
+  return jsx.jsxs(jsx.Fragment, { children: [
+    speedPanel,
+    jsx.jsx(LivePositions, { hidden: Boolean(selectedId) || scene !== 'hub', es }),
+  ] });
 }

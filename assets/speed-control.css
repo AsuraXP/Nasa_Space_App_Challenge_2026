@@ -152,3 +152,51 @@
   .simulation-speed__label, .simulation-speed__status { display: none; }
   .simulation-speed__value { font-size: 26px; margin-bottom: 6px; }
 }
+
+/* live planet positions panel (NASA/JPL orbital elements) */
+.live-positions {
+  position: fixed;
+  z-index: 20;
+  left: max(16px, env(safe-area-inset-left));
+  bottom: max(22px, env(safe-area-inset-bottom));
+  width: min(300px, calc(100% - 32px));
+  padding: 10px 12px 9px;
+  color: #dedede;
+  font-size: 12px;
+  background: rgba(8, 10, 14, .72);
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 6px;
+  backdrop-filter: blur(6px);
+  font-variant-numeric: tabular-nums;
+}
+.live-positions[hidden] { display: none; }
+.live-positions__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.live-positions__title { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: #aaa; }
+.live-positions__date { margin: 8px 0 8px; font-size: 14px; color: #fff; }
+.live-positions__badge {
+  display: inline-block; margin-right: 4px; padding: 1px 6px; border-radius: 999px;
+  font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  color: #111; background: #b8b8b8;
+}
+.live-positions__badge.is-live { background: #84d696; }
+.live-positions__rates { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+.live-positions__row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 6px; }
+.live-positions__button, .live-positions__switch {
+  cursor: pointer; min-height: 30px; padding: 3px 6px;
+  border: 1px solid #686868; border-radius: 3px;
+  background: linear-gradient(145deg, rgba(91, 91, 91, .6), rgba(43, 43, 43, .7));
+  color: #ccc; font: inherit; font-size: 11px;
+}
+.live-positions__button:hover, .live-positions__switch:hover,
+.live-positions__button[aria-pressed="true"], .live-positions__switch[aria-pressed="true"] { border-color: #f2a541; color: #fff; }
+.live-positions__button:focus-visible, .live-positions__switch:focus-visible,
+.live-positions__jump input:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.live-positions__jump { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #aaa; }
+.live-positions__jump input {
+  min-height: 28px; padding: 2px 4px; color: #ddd; font: inherit; font-size: 11px;
+  background: rgba(0, 0, 0, .4); border: 1px solid #686868; border-radius: 3px; color-scheme: dark;
+}
+.live-positions__note { margin: 8px 0 0; font-size: 10px; line-height: 1.35; color: #8f8f8f; }
+@media (max-width: 760px) {
+  .live-positions { left: 50%; transform: translateX(-50%); bottom: 190px; }
+}
