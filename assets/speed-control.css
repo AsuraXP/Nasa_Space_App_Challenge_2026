@@ -143,9 +143,22 @@
 .simulation-speed__ticks { display: flex; justify-content: space-between; margin: -2px 14px 0; font-size: 11px; color: #aaa; }
 .simulation-speed__status { margin: 3px 0 0; color: #bbb; font-size: 11px; letter-spacing: .1em; }
 @media (max-width: 767px) {
-  .simulation-speed { bottom: max(88px, calc(env(safe-area-inset-bottom) + 72px)); padding: 8px 8px 0; }
-  .simulation-speed__value { font-size: 26px; margin-bottom: 6px; }
-  .simulation-speed__buttons { gap: 20px; }
+  .simulation-speed {
+    bottom: max(8px, env(safe-area-inset-bottom));
+    width: calc(100% - 16px);
+    padding: 4px 8px 0;
+  }
+  .simulation-speed__label,
+  .simulation-speed__ticks,
+  .simulation-speed__status { display: none; }
+  .simulation-speed__value { font-size: 22px; margin-bottom: 2px; }
+  .simulation-speed__buttons { gap: 10px; }
+  .simulation-speed__button { min-width: 44px; min-height: 40px; }
+  .simulation-speed__pause { min-width: 40px; }
+  .simulation-speed__slider { height: 34px; margin-top: 2px; }
+  .simulation-speed input[type="range"] { height: 34px; }
+  .simulation-speed__arc { height: 18px; }
+  .simulation-speed__zero { top: 18px; }
 }
 @media (max-height: 540px) and (min-width: 768px) {
   .simulation-speed { bottom: 10px; padding-top: 0; width: 360px; }
@@ -226,7 +239,62 @@ body:has(.simulation-speed__lockzone:hover) .live-positions__switch[aria-pressed
 }
 .live-positions__note { margin: 8px 0 0; font-size: 10px; line-height: 1.35; color: #8f8f8f; }
 @media (max-width: 760px) {
-  .live-positions { left: 50%; transform: translateX(-50%); bottom: 190px; }
+  .live-positions {
+    left: 50%;
+    bottom: calc(max(8px, env(safe-area-inset-bottom)) + 118px);
+    width: calc(100% - 16px);
+    padding: 8px 9px 7px;
+    transform: translateX(-50%);
+  }
+  .live-positions__date { margin: 4px 0 5px; font-size: 12px; }
+  .live-positions__note { display: none; }
+  .live-positions__row { margin-top: 5px; }
+}
+
+@media (max-width: 767px) {
+  .placard {
+    max-height: 30vh;
+    padding: 14px;
+    overscroll-behavior: contain;
+  }
+  .placard__resize-handle {
+    width: 44px;
+    height: 24px;
+    margin: -8px auto 4px;
+    cursor: ns-resize;
+    touch-action: none;
+  }
+  .placard__resize-handle::after {
+    display: block;
+    width: 44px;
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .45);
+    content: "";
+  }
+  .placard__resize-handle:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  header nav.pointer-events-auto {
+    display: grid;
+    flex: 0 0 184px;
+    width: 184px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+    align-content: start;
+  }
+  header nav.pointer-events-auto .btn {
+    min-width: 0;
+    min-height: 40px;
+    padding: 0.35rem 0.45rem;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+  footer.pointer-events-none {
+    display: none;
+  }
 }
 
 /* Keep the hint text at the bottom of the map above the Live panel instead of behind it. */
