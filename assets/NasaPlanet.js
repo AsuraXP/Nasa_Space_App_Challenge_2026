@@ -1,6 +1,7 @@
 import { r as React, j as jsx, h as useGLTF, a as useFrame, H as Html } from './r3f-BNacQy8Q.js';
 import { at as Box3, c as Vector3 } from './three-CxkaggD8.js';
-import { u as useSettings } from './index-BS4g53at.js';
+import { u as useSettings, a as useScene } from './index-BS4g53at.js';
+import { simulationDelta } from './orbital-motion.js';
 import { AXIAL_SPINS } from './solar-system.js';
 
 function Placeholder({ planet, radius, failed = false }) {
@@ -42,7 +43,7 @@ function Model({ planet, radius }) {
 export function NasaPlanet({ planet, radius = planet.radius, position, onSelect, spin = AXIAL_SPINS[planet.id] }) {
   const group = React.useRef(null);
   const reduceMotion = useSettings(state => state.reduceMotion);
-  useFrame((_, delta) => { if (group.current && !reduceMotion) group.current.rotation.y += spin * Math.min(delta, 0.1); });
+  useFrame((_, delta) => { if (group.current && !reduceMotion) group.current.rotation.y += spin * simulationDelta(delta, useScene.getState().speed); });
   return jsx.jsx('group', { position, onClick: event => { event.stopPropagation(); onSelect?.(); }, children:
     jsx.jsx('group', { rotation: [0, 0, planet.id === 'saturn' ? 0.47 : planet.id === 'uranus' ? 1.71 : 0], children:
       jsx.jsx('group', { ref: group, children:

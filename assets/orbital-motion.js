@@ -5,6 +5,12 @@ export const ORBIT_PERIODS = Object.freeze({
   jupiter: 180, saturn: 240, uranus: 300, neptune: 360, moon: 16,
 });
 
+export function simulationDelta(delta, speed = 1) {
+  if (!Number.isFinite(delta) || delta <= 0 || !Number.isFinite(speed)) return 0;
+  // Cap wall-clock time before scaling, so high speeds still work at low FPS.
+  return Math.min(delta, 0.1) * speed;
+}
+
 export function createOrbitalMotion(planets, earth, mars, moon) {
   const bodies = [...planets, { id: 'earth', position: earth }, { id: 'mars', position: mars }];
   const orbits = bodies.map(({ id, position }) => ({
@@ -23,10 +29,10 @@ export function createOrbitalMotion(planets, earth, mars, moon) {
     return offset.map((value, index) => value * Math.cos(angle) + tangent[index] * Math.sin(angle));
   }
 
-  function advance(delta, paused = false) {
-    if (paused || !Number.isFinite(delta) || delta <= 0) return;
-    // Avoid teleporting when a background tab resumes. Use delta time, not frames.
-    elapsed += Math.min(delta, 0.1);
+  function advance(delta, paused = false, speed = 1) {
+    const step = paused ? 0 : simulationDelta(delta, speed);
+    if (!step) return;
+    elapsed += step;
     for (const orbit of orbits) {
       const angle = orbit.phase - elapsed * Math.PI * 2 / orbit.period;
       orbit.position[0] = Math.cos(angle) * orbit.radius;

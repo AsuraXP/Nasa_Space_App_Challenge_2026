@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { createOrbitalMotion, ORBIT_PERIODS } from '../assets/orbital-motion.js';
+import { createOrbitalMotion, ORBIT_PERIODS, simulationDelta } from '../assets/orbital-motion.js';
 import { PLANETS, AXIAL_SPINS } from '../assets/solar-system.js';
 
 function fixture() {
@@ -35,4 +35,26 @@ for (const id of [...PLANETS.map(planet => planet.id), 'earth', 'mars', 'moon'])
   assert.ok(Number.isFinite(AXIAL_SPINS[id]) && AXIAL_SPINS[id] !== 0, `${id} must rotate`);
 }
 assert.ok(AXIAL_SPINS.venus < 0, 'Venus rotates retrograde');
-console.log('Passed: all eight solar orbits, Moon orbit, constant radii, pause, frame-rate independence, lunar cycle, and axial spin configuration.');
+const reversible = fixture();
+const positions = sample => [...sample.planets.map(planet => planet.position), sample.earth, sample.mars, sample.moon];
+const original = positions(reversible).map(position => [...position]);
+for (let frame = 0; frame < 600; frame++) reversible.motion.advance(1 / 60, false, 2);
+for (let frame = 0; frame < 600; frame++) reversible.motion.advance(1 / 60, false, -2);
+positions(reversible).forEach((position, index) => position.forEach((value, axis) => close(value, original[index][axis])));
+const frozen = JSON.stringify(positions(reversible));
+for (const speed of [0, NaN, Infinity]) reversible.motion.advance(1 / 60, false, speed);
+reversible.motion.advance(1 / 60, true, -2);
+assert.equal(JSON.stringify(positions(reversible)), frozen, 'Zero speed, invalid speed and reduced motion must hold positions');
+const normal = fixture(), doubled = fixture();
+for (let frame = 0; frame < 1200; frame++) normal.motion.advance(1 / 60);
+for (let frame = 0; frame < 600; frame++) doubled.motion.advance(1 / 60, false, 2);
+positions(normal).forEach((position, index) => position.forEach((value, axis) => close(value, positions(doubled)[index][axis])));
+const reverseSlow = fixture(), reverseFast = fixture();
+for (let frame = 0; frame < 300; frame++) reverseSlow.motion.advance(1 / 30, false, -3);
+for (let frame = 0; frame < 1200; frame++) reverseFast.motion.advance(1 / 120, false, -3);
+positions(reverseSlow).forEach((position, index) => position.forEach((value, axis) => close(value, positions(reverseFast)[index][axis])));
+close(simulationDelta(5, -10), -1);
+close(simulationDelta(1 / 30, 10), 1 / 3);
+assert.equal(simulationDelta(-1, 2), 0);
+assert.equal(simulationDelta(NaN, 2), 0);
+console.log('Passed: solar and lunar orbits, radii, pause, frame-rate independence, lunar cycle, axial spins, signed speed, reversal, zero speed, invalid input, and capped frame delta.');

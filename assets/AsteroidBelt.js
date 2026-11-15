@@ -2,6 +2,7 @@ import { r as React, j as jsx, a as useFrame, H as Html } from './r3f-BNacQy8Q.j
 import { y as Object3D, s as Color } from './three-CxkaggD8.js';
 import { u as useSettings, a as useScene, r as runtime } from './index-BS4g53at.js';
 import { u as useQuality } from './Experience-Nj6LORV9.js';
+import { simulationDelta } from './orbital-motion.js';
 
 // Illustrative main belt, safely between the existing Mars and Jupiter orbits.
 // Three instanced bands keep the draw-call count low on mobile devices.
@@ -42,7 +43,7 @@ function AsteroidBand({ band, index, count, paused }) {
 
   useFrame((_, delta) => {
     if (!paused && !runtime.flying && !useScene.getState().fading) {
-      angles[index] = (angles[index] + Math.min(delta, 0.1) * Math.PI * 2 / band.period) % (Math.PI * 2);
+      angles[index] = (angles[index] + simulationDelta(delta, useScene.getState().speed) * Math.PI * 2 / band.period) % (Math.PI * 2);
     }
     if (group.current) group.current.rotation.y = angles[index];
   });

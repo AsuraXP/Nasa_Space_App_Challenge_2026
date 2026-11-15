@@ -56,7 +56,8 @@ export default function HubScene() {
 
   useFrame((_, delta) => {
     // Hold still during selection flights so the camera reaches the chosen body.
-    motion.advance(delta, reduceMotion || runtime.flying || useScene.getState().fading);
+    const { fading, speed } = useScene.getState();
+    motion.advance(delta, reduceMotion || runtime.flying || fading, speed);
     for (const [id, position] of Object.entries(positions)) {
       bodyRefs[id].current?.position.fromArray(position);
     }
