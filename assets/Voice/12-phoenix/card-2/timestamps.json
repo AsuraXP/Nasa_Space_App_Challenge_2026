@@ -1,467 +1,403 @@
-{
-  "story": "12-phoenix",
-  "card": "card-2",
-  "duration": 19.87,
-  "speechStart": 0.14,
-  "speechEnd": 19.52,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I had a long arm with a scoop, and I started digging.",
-      "start": 0.14,
-      "end": 2.38,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.28
-        },
-        {
-          "word": "had",
-          "start": 0.28,
-          "end": 0.44
-        },
-        {
-          "word": "a",
-          "start": 0.44,
-          "end": 0.58
-        },
-        {
-          "word": "long",
-          "start": 0.58,
-          "end": 0.75
-        },
-        {
-          "word": "arm",
-          "start": 0.75,
-          "end": 0.91
-        },
-        {
-          "word": "with",
-          "start": 0.91,
-          "end": 1.08
-        },
-        {
-          "word": "a",
-          "start": 1.08,
-          "end": 1.22
-        },
-        {
-          "word": "scoop,",
-          "start": 1.22,
-          "end": 1.5
-        },
-        {
-          "word": "and",
-          "start": 1.5,
-          "end": 1.66
-        },
-        {
-          "word": "I",
-          "start": 1.66,
-          "end": 1.8
-        },
-        {
-          "word": "started",
-          "start": 1.8,
-          "end": 2.09
-        },
-        {
-          "word": "digging.",
-          "start": 2.09,
-          "end": 2.38
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "A few centimetres down I hit something white.",
-      "start": 2.82,
-      "end": 4.44,
-      "words": [
-        {
-          "word": "A",
-          "start": 2.82,
-          "end": 2.94
-        },
-        {
-          "word": "few",
-          "start": 2.94,
-          "end": 3.08
-        },
-        {
-          "word": "centimetres",
-          "start": 3.08,
-          "end": 3.53
-        },
-        {
-          "word": "down",
-          "start": 3.53,
-          "end": 3.68
-        },
-        {
-          "word": "I",
-          "start": 3.68,
-          "end": 3.8
-        },
-        {
-          "word": "hit",
-          "start": 3.8,
-          "end": 3.94
-        },
-        {
-          "word": "something",
-          "start": 3.94,
-          "end": 4.29
-        },
-        {
-          "word": "white.",
-          "start": 4.29,
-          "end": 4.44
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "My team watched it for four days.",
-      "start": 4.87,
-      "end": 6.17,
-      "words": [
-        {
-          "word": "My",
-          "start": 4.87,
-          "end": 5.03
-        },
-        {
-          "word": "team",
-          "start": 5.03,
-          "end": 5.2
-        },
-        {
-          "word": "watched",
-          "start": 5.2,
-          "end": 5.5
-        },
-        {
-          "word": "it",
-          "start": 5.5,
-          "end": 5.66
-        },
-        {
-          "word": "for",
-          "start": 5.66,
-          "end": 5.82
-        },
-        {
-          "word": "four",
-          "start": 5.82,
-          "end": 6.0
-        },
-        {
-          "word": "days.",
-          "start": 6.0,
-          "end": 6.17
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Bit by bit the white chunks disappeared.",
-      "start": 6.57,
-      "end": 8.19,
-      "words": [
-        {
-          "word": "Bit",
-          "start": 6.57,
-          "end": 6.74
-        },
-        {
-          "word": "by",
-          "start": 6.74,
-          "end": 6.9
-        },
-        {
-          "word": "bit",
-          "start": 6.9,
-          "end": 7.07
-        },
-        {
-          "word": "the",
-          "start": 7.07,
-          "end": 7.24
-        },
-        {
-          "word": "white",
-          "start": 7.24,
-          "end": 7.43
-        },
-        {
-          "word": "chunks",
-          "start": 7.43,
-          "end": 7.63
-        },
-        {
-          "word": "disappeared.",
-          "start": 7.63,
-          "end": 8.19
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Salt would not do that.",
-      "start": 8.58,
-      "end": 9.37,
-      "words": [
-        {
-          "word": "Salt",
-          "start": 8.58,
-          "end": 8.74
-        },
-        {
-          "word": "would",
-          "start": 8.74,
-          "end": 8.91
-        },
-        {
-          "word": "not",
-          "start": 8.91,
-          "end": 9.06
-        },
-        {
-          "word": "do",
-          "start": 9.06,
-          "end": 9.21
-        },
-        {
-          "word": "that.",
-          "start": 9.21,
-          "end": 9.37
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Ice would.",
-      "start": 9.8,
-      "end": 10.13,
-      "words": [
-        {
-          "word": "Ice",
-          "start": 9.8,
-          "end": 9.96
-        },
-        {
-          "word": "would.",
-          "start": 9.96,
-          "end": 10.13
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "I had touched water on Mars.",
-      "start": 10.51,
-      "end": 11.76,
-      "words": [
-        {
-          "word": "I",
-          "start": 10.51,
-          "end": 10.66
-        },
-        {
-          "word": "had",
-          "start": 10.66,
-          "end": 10.83
-        },
-        {
-          "word": "touched",
-          "start": 10.83,
-          "end": 11.13
-        },
-        {
-          "word": "water",
-          "start": 11.13,
-          "end": 11.42
-        },
-        {
-          "word": "on",
-          "start": 11.42,
-          "end": 11.58
-        },
-        {
-          "word": "Mars.",
-          "start": 11.58,
-          "end": 11.76
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "I baked soil in my tiny ovens and tested it in my little chemistry lab.",
-      "start": 12.17,
-      "end": 15.51,
-      "words": [
-        {
-          "word": "I",
-          "start": 12.17,
-          "end": 12.32
-        },
-        {
-          "word": "baked",
-          "start": 12.32,
-          "end": 12.61
-        },
-        {
-          "word": "soil",
-          "start": 12.61,
-          "end": 12.79
-        },
-        {
-          "word": "in",
-          "start": 12.79,
-          "end": 12.94
-        },
-        {
-          "word": "my",
-          "start": 12.94,
-          "end": 13.1
-        },
-        {
-          "word": "tiny",
-          "start": 13.1,
-          "end": 13.38
-        },
-        {
-          "word": "ovens",
-          "start": 13.38,
-          "end": 13.67
-        },
-        {
-          "word": "and",
-          "start": 13.67,
-          "end": 13.84
-        },
-        {
-          "word": "tested",
-          "start": 13.84,
-          "end": 14.14
-        },
-        {
-          "word": "it",
-          "start": 14.14,
-          "end": 14.3
-        },
-        {
-          "word": "in",
-          "start": 14.3,
-          "end": 14.46
-        },
-        {
-          "word": "my",
-          "start": 14.46,
-          "end": 14.62
-        },
-        {
-          "word": "little",
-          "start": 14.62,
-          "end": 14.91
-        },
-        {
-          "word": "chemistry",
-          "start": 14.91,
-          "end": 15.34
-        },
-        {
-          "word": "lab.",
-          "start": 15.34,
-          "end": 15.51
-        }
-      ]
-    },
-    {
-      "index": 8,
-      "text": "I watched clouds drift over, and one day my laser saw snow falling from them.",
-      "start": 15.94,
-      "end": 19.52,
-      "words": [
-        {
-          "word": "I",
-          "start": 15.94,
-          "end": 16.11
-        },
-        {
-          "word": "watched",
-          "start": 16.11,
-          "end": 16.46
-        },
-        {
-          "word": "clouds",
-          "start": 16.46,
-          "end": 16.67
-        },
-        {
-          "word": "drift",
-          "start": 16.67,
-          "end": 16.88
-        },
-        {
-          "word": "over,",
-          "start": 16.88,
-          "end": 17.32
-        },
-        {
-          "word": "and",
-          "start": 17.32,
-          "end": 17.51
-        },
-        {
-          "word": "one",
-          "start": 17.51,
-          "end": 17.69
-        },
-        {
-          "word": "day",
-          "start": 17.69,
-          "end": 17.88
-        },
-        {
-          "word": "my",
-          "start": 17.88,
-          "end": 18.06
-        },
-        {
-          "word": "laser",
-          "start": 18.06,
-          "end": 18.39
-        },
-        {
-          "word": "saw",
-          "start": 18.39,
-          "end": 18.58
-        },
-        {
-          "word": "snow",
-          "start": 18.58,
-          "end": 18.78
-        },
-        {
-          "word": "falling",
-          "start": 18.78,
-          "end": 19.12
-        },
-        {
-          "word": "from",
-          "start": 19.12,
-          "end": 19.32
-        },
-        {
-          "word": "them.",
-          "start": 19.32,
-          "end": 19.52
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "12-phoenix",
+    "card":  "card-2",
+    "duration":  22.392,
+    "speechStart":  0.11,
+    "speechEnd":  22.11,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I had a long arm with a scoop, and I started digging. A few centimetres down I hit something white. My team watched it for four days. Bit by bit the white chunks disappeared. Salt would not do that. Ice would. I had touched water on Mars.\n\nI baked soil in my tiny ovens and tested it in my little chemistry lab. I watched clouds drift over, and one day my laser saw snow falling from them.",
+                          "start":  0.11,
+                          "end":  22.11,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.11,
+                                            "end":  0.165
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  0.176,
+                                            "end":  0.284
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  0.295,
+                                            "end":  0.349
+                                        },
+                                        {
+                                            "word":  "long",
+                                            "start":  0.36,
+                                            "end":  0.654
+                                        },
+                                        {
+                                            "word":  "arm",
+                                            "start":  0.665,
+                                            "end":  0.936
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  0.947,
+                                            "end":  1.056
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  1.067,
+                                            "end":  1.099
+                                        },
+                                        {
+                                            "word":  "scoop,",
+                                            "start":  1.11,
+                                            "end":  1.534
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  1.556,
+                                            "end":  1.686
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.697,
+                                            "end":  1.762
+                                        },
+                                        {
+                                            "word":  "started",
+                                            "start":  1.773,
+                                            "end":  2.11
+                                        },
+                                        {
+                                            "word":  "digging.",
+                                            "start":  2.121,
+                                            "end":  2.502
+                                        },
+                                        {
+                                            "word":  "A",
+                                            "start":  2.823,
+                                            "end":  2.91
+                                        },
+                                        {
+                                            "word":  "few",
+                                            "start":  2.921,
+                                            "end":  3.095
+                                        },
+                                        {
+                                            "word":  "centimetres",
+                                            "start":  3.106,
+                                            "end":  3.66
+                                        },
+                                        {
+                                            "word":  "down",
+                                            "start":  3.671,
+                                            "end":  4.008
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.019,
+                                            "end":  4.128
+                                        },
+                                        {
+                                            "word":  "hit",
+                                            "start":  4.139,
+                                            "end":  4.334
+                                        },
+                                        {
+                                            "word":  "something",
+                                            "start":  4.345,
+                                            "end":  4.693
+                                        },
+                                        {
+                                            "word":  "white.",
+                                            "start":  4.704,
+                                            "end":  5.073
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  5.393,
+                                            "end":  5.502
+                                        },
+                                        {
+                                            "word":  "team",
+                                            "start":  5.513,
+                                            "end":  5.817
+                                        },
+                                        {
+                                            "word":  "watched",
+                                            "start":  5.828,
+                                            "end":  6.154
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  6.165,
+                                            "end":  6.273
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  6.284,
+                                            "end":  6.426
+                                        },
+                                        {
+                                            "word":  "four",
+                                            "start":  6.436,
+                                            "end":  6.676
+                                        },
+                                        {
+                                            "word":  "days.",
+                                            "start":  6.686,
+                                            "end":  7.089
+                                        },
+                                        {
+                                            "word":  "Bit",
+                                            "start":  7.436,
+                                            "end":  7.621
+                                        },
+                                        {
+                                            "word":  "by",
+                                            "start":  7.632,
+                                            "end":  7.806
+                                        },
+                                        {
+                                            "word":  "bit",
+                                            "start":  7.817,
+                                            "end":  8.067
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  8.078,
+                                            "end":  8.186
+                                        },
+                                        {
+                                            "word":  "white",
+                                            "start":  8.197,
+                                            "end":  8.415
+                                        },
+                                        {
+                                            "word":  "chunks",
+                                            "start":  8.426,
+                                            "end":  8.763
+                                        },
+                                        {
+                                            "word":  "disappeared.",
+                                            "start":  8.773,
+                                            "end":  9.426
+                                        },
+                                        {
+                                            "word":  "Salt",
+                                            "start":  9.742,
+                                            "end":  10.09
+                                        },
+                                        {
+                                            "word":  "would",
+                                            "start":  10.101,
+                                            "end":  10.232
+                                        },
+                                        {
+                                            "word":  "not",
+                                            "start":  10.242,
+                                            "end":  10.46
+                                        },
+                                        {
+                                            "word":  "do",
+                                            "start":  10.471,
+                                            "end":  10.612
+                                        },
+                                        {
+                                            "word":  "that.",
+                                            "start":  10.623,
+                                            "end":  10.949
+                                        },
+                                        {
+                                            "word":  "Ice",
+                                            "start":  11.266,
+                                            "end":  11.451
+                                        },
+                                        {
+                                            "word":  "would.",
+                                            "start":  11.461,
+                                            "end":  11.744
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  12.056,
+                                            "end":  12.11
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  12.121,
+                                            "end":  12.262
+                                        },
+                                        {
+                                            "word":  "touched",
+                                            "start":  12.273,
+                                            "end":  12.589
+                                        },
+                                        {
+                                            "word":  "water",
+                                            "start":  12.599,
+                                            "end":  12.936
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  12.947,
+                                            "end":  13.067
+                                        },
+                                        {
+                                            "word":  "Mars.",
+                                            "start":  13.078,
+                                            "end":  13.534
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  13.882,
+                                            "end":  14.002
+                                        },
+                                        {
+                                            "word":  "baked",
+                                            "start":  14.013,
+                                            "end":  14.252
+                                        },
+                                        {
+                                            "word":  "soil",
+                                            "start":  14.263,
+                                            "end":  14.676
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  14.697,
+                                            "end":  14.806
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  14.817,
+                                            "end":  14.947
+                                        },
+                                        {
+                                            "word":  "tiny",
+                                            "start":  14.958,
+                                            "end":  15.306
+                                        },
+                                        {
+                                            "word":  "ovens",
+                                            "start":  15.317,
+                                            "end":  15.697
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  15.708,
+                                            "end":  15.849
+                                        },
+                                        {
+                                            "word":  "tested",
+                                            "start":  15.86,
+                                            "end":  16.208
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  16.219,
+                                            "end":  16.371
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  16.382,
+                                            "end":  16.502
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  16.513,
+                                            "end":  16.632
+                                        },
+                                        {
+                                            "word":  "little",
+                                            "start":  16.643,
+                                            "end":  16.817
+                                        },
+                                        {
+                                            "word":  "chemistry",
+                                            "start":  16.828,
+                                            "end":  17.241
+                                        },
+                                        {
+                                            "word":  "lab.",
+                                            "start":  17.252,
+                                            "end":  17.578
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  17.926,
+                                            "end":  17.991
+                                        },
+                                        {
+                                            "word":  "watched",
+                                            "start":  18.002,
+                                            "end":  18.317
+                                        },
+                                        {
+                                            "word":  "clouds",
+                                            "start":  18.328,
+                                            "end":  18.676
+                                        },
+                                        {
+                                            "word":  "drift",
+                                            "start":  18.686,
+                                            "end":  18.958
+                                        },
+                                        {
+                                            "word":  "over,",
+                                            "start":  18.969,
+                                            "end":  19.306
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  19.795,
+                                            "end":  19.904
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  19.915,
+                                            "end":  20.11
+                                        },
+                                        {
+                                            "word":  "day",
+                                            "start":  20.121,
+                                            "end":  20.284
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  20.295,
+                                            "end":  20.436
+                                        },
+                                        {
+                                            "word":  "laser",
+                                            "start":  20.447,
+                                            "end":  20.806
+                                        },
+                                        {
+                                            "word":  "saw",
+                                            "start":  20.817,
+                                            "end":  21.013
+                                        },
+                                        {
+                                            "word":  "snow",
+                                            "start":  21.023,
+                                            "end":  21.36
+                                        },
+                                        {
+                                            "word":  "falling",
+                                            "start":  21.371,
+                                            "end":  21.708
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  21.719,
+                                            "end":  21.893
+                                        },
+                                        {
+                                            "word":  "them.",
+                                            "start":  21.904,
+                                            "end":  22.11
+                                        }
+                                    ]
+                      }
+                  ]
 }

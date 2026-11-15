@@ -1,436 +1,388 @@
-{
-  "story": "20-new-horizons",
-  "card": "card-1",
-  "duration": 23.28,
-  "speechStart": 0.14,
-  "speechEnd": 22.84,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I am the youngest one out here.",
-      "start": 0.14,
-      "end": 1.19,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.26
-        },
-        {
-          "word": "am",
-          "start": 0.26,
-          "end": 0.39
-        },
-        {
-          "word": "the",
-          "start": 0.39,
-          "end": 0.52
-        },
-        {
-          "word": "youngest",
-          "start": 0.52,
-          "end": 0.78
-        },
-        {
-          "word": "one",
-          "start": 0.78,
-          "end": 0.91
-        },
-        {
-          "word": "out",
-          "start": 0.91,
-          "end": 1.05
-        },
-        {
-          "word": "here.",
-          "start": 1.05,
-          "end": 1.19
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I launched in January 2006, faster than anything had ever left Earth, on my way to the last unexplored planet.",
-      "start": 1.57,
-      "end": 8.28,
-      "words": [
-        {
-          "word": "I",
-          "start": 1.57,
-          "end": 1.77
-        },
-        {
-          "word": "launched",
-          "start": 1.77,
-          "end": 2.2
-        },
-        {
-          "word": "in",
-          "start": 2.2,
-          "end": 2.42
-        },
-        {
-          "word": "January",
-          "start": 2.42,
-          "end": 2.97
-        },
-        {
-          "word": "2006,",
-          "start": 2.97,
-          "end": 3.35
-        },
-        {
-          "word": "faster",
-          "start": 3.35,
-          "end": 3.76
-        },
-        {
-          "word": "than",
-          "start": 3.76,
-          "end": 4.0
-        },
-        {
-          "word": "anything",
-          "start": 4.0,
-          "end": 4.57
-        },
-        {
-          "word": "had",
-          "start": 4.57,
-          "end": 4.79
-        },
-        {
-          "word": "ever",
-          "start": 4.79,
-          "end": 5.17
-        },
-        {
-          "word": "left",
-          "start": 5.17,
-          "end": 5.41
-        },
-        {
-          "word": "Earth,",
-          "start": 5.41,
-          "end": 5.8
-        },
-        {
-          "word": "on",
-          "start": 5.8,
-          "end": 6.02
-        },
-        {
-          "word": "my",
-          "start": 6.02,
-          "end": 6.23
-        },
-        {
-          "word": "way",
-          "start": 6.23,
-          "end": 6.46
-        },
-        {
-          "word": "to",
-          "start": 6.46,
-          "end": 6.68
-        },
-        {
-          "word": "the",
-          "start": 6.68,
-          "end": 6.9
-        },
-        {
-          "word": "last",
-          "start": 6.9,
-          "end": 7.14
-        },
-        {
-          "word": "unexplored",
-          "start": 7.14,
-          "end": 7.88
-        },
-        {
-          "word": "planet.",
-          "start": 7.88,
-          "end": 8.28
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Seven months later, astronomers decided Pluto should be called a dwarf planet instead.",
-      "start": 8.76,
-      "end": 13.21,
-      "words": [
-        {
-          "word": "Seven",
-          "start": 8.76,
-          "end": 9.11
-        },
-        {
-          "word": "months",
-          "start": 9.11,
-          "end": 9.34
-        },
-        {
-          "word": "later,",
-          "start": 9.34,
-          "end": 9.81
-        },
-        {
-          "word": "astronomers",
-          "start": 9.81,
-          "end": 10.47
-        },
-        {
-          "word": "decided",
-          "start": 10.47,
-          "end": 10.96
-        },
-        {
-          "word": "Pluto",
-          "start": 10.96,
-          "end": 11.31
-        },
-        {
-          "word": "should",
-          "start": 11.31,
-          "end": 11.54
-        },
-        {
-          "word": "be",
-          "start": 11.54,
-          "end": 11.73
-        },
-        {
-          "word": "called",
-          "start": 11.73,
-          "end": 12.09
-        },
-        {
-          "word": "a",
-          "start": 12.09,
-          "end": 12.27
-        },
-        {
-          "word": "dwarf",
-          "start": 12.27,
-          "end": 12.49
-        },
-        {
-          "word": "planet",
-          "start": 12.49,
-          "end": 12.84
-        },
-        {
-          "word": "instead.",
-          "start": 12.84,
-          "end": 13.21
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I kept going.",
-      "start": 13.63,
-      "end": 14.1,
-      "words": [
-        {
-          "word": "I",
-          "start": 13.63,
-          "end": 13.77
-        },
-        {
-          "word": "kept",
-          "start": 13.77,
-          "end": 13.93
-        },
-        {
-          "word": "going.",
-          "start": 13.93,
-          "end": 14.1
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "A world is a world.",
-      "start": 14.51,
-      "end": 15.38,
-      "words": [
-        {
-          "word": "A",
-          "start": 14.51,
-          "end": 14.67
-        },
-        {
-          "word": "world",
-          "start": 14.67,
-          "end": 14.86
-        },
-        {
-          "word": "is",
-          "start": 14.86,
-          "end": 15.03
-        },
-        {
-          "word": "a",
-          "start": 15.03,
-          "end": 15.19
-        },
-        {
-          "word": "world.",
-          "start": 15.19,
-          "end": 15.38
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Jupiter gave me a push in 2007.",
-      "start": 15.78,
-      "end": 17.58,
-      "words": [
-        {
-          "word": "Jupiter",
-          "start": 15.78,
-          "end": 16.31
-        },
-        {
-          "word": "gave",
-          "start": 16.31,
-          "end": 16.53
-        },
-        {
-          "word": "me",
-          "start": 16.53,
-          "end": 16.73
-        },
-        {
-          "word": "a",
-          "start": 16.73,
-          "end": 16.93
-        },
-        {
-          "word": "push",
-          "start": 16.93,
-          "end": 17.15
-        },
-        {
-          "word": "in",
-          "start": 17.15,
-          "end": 17.36
-        },
-        {
-          "word": "2007.",
-          "start": 17.36,
-          "end": 17.58
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "After that I mostly slept, year after year, waking up now and then to check that everything still worked.",
-      "start": 18.01,
-      "end": 22.84,
-      "words": [
-        {
-          "word": "After",
-          "start": 18.01,
-          "end": 18.32
-        },
-        {
-          "word": "that",
-          "start": 18.32,
-          "end": 18.51
-        },
-        {
-          "word": "I",
-          "start": 18.51,
-          "end": 18.68
-        },
-        {
-          "word": "mostly",
-          "start": 18.68,
-          "end": 19.0
-        },
-        {
-          "word": "slept,",
-          "start": 19.0,
-          "end": 19.31
-        },
-        {
-          "word": "year",
-          "start": 19.31,
-          "end": 19.5
-        },
-        {
-          "word": "after",
-          "start": 19.5,
-          "end": 19.82
-        },
-        {
-          "word": "year,",
-          "start": 19.82,
-          "end": 20.12
-        },
-        {
-          "word": "waking",
-          "start": 20.12,
-          "end": 20.44
-        },
-        {
-          "word": "up",
-          "start": 20.44,
-          "end": 20.62
-        },
-        {
-          "word": "now",
-          "start": 20.62,
-          "end": 20.8
-        },
-        {
-          "word": "and",
-          "start": 20.8,
-          "end": 20.98
-        },
-        {
-          "word": "then",
-          "start": 20.98,
-          "end": 21.17
-        },
-        {
-          "word": "to",
-          "start": 21.17,
-          "end": 21.34
-        },
-        {
-          "word": "check",
-          "start": 21.34,
-          "end": 21.54
-        },
-        {
-          "word": "that",
-          "start": 21.54,
-          "end": 21.73
-        },
-        {
-          "word": "everything",
-          "start": 21.73,
-          "end": 22.32
-        },
-        {
-          "word": "still",
-          "start": 22.32,
-          "end": 22.52
-        },
-        {
-          "word": "worked.",
-          "start": 22.52,
-          "end": 22.84
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "20-new-horizons",
+    "card":  "card-1",
+    "duration":  23.952,
+    "speechStart":  0.132,
+    "speechEnd":  23.676,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I am the youngest one out here. I launched in January 2006, faster than anything had ever left Earth, on my way to the last unexplored planet. Seven months later, astronomers decided Pluto should be called a dwarf planet instead. I kept going. A world is a world.\n\nJupiter gave me a push in 2007. After that I mostly slept, year after year, waking up now and then to check that everything still worked.",
+                          "start":  0.132,
+                          "end":  23.676,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.208
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  0.219,
+                                            "end":  0.349
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.36,
+                                            "end":  0.415
+                                        },
+                                        {
+                                            "word":  "youngest",
+                                            "start":  0.426,
+                                            "end":  0.893
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  0.904,
+                                            "end":  1.099
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  1.11,
+                                            "end":  1.284
+                                        },
+                                        {
+                                            "word":  "here.",
+                                            "start":  1.295,
+                                            "end":  1.654
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.002,
+                                            "end":  2.078
+                                        },
+                                        {
+                                            "word":  "launched",
+                                            "start":  2.089,
+                                            "end":  2.469
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  2.48,
+                                            "end":  2.589
+                                        },
+                                        {
+                                            "word":  "January",
+                                            "start":  2.589,
+                                            "end":  3.54
+                                        },
+                                        {
+                                            "word":  "2006,",
+                                            "start":  3.54,
+                                            "end":  4.219
+                                        },
+                                        {
+                                            "word":  "faster",
+                                            "start":  4.219,
+                                            "end":  4.632
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  4.643,
+                                            "end":  4.784
+                                        },
+                                        {
+                                            "word":  "anything",
+                                            "start":  4.795,
+                                            "end":  5.176
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  5.186,
+                                            "end":  5.36
+                                        },
+                                        {
+                                            "word":  "ever",
+                                            "start":  5.382,
+                                            "end":  5.621
+                                        },
+                                        {
+                                            "word":  "left",
+                                            "start":  5.632,
+                                            "end":  5.882
+                                        },
+                                        {
+                                            "word":  "Earth,",
+                                            "start":  5.893,
+                                            "end":  6.273
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  6.513,
+                                            "end":  6.654
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  6.665,
+                                            "end":  6.817
+                                        },
+                                        {
+                                            "word":  "way",
+                                            "start":  6.828,
+                                            "end":  7.023
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.034,
+                                            "end":  7.143
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  7.154,
+                                            "end":  7.241
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  7.252,
+                                            "end":  7.599
+                                        },
+                                        {
+                                            "word":  "unexplored",
+                                            "start":  7.621,
+                                            "end":  8.132
+                                        },
+                                        {
+                                            "word":  "planet.",
+                                            "start":  8.143,
+                                            "end":  8.556
+                                        },
+                                        {
+                                            "word":  "Seven",
+                                            "start":  8.904,
+                                            "end":  9.197
+                                        },
+                                        {
+                                            "word":  "months",
+                                            "start":  9.208,
+                                            "end":  9.469
+                                        },
+                                        {
+                                            "word":  "later,",
+                                            "start":  9.48,
+                                            "end":  9.849
+                                        },
+                                        {
+                                            "word":  "astronomers",
+                                            "start":  10.349,
+                                            "end":  10.904
+                                        },
+                                        {
+                                            "word":  "decided",
+                                            "start":  10.915,
+                                            "end":  11.317
+                                        },
+                                        {
+                                            "word":  "Pluto",
+                                            "start":  11.328,
+                                            "end":  11.697
+                                        },
+                                        {
+                                            "word":  "should",
+                                            "start":  11.708,
+                                            "end":  11.871
+                                        },
+                                        {
+                                            "word":  "be",
+                                            "start":  11.882,
+                                            "end":  11.958
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  11.969,
+                                            "end":  12.252
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.263,
+                                            "end":  12.349
+                                        },
+                                        {
+                                            "word":  "dwarf",
+                                            "start":  12.36,
+                                            "end":  12.708
+                                        },
+                                        {
+                                            "word":  "planet",
+                                            "start":  12.719,
+                                            "end":  13.089
+                                        },
+                                        {
+                                            "word":  "instead.",
+                                            "start":  13.11,
+                                            "end":  13.621
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  13.943,
+                                            "end":  14.019
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  14.03,
+                                            "end":  14.247
+                                        },
+                                        {
+                                            "word":  "going.",
+                                            "start":  14.258,
+                                            "end":  14.66
+                                        },
+                                        {
+                                            "word":  "A",
+                                            "start":  14.991,
+                                            "end":  15.056
+                                        },
+                                        {
+                                            "word":  "world",
+                                            "start":  15.067,
+                                            "end":  15.426
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  15.436,
+                                            "end":  15.578
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  15.589,
+                                            "end":  15.665
+                                        },
+                                        {
+                                            "word":  "world.",
+                                            "start":  15.676,
+                                            "end":  16.176
+                                        },
+                                        {
+                                            "word":  "Jupiter",
+                                            "start":  16.523,
+                                            "end":  16.926
+                                        },
+                                        {
+                                            "word":  "gave",
+                                            "start":  16.936,
+                                            "end":  17.132
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  17.143,
+                                            "end":  17.263
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.273,
+                                            "end":  17.349
+                                        },
+                                        {
+                                            "word":  "push",
+                                            "start":  17.36,
+                                            "end":  17.708
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  17.708,
+                                            "end":  18.093
+                                        },
+                                        {
+                                            "word":  "2007.",
+                                            "start":  18.093,
+                                            "end":  19.056
+                                        },
+                                        {
+                                            "word":  "After",
+                                            "start":  19.056,
+                                            "end":  19.295
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  19.306,
+                                            "end":  19.523
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  19.534,
+                                            "end":  19.61
+                                        },
+                                        {
+                                            "word":  "mostly",
+                                            "start":  19.621,
+                                            "end":  19.969
+                                        },
+                                        {
+                                            "word":  "slept,",
+                                            "start":  19.98,
+                                            "end":  20.404
+                                        },
+                                        {
+                                            "word":  "year",
+                                            "start":  20.426,
+                                            "end":  20.665
+                                        },
+                                        {
+                                            "word":  "after",
+                                            "start":  20.676,
+                                            "end":  20.915
+                                        },
+                                        {
+                                            "word":  "year,",
+                                            "start":  20.926,
+                                            "end":  21.208
+                                        },
+                                        {
+                                            "word":  "waking",
+                                            "start":  21.23,
+                                            "end":  21.556
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  21.567,
+                                            "end":  21.676
+                                        },
+                                        {
+                                            "word":  "now",
+                                            "start":  21.686,
+                                            "end":  21.98
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  21.991,
+                                            "end":  22.056
+                                        },
+                                        {
+                                            "word":  "then",
+                                            "start":  22.067,
+                                            "end":  22.208
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  22.219,
+                                            "end":  22.306
+                                        },
+                                        {
+                                            "word":  "check",
+                                            "start":  22.317,
+                                            "end":  22.556
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  22.567,
+                                            "end":  22.752
+                                        },
+                                        {
+                                            "word":  "everything",
+                                            "start":  22.763,
+                                            "end":  23.056
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  23.067,
+                                            "end":  23.317
+                                        },
+                                        {
+                                            "word":  "worked.",
+                                            "start":  23.328,
+                                            "end":  23.676
+                                        }
+                                    ]
+                      }
+                  ]
 }

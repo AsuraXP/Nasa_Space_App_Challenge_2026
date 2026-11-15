@@ -1,370 +1,338 @@
-{
-  "story": "10-spirit",
-  "card": "card-2",
-  "duration": 19.49,
-  "speechStart": 0.13,
-  "speechEnd": 19.18,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "In 2006 my right front wheel stopped turning.",
-      "start": 0.13,
-      "end": 2.22,
-      "words": [
-        {
-          "word": "In",
-          "start": 0.13,
-          "end": 0.33
-        },
-        {
-          "word": "2006",
-          "start": 0.33,
-          "end": 0.55
-        },
-        {
-          "word": "my",
-          "start": 0.55,
-          "end": 0.75
-        },
-        {
-          "word": "right",
-          "start": 0.75,
-          "end": 0.98
-        },
-        {
-          "word": "front",
-          "start": 0.98,
-          "end": 1.22
-        },
-        {
-          "word": "wheel",
-          "start": 1.22,
-          "end": 1.45
-        },
-        {
-          "word": "stopped",
-          "start": 1.45,
-          "end": 1.83
-        },
-        {
-          "word": "turning.",
-          "start": 1.83,
-          "end": 2.22
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "After that I drove backwards, dragging the dead wheel behind me like a stubborn suitcase.",
-      "start": 2.65,
-      "end": 7.14,
-      "words": [
-        {
-          "word": "After",
-          "start": 2.65,
-          "end": 3.02
-        },
-        {
-          "word": "that",
-          "start": 3.02,
-          "end": 3.25
-        },
-        {
-          "word": "I",
-          "start": 3.25,
-          "end": 3.44
-        },
-        {
-          "word": "drove",
-          "start": 3.44,
-          "end": 3.68
-        },
-        {
-          "word": "backwards,",
-          "start": 3.68,
-          "end": 4.23
-        },
-        {
-          "word": "dragging",
-          "start": 4.23,
-          "end": 4.64
-        },
-        {
-          "word": "the",
-          "start": 4.64,
-          "end": 4.85
-        },
-        {
-          "word": "dead",
-          "start": 4.85,
-          "end": 5.08
-        },
-        {
-          "word": "wheel",
-          "start": 5.08,
-          "end": 5.32
-        },
-        {
-          "word": "behind",
-          "start": 5.32,
-          "end": 5.7
-        },
-        {
-          "word": "me",
-          "start": 5.7,
-          "end": 5.91
-        },
-        {
-          "word": "like",
-          "start": 5.91,
-          "end": 6.13
-        },
-        {
-          "word": "a",
-          "start": 6.13,
-          "end": 6.33
-        },
-        {
-          "word": "stubborn",
-          "start": 6.33,
-          "end": 6.73
-        },
-        {
-          "word": "suitcase.",
-          "start": 6.73,
-          "end": 7.14
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "And that is how I made my best discovery.",
-      "start": 7.54,
-      "end": 9.1,
-      "words": [
-        {
-          "word": "And",
-          "start": 7.54,
-          "end": 7.68
-        },
-        {
-          "word": "that",
-          "start": 7.68,
-          "end": 7.83
-        },
-        {
-          "word": "is",
-          "start": 7.83,
-          "end": 7.96
-        },
-        {
-          "word": "how",
-          "start": 7.96,
-          "end": 8.1
-        },
-        {
-          "word": "I",
-          "start": 8.1,
-          "end": 8.23
-        },
-        {
-          "word": "made",
-          "start": 8.23,
-          "end": 8.37
-        },
-        {
-          "word": "my",
-          "start": 8.37,
-          "end": 8.51
-        },
-        {
-          "word": "best",
-          "start": 8.51,
-          "end": 8.65
-        },
-        {
-          "word": "discovery.",
-          "start": 8.65,
-          "end": 9.1
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "The dragging wheel scraped up bright white soil: nearly pure silica, left behind by ancient hot water or steam.",
-      "start": 9.49,
-      "end": 15.83,
-      "words": [
-        {
-          "word": "The",
-          "start": 9.49,
-          "end": 9.73
-        },
-        {
-          "word": "dragging",
-          "start": 9.73,
-          "end": 10.17
-        },
-        {
-          "word": "wheel",
-          "start": 10.17,
-          "end": 10.43
-        },
-        {
-          "word": "scraped",
-          "start": 10.43,
-          "end": 10.86
-        },
-        {
-          "word": "up",
-          "start": 10.86,
-          "end": 11.08
-        },
-        {
-          "word": "bright",
-          "start": 11.08,
-          "end": 11.35
-        },
-        {
-          "word": "white",
-          "start": 11.35,
-          "end": 11.61
-        },
-        {
-          "word": "soil:",
-          "start": 11.61,
-          "end": 12.01
-        },
-        {
-          "word": "nearly",
-          "start": 12.01,
-          "end": 12.42
-        },
-        {
-          "word": "pure",
-          "start": 12.42,
-          "end": 12.67
-        },
-        {
-          "word": "silica,",
-          "start": 12.67,
-          "end": 13.39
-        },
-        {
-          "word": "left",
-          "start": 13.39,
-          "end": 13.63
-        },
-        {
-          "word": "behind",
-          "start": 13.63,
-          "end": 14.05
-        },
-        {
-          "word": "by",
-          "start": 14.05,
-          "end": 14.27
-        },
-        {
-          "word": "ancient",
-          "start": 14.27,
-          "end": 14.71
-        },
-        {
-          "word": "hot",
-          "start": 14.71,
-          "end": 14.94
-        },
-        {
-          "word": "water",
-          "start": 14.94,
-          "end": 15.35
-        },
-        {
-          "word": "or",
-          "start": 15.35,
-          "end": 15.57
-        },
-        {
-          "word": "steam.",
-          "start": 15.57,
-          "end": 15.83
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "It was a place where tiny living things could once have been comfortable.",
-      "start": 16.28,
-      "end": 19.18,
-      "words": [
-        {
-          "word": "It",
-          "start": 16.28,
-          "end": 16.44
-        },
-        {
-          "word": "was",
-          "start": 16.44,
-          "end": 16.61
-        },
-        {
-          "word": "a",
-          "start": 16.61,
-          "end": 16.76
-        },
-        {
-          "word": "place",
-          "start": 16.76,
-          "end": 16.95
-        },
-        {
-          "word": "where",
-          "start": 16.95,
-          "end": 17.13
-        },
-        {
-          "word": "tiny",
-          "start": 17.13,
-          "end": 17.41
-        },
-        {
-          "word": "living",
-          "start": 17.41,
-          "end": 17.71
-        },
-        {
-          "word": "things",
-          "start": 17.71,
-          "end": 17.91
-        },
-        {
-          "word": "could",
-          "start": 17.91,
-          "end": 18.09
-        },
-        {
-          "word": "once",
-          "start": 18.09,
-          "end": 18.27
-        },
-        {
-          "word": "have",
-          "start": 18.27,
-          "end": 18.45
-        },
-        {
-          "word": "been",
-          "start": 18.45,
-          "end": 18.63
-        },
-        {
-          "word": "comfortable.",
-          "start": 18.63,
-          "end": 19.18
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "10-spirit",
+    "card":  "card-2",
+    "duration":  20.448,
+    "speechStart":  0,
+    "speechEnd":  20.186,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "In 2006 my right front wheel stopped turning. After that I drove backwards, dragging the dead wheel behind me like a stubborn suitcase. And that is how I made my best discovery. The dragging wheel scraped up bright white soil: nearly pure silica, left behind by ancient hot water or steam. It was a place where tiny living things could once have been comfortable.",
+                          "start":  0,
+                          "end":  20.186,
+                          "words":  [
+                                        {
+                                            "word":  "In",
+                                            "start":  0,
+                                            "end":  0.272
+                                        },
+                                        {
+                                            "word":  "2006",
+                                            "start":  0.272,
+                                            "end":  0.817
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  0.817,
+                                            "end":  0.969
+                                        },
+                                        {
+                                            "word":  "right",
+                                            "start":  0.98,
+                                            "end":  1.219
+                                        },
+                                        {
+                                            "word":  "front",
+                                            "start":  1.23,
+                                            "end":  1.567
+                                        },
+                                        {
+                                            "word":  "wheel",
+                                            "start":  1.578,
+                                            "end":  1.697
+                                        },
+                                        {
+                                            "word":  "stopped",
+                                            "start":  1.708,
+                                            "end":  2.045
+                                        },
+                                        {
+                                            "word":  "turning.",
+                                            "start":  2.056,
+                                            "end":  2.458
+                                        },
+                                        {
+                                            "word":  "After",
+                                            "start":  2.806,
+                                            "end":  3.056
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  3.067,
+                                            "end":  3.306
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  3.317,
+                                            "end":  3.404
+                                        },
+                                        {
+                                            "word":  "drove",
+                                            "start":  3.415,
+                                            "end":  3.73
+                                        },
+                                        {
+                                            "word":  "backwards,",
+                                            "start":  3.741,
+                                            "end":  4.284
+                                        },
+                                        {
+                                            "word":  "dragging",
+                                            "start":  4.752,
+                                            "end":  5.143
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  5.154,
+                                            "end":  5.241
+                                        },
+                                        {
+                                            "word":  "dead",
+                                            "start":  5.252,
+                                            "end":  5.545
+                                        },
+                                        {
+                                            "word":  "wheel",
+                                            "start":  5.556,
+                                            "end":  5.697
+                                        },
+                                        {
+                                            "word":  "behind",
+                                            "start":  5.708,
+                                            "end":  6.034
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  6.045,
+                                            "end":  6.176
+                                        },
+                                        {
+                                            "word":  "like",
+                                            "start":  6.186,
+                                            "end":  6.349
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  6.36,
+                                            "end":  6.393
+                                        },
+                                        {
+                                            "word":  "stubborn",
+                                            "start":  6.404,
+                                            "end":  6.773
+                                        },
+                                        {
+                                            "word":  "suitcase.",
+                                            "start":  6.784,
+                                            "end":  7.393
+                                        },
+                                        {
+                                            "word":  "And",
+                                            "start":  7.71,
+                                            "end":  7.84
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  7.851,
+                                            "end":  8.101
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  8.112,
+                                            "end":  8.253
+                                        },
+                                        {
+                                            "word":  "how",
+                                            "start":  8.264,
+                                            "end":  8.536
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  8.547,
+                                            "end":  8.645
+                                        },
+                                        {
+                                            "word":  "made",
+                                            "start":  8.655,
+                                            "end":  8.895
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  8.905,
+                                            "end":  9.058
+                                        },
+                                        {
+                                            "word":  "best",
+                                            "start":  9.068,
+                                            "end":  9.329
+                                        },
+                                        {
+                                            "word":  "discovery.",
+                                            "start":  9.34,
+                                            "end":  9.916
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  10.263,
+                                            "end":  10.317
+                                        },
+                                        {
+                                            "word":  "dragging",
+                                            "start":  10.328,
+                                            "end":  10.73
+                                        },
+                                        {
+                                            "word":  "wheel",
+                                            "start":  10.741,
+                                            "end":  10.849
+                                        },
+                                        {
+                                            "word":  "scraped",
+                                            "start":  10.86,
+                                            "end":  11.241
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  11.252,
+                                            "end":  11.404
+                                        },
+                                        {
+                                            "word":  "bright",
+                                            "start":  11.415,
+                                            "end":  11.697
+                                        },
+                                        {
+                                            "word":  "white",
+                                            "start":  11.708,
+                                            "end":  11.904
+                                        },
+                                        {
+                                            "word":  "soil:",
+                                            "start":  11.915,
+                                            "end":  12.284
+                                        },
+                                        {
+                                            "word":  "nearly",
+                                            "start":  12.926,
+                                            "end":  13.154
+                                        },
+                                        {
+                                            "word":  "pure",
+                                            "start":  13.165,
+                                            "end":  13.404
+                                        },
+                                        {
+                                            "word":  "silica,",
+                                            "start":  13.415,
+                                            "end":  13.817
+                                        },
+                                        {
+                                            "word":  "left",
+                                            "start":  14.349,
+                                            "end":  14.589
+                                        },
+                                        {
+                                            "word":  "behind",
+                                            "start":  14.599,
+                                            "end":  14.969
+                                        },
+                                        {
+                                            "word":  "by",
+                                            "start":  14.98,
+                                            "end":  15.121
+                                        },
+                                        {
+                                            "word":  "ancient",
+                                            "start":  15.132,
+                                            "end":  15.426
+                                        },
+                                        {
+                                            "word":  "hot",
+                                            "start":  15.436,
+                                            "end":  15.676
+                                        },
+                                        {
+                                            "word":  "water",
+                                            "start":  15.686,
+                                            "end":  16.045
+                                        },
+                                        {
+                                            "word":  "or",
+                                            "start":  16.056,
+                                            "end":  16.176
+                                        },
+                                        {
+                                            "word":  "steam.",
+                                            "start":  16.186,
+                                            "end":  16.599
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  16.947,
+                                            "end":  17.034
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  17.045,
+                                            "end":  17.165
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.176,
+                                            "end":  17.241
+                                        },
+                                        {
+                                            "word":  "place",
+                                            "start":  17.252,
+                                            "end":  17.643
+                                        },
+                                        {
+                                            "word":  "where",
+                                            "start":  17.654,
+                                            "end":  17.86
+                                        },
+                                        {
+                                            "word":  "tiny",
+                                            "start":  17.871,
+                                            "end":  18.23
+                                        },
+                                        {
+                                            "word":  "living",
+                                            "start":  18.241,
+                                            "end":  18.523
+                                        },
+                                        {
+                                            "word":  "things",
+                                            "start":  18.534,
+                                            "end":  18.849
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  18.86,
+                                            "end":  19.045
+                                        },
+                                        {
+                                            "word":  "once",
+                                            "start":  19.056,
+                                            "end":  19.317
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  19.328,
+                                            "end":  19.458
+                                        },
+                                        {
+                                            "word":  "been",
+                                            "start":  19.469,
+                                            "end":  19.621
+                                        },
+                                        {
+                                            "word":  "comfortable.",
+                                            "start":  19.632,
+                                            "end":  20.186
+                                        }
+                                    ]
+                      }
+                  ]
 }

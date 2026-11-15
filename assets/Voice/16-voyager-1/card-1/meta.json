@@ -3,10 +3,13 @@
   "card": "card-1",
   "audio": "audio/16-voyager-1/card-1/narration.mp3",
   "script": "audio/16-voyager-1/card-1/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/16-voyager-1/card-1/timings.json",
+  "vtt": "audio/16-voyager-1/card-1/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 161568,
-  "duration_seconds": 26.93,
-  "words": 88
+  "bytes": 167616,
+  "duration_seconds": 27.936,
+  "words": 88,
+  "coverage": 0.9432
 }

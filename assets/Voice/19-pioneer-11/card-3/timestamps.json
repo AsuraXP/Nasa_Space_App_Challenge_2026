@@ -1,342 +1,318 @@
-{
-  "story": "19-pioneer-11",
-  "card": "card-3",
-  "duration": 16.42,
-  "speechStart": 0.13,
-  "speechEnd": 16.07,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "After Saturn I headed out of the solar system, in almost the opposite direction from my twin.",
-      "start": 0.13,
-      "end": 4.57,
-      "words": [
-        {
-          "word": "After",
-          "start": 0.13,
-          "end": 0.44
-        },
-        {
-          "word": "Saturn",
-          "start": 0.44,
-          "end": 0.75
-        },
-        {
-          "word": "I",
-          "start": 0.75,
-          "end": 0.91
-        },
-        {
-          "word": "headed",
-          "start": 0.91,
-          "end": 1.22
-        },
-        {
-          "word": "out",
-          "start": 1.22,
-          "end": 1.4
-        },
-        {
-          "word": "of",
-          "start": 1.4,
-          "end": 1.57
-        },
-        {
-          "word": "the",
-          "start": 1.57,
-          "end": 1.74
-        },
-        {
-          "word": "solar",
-          "start": 1.74,
-          "end": 2.05
-        },
-        {
-          "word": "system,",
-          "start": 2.05,
-          "end": 2.48
-        },
-        {
-          "word": "in",
-          "start": 2.48,
-          "end": 2.64
-        },
-        {
-          "word": "almost",
-          "start": 2.64,
-          "end": 2.96
-        },
-        {
-          "word": "the",
-          "start": 2.96,
-          "end": 3.14
-        },
-        {
-          "word": "opposite",
-          "start": 3.14,
-          "end": 3.58
-        },
-        {
-          "word": "direction",
-          "start": 3.58,
-          "end": 4.03
-        },
-        {
-          "word": "from",
-          "start": 4.03,
-          "end": 4.22
-        },
-        {
-          "word": "my",
-          "start": 4.22,
-          "end": 4.38
-        },
-        {
-          "word": "twin.",
-          "start": 4.38,
-          "end": 4.57
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "By 1995 I did not have enough power to run my instruments, and my regular mission ended.",
-      "start": 4.99,
-      "end": 9.46,
-      "words": [
-        {
-          "word": "By",
-          "start": 4.99,
-          "end": 5.17
-        },
-        {
-          "word": "1995",
-          "start": 5.17,
-          "end": 5.37
-        },
-        {
-          "word": "I",
-          "start": 5.37,
-          "end": 5.54
-        },
-        {
-          "word": "did",
-          "start": 5.54,
-          "end": 5.73
-        },
-        {
-          "word": "not",
-          "start": 5.73,
-          "end": 5.92
-        },
-        {
-          "word": "have",
-          "start": 5.92,
-          "end": 6.12
-        },
-        {
-          "word": "enough",
-          "start": 6.12,
-          "end": 6.45
-        },
-        {
-          "word": "power",
-          "start": 6.45,
-          "end": 6.78
-        },
-        {
-          "word": "to",
-          "start": 6.78,
-          "end": 6.96
-        },
-        {
-          "word": "run",
-          "start": 6.96,
-          "end": 7.15
-        },
-        {
-          "word": "my",
-          "start": 7.15,
-          "end": 7.33
-        },
-        {
-          "word": "instruments,",
-          "start": 7.33,
-          "end": 7.95
-        },
-        {
-          "word": "and",
-          "start": 7.95,
-          "end": 8.14
-        },
-        {
-          "word": "my",
-          "start": 8.14,
-          "end": 8.32
-        },
-        {
-          "word": "regular",
-          "start": 8.32,
-          "end": 8.79
-        },
-        {
-          "word": "mission",
-          "start": 8.79,
-          "end": 9.13
-        },
-        {
-          "word": "ended.",
-          "start": 9.13,
-          "end": 9.46
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I am silent now.",
-      "start": 9.9,
-      "end": 10.63,
-      "words": [
-        {
-          "word": "I",
-          "start": 9.9,
-          "end": 10.04
-        },
-        {
-          "word": "am",
-          "start": 10.04,
-          "end": 10.19
-        },
-        {
-          "word": "silent",
-          "start": 10.19,
-          "end": 10.47
-        },
-        {
-          "word": "now.",
-          "start": 10.47,
-          "end": 10.63
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I carry the same small plaque as Pioneer 10: a picture of the people who built me, and a map of home.",
-      "start": 11.0,
-      "end": 16.07,
-      "words": [
-        {
-          "word": "I",
-          "start": 11.0,
-          "end": 11.17
-        },
-        {
-          "word": "carry",
-          "start": 11.17,
-          "end": 11.51
-        },
-        {
-          "word": "the",
-          "start": 11.51,
-          "end": 11.7
-        },
-        {
-          "word": "same",
-          "start": 11.7,
-          "end": 11.9
-        },
-        {
-          "word": "small",
-          "start": 11.9,
-          "end": 12.11
-        },
-        {
-          "word": "plaque",
-          "start": 12.11,
-          "end": 12.33
-        },
-        {
-          "word": "as",
-          "start": 12.33,
-          "end": 12.52
-        },
-        {
-          "word": "Pioneer",
-          "start": 12.52,
-          "end": 12.87
-        },
-        {
-          "word": "10:",
-          "start": 12.87,
-          "end": 13.17
-        },
-        {
-          "word": "a",
-          "start": 13.17,
-          "end": 13.35
-        },
-        {
-          "word": "picture",
-          "start": 13.35,
-          "end": 13.7
-        },
-        {
-          "word": "of",
-          "start": 13.7,
-          "end": 13.88
-        },
-        {
-          "word": "the",
-          "start": 13.88,
-          "end": 14.08
-        },
-        {
-          "word": "people",
-          "start": 14.08,
-          "end": 14.42
-        },
-        {
-          "word": "who",
-          "start": 14.42,
-          "end": 14.61
-        },
-        {
-          "word": "built",
-          "start": 14.61,
-          "end": 14.82
-        },
-        {
-          "word": "me,",
-          "start": 14.82,
-          "end": 15.13
-        },
-        {
-          "word": "and",
-          "start": 15.13,
-          "end": 15.32
-        },
-        {
-          "word": "a",
-          "start": 15.32,
-          "end": 15.49
-        },
-        {
-          "word": "map",
-          "start": 15.49,
-          "end": 15.68
-        },
-        {
-          "word": "of",
-          "start": 15.68,
-          "end": 15.87
-        },
-        {
-          "word": "home.",
-          "start": 15.87,
-          "end": 16.07
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "19-pioneer-11",
+    "card":  "card-3",
+    "duration":  17.208,
+    "speechStart":  0.132,
+    "speechEnd":  16.926,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "After Saturn I headed out of the solar system, in almost the opposite direction from my twin.\n\nBy 1995 I did not have enough power to run my instruments, and my regular mission ended. I am silent now. I carry the same small plaque as Pioneer 10: a picture of the people who built me, and a map of home.",
+                          "start":  0.132,
+                          "end":  16.926,
+                          "words":  [
+                                        {
+                                            "word":  "After",
+                                            "start":  0.132,
+                                            "end":  0.349
+                                        },
+                                        {
+                                            "word":  "Saturn",
+                                            "start":  0.36,
+                                            "end":  0.719
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  0.73,
+                                            "end":  0.893
+                                        },
+                                        {
+                                            "word":  "headed",
+                                            "start":  0.904,
+                                            "end":  1.23
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  1.252,
+                                            "end":  1.447
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  1.458,
+                                            "end":  1.534
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  1.545,
+                                            "end":  1.61
+                                        },
+                                        {
+                                            "word":  "solar",
+                                            "start":  1.621,
+                                            "end":  1.915
+                                        },
+                                        {
+                                            "word":  "system,",
+                                            "start":  1.926,
+                                            "end":  2.349
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  2.643,
+                                            "end":  2.795
+                                        },
+                                        {
+                                            "word":  "almost",
+                                            "start":  2.806,
+                                            "end":  3.143
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.154,
+                                            "end":  3.208
+                                        },
+                                        {
+                                            "word":  "opposite",
+                                            "start":  3.219,
+                                            "end":  3.621
+                                        },
+                                        {
+                                            "word":  "direction",
+                                            "start":  3.632,
+                                            "end":  4.067
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  4.078,
+                                            "end":  4.23
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  4.241,
+                                            "end":  4.349
+                                        },
+                                        {
+                                            "word":  "twin.",
+                                            "start":  4.36,
+                                            "end":  4.752
+                                        },
+                                        {
+                                            "word":  "By",
+                                            "start":  4.752,
+                                            "end":  5.241
+                                        },
+                                        {
+                                            "word":  "1995",
+                                            "start":  5.241,
+                                            "end":  6.219
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.219,
+                                            "end":  6.339
+                                        },
+                                        {
+                                            "word":  "did",
+                                            "start":  6.349,
+                                            "end":  6.48
+                                        },
+                                        {
+                                            "word":  "not",
+                                            "start":  6.491,
+                                            "end":  6.686
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  6.697,
+                                            "end":  6.882
+                                        },
+                                        {
+                                            "word":  "enough",
+                                            "start":  6.893,
+                                            "end":  7.11
+                                        },
+                                        {
+                                            "word":  "power",
+                                            "start":  7.121,
+                                            "end":  7.447
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.458,
+                                            "end":  7.545
+                                        },
+                                        {
+                                            "word":  "run",
+                                            "start":  7.556,
+                                            "end":  7.763
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  7.773,
+                                            "end":  7.904
+                                        },
+                                        {
+                                            "word":  "instruments,",
+                                            "start":  7.915,
+                                            "end":  8.513
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  8.752,
+                                            "end":  8.991
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  9.002,
+                                            "end":  9.143
+                                        },
+                                        {
+                                            "word":  "regular",
+                                            "start":  9.154,
+                                            "end":  9.48
+                                        },
+                                        {
+                                            "word":  "mission",
+                                            "start":  9.491,
+                                            "end":  9.752
+                                        },
+                                        {
+                                            "word":  "ended.",
+                                            "start":  9.763,
+                                            "end":  10.154
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  10.491,
+                                            "end":  10.545
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  10.556,
+                                            "end":  10.643
+                                        },
+                                        {
+                                            "word":  "silent",
+                                            "start":  10.654,
+                                            "end":  11.089
+                                        },
+                                        {
+                                            "word":  "now.",
+                                            "start":  11.099,
+                                            "end":  11.458
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.806,
+                                            "end":  11.871
+                                        },
+                                        {
+                                            "word":  "carry",
+                                            "start":  11.882,
+                                            "end":  12.143
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  12.154,
+                                            "end":  12.23
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  12.241,
+                                            "end":  12.491
+                                        },
+                                        {
+                                            "word":  "small",
+                                            "start":  12.502,
+                                            "end":  12.773
+                                        },
+                                        {
+                                            "word":  "plaque",
+                                            "start":  12.784,
+                                            "end":  13.11
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  13.121,
+                                            "end":  13.241
+                                        },
+                                        {
+                                            "word":  "Pioneer",
+                                            "start":  13.252,
+                                            "end":  13.643
+                                        },
+                                        {
+                                            "word":  "10:",
+                                            "start":  13.654,
+                                            "end":  14.002
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  14.534,
+                                            "end":  14.643
+                                        },
+                                        {
+                                            "word":  "picture",
+                                            "start":  14.654,
+                                            "end":  14.969
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  14.98,
+                                            "end":  15.045
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.056,
+                                            "end":  15.121
+                                        },
+                                        {
+                                            "word":  "people",
+                                            "start":  15.132,
+                                            "end":  15.404
+                                        },
+                                        {
+                                            "word":  "who",
+                                            "start":  15.415,
+                                            "end":  15.523
+                                        },
+                                        {
+                                            "word":  "built",
+                                            "start":  15.534,
+                                            "end":  15.784
+                                        },
+                                        {
+                                            "word":  "me,",
+                                            "start":  15.795,
+                                            "end":  16.023
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  16.045,
+                                            "end":  16.176
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  16.186,
+                                            "end":  16.23
+                                        },
+                                        {
+                                            "word":  "map",
+                                            "start":  16.241,
+                                            "end":  16.48
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  16.491,
+                                            "end":  16.567
+                                        },
+                                        {
+                                            "word":  "home.",
+                                            "start":  16.578,
+                                            "end":  16.926
+                                        }
+                                    ]
+                      }
+                  ]
 }

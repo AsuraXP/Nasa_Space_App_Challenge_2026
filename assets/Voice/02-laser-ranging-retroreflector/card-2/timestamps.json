@@ -1,430 +1,398 @@
-{
-  "story": "02-laser-ranging-retroreflector",
-  "card": "card-2",
-  "duration": 20.28,
-  "speechStart": 0.14,
-  "speechEnd": 19.96,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Not long after, a flash of laser light arrived from a telescope on Earth.",
-      "start": 0.14,
-      "end": 3.64,
-      "words": [
-        {
-          "word": "Not",
-          "start": 0.14,
-          "end": 0.32
-        },
-        {
-          "word": "long",
-          "start": 0.32,
-          "end": 0.51
-        },
-        {
-          "word": "after,",
-          "start": 0.51,
-          "end": 0.94
-        },
-        {
-          "word": "a",
-          "start": 0.94,
-          "end": 1.11
-        },
-        {
-          "word": "flash",
-          "start": 1.11,
-          "end": 1.31
-        },
-        {
-          "word": "of",
-          "start": 1.31,
-          "end": 1.48
-        },
-        {
-          "word": "laser",
-          "start": 1.48,
-          "end": 1.8
-        },
-        {
-          "word": "light",
-          "start": 1.8,
-          "end": 2.0
-        },
-        {
-          "word": "arrived",
-          "start": 2.0,
-          "end": 2.44
-        },
-        {
-          "word": "from",
-          "start": 2.44,
-          "end": 2.64
-        },
-        {
-          "word": "a",
-          "start": 2.64,
-          "end": 2.8
-        },
-        {
-          "word": "telescope",
-          "start": 2.8,
-          "end": 3.27
-        },
-        {
-          "word": "on",
-          "start": 3.27,
-          "end": 3.44
-        },
-        {
-          "word": "Earth.",
-          "start": 3.44,
-          "end": 3.64
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I bounced it straight back.",
-      "start": 4.15,
-      "end": 5.01,
-      "words": [
-        {
-          "word": "I",
-          "start": 4.15,
-          "end": 4.28
-        },
-        {
-          "word": "bounced",
-          "start": 4.28,
-          "end": 4.54
-        },
-        {
-          "word": "it",
-          "start": 4.54,
-          "end": 4.68
-        },
-        {
-          "word": "straight",
-          "start": 4.68,
-          "end": 4.86
-        },
-        {
-          "word": "back.",
-          "start": 4.86,
-          "end": 5.01
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "It is the only thing I know how to do, and I am very good at it.",
-      "start": 5.49,
-      "end": 8.1,
-      "words": [
-        {
-          "word": "It",
-          "start": 5.49,
-          "end": 5.62
-        },
-        {
-          "word": "is",
-          "start": 5.62,
-          "end": 5.76
-        },
-        {
-          "word": "the",
-          "start": 5.76,
-          "end": 5.9
-        },
-        {
-          "word": "only",
-          "start": 5.9,
-          "end": 6.13
-        },
-        {
-          "word": "thing",
-          "start": 6.13,
-          "end": 6.29
-        },
-        {
-          "word": "I",
-          "start": 6.29,
-          "end": 6.41
-        },
-        {
-          "word": "know",
-          "start": 6.41,
-          "end": 6.56
-        },
-        {
-          "word": "how",
-          "start": 6.56,
-          "end": 6.7
-        },
-        {
-          "word": "to",
-          "start": 6.7,
-          "end": 6.83
-        },
-        {
-          "word": "do,",
-          "start": 6.83,
-          "end": 7.05
-        },
-        {
-          "word": "and",
-          "start": 7.05,
-          "end": 7.19
-        },
-        {
-          "word": "I",
-          "start": 7.19,
-          "end": 7.32
-        },
-        {
-          "word": "am",
-          "start": 7.32,
-          "end": 7.45
-        },
-        {
-          "word": "very",
-          "start": 7.45,
-          "end": 7.69
-        },
-        {
-          "word": "good",
-          "start": 7.69,
-          "end": 7.83
-        },
-        {
-          "word": "at",
-          "start": 7.83,
-          "end": 7.97
-        },
-        {
-          "word": "it.",
-          "start": 7.97,
-          "end": 8.1
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "By timing how long the light takes to come back, about two and a half seconds, scientists can measure the distance to the Moon very precisely.",
-      "start": 8.56,
-      "end": 15.23,
-      "words": [
-        {
-          "word": "By",
-          "start": 8.56,
-          "end": 8.74
-        },
-        {
-          "word": "timing",
-          "start": 8.74,
-          "end": 9.07
-        },
-        {
-          "word": "how",
-          "start": 9.07,
-          "end": 9.25
-        },
-        {
-          "word": "long",
-          "start": 9.25,
-          "end": 9.45
-        },
-        {
-          "word": "the",
-          "start": 9.45,
-          "end": 9.63
-        },
-        {
-          "word": "light",
-          "start": 9.63,
-          "end": 9.84
-        },
-        {
-          "word": "takes",
-          "start": 9.84,
-          "end": 10.16
-        },
-        {
-          "word": "to",
-          "start": 10.16,
-          "end": 10.33
-        },
-        {
-          "word": "come",
-          "start": 10.33,
-          "end": 10.53
-        },
-        {
-          "word": "back,",
-          "start": 10.53,
-          "end": 10.84
-        },
-        {
-          "word": "about",
-          "start": 10.84,
-          "end": 11.16
-        },
-        {
-          "word": "two",
-          "start": 11.16,
-          "end": 11.34
-        },
-        {
-          "word": "and",
-          "start": 11.34,
-          "end": 11.53
-        },
-        {
-          "word": "a",
-          "start": 11.53,
-          "end": 11.7
-        },
-        {
-          "word": "half",
-          "start": 11.7,
-          "end": 11.89
-        },
-        {
-          "word": "seconds,",
-          "start": 11.89,
-          "end": 12.35
-        },
-        {
-          "word": "scientists",
-          "start": 12.35,
-          "end": 12.71
-        },
-        {
-          "word": "can",
-          "start": 12.71,
-          "end": 12.9
-        },
-        {
-          "word": "measure",
-          "start": 12.9,
-          "end": 13.24
-        },
-        {
-          "word": "the",
-          "start": 13.24,
-          "end": 13.42
-        },
-        {
-          "word": "distance",
-          "start": 13.42,
-          "end": 13.77
-        },
-        {
-          "word": "to",
-          "start": 13.77,
-          "end": 13.95
-        },
-        {
-          "word": "the",
-          "start": 13.95,
-          "end": 14.13
-        },
-        {
-          "word": "Moon",
-          "start": 14.13,
-          "end": 14.33
-        },
-        {
-          "word": "very",
-          "start": 14.33,
-          "end": 14.64
-        },
-        {
-          "word": "precisely.",
-          "start": 14.64,
-          "end": 15.23
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "That is how they learned the Moon drifts 3.8 centimetres farther away every year.",
-      "start": 15.64,
-      "end": 19.96,
-      "words": [
-        {
-          "word": "That",
-          "start": 15.64,
-          "end": 15.86
-        },
-        {
-          "word": "is",
-          "start": 15.86,
-          "end": 16.07
-        },
-        {
-          "word": "how",
-          "start": 16.07,
-          "end": 16.28
-        },
-        {
-          "word": "they",
-          "start": 16.28,
-          "end": 16.5
-        },
-        {
-          "word": "learned",
-          "start": 16.5,
-          "end": 16.9
-        },
-        {
-          "word": "the",
-          "start": 16.9,
-          "end": 17.11
-        },
-        {
-          "word": "Moon",
-          "start": 17.11,
-          "end": 17.33
-        },
-        {
-          "word": "drifts",
-          "start": 17.33,
-          "end": 17.58
-        },
-        {
-          "word": "3.8",
-          "start": 17.58,
-          "end": 17.78
-        },
-        {
-          "word": "centimetres",
-          "start": 17.78,
-          "end": 18.48
-        },
-        {
-          "word": "farther",
-          "start": 18.48,
-          "end": 18.87
-        },
-        {
-          "word": "away",
-          "start": 18.87,
-          "end": 19.23
-        },
-        {
-          "word": "every",
-          "start": 19.23,
-          "end": 19.74
-        },
-        {
-          "word": "year.",
-          "start": 19.74,
-          "end": 19.96
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "02-laser-ranging-retroreflector",
+    "card":  "card-2",
+    "duration":  21.72,
+    "speechStart":  0.132,
+    "speechEnd":  21.447,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Not long after, a flash of laser light arrived from a telescope on Earth. I bounced it straight back. It is the only thing I know how to do, and I am very good at it.\n\nBy timing how long the light takes to come back, about two and a half seconds, scientists can measure the distance to the Moon very precisely. That is how they learned the Moon drifts 3.8 centimetres farther away every year.",
+                          "start":  0.132,
+                          "end":  21.447,
+                          "words":  [
+                                        {
+                                            "word":  "Not",
+                                            "start":  0.132,
+                                            "end":  0.36
+                                        },
+                                        {
+                                            "word":  "long",
+                                            "start":  0.371,
+                                            "end":  0.632
+                                        },
+                                        {
+                                            "word":  "after,",
+                                            "start":  0.643,
+                                            "end":  1.132
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  1.491,
+                                            "end":  1.578
+                                        },
+                                        {
+                                            "word":  "flash",
+                                            "start":  1.589,
+                                            "end":  1.969
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  1.98,
+                                            "end":  2.089
+                                        },
+                                        {
+                                            "word":  "laser",
+                                            "start":  2.099,
+                                            "end":  2.426
+                                        },
+                                        {
+                                            "word":  "light",
+                                            "start":  2.436,
+                                            "end":  2.73
+                                        },
+                                        {
+                                            "word":  "arrived",
+                                            "start":  2.752,
+                                            "end":  3.197
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  3.208,
+                                            "end":  3.349
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  3.36,
+                                            "end":  3.404
+                                        },
+                                        {
+                                            "word":  "telescope",
+                                            "start":  3.415,
+                                            "end":  3.893
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  3.904,
+                                            "end":  4.013
+                                        },
+                                        {
+                                            "word":  "Earth.",
+                                            "start":  4.023,
+                                            "end":  4.404
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.719,
+                                            "end":  4.795
+                                        },
+                                        {
+                                            "word":  "bounced",
+                                            "start":  4.806,
+                                            "end":  5.165
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  5.176,
+                                            "end":  5.252
+                                        },
+                                        {
+                                            "word":  "straight",
+                                            "start":  5.263,
+                                            "end":  5.589
+                                        },
+                                        {
+                                            "word":  "back.",
+                                            "start":  5.599,
+                                            "end":  6.012
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  6.334,
+                                            "end":  6.454
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  6.465,
+                                            "end":  6.584
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.595,
+                                            "end":  6.66
+                                        },
+                                        {
+                                            "word":  "only",
+                                            "start":  6.671,
+                                            "end":  6.965
+                                        },
+                                        {
+                                            "word":  "thing",
+                                            "start":  6.976,
+                                            "end":  7.171
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  7.182,
+                                            "end":  7.258
+                                        },
+                                        {
+                                            "word":  "know",
+                                            "start":  7.269,
+                                            "end":  7.454
+                                        },
+                                        {
+                                            "word":  "how",
+                                            "start":  7.465,
+                                            "end":  7.595
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.606,
+                                            "end":  7.704
+                                        },
+                                        {
+                                            "word":  "do,",
+                                            "start":  7.715,
+                                            "end":  8.073
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  8.269,
+                                            "end":  8.465
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  8.476,
+                                            "end":  8.573
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  8.584,
+                                            "end":  8.693
+                                        },
+                                        {
+                                            "word":  "very",
+                                            "start":  8.704,
+                                            "end":  8.932
+                                        },
+                                        {
+                                            "word":  "good",
+                                            "start":  8.943,
+                                            "end":  9.128
+                                        },
+                                        {
+                                            "word":  "at",
+                                            "start":  9.139,
+                                            "end":  9.258
+                                        },
+                                        {
+                                            "word":  "it.",
+                                            "start":  9.269,
+                                            "end":  9.497
+                                        },
+                                        {
+                                            "word":  "By",
+                                            "start":  9.839,
+                                            "end":  9.915
+                                        },
+                                        {
+                                            "word":  "timing",
+                                            "start":  9.926,
+                                            "end":  10.306
+                                        },
+                                        {
+                                            "word":  "how",
+                                            "start":  10.317,
+                                            "end":  10.48
+                                        },
+                                        {
+                                            "word":  "long",
+                                            "start":  10.491,
+                                            "end":  10.763
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.773,
+                                            "end":  10.849
+                                        },
+                                        {
+                                            "word":  "light",
+                                            "start":  10.86,
+                                            "end":  11.089
+                                        },
+                                        {
+                                            "word":  "takes",
+                                            "start":  11.099,
+                                            "end":  11.328
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  11.339,
+                                            "end":  11.415
+                                        },
+                                        {
+                                            "word":  "come",
+                                            "start":  11.426,
+                                            "end":  11.599
+                                        },
+                                        {
+                                            "word":  "back,",
+                                            "start":  11.61,
+                                            "end":  11.991
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  12.339,
+                                            "end":  12.643
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  12.654,
+                                            "end":  12.871
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  12.882,
+                                            "end":  12.936
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.947,
+                                            "end":  12.991
+                                        },
+                                        {
+                                            "word":  "half",
+                                            "start":  13.002,
+                                            "end":  13.208
+                                        },
+                                        {
+                                            "word":  "seconds,",
+                                            "start":  13.219,
+                                            "end":  13.697
+                                        },
+                                        {
+                                            "word":  "scientists",
+                                            "start":  14.121,
+                                            "end":  14.621
+                                        },
+                                        {
+                                            "word":  "can",
+                                            "start":  14.632,
+                                            "end":  14.784
+                                        },
+                                        {
+                                            "word":  "measure",
+                                            "start":  14.795,
+                                            "end":  15.078
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.089,
+                                            "end":  15.176
+                                        },
+                                        {
+                                            "word":  "distance",
+                                            "start":  15.186,
+                                            "end":  15.578
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  15.589,
+                                            "end":  15.686
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.697,
+                                            "end":  15.762
+                                        },
+                                        {
+                                            "word":  "Moon",
+                                            "start":  15.773,
+                                            "end":  16.034
+                                        },
+                                        {
+                                            "word":  "very",
+                                            "start":  16.045,
+                                            "end":  16.273
+                                        },
+                                        {
+                                            "word":  "precisely.",
+                                            "start":  16.284,
+                                            "end":  16.86
+                                        },
+                                        {
+                                            "word":  "That",
+                                            "start":  17.197,
+                                            "end":  17.317
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  17.328,
+                                            "end":  17.426
+                                        },
+                                        {
+                                            "word":  "how",
+                                            "start":  17.436,
+                                            "end":  17.643
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  17.654,
+                                            "end":  17.784
+                                        },
+                                        {
+                                            "word":  "learned",
+                                            "start":  17.795,
+                                            "end":  18.186
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.197,
+                                            "end":  18.262
+                                        },
+                                        {
+                                            "word":  "Moon",
+                                            "start":  18.273,
+                                            "end":  18.534
+                                        },
+                                        {
+                                            "word":  "drifts",
+                                            "start":  18.545,
+                                            "end":  18.904
+                                        },
+                                        {
+                                            "word":  "3.8",
+                                            "start":  18.915,
+                                            "end":  19.643
+                                        },
+                                        {
+                                            "word":  "centimetres",
+                                            "start":  19.654,
+                                            "end":  20.208
+                                        },
+                                        {
+                                            "word":  "farther",
+                                            "start":  20.219,
+                                            "end":  20.534
+                                        },
+                                        {
+                                            "word":  "away",
+                                            "start":  20.545,
+                                            "end":  20.849
+                                        },
+                                        {
+                                            "word":  "every",
+                                            "start":  20.86,
+                                            "end":  21.11
+                                        },
+                                        {
+                                            "word":  "year.",
+                                            "start":  21.121,
+                                            "end":  21.447
+                                        }
+                                    ]
+                      }
+                  ]
 }

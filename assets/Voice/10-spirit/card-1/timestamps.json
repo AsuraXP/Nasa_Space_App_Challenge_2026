@@ -1,529 +1,473 @@
-{
-  "story": "10-spirit",
-  "card": "card-1",
-  "duration": 25.99,
-  "speechStart": 0.14,
-  "speechEnd": 25.62,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I landed in January 2004 inside a wrapping of airbags, bounced across Gusev Crater and rolled to a stop.",
-      "start": 0.14,
-      "end": 6.09,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.33
-        },
-        {
-          "word": "landed",
-          "start": 0.33,
-          "end": 0.71
-        },
-        {
-          "word": "in",
-          "start": 0.71,
-          "end": 0.91
-        },
-        {
-          "word": "January",
-          "start": 0.91,
-          "end": 1.44
-        },
-        {
-          "word": "2004",
-          "start": 1.44,
-          "end": 1.66
-        },
-        {
-          "word": "inside",
-          "start": 1.66,
-          "end": 2.04
-        },
-        {
-          "word": "a",
-          "start": 2.04,
-          "end": 2.23
-        },
-        {
-          "word": "wrapping",
-          "start": 2.23,
-          "end": 2.63
-        },
-        {
-          "word": "of",
-          "start": 2.63,
-          "end": 2.84
-        },
-        {
-          "word": "airbags,",
-          "start": 2.84,
-          "end": 3.36
-        },
-        {
-          "word": "bounced",
-          "start": 3.36,
-          "end": 3.75
-        },
-        {
-          "word": "across",
-          "start": 3.75,
-          "end": 4.13
-        },
-        {
-          "word": "Gusev",
-          "start": 4.13,
-          "end": 4.5
-        },
-        {
-          "word": "Crater",
-          "start": 4.5,
-          "end": 4.88
-        },
-        {
-          "word": "and",
-          "start": 4.88,
-          "end": 5.09
-        },
-        {
-          "word": "rolled",
-          "start": 5.09,
-          "end": 5.47
-        },
-        {
-          "word": "to",
-          "start": 5.47,
-          "end": 5.67
-        },
-        {
-          "word": "a",
-          "start": 5.67,
-          "end": 5.87
-        },
-        {
-          "word": "stop.",
-          "start": 5.87,
-          "end": 6.09
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "My mission was supposed to last 90 days.",
-      "start": 6.57,
-      "end": 8.46,
-      "words": [
-        {
-          "word": "My",
-          "start": 6.57,
-          "end": 6.74
-        },
-        {
-          "word": "mission",
-          "start": 6.74,
-          "end": 7.08
-        },
-        {
-          "word": "was",
-          "start": 7.08,
-          "end": 7.26
-        },
-        {
-          "word": "supposed",
-          "start": 7.26,
-          "end": 7.73
-        },
-        {
-          "word": "to",
-          "start": 7.73,
-          "end": 7.9
-        },
-        {
-          "word": "last",
-          "start": 7.9,
-          "end": 8.09
-        },
-        {
-          "word": "90",
-          "start": 8.09,
-          "end": 8.27
-        },
-        {
-          "word": "days.",
-          "start": 8.27,
-          "end": 8.46
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "My twin, Opportunity, landed on the other side of the planet three weeks later.",
-      "start": 8.86,
-      "end": 12.77,
-      "words": [
-        {
-          "word": "My",
-          "start": 8.86,
-          "end": 9.03
-        },
-        {
-          "word": "twin,",
-          "start": 9.03,
-          "end": 9.34
-        },
-        {
-          "word": "Opportunity,",
-          "start": 9.34,
-          "end": 10.17
-        },
-        {
-          "word": "landed",
-          "start": 10.17,
-          "end": 10.5
-        },
-        {
-          "word": "on",
-          "start": 10.5,
-          "end": 10.67
-        },
-        {
-          "word": "the",
-          "start": 10.67,
-          "end": 10.86
-        },
-        {
-          "word": "other",
-          "start": 10.86,
-          "end": 11.17
-        },
-        {
-          "word": "side",
-          "start": 11.17,
-          "end": 11.37
-        },
-        {
-          "word": "of",
-          "start": 11.37,
-          "end": 11.54
-        },
-        {
-          "word": "the",
-          "start": 11.54,
-          "end": 11.72
-        },
-        {
-          "word": "planet",
-          "start": 11.72,
-          "end": 12.05
-        },
-        {
-          "word": "three",
-          "start": 12.05,
-          "end": 12.25
-        },
-        {
-          "word": "weeks",
-          "start": 12.25,
-          "end": 12.45
-        },
-        {
-          "word": "later.",
-          "start": 12.45,
-          "end": 12.77
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Scientists hoped my crater was an old lakebed.",
-      "start": 13.17,
-      "end": 15.46,
-      "words": [
-        {
-          "word": "Scientists",
-          "start": 13.17,
-          "end": 13.55
-        },
-        {
-          "word": "hoped",
-          "start": 13.55,
-          "end": 13.89
-        },
-        {
-          "word": "my",
-          "start": 13.89,
-          "end": 14.07
-        },
-        {
-          "word": "crater",
-          "start": 14.07,
-          "end": 14.41
-        },
-        {
-          "word": "was",
-          "start": 14.41,
-          "end": 14.61
-        },
-        {
-          "word": "an",
-          "start": 14.61,
-          "end": 14.79
-        },
-        {
-          "word": "old",
-          "start": 14.79,
-          "end": 14.98
-        },
-        {
-          "word": "lakebed.",
-          "start": 14.98,
-          "end": 15.46
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "At first all I found was dry lava.",
-      "start": 15.85,
-      "end": 17.28,
-      "words": [
-        {
-          "word": "At",
-          "start": 15.85,
-          "end": 16.01
-        },
-        {
-          "word": "first",
-          "start": 16.01,
-          "end": 16.19
-        },
-        {
-          "word": "all",
-          "start": 16.19,
-          "end": 16.35
-        },
-        {
-          "word": "I",
-          "start": 16.35,
-          "end": 16.5
-        },
-        {
-          "word": "found",
-          "start": 16.5,
-          "end": 16.68
-        },
-        {
-          "word": "was",
-          "start": 16.68,
-          "end": 16.84
-        },
-        {
-          "word": "dry",
-          "start": 16.84,
-          "end": 17.0
-        },
-        {
-          "word": "lava.",
-          "start": 17.0,
-          "end": 17.28
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "So I drove to the nearest hills, about three kilometres away, and climbed one.",
-      "start": 17.64,
-      "end": 21.37,
-      "words": [
-        {
-          "word": "So",
-          "start": 17.64,
-          "end": 17.81
-        },
-        {
-          "word": "I",
-          "start": 17.81,
-          "end": 17.97
-        },
-        {
-          "word": "drove",
-          "start": 17.97,
-          "end": 18.17
-        },
-        {
-          "word": "to",
-          "start": 18.17,
-          "end": 18.34
-        },
-        {
-          "word": "the",
-          "start": 18.34,
-          "end": 18.52
-        },
-        {
-          "word": "nearest",
-          "start": 18.52,
-          "end": 18.85
-        },
-        {
-          "word": "hills,",
-          "start": 18.85,
-          "end": 19.17
-        },
-        {
-          "word": "about",
-          "start": 19.17,
-          "end": 19.48
-        },
-        {
-          "word": "three",
-          "start": 19.48,
-          "end": 19.68
-        },
-        {
-          "word": "kilometres",
-          "start": 19.68,
-          "end": 20.26
-        },
-        {
-          "word": "away,",
-          "start": 20.26,
-          "end": 20.68
-        },
-        {
-          "word": "and",
-          "start": 20.68,
-          "end": 20.86
-        },
-        {
-          "word": "climbed",
-          "start": 20.86,
-          "end": 21.19
-        },
-        {
-          "word": "one.",
-          "start": 21.19,
-          "end": 21.37
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "It took more than a year.",
-      "start": 21.78,
-      "end": 22.58,
-      "words": [
-        {
-          "word": "It",
-          "start": 21.78,
-          "end": 21.91
-        },
-        {
-          "word": "took",
-          "start": 21.91,
-          "end": 22.04
-        },
-        {
-          "word": "more",
-          "start": 22.04,
-          "end": 22.18
-        },
-        {
-          "word": "than",
-          "start": 22.18,
-          "end": 22.32
-        },
-        {
-          "word": "a",
-          "start": 22.32,
-          "end": 22.44
-        },
-        {
-          "word": "year.",
-          "start": 22.44,
-          "end": 22.58
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "I am a rover, not a mountain goat, but I got to the top.",
-      "start": 22.96,
-      "end": 25.62,
-      "words": [
-        {
-          "word": "I",
-          "start": 22.96,
-          "end": 23.11
-        },
-        {
-          "word": "am",
-          "start": 23.11,
-          "end": 23.26
-        },
-        {
-          "word": "a",
-          "start": 23.26,
-          "end": 23.41
-        },
-        {
-          "word": "rover,",
-          "start": 23.41,
-          "end": 23.79
-        },
-        {
-          "word": "not",
-          "start": 23.79,
-          "end": 23.95
-        },
-        {
-          "word": "a",
-          "start": 23.95,
-          "end": 24.1
-        },
-        {
-          "word": "mountain",
-          "start": 24.1,
-          "end": 24.4
-        },
-        {
-          "word": "goat,",
-          "start": 24.4,
-          "end": 24.67
-        },
-        {
-          "word": "but",
-          "start": 24.67,
-          "end": 24.83
-        },
-        {
-          "word": "I",
-          "start": 24.83,
-          "end": 24.98
-        },
-        {
-          "word": "got",
-          "start": 24.98,
-          "end": 25.14
-        },
-        {
-          "word": "to",
-          "start": 25.14,
-          "end": 25.3
-        },
-        {
-          "word": "the",
-          "start": 25.3,
-          "end": 25.46
-        },
-        {
-          "word": "top.",
-          "start": 25.46,
-          "end": 25.62
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "10-spirit",
+    "card":  "card-1",
+    "duration":  27.528,
+    "speechStart":  0.132,
+    "speechEnd":  27.252,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I landed in January 2004 inside a wrapping of airbags, bounced across Gusev Crater and rolled to a stop. My mission was supposed to last 90 days. My twin, Opportunity, landed on the other side of the planet three weeks later.\n\nScientists hoped my crater was an old lakebed. At first all I found was dry lava. So I drove to the nearest hills, about three kilometres away, and climbed one. It took more than a year. I am a rover, not a mountain goat, but I got to the top.",
+                          "start":  0.132,
+                          "end":  27.252,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.186
+                                        },
+                                        {
+                                            "word":  "landed",
+                                            "start":  0.197,
+                                            "end":  0.512
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  0.523,
+                                            "end":  0.61
+                                        },
+                                        {
+                                            "word":  "January",
+                                            "start":  0.61,
+                                            "end":  1.323
+                                        },
+                                        {
+                                            "word":  "2004",
+                                            "start":  1.323,
+                                            "end":  1.73
+                                        },
+                                        {
+                                            "word":  "inside",
+                                            "start":  1.73,
+                                            "end":  2.078
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  2.089,
+                                            "end":  2.121
+                                        },
+                                        {
+                                            "word":  "wrapping",
+                                            "start":  2.132,
+                                            "end":  2.491
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.502,
+                                            "end":  2.578
+                                        },
+                                        {
+                                            "word":  "airbags,",
+                                            "start":  2.589,
+                                            "end":  3.154
+                                        },
+                                        {
+                                            "word":  "bounced",
+                                            "start":  3.643,
+                                            "end":  3.947
+                                        },
+                                        {
+                                            "word":  "across",
+                                            "start":  3.958,
+                                            "end":  4.284
+                                        },
+                                        {
+                                            "word":  "Gusev",
+                                            "start":  4.295,
+                                            "end":  4.589
+                                        },
+                                        {
+                                            "word":  "Crater",
+                                            "start":  4.599,
+                                            "end":  5.002
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  5.013,
+                                            "end":  5.143
+                                        },
+                                        {
+                                            "word":  "rolled",
+                                            "start":  5.154,
+                                            "end":  5.382
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  5.393,
+                                            "end":  5.469
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  5.48,
+                                            "end":  5.523
+                                        },
+                                        {
+                                            "word":  "stop.",
+                                            "start":  5.534,
+                                            "end":  5.947
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  6.295,
+                                            "end":  6.426
+                                        },
+                                        {
+                                            "word":  "mission",
+                                            "start":  6.436,
+                                            "end":  6.795
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  6.806,
+                                            "end":  6.936
+                                        },
+                                        {
+                                            "word":  "supposed",
+                                            "start":  6.947,
+                                            "end":  7.317
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.328,
+                                            "end":  7.415
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  7.426,
+                                            "end":  7.752
+                                        },
+                                        {
+                                            "word":  "90",
+                                            "start":  7.752,
+                                            "end":  8.044
+                                        },
+                                        {
+                                            "word":  "days.",
+                                            "start":  8.044,
+                                            "end":  8.773
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  8.773,
+                                            "end":  8.893
+                                        },
+                                        {
+                                            "word":  "twin,",
+                                            "start":  8.904,
+                                            "end":  9.328
+                                        },
+                                        {
+                                            "word":  "Opportunity,",
+                                            "start":  9.349,
+                                            "end":  10.056
+                                        },
+                                        {
+                                            "word":  "landed",
+                                            "start":  10.393,
+                                            "end":  10.828
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  10.839,
+                                            "end":  10.969
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.98,
+                                            "end":  11.045
+                                        },
+                                        {
+                                            "word":  "other",
+                                            "start":  11.056,
+                                            "end":  11.252
+                                        },
+                                        {
+                                            "word":  "side",
+                                            "start":  11.263,
+                                            "end":  11.534
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  11.545,
+                                            "end":  11.61
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  11.621,
+                                            "end":  11.697
+                                        },
+                                        {
+                                            "word":  "planet",
+                                            "start":  11.708,
+                                            "end":  12.023
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  12.034,
+                                            "end":  12.23
+                                        },
+                                        {
+                                            "word":  "weeks",
+                                            "start":  12.241,
+                                            "end":  12.491
+                                        },
+                                        {
+                                            "word":  "later.",
+                                            "start":  12.502,
+                                            "end":  12.86
+                                        },
+                                        {
+                                            "word":  "Scientists",
+                                            "start":  13.208,
+                                            "end":  13.741
+                                        },
+                                        {
+                                            "word":  "hoped",
+                                            "start":  13.752,
+                                            "end":  14.056
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  14.067,
+                                            "end":  14.197
+                                        },
+                                        {
+                                            "word":  "crater",
+                                            "start":  14.208,
+                                            "end":  14.621
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  14.632,
+                                            "end":  14.795
+                                        },
+                                        {
+                                            "word":  "an",
+                                            "start":  14.806,
+                                            "end":  14.893
+                                        },
+                                        {
+                                            "word":  "old",
+                                            "start":  14.904,
+                                            "end":  15.154
+                                        },
+                                        {
+                                            "word":  "lakebed.",
+                                            "start":  15.165,
+                                            "end":  15.697
+                                        },
+                                        {
+                                            "word":  "At",
+                                            "start":  16.019,
+                                            "end":  16.128
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  16.139,
+                                            "end":  16.432
+                                        },
+                                        {
+                                            "word":  "all",
+                                            "start":  16.443,
+                                            "end":  16.639
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  16.649,
+                                            "end":  16.726
+                                        },
+                                        {
+                                            "word":  "found",
+                                            "start":  16.736,
+                                            "end":  17.073
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  17.084,
+                                            "end":  17.226
+                                        },
+                                        {
+                                            "word":  "dry",
+                                            "start":  17.236,
+                                            "end":  17.486
+                                        },
+                                        {
+                                            "word":  "lava.",
+                                            "start":  17.497,
+                                            "end":  17.91
+                                        },
+                                        {
+                                            "word":  "So",
+                                            "start":  18.219,
+                                            "end":  18.371
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  18.382,
+                                            "end":  18.458
+                                        },
+                                        {
+                                            "word":  "drove",
+                                            "start":  18.469,
+                                            "end":  18.762
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  18.773,
+                                            "end":  18.849
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.86,
+                                            "end":  18.936
+                                        },
+                                        {
+                                            "word":  "nearest",
+                                            "start":  18.947,
+                                            "end":  19.284
+                                        },
+                                        {
+                                            "word":  "hills,",
+                                            "start":  19.295,
+                                            "end":  19.708
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  20.023,
+                                            "end":  20.317
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  20.328,
+                                            "end":  20.556
+                                        },
+                                        {
+                                            "word":  "kilometres",
+                                            "start":  20.567,
+                                            "end":  21.045
+                                        },
+                                        {
+                                            "word":  "away,",
+                                            "start":  21.056,
+                                            "end":  21.436
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  21.817,
+                                            "end":  21.991
+                                        },
+                                        {
+                                            "word":  "climbed",
+                                            "start":  22.002,
+                                            "end":  22.339
+                                        },
+                                        {
+                                            "word":  "one.",
+                                            "start":  22.349,
+                                            "end":  22.61
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  22.958,
+                                            "end":  22.98
+                                        },
+                                        {
+                                            "word":  "took",
+                                            "start":  22.991,
+                                            "end":  23.176
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  23.186,
+                                            "end":  23.426
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  23.436,
+                                            "end":  23.556
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  23.567,
+                                            "end":  23.621
+                                        },
+                                        {
+                                            "word":  "year.",
+                                            "start":  23.632,
+                                            "end":  24.034
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  24.382,
+                                            "end":  24.458
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  24.469,
+                                            "end":  24.567
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  24.578,
+                                            "end":  24.621
+                                        },
+                                        {
+                                            "word":  "rover,",
+                                            "start":  24.632,
+                                            "end":  25.089
+                                        },
+                                        {
+                                            "word":  "not",
+                                            "start":  25.11,
+                                            "end":  25.328
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  25.339,
+                                            "end":  25.371
+                                        },
+                                        {
+                                            "word":  "mountain",
+                                            "start":  25.382,
+                                            "end":  25.697
+                                        },
+                                        {
+                                            "word":  "goat,",
+                                            "start":  25.708,
+                                            "end":  26.056
+                                        },
+                                        {
+                                            "word":  "but",
+                                            "start":  26.197,
+                                            "end":  26.371
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  26.382,
+                                            "end":  26.447
+                                        },
+                                        {
+                                            "word":  "got",
+                                            "start":  26.458,
+                                            "end":  26.643
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  26.654,
+                                            "end":  26.73
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  26.741,
+                                            "end":  26.828
+                                        },
+                                        {
+                                            "word":  "top.",
+                                            "start":  26.839,
+                                            "end":  27.252
+                                        }
+                                    ]
+                      }
+                  ]
 }

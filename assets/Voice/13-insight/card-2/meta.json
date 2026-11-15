@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/13-insight/card-2/narration.mp3",
   "script": "audio/13-insight/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/13-insight/card-2/timings.json",
+  "vtt": "audio/13-insight/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 160848,
-  "duration_seconds": 26.81,
-  "words": 98
+  "bytes": 173088,
+  "duration_seconds": 28.848,
+  "words": 98,
+  "coverage": 1.0
 }

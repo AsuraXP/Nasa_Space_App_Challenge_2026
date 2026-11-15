@@ -1,458 +1,418 @@
-{
-  "story": "06-surveyor-3",
-  "card": "card-3",
-  "duration": 20.06,
-  "speechStart": 0.13,
-  "speechEnd": 19.67,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Then, two and a half years later, I had visitors.",
-      "start": 0.13,
-      "end": 2.68,
-      "words": [
-        {
-          "word": "Then,",
-          "start": 0.13,
-          "end": 0.45
-        },
-        {
-          "word": "two",
-          "start": 0.45,
-          "end": 0.64
-        },
-        {
-          "word": "and",
-          "start": 0.64,
-          "end": 0.83
-        },
-        {
-          "word": "a",
-          "start": 0.83,
-          "end": 1.0
-        },
-        {
-          "word": "half",
-          "start": 1.0,
-          "end": 1.19
-        },
-        {
-          "word": "years",
-          "start": 1.19,
-          "end": 1.4
-        },
-        {
-          "word": "later,",
-          "start": 1.4,
-          "end": 1.85
-        },
-        {
-          "word": "I",
-          "start": 1.85,
-          "end": 2.02
-        },
-        {
-          "word": "had",
-          "start": 2.02,
-          "end": 2.21
-        },
-        {
-          "word": "visitors.",
-          "start": 2.21,
-          "end": 2.68
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "Apollo 12 landed close enough to walk over.",
-      "start": 3.07,
-      "end": 5.25,
-      "words": [
-        {
-          "word": "Apollo",
-          "start": 3.07,
-          "end": 3.52
-        },
-        {
-          "word": "12",
-          "start": 3.52,
-          "end": 3.7
-        },
-        {
-          "word": "landed",
-          "start": 3.7,
-          "end": 4.03
-        },
-        {
-          "word": "close",
-          "start": 4.03,
-          "end": 4.23
-        },
-        {
-          "word": "enough",
-          "start": 4.23,
-          "end": 4.56
-        },
-        {
-          "word": "to",
-          "start": 4.56,
-          "end": 4.74
-        },
-        {
-          "word": "walk",
-          "start": 4.74,
-          "end": 4.94
-        },
-        {
-          "word": "over.",
-          "start": 4.94,
-          "end": 5.25
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Pete Conrad and Alan Bean looked me over, cut off my camera, my scoop and a few other pieces, and took them home so engineers could see what years on the Moon had done.",
-      "start": 5.66,
-      "end": 13.45,
-      "words": [
-        {
-          "word": "Pete",
-          "start": 5.66,
-          "end": 5.85
-        },
-        {
-          "word": "Conrad",
-          "start": 5.85,
-          "end": 6.17
-        },
-        {
-          "word": "and",
-          "start": 6.17,
-          "end": 6.34
-        },
-        {
-          "word": "Alan",
-          "start": 6.34,
-          "end": 6.64
-        },
-        {
-          "word": "Bean",
-          "start": 6.64,
-          "end": 6.83
-        },
-        {
-          "word": "looked",
-          "start": 6.83,
-          "end": 7.15
-        },
-        {
-          "word": "me",
-          "start": 7.15,
-          "end": 7.32
-        },
-        {
-          "word": "over,",
-          "start": 7.32,
-          "end": 7.73
-        },
-        {
-          "word": "cut",
-          "start": 7.73,
-          "end": 7.91
-        },
-        {
-          "word": "off",
-          "start": 7.91,
-          "end": 8.09
-        },
-        {
-          "word": "my",
-          "start": 8.09,
-          "end": 8.26
-        },
-        {
-          "word": "camera,",
-          "start": 8.26,
-          "end": 8.8
-        },
-        {
-          "word": "my",
-          "start": 8.8,
-          "end": 8.97
-        },
-        {
-          "word": "scoop",
-          "start": 8.97,
-          "end": 9.17
-        },
-        {
-          "word": "and",
-          "start": 9.17,
-          "end": 9.34
-        },
-        {
-          "word": "a",
-          "start": 9.34,
-          "end": 9.5
-        },
-        {
-          "word": "few",
-          "start": 9.5,
-          "end": 9.68
-        },
-        {
-          "word": "other",
-          "start": 9.68,
-          "end": 9.99
-        },
-        {
-          "word": "pieces,",
-          "start": 9.99,
-          "end": 10.42
-        },
-        {
-          "word": "and",
-          "start": 10.42,
-          "end": 10.6
-        },
-        {
-          "word": "took",
-          "start": 10.6,
-          "end": 10.79
-        },
-        {
-          "word": "them",
-          "start": 10.79,
-          "end": 10.98
-        },
-        {
-          "word": "home",
-          "start": 10.98,
-          "end": 11.16
-        },
-        {
-          "word": "so",
-          "start": 11.16,
-          "end": 11.33
-        },
-        {
-          "word": "engineers",
-          "start": 11.33,
-          "end": 11.79
-        },
-        {
-          "word": "could",
-          "start": 11.79,
-          "end": 11.99
-        },
-        {
-          "word": "see",
-          "start": 11.99,
-          "end": 12.16
-        },
-        {
-          "word": "what",
-          "start": 12.16,
-          "end": 12.35
-        },
-        {
-          "word": "years",
-          "start": 12.35,
-          "end": 12.55
-        },
-        {
-          "word": "on",
-          "start": 12.55,
-          "end": 12.72
-        },
-        {
-          "word": "the",
-          "start": 12.72,
-          "end": 12.9
-        },
-        {
-          "word": "Moon",
-          "start": 12.9,
-          "end": 13.08
-        },
-        {
-          "word": "had",
-          "start": 13.08,
-          "end": 13.26
-        },
-        {
-          "word": "done.",
-          "start": 13.26,
-          "end": 13.45
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "So part of me went back to Earth.",
-      "start": 13.88,
-      "end": 15.05,
-      "words": [
-        {
-          "word": "So",
-          "start": 13.88,
-          "end": 14.02
-        },
-        {
-          "word": "part",
-          "start": 14.02,
-          "end": 14.17
-        },
-        {
-          "word": "of",
-          "start": 14.17,
-          "end": 14.31
-        },
-        {
-          "word": "me",
-          "start": 14.31,
-          "end": 14.45
-        },
-        {
-          "word": "went",
-          "start": 14.45,
-          "end": 14.6
-        },
-        {
-          "word": "back",
-          "start": 14.6,
-          "end": 14.75
-        },
-        {
-          "word": "to",
-          "start": 14.75,
-          "end": 14.89
-        },
-        {
-          "word": "Earth.",
-          "start": 14.89,
-          "end": 15.05
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "The rest of me is still here in my crater.",
-      "start": 15.53,
-      "end": 17.17,
-      "words": [
-        {
-          "word": "The",
-          "start": 15.53,
-          "end": 15.68
-        },
-        {
-          "word": "rest",
-          "start": 15.68,
-          "end": 15.84
-        },
-        {
-          "word": "of",
-          "start": 15.84,
-          "end": 15.99
-        },
-        {
-          "word": "me",
-          "start": 15.99,
-          "end": 16.13
-        },
-        {
-          "word": "is",
-          "start": 16.13,
-          "end": 16.28
-        },
-        {
-          "word": "still",
-          "start": 16.28,
-          "end": 16.45
-        },
-        {
-          "word": "here",
-          "start": 16.45,
-          "end": 16.61
-        },
-        {
-          "word": "in",
-          "start": 16.61,
-          "end": 16.75
-        },
-        {
-          "word": "my",
-          "start": 16.75,
-          "end": 16.9
-        },
-        {
-          "word": "crater.",
-          "start": 16.9,
-          "end": 17.17
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Not many robots can say that people came to visit.",
-      "start": 17.56,
-      "end": 19.67,
-      "words": [
-        {
-          "word": "Not",
-          "start": 17.56,
-          "end": 17.72
-        },
-        {
-          "word": "many",
-          "start": 17.72,
-          "end": 17.99
-        },
-        {
-          "word": "robots",
-          "start": 17.99,
-          "end": 18.28
-        },
-        {
-          "word": "can",
-          "start": 18.28,
-          "end": 18.44
-        },
-        {
-          "word": "say",
-          "start": 18.44,
-          "end": 18.61
-        },
-        {
-          "word": "that",
-          "start": 18.61,
-          "end": 18.78
-        },
-        {
-          "word": "people",
-          "start": 18.78,
-          "end": 19.07
-        },
-        {
-          "word": "came",
-          "start": 19.07,
-          "end": 19.24
-        },
-        {
-          "word": "to",
-          "start": 19.24,
-          "end": 19.39
-        },
-        {
-          "word": "visit.",
-          "start": 19.39,
-          "end": 19.67
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "06-surveyor-3",
+    "card":  "card-3",
+    "duration":  20.928,
+    "speechStart":  0.132,
+    "speechEnd":  20.654,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Then, two and a half years later, I had visitors. Apollo 12 landed close enough to walk over. Pete Conrad and Alan Bean looked me over, cut off my camera, my scoop and a few other pieces, and took them home so engineers could see what years on the Moon had done.\n\nSo part of me went back to Earth. The rest of me is still here in my crater. Not many robots can say that people came to visit.",
+                          "start":  0.132,
+                          "end":  20.654,
+                          "words":  [
+                                        {
+                                            "word":  "Then,",
+                                            "start":  0.132,
+                                            "end":  0.404
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  0.426,
+                                            "end":  0.621
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  0.632,
+                                            "end":  0.686
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  0.697,
+                                            "end":  0.741
+                                        },
+                                        {
+                                            "word":  "half",
+                                            "start":  0.752,
+                                            "end":  0.98
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  0.991,
+                                            "end":  1.197
+                                        },
+                                        {
+                                            "word":  "later,",
+                                            "start":  1.208,
+                                            "end":  1.599
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.621,
+                                            "end":  1.708
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  1.719,
+                                            "end":  1.882
+                                        },
+                                        {
+                                            "word":  "visitors.",
+                                            "start":  1.893,
+                                            "end":  2.469
+                                        },
+                                        {
+                                            "word":  "Apollo",
+                                            "start":  2.795,
+                                            "end":  3.154
+                                        },
+                                        {
+                                            "word":  "12",
+                                            "start":  3.165,
+                                            "end":  3.513
+                                        },
+                                        {
+                                            "word":  "landed",
+                                            "start":  3.523,
+                                            "end":  3.915
+                                        },
+                                        {
+                                            "word":  "close",
+                                            "start":  3.926,
+                                            "end":  4.197
+                                        },
+                                        {
+                                            "word":  "enough",
+                                            "start":  4.208,
+                                            "end":  4.458
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  4.469,
+                                            "end":  4.567
+                                        },
+                                        {
+                                            "word":  "walk",
+                                            "start":  4.578,
+                                            "end":  4.849
+                                        },
+                                        {
+                                            "word":  "over.",
+                                            "start":  4.86,
+                                            "end":  5.219
+                                        },
+                                        {
+                                            "word":  "Pete",
+                                            "start":  5.567,
+                                            "end":  5.741
+                                        },
+                                        {
+                                            "word":  "Conrad",
+                                            "start":  5.752,
+                                            "end":  6.219
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  6.23,
+                                            "end":  6.317
+                                        },
+                                        {
+                                            "word":  "Alan",
+                                            "start":  6.328,
+                                            "end":  6.589
+                                        },
+                                        {
+                                            "word":  "Bean",
+                                            "start":  6.599,
+                                            "end":  6.784
+                                        },
+                                        {
+                                            "word":  "looked",
+                                            "start":  6.795,
+                                            "end":  6.98
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  6.991,
+                                            "end":  7.11
+                                        },
+                                        {
+                                            "word":  "over,",
+                                            "start":  7.121,
+                                            "end":  7.426
+                                        },
+                                        {
+                                            "word":  "cut",
+                                            "start":  7.447,
+                                            "end":  7.599
+                                        },
+                                        {
+                                            "word":  "off",
+                                            "start":  7.61,
+                                            "end":  7.752
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  7.763,
+                                            "end":  7.86
+                                        },
+                                        {
+                                            "word":  "camera,",
+                                            "start":  7.871,
+                                            "end":  8.339
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  8.491,
+                                            "end":  8.654
+                                        },
+                                        {
+                                            "word":  "scoop",
+                                            "start":  8.665,
+                                            "end":  9.034
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  9.045,
+                                            "end":  9.11
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.121,
+                                            "end":  9.154
+                                        },
+                                        {
+                                            "word":  "few",
+                                            "start":  9.165,
+                                            "end":  9.339
+                                        },
+                                        {
+                                            "word":  "other",
+                                            "start":  9.349,
+                                            "end":  9.491
+                                        },
+                                        {
+                                            "word":  "pieces,",
+                                            "start":  9.502,
+                                            "end":  9.969
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  10.23,
+                                            "end":  10.393
+                                        },
+                                        {
+                                            "word":  "took",
+                                            "start":  10.404,
+                                            "end":  10.567
+                                        },
+                                        {
+                                            "word":  "them",
+                                            "start":  10.578,
+                                            "end":  10.686
+                                        },
+                                        {
+                                            "word":  "home",
+                                            "start":  10.697,
+                                            "end":  10.893
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  10.904,
+                                            "end":  11.078
+                                        },
+                                        {
+                                            "word":  "engineers",
+                                            "start":  11.089,
+                                            "end":  11.534
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  11.545,
+                                            "end":  11.676
+                                        },
+                                        {
+                                            "word":  "see",
+                                            "start":  11.686,
+                                            "end":  11.893
+                                        },
+                                        {
+                                            "word":  "what",
+                                            "start":  11.904,
+                                            "end":  12.067
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  12.078,
+                                            "end":  12.382
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  12.393,
+                                            "end":  12.469
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  12.48,
+                                            "end":  12.523
+                                        },
+                                        {
+                                            "word":  "Moon",
+                                            "start":  12.534,
+                                            "end":  12.73
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  12.741,
+                                            "end":  12.871
+                                        },
+                                        {
+                                            "word":  "done.",
+                                            "start":  12.882,
+                                            "end":  13.165
+                                        },
+                                        {
+                                            "word":  "So",
+                                            "start":  13.482,
+                                            "end":  13.612
+                                        },
+                                        {
+                                            "word":  "part",
+                                            "start":  13.623,
+                                            "end":  13.84
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  13.851,
+                                            "end":  13.916
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  13.927,
+                                            "end":  14.101
+                                        },
+                                        {
+                                            "word":  "went",
+                                            "start":  14.112,
+                                            "end":  14.329
+                                        },
+                                        {
+                                            "word":  "back",
+                                            "start":  14.34,
+                                            "end":  14.547
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  14.558,
+                                            "end":  14.645
+                                        },
+                                        {
+                                            "word":  "Earth.",
+                                            "start":  14.655,
+                                            "end":  15.112
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  15.447,
+                                            "end":  15.502
+                                        },
+                                        {
+                                            "word":  "rest",
+                                            "start":  15.513,
+                                            "end":  15.784
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  15.795,
+                                            "end":  15.871
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  15.882,
+                                            "end":  16.143
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  16.154,
+                                            "end":  16.273
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  16.284,
+                                            "end":  16.567
+                                        },
+                                        {
+                                            "word":  "here",
+                                            "start":  16.578,
+                                            "end":  16.893
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  16.904,
+                                            "end":  17.013
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  17.023,
+                                            "end":  17.154
+                                        },
+                                        {
+                                            "word":  "crater.",
+                                            "start":  17.165,
+                                            "end":  17.621
+                                        },
+                                        {
+                                            "word":  "Not",
+                                            "start":  17.969,
+                                            "end":  18.208
+                                        },
+                                        {
+                                            "word":  "many",
+                                            "start":  18.219,
+                                            "end":  18.436
+                                        },
+                                        {
+                                            "word":  "robots",
+                                            "start":  18.447,
+                                            "end":  18.936
+                                        },
+                                        {
+                                            "word":  "can",
+                                            "start":  18.947,
+                                            "end":  19.078
+                                        },
+                                        {
+                                            "word":  "say",
+                                            "start":  19.089,
+                                            "end":  19.393
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  19.404,
+                                            "end":  19.567
+                                        },
+                                        {
+                                            "word":  "people",
+                                            "start":  19.578,
+                                            "end":  19.839
+                                        },
+                                        {
+                                            "word":  "came",
+                                            "start":  19.849,
+                                            "end":  20.089
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  20.099,
+                                            "end":  20.186
+                                        },
+                                        {
+                                            "word":  "visit.",
+                                            "start":  20.197,
+                                            "end":  20.654
+                                        }
+                                    ]
+                      }
+                  ]
 }

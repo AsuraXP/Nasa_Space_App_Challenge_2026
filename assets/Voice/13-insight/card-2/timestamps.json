@@ -1,564 +1,508 @@
-{
-  "story": "13-insight",
-  "card": "card-2",
-  "duration": 26.81,
-  "speechStart": 0.14,
-  "speechEnd": 26.49,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I felt more than 1,300 of them.",
-      "start": 0.14,
-      "end": 2.09,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.39
-        },
-        {
-          "word": "felt",
-          "start": 0.39,
-          "end": 0.68
-        },
-        {
-          "word": "more",
-          "start": 0.68,
-          "end": 0.96
-        },
-        {
-          "word": "than",
-          "start": 0.96,
-          "end": 1.25
-        },
-        {
-          "word": "1,300",
-          "start": 1.25,
-          "end": 1.54
-        },
-        {
-          "word": "of",
-          "start": 1.54,
-          "end": 1.8
-        },
-        {
-          "word": "them.",
-          "start": 1.8,
-          "end": 2.09
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "Each one sent waves down through the planet and back, and those waves drew a picture of the inside of Mars: crust, mantle, and a molten core.",
-      "start": 2.51,
-      "end": 8.19,
-      "words": [
-        {
-          "word": "Each",
-          "start": 2.51,
-          "end": 2.68
-        },
-        {
-          "word": "one",
-          "start": 2.68,
-          "end": 2.84
-        },
-        {
-          "word": "sent",
-          "start": 2.84,
-          "end": 3.01
-        },
-        {
-          "word": "waves",
-          "start": 3.01,
-          "end": 3.29
-        },
-        {
-          "word": "down",
-          "start": 3.29,
-          "end": 3.45
-        },
-        {
-          "word": "through",
-          "start": 3.45,
-          "end": 3.65
-        },
-        {
-          "word": "the",
-          "start": 3.65,
-          "end": 3.81
-        },
-        {
-          "word": "planet",
-          "start": 3.81,
-          "end": 4.09
-        },
-        {
-          "word": "and",
-          "start": 4.09,
-          "end": 4.25
-        },
-        {
-          "word": "back,",
-          "start": 4.25,
-          "end": 4.52
-        },
-        {
-          "word": "and",
-          "start": 4.52,
-          "end": 4.68
-        },
-        {
-          "word": "those",
-          "start": 4.68,
-          "end": 4.86
-        },
-        {
-          "word": "waves",
-          "start": 4.86,
-          "end": 5.14
-        },
-        {
-          "word": "drew",
-          "start": 5.14,
-          "end": 5.31
-        },
-        {
-          "word": "a",
-          "start": 5.31,
-          "end": 5.45
-        },
-        {
-          "word": "picture",
-          "start": 5.45,
-          "end": 5.75
-        },
-        {
-          "word": "of",
-          "start": 5.75,
-          "end": 5.9
-        },
-        {
-          "word": "the",
-          "start": 5.9,
-          "end": 6.06
-        },
-        {
-          "word": "inside",
-          "start": 6.06,
-          "end": 6.34
-        },
-        {
-          "word": "of",
-          "start": 6.34,
-          "end": 6.5
-        },
-        {
-          "word": "Mars:",
-          "start": 6.5,
-          "end": 6.77
-        },
-        {
-          "word": "crust,",
-          "start": 6.77,
-          "end": 7.04
-        },
-        {
-          "word": "mantle,",
-          "start": 7.04,
-          "end": 7.43
-        },
-        {
-          "word": "and",
-          "start": 7.43,
-          "end": 7.59
-        },
-        {
-          "word": "a",
-          "start": 7.59,
-          "end": 7.74
-        },
-        {
-          "word": "molten",
-          "start": 7.74,
-          "end": 8.02
-        },
-        {
-          "word": "core.",
-          "start": 8.02,
-          "end": 8.19
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Not everything worked.",
-      "start": 8.59,
-      "end": 10.05,
-      "words": [
-        {
-          "word": "Not",
-          "start": 8.59,
-          "end": 8.83
-        },
-        {
-          "word": "everything",
-          "start": 8.83,
-          "end": 9.62
-        },
-        {
-          "word": "worked.",
-          "start": 9.62,
-          "end": 10.05
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I carried a heat probe called the mole that was meant to hammer itself five metres into the ground.",
-      "start": 10.43,
-      "end": 15.89,
-      "words": [
-        {
-          "word": "I",
-          "start": 10.43,
-          "end": 10.63
-        },
-        {
-          "word": "carried",
-          "start": 10.63,
-          "end": 11.04
-        },
-        {
-          "word": "a",
-          "start": 11.04,
-          "end": 11.24
-        },
-        {
-          "word": "heat",
-          "start": 11.24,
-          "end": 11.47
-        },
-        {
-          "word": "probe",
-          "start": 11.47,
-          "end": 11.71
-        },
-        {
-          "word": "called",
-          "start": 11.71,
-          "end": 12.11
-        },
-        {
-          "word": "the",
-          "start": 12.11,
-          "end": 12.33
-        },
-        {
-          "word": "mole",
-          "start": 12.33,
-          "end": 12.71
-        },
-        {
-          "word": "that",
-          "start": 12.71,
-          "end": 12.94
-        },
-        {
-          "word": "was",
-          "start": 12.94,
-          "end": 13.16
-        },
-        {
-          "word": "meant",
-          "start": 13.16,
-          "end": 13.41
-        },
-        {
-          "word": "to",
-          "start": 13.41,
-          "end": 13.62
-        },
-        {
-          "word": "hammer",
-          "start": 13.62,
-          "end": 14.01
-        },
-        {
-          "word": "itself",
-          "start": 14.01,
-          "end": 14.41
-        },
-        {
-          "word": "five",
-          "start": 14.41,
-          "end": 14.64
-        },
-        {
-          "word": "metres",
-          "start": 14.64,
-          "end": 15.04
-        },
-        {
-          "word": "into",
-          "start": 15.04,
-          "end": 15.41
-        },
-        {
-          "word": "the",
-          "start": 15.41,
-          "end": 15.63
-        },
-        {
-          "word": "ground.",
-          "start": 15.63,
-          "end": 15.89
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "The soil here clumped in a way nobody expected, and the mole kept popping back out.",
-      "start": 16.29,
-      "end": 20.2,
-      "words": [
-        {
-          "word": "The",
-          "start": 16.29,
-          "end": 16.47
-        },
-        {
-          "word": "soil",
-          "start": 16.47,
-          "end": 16.66
-        },
-        {
-          "word": "here",
-          "start": 16.66,
-          "end": 16.84
-        },
-        {
-          "word": "clumped",
-          "start": 16.84,
-          "end": 17.17
-        },
-        {
-          "word": "in",
-          "start": 17.17,
-          "end": 17.34
-        },
-        {
-          "word": "a",
-          "start": 17.34,
-          "end": 17.5
-        },
-        {
-          "word": "way",
-          "start": 17.5,
-          "end": 17.68
-        },
-        {
-          "word": "nobody",
-          "start": 17.68,
-          "end": 18.11
-        },
-        {
-          "word": "expected,",
-          "start": 18.11,
-          "end": 18.67
-        },
-        {
-          "word": "and",
-          "start": 18.67,
-          "end": 18.84
-        },
-        {
-          "word": "the",
-          "start": 18.84,
-          "end": 19.02
-        },
-        {
-          "word": "mole",
-          "start": 19.02,
-          "end": 19.32
-        },
-        {
-          "word": "kept",
-          "start": 19.32,
-          "end": 19.51
-        },
-        {
-          "word": "popping",
-          "start": 19.51,
-          "end": 19.83
-        },
-        {
-          "word": "back",
-          "start": 19.83,
-          "end": 20.02
-        },
-        {
-          "word": "out.",
-          "start": 20.02,
-          "end": 20.2
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "My team tried for almost two years to help it with my arm.",
-      "start": 20.66,
-      "end": 23.19,
-      "words": [
-        {
-          "word": "My",
-          "start": 20.66,
-          "end": 20.83
-        },
-        {
-          "word": "team",
-          "start": 20.83,
-          "end": 21.02
-        },
-        {
-          "word": "tried",
-          "start": 21.02,
-          "end": 21.22
-        },
-        {
-          "word": "for",
-          "start": 21.22,
-          "end": 21.4
-        },
-        {
-          "word": "almost",
-          "start": 21.4,
-          "end": 21.73
-        },
-        {
-          "word": "two",
-          "start": 21.73,
-          "end": 21.91
-        },
-        {
-          "word": "years",
-          "start": 21.91,
-          "end": 22.11
-        },
-        {
-          "word": "to",
-          "start": 22.11,
-          "end": 22.28
-        },
-        {
-          "word": "help",
-          "start": 22.28,
-          "end": 22.47
-        },
-        {
-          "word": "it",
-          "start": 22.47,
-          "end": 22.65
-        },
-        {
-          "word": "with",
-          "start": 22.65,
-          "end": 22.84
-        },
-        {
-          "word": "my",
-          "start": 22.84,
-          "end": 23.01
-        },
-        {
-          "word": "arm.",
-          "start": 23.01,
-          "end": 23.19
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "In the end they had to stop.",
-      "start": 23.62,
-      "end": 24.5,
-      "words": [
-        {
-          "word": "In",
-          "start": 23.62,
-          "end": 23.74
-        },
-        {
-          "word": "the",
-          "start": 23.74,
-          "end": 23.87
-        },
-        {
-          "word": "end",
-          "start": 23.87,
-          "end": 23.99
-        },
-        {
-          "word": "they",
-          "start": 23.99,
-          "end": 24.12
-        },
-        {
-          "word": "had",
-          "start": 24.12,
-          "end": 24.25
-        },
-        {
-          "word": "to",
-          "start": 24.25,
-          "end": 24.37
-        },
-        {
-          "word": "stop.",
-          "start": 24.37,
-          "end": 24.5
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "That is how exploring goes sometimes.",
-      "start": 24.96,
-      "end": 26.49,
-      "words": [
-        {
-          "word": "That",
-          "start": 24.96,
-          "end": 25.12
-        },
-        {
-          "word": "is",
-          "start": 25.12,
-          "end": 25.27
-        },
-        {
-          "word": "how",
-          "start": 25.27,
-          "end": 25.43
-        },
-        {
-          "word": "exploring",
-          "start": 25.43,
-          "end": 25.83
-        },
-        {
-          "word": "goes",
-          "start": 25.83,
-          "end": 25.99
-        },
-        {
-          "word": "sometimes.",
-          "start": 25.99,
-          "end": 26.49
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "13-insight",
+    "card":  "card-2",
+    "duration":  28.848,
+    "speechStart":  0.132,
+    "speechEnd":  28.589,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I felt more than 1,300 of them. Each one sent waves down through the planet and back, and those waves drew a picture of the inside of Mars: crust, mantle, and a molten core.\n\nNot everything worked. I carried a heat probe called the mole that was meant to hammer itself five metres into the ground. The soil here clumped in a way nobody expected, and the mole kept popping back out. My team tried for almost two years to help it with my arm. In the end they had to stop. That is how exploring goes sometimes.",
+                          "start":  0.132,
+                          "end":  28.589,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.208
+                                        },
+                                        {
+                                            "word":  "felt",
+                                            "start":  0.219,
+                                            "end":  0.502
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  0.513,
+                                            "end":  0.795
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  0.806,
+                                            "end":  0.98
+                                        },
+                                        {
+                                            "word":  "1,300",
+                                            "start":  0.991,
+                                            "end":  2.11
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.121,
+                                            "end":  2.219
+                                        },
+                                        {
+                                            "word":  "them.",
+                                            "start":  2.23,
+                                            "end":  2.502
+                                        },
+                                        {
+                                            "word":  "Each",
+                                            "start":  2.849,
+                                            "end":  3.045
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  3.056,
+                                            "end":  3.241
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  3.252,
+                                            "end":  3.502
+                                        },
+                                        {
+                                            "word":  "waves",
+                                            "start":  3.513,
+                                            "end":  3.806
+                                        },
+                                        {
+                                            "word":  "down",
+                                            "start":  3.817,
+                                            "end":  4.089
+                                        },
+                                        {
+                                            "word":  "through",
+                                            "start":  4.099,
+                                            "end":  4.23
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  4.241,
+                                            "end":  4.317
+                                        },
+                                        {
+                                            "word":  "planet",
+                                            "start":  4.328,
+                                            "end":  4.708
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  4.719,
+                                            "end":  4.817
+                                        },
+                                        {
+                                            "word":  "back,",
+                                            "start":  4.828,
+                                            "end":  5.197
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  5.534,
+                                            "end":  5.686
+                                        },
+                                        {
+                                            "word":  "those",
+                                            "start":  5.697,
+                                            "end":  5.882
+                                        },
+                                        {
+                                            "word":  "waves",
+                                            "start":  5.893,
+                                            "end":  6.197
+                                        },
+                                        {
+                                            "word":  "drew",
+                                            "start":  6.208,
+                                            "end":  6.371
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  6.382,
+                                            "end":  6.447
+                                        },
+                                        {
+                                            "word":  "picture",
+                                            "start":  6.458,
+                                            "end":  6.849
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  6.86,
+                                            "end":  6.936
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.947,
+                                            "end":  7.002
+                                        },
+                                        {
+                                            "word":  "inside",
+                                            "start":  7.013,
+                                            "end":  7.36
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  7.371,
+                                            "end":  7.436
+                                        },
+                                        {
+                                            "word":  "Mars:",
+                                            "start":  7.447,
+                                            "end":  7.904
+                                        },
+                                        {
+                                            "word":  "crust,",
+                                            "start":  8.349,
+                                            "end":  8.817
+                                        },
+                                        {
+                                            "word":  "mantle,",
+                                            "start":  8.98,
+                                            "end":  9.469
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  9.491,
+                                            "end":  9.567
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.578,
+                                            "end":  9.61
+                                        },
+                                        {
+                                            "word":  "molten",
+                                            "start":  9.621,
+                                            "end":  9.936
+                                        },
+                                        {
+                                            "word":  "core.",
+                                            "start":  9.947,
+                                            "end":  10.306
+                                        },
+                                        {
+                                            "word":  "Not",
+                                            "start":  10.632,
+                                            "end":  10.86
+                                        },
+                                        {
+                                            "word":  "everything",
+                                            "start":  10.871,
+                                            "end":  11.284
+                                        },
+                                        {
+                                            "word":  "worked.",
+                                            "start":  11.295,
+                                            "end":  11.752
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  12.099,
+                                            "end":  12.165
+                                        },
+                                        {
+                                            "word":  "carried",
+                                            "start":  12.176,
+                                            "end":  12.458
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.469,
+                                            "end":  12.502
+                                        },
+                                        {
+                                            "word":  "heat",
+                                            "start":  12.513,
+                                            "end":  12.763
+                                        },
+                                        {
+                                            "word":  "probe",
+                                            "start":  12.773,
+                                            "end":  13.099
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  13.11,
+                                            "end":  13.328
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  13.339,
+                                            "end":  13.393
+                                        },
+                                        {
+                                            "word":  "mole",
+                                            "start":  13.404,
+                                            "end":  13.73
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  13.741,
+                                            "end":  13.86
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  13.871,
+                                            "end":  14.012
+                                        },
+                                        {
+                                            "word":  "meant",
+                                            "start":  14.023,
+                                            "end":  14.23
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  14.241,
+                                            "end":  14.317
+                                        },
+                                        {
+                                            "word":  "hammer",
+                                            "start":  14.328,
+                                            "end":  14.665
+                                        },
+                                        {
+                                            "word":  "itself",
+                                            "start":  14.676,
+                                            "end":  15.034
+                                        },
+                                        {
+                                            "word":  "five",
+                                            "start":  15.045,
+                                            "end":  15.328
+                                        },
+                                        {
+                                            "word":  "metres",
+                                            "start":  15.339,
+                                            "end":  15.686
+                                        },
+                                        {
+                                            "word":  "into",
+                                            "start":  15.697,
+                                            "end":  15.904
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.915,
+                                            "end":  15.98
+                                        },
+                                        {
+                                            "word":  "ground.",
+                                            "start":  15.991,
+                                            "end":  16.426
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  16.784,
+                                            "end":  16.839
+                                        },
+                                        {
+                                            "word":  "soil",
+                                            "start":  16.849,
+                                            "end":  17.208
+                                        },
+                                        {
+                                            "word":  "here",
+                                            "start":  17.219,
+                                            "end":  17.458
+                                        },
+                                        {
+                                            "word":  "clumped",
+                                            "start":  17.469,
+                                            "end":  17.806
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  17.817,
+                                            "end":  17.904
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.915,
+                                            "end":  17.98
+                                        },
+                                        {
+                                            "word":  "way",
+                                            "start":  17.991,
+                                            "end":  18.252
+                                        },
+                                        {
+                                            "word":  "nobody",
+                                            "start":  18.263,
+                                            "end":  18.599
+                                        },
+                                        {
+                                            "word":  "expected,",
+                                            "start":  18.61,
+                                            "end":  19.208
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  19.599,
+                                            "end":  19.752
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  19.763,
+                                            "end":  19.828
+                                        },
+                                        {
+                                            "word":  "mole",
+                                            "start":  19.839,
+                                            "end":  20.132
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  20.143,
+                                            "end":  20.415
+                                        },
+                                        {
+                                            "word":  "popping",
+                                            "start":  20.426,
+                                            "end":  20.752
+                                        },
+                                        {
+                                            "word":  "back",
+                                            "start":  20.763,
+                                            "end":  20.991
+                                        },
+                                        {
+                                            "word":  "out.",
+                                            "start":  21.002,
+                                            "end":  21.295
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  21.654,
+                                            "end":  21.773
+                                        },
+                                        {
+                                            "word":  "team",
+                                            "start":  21.784,
+                                            "end":  22.067
+                                        },
+                                        {
+                                            "word":  "tried",
+                                            "start":  22.078,
+                                            "end":  22.436
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  22.447,
+                                            "end":  22.599
+                                        },
+                                        {
+                                            "word":  "almost",
+                                            "start":  22.61,
+                                            "end":  22.904
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  22.915,
+                                            "end":  23.056
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  23.067,
+                                            "end":  23.371
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  23.382,
+                                            "end":  23.469
+                                        },
+                                        {
+                                            "word":  "help",
+                                            "start":  23.48,
+                                            "end":  23.719
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  23.73,
+                                            "end":  23.828
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  23.839,
+                                            "end":  23.969
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  23.98,
+                                            "end":  24.154
+                                        },
+                                        {
+                                            "word":  "arm.",
+                                            "start":  24.165,
+                                            "end":  24.513
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  24.849,
+                                            "end":  24.936
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  24.947,
+                                            "end":  25.002
+                                        },
+                                        {
+                                            "word":  "end",
+                                            "start":  25.013,
+                                            "end":  25.382
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  25.393,
+                                            "end":  25.513
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  25.523,
+                                            "end":  25.697
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  25.708,
+                                            "end":  25.773
+                                        },
+                                        {
+                                            "word":  "stop.",
+                                            "start":  25.784,
+                                            "end":  26.284
+                                        },
+                                        {
+                                            "word":  "That",
+                                            "start":  26.632,
+                                            "end":  26.795
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  26.806,
+                                            "end":  26.936
+                                        },
+                                        {
+                                            "word":  "how",
+                                            "start":  26.947,
+                                            "end":  27.197
+                                        },
+                                        {
+                                            "word":  "exploring",
+                                            "start":  27.208,
+                                            "end":  27.741
+                                        },
+                                        {
+                                            "word":  "goes",
+                                            "start":  27.752,
+                                            "end":  27.969
+                                        },
+                                        {
+                                            "word":  "sometimes.",
+                                            "start":  27.98,
+                                            "end":  28.589
+                                        }
+                                    ]
+                      }
+                  ]
 }

@@ -1,420 +1,388 @@
-{
-  "story": "04-lunar-roving-vehicle-2",
-  "card": "card-1",
-  "duration": 24.5,
-  "speechStart": 0.14,
-  "speechEnd": 24.18,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I am the second Moon car, and I got the bumpy neighbourhood: the Descartes Highlands, bright hilly country that is older than the dark lunar seas.",
-      "start": 0.14,
-      "end": 8.8,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.35
-        },
-        {
-          "word": "am",
-          "start": 0.35,
-          "end": 0.58
-        },
-        {
-          "word": "the",
-          "start": 0.58,
-          "end": 0.81
-        },
-        {
-          "word": "second",
-          "start": 0.81,
-          "end": 1.23
-        },
-        {
-          "word": "Moon",
-          "start": 1.23,
-          "end": 1.48
-        },
-        {
-          "word": "car,",
-          "start": 1.48,
-          "end": 1.86
-        },
-        {
-          "word": "and",
-          "start": 1.86,
-          "end": 2.1
-        },
-        {
-          "word": "I",
-          "start": 2.1,
-          "end": 2.31
-        },
-        {
-          "word": "got",
-          "start": 2.31,
-          "end": 2.54
-        },
-        {
-          "word": "the",
-          "start": 2.54,
-          "end": 2.78
-        },
-        {
-          "word": "bumpy",
-          "start": 2.78,
-          "end": 3.19
-        },
-        {
-          "word": "neighbourhood:",
-          "start": 3.19,
-          "end": 3.99
-        },
-        {
-          "word": "the",
-          "start": 3.99,
-          "end": 4.22
-        },
-        {
-          "word": "Descartes",
-          "start": 4.22,
-          "end": 4.82
-        },
-        {
-          "word": "Highlands,",
-          "start": 4.82,
-          "end": 5.43
-        },
-        {
-          "word": "bright",
-          "start": 5.43,
-          "end": 5.7
-        },
-        {
-          "word": "hilly",
-          "start": 5.7,
-          "end": 6.11
-        },
-        {
-          "word": "country",
-          "start": 6.11,
-          "end": 6.54
-        },
-        {
-          "word": "that",
-          "start": 6.54,
-          "end": 6.78
-        },
-        {
-          "word": "is",
-          "start": 6.78,
-          "end": 7.01
-        },
-        {
-          "word": "older",
-          "start": 7.01,
-          "end": 7.41
-        },
-        {
-          "word": "than",
-          "start": 7.41,
-          "end": 7.66
-        },
-        {
-          "word": "the",
-          "start": 7.66,
-          "end": 7.9
-        },
-        {
-          "word": "dark",
-          "start": 7.9,
-          "end": 8.15
-        },
-        {
-          "word": "lunar",
-          "start": 8.15,
-          "end": 8.55
-        },
-        {
-          "word": "seas.",
-          "start": 8.55,
-          "end": 8.8
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "John Young and Charlie Duke drove me for three days in April 1972, about 27 kilometres in all.",
-      "start": 8.98,
-      "end": 13.85,
-      "words": [
-        {
-          "word": "John",
-          "start": 8.98,
-          "end": 9.2
-        },
-        {
-          "word": "Young",
-          "start": 9.2,
-          "end": 9.44
-        },
-        {
-          "word": "and",
-          "start": 9.44,
-          "end": 9.65
-        },
-        {
-          "word": "Charlie",
-          "start": 9.65,
-          "end": 9.91
-        },
-        {
-          "word": "Duke",
-          "start": 9.91,
-          "end": 10.13
-        },
-        {
-          "word": "drove",
-          "start": 10.13,
-          "end": 10.37
-        },
-        {
-          "word": "me",
-          "start": 10.37,
-          "end": 10.57
-        },
-        {
-          "word": "for",
-          "start": 10.57,
-          "end": 10.78
-        },
-        {
-          "word": "three",
-          "start": 10.78,
-          "end": 11.02
-        },
-        {
-          "word": "days",
-          "start": 11.02,
-          "end": 11.24
-        },
-        {
-          "word": "in",
-          "start": 11.24,
-          "end": 11.44
-        },
-        {
-          "word": "April",
-          "start": 11.44,
-          "end": 11.81
-        },
-        {
-          "word": "1972,",
-          "start": 11.81,
-          "end": 12.17
-        },
-        {
-          "word": "about",
-          "start": 12.17,
-          "end": 12.54
-        },
-        {
-          "word": "27",
-          "start": 12.54,
-          "end": 12.74
-        },
-        {
-          "word": "kilometres",
-          "start": 12.74,
-          "end": 13.43
-        },
-        {
-          "word": "in",
-          "start": 13.43,
-          "end": 13.64
-        },
-        {
-          "word": "all.",
-          "start": 13.64,
-          "end": 13.85
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Scientists back home expected us to find rocks from ancient volcanoes.",
-      "start": 14.25,
-      "end": 17.87,
-      "words": [
-        {
-          "word": "Scientists",
-          "start": 14.25,
-          "end": 14.7
-        },
-        {
-          "word": "back",
-          "start": 14.7,
-          "end": 14.93
-        },
-        {
-          "word": "home",
-          "start": 14.93,
-          "end": 15.17
-        },
-        {
-          "word": "expected",
-          "start": 15.17,
-          "end": 15.73
-        },
-        {
-          "word": "us",
-          "start": 15.73,
-          "end": 15.95
-        },
-        {
-          "word": "to",
-          "start": 15.95,
-          "end": 16.16
-        },
-        {
-          "word": "find",
-          "start": 16.16,
-          "end": 16.4
-        },
-        {
-          "word": "rocks",
-          "start": 16.4,
-          "end": 16.65
-        },
-        {
-          "word": "from",
-          "start": 16.65,
-          "end": 16.88
-        },
-        {
-          "word": "ancient",
-          "start": 16.88,
-          "end": 17.29
-        },
-        {
-          "word": "volcanoes.",
-          "start": 17.29,
-          "end": 17.87
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "We kept finding something else: rocks smashed and stuck back together by enormous impacts.",
-      "start": 18.28,
-      "end": 22.68,
-      "words": [
-        {
-          "word": "We",
-          "start": 18.28,
-          "end": 18.47
-        },
-        {
-          "word": "kept",
-          "start": 18.47,
-          "end": 18.68
-        },
-        {
-          "word": "finding",
-          "start": 18.68,
-          "end": 19.05
-        },
-        {
-          "word": "something",
-          "start": 19.05,
-          "end": 19.56
-        },
-        {
-          "word": "else:",
-          "start": 19.56,
-          "end": 19.9
-        },
-        {
-          "word": "rocks",
-          "start": 19.9,
-          "end": 20.12
-        },
-        {
-          "word": "smashed",
-          "start": 20.12,
-          "end": 20.49
-        },
-        {
-          "word": "and",
-          "start": 20.49,
-          "end": 20.69
-        },
-        {
-          "word": "stuck",
-          "start": 20.69,
-          "end": 20.91
-        },
-        {
-          "word": "back",
-          "start": 20.91,
-          "end": 21.12
-        },
-        {
-          "word": "together",
-          "start": 21.12,
-          "end": 21.62
-        },
-        {
-          "word": "by",
-          "start": 21.62,
-          "end": 21.81
-        },
-        {
-          "word": "enormous",
-          "start": 21.81,
-          "end": 22.31
-        },
-        {
-          "word": "impacts.",
-          "start": 22.31,
-          "end": 22.68
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "The textbooks had to change.",
-      "start": 23.08,
-      "end": 24.18,
-      "words": [
-        {
-          "word": "The",
-          "start": 23.08,
-          "end": 23.26
-        },
-        {
-          "word": "textbooks",
-          "start": 23.26,
-          "end": 23.61
-        },
-        {
-          "word": "had",
-          "start": 23.61,
-          "end": 23.8
-        },
-        {
-          "word": "to",
-          "start": 23.8,
-          "end": 23.97
-        },
-        {
-          "word": "change.",
-          "start": 23.97,
-          "end": 24.18
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "04-lunar-roving-vehicle-2",
+    "card":  "card-1",
+    "duration":  24.504,
+    "speechStart":  0.132,
+    "speechEnd":  24.219,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I am the second Moon car, and I got the bumpy neighbourhood: the Descartes Highlands, bright hilly country that is older than the dark lunar seas.\n\nJohn Young and Charlie Duke drove me for three days in April 1972, about 27 kilometres in all. Scientists back home expected us to find rocks from ancient volcanoes. We kept finding something else: rocks smashed and stuck back together by enormous impacts. The textbooks had to change.",
+                          "start":  0.132,
+                          "end":  24.219,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.241
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  0.252,
+                                            "end":  0.349
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.36,
+                                            "end":  0.426
+                                        },
+                                        {
+                                            "word":  "second",
+                                            "start":  0.436,
+                                            "end":  0.741
+                                        },
+                                        {
+                                            "word":  "Moon",
+                                            "start":  0.752,
+                                            "end":  0.936
+                                        },
+                                        {
+                                            "word":  "car,",
+                                            "start":  0.947,
+                                            "end":  1.306
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  1.328,
+                                            "end":  1.426
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.436,
+                                            "end":  1.502
+                                        },
+                                        {
+                                            "word":  "got",
+                                            "start":  1.513,
+                                            "end":  1.686
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  1.697,
+                                            "end":  1.762
+                                        },
+                                        {
+                                            "word":  "bumpy",
+                                            "start":  1.773,
+                                            "end":  2.013
+                                        },
+                                        {
+                                            "word":  "neighbourhood:",
+                                            "start":  2.023,
+                                            "end":  2.545
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.002,
+                                            "end":  3.11
+                                        },
+                                        {
+                                            "word":  "Descartes",
+                                            "start":  3.121,
+                                            "end":  3.469
+                                        },
+                                        {
+                                            "word":  "Highlands,",
+                                            "start":  3.48,
+                                            "end":  3.991
+                                        },
+                                        {
+                                            "word":  "bright",
+                                            "start":  4.306,
+                                            "end":  4.578
+                                        },
+                                        {
+                                            "word":  "hilly",
+                                            "start":  4.589,
+                                            "end":  4.817
+                                        },
+                                        {
+                                            "word":  "country",
+                                            "start":  4.828,
+                                            "end":  5.23
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  5.241,
+                                            "end":  5.36
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  5.371,
+                                            "end":  5.512
+                                        },
+                                        {
+                                            "word":  "older",
+                                            "start":  5.523,
+                                            "end":  5.849
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  5.86,
+                                            "end":  5.98
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  5.991,
+                                            "end":  6.067
+                                        },
+                                        {
+                                            "word":  "dark",
+                                            "start":  6.078,
+                                            "end":  6.328
+                                        },
+                                        {
+                                            "word":  "lunar",
+                                            "start":  6.339,
+                                            "end":  6.534
+                                        },
+                                        {
+                                            "word":  "seas.",
+                                            "start":  6.545,
+                                            "end":  6.98
+                                        },
+                                        {
+                                            "word":  "John",
+                                            "start":  7.328,
+                                            "end":  7.578
+                                        },
+                                        {
+                                            "word":  "Young",
+                                            "start":  7.589,
+                                            "end":  7.882
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  7.893,
+                                            "end":  7.991
+                                        },
+                                        {
+                                            "word":  "Charlie",
+                                            "start":  8.002,
+                                            "end":  8.317
+                                        },
+                                        {
+                                            "word":  "Duke",
+                                            "start":  8.328,
+                                            "end":  8.632
+                                        },
+                                        {
+                                            "word":  "drove",
+                                            "start":  8.643,
+                                            "end":  8.936
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  8.947,
+                                            "end":  9.11
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  9.121,
+                                            "end":  9.273
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  9.284,
+                                            "end":  9.491
+                                        },
+                                        {
+                                            "word":  "days",
+                                            "start":  9.502,
+                                            "end":  9.795
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  9.806,
+                                            "end":  9.958
+                                        },
+                                        {
+                                            "word":  "April",
+                                            "start":  9.958,
+                                            "end":  10.757
+                                        },
+                                        {
+                                            "word":  "1972,",
+                                            "start":  10.757,
+                                            "end":  11.556
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  11.556,
+                                            "end":  11.86
+                                        },
+                                        {
+                                            "word":  "27",
+                                            "start":  11.871,
+                                            "end":  12.339
+                                        },
+                                        {
+                                            "word":  "kilometres",
+                                            "start":  12.349,
+                                            "end":  12.871
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  12.882,
+                                            "end":  12.991
+                                        },
+                                        {
+                                            "word":  "all.",
+                                            "start":  13.002,
+                                            "end":  13.295
+                                        },
+                                        {
+                                            "word":  "Scientists",
+                                            "start":  13.643,
+                                            "end":  14.132
+                                        },
+                                        {
+                                            "word":  "back",
+                                            "start":  14.143,
+                                            "end":  14.339
+                                        },
+                                        {
+                                            "word":  "home",
+                                            "start":  14.349,
+                                            "end":  14.665
+                                        },
+                                        {
+                                            "word":  "expected",
+                                            "start":  14.686,
+                                            "end":  15.165
+                                        },
+                                        {
+                                            "word":  "us",
+                                            "start":  15.176,
+                                            "end":  15.339
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  15.349,
+                                            "end":  15.436
+                                        },
+                                        {
+                                            "word":  "find",
+                                            "start":  15.447,
+                                            "end":  15.741
+                                        },
+                                        {
+                                            "word":  "rocks",
+                                            "start":  15.752,
+                                            "end":  16.121
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  16.132,
+                                            "end":  16.349
+                                        },
+                                        {
+                                            "word":  "ancient",
+                                            "start":  16.371,
+                                            "end":  16.686
+                                        },
+                                        {
+                                            "word":  "volcanoes.",
+                                            "start":  16.697,
+                                            "end":  17.36
+                                        },
+                                        {
+                                            "word":  "We",
+                                            "start":  17.719,
+                                            "end":  17.806
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  17.817,
+                                            "end":  18.045
+                                        },
+                                        {
+                                            "word":  "finding",
+                                            "start":  18.056,
+                                            "end":  18.36
+                                        },
+                                        {
+                                            "word":  "something",
+                                            "start":  18.371,
+                                            "end":  18.676
+                                        },
+                                        {
+                                            "word":  "else:",
+                                            "start":  18.686,
+                                            "end":  19.089
+                                        },
+                                        {
+                                            "word":  "rocks",
+                                            "start":  19.621,
+                                            "end":  19.947
+                                        },
+                                        {
+                                            "word":  "smashed",
+                                            "start":  19.958,
+                                            "end":  20.447
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  20.458,
+                                            "end":  20.523
+                                        },
+                                        {
+                                            "word":  "stuck",
+                                            "start":  20.534,
+                                            "end":  20.795
+                                        },
+                                        {
+                                            "word":  "back",
+                                            "start":  20.806,
+                                            "end":  20.991
+                                        },
+                                        {
+                                            "word":  "together",
+                                            "start":  21.002,
+                                            "end":  21.36
+                                        },
+                                        {
+                                            "word":  "by",
+                                            "start":  21.371,
+                                            "end":  21.523
+                                        },
+                                        {
+                                            "word":  "enormous",
+                                            "start":  21.534,
+                                            "end":  21.958
+                                        },
+                                        {
+                                            "word":  "impacts.",
+                                            "start":  21.969,
+                                            "end":  22.48
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  22.817,
+                                            "end":  22.871
+                                        },
+                                        {
+                                            "word":  "textbooks",
+                                            "start":  22.882,
+                                            "end":  23.371
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  23.382,
+                                            "end":  23.578
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  23.589,
+                                            "end":  23.676
+                                        },
+                                        {
+                                            "word":  "change.",
+                                            "start":  23.686,
+                                            "end":  24.219
+                                        }
+                                    ]
+                      }
+                  ]
 }

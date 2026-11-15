@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/07-viking-1-lander/card-2/narration.mp3",
   "script": "audio/07-viking-1-lander/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/07-viking-1-lander/card-2/timings.json",
+  "vtt": "audio/07-viking-1-lander/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 81360,
-  "duration_seconds": 13.56,
-  "words": 47
+  "bytes": 90144,
+  "duration_seconds": 15.024,
+  "words": 47,
+  "coverage": 1.0
 }

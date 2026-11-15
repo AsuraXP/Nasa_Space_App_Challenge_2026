@@ -3,10 +3,13 @@
   "card": "card-3",
   "audio": "audio/20-new-horizons/card-3/narration.mp3",
   "script": "audio/20-new-horizons/card-3/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/20-new-horizons/card-3/timings.json",
+  "vtt": "audio/20-new-horizons/card-3/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 117072,
-  "duration_seconds": 19.51,
-  "words": 61
+  "bytes": 122256,
+  "duration_seconds": 20.376,
+  "words": 61,
+  "coverage": 0.9508
 }

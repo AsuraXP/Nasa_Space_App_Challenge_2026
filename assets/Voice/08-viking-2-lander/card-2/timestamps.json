@@ -1,378 +1,338 @@
-{
-  "story": "08-viking-2-lander",
-  "card": "card-2",
-  "duration": 17.64,
-  "speechStart": 0.14,
-  "speechEnd": 17.28,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "It was not a perfect landing.",
-      "start": 0.14,
-      "end": 1.09,
-      "words": [
-        {
-          "word": "It",
-          "start": 0.14,
-          "end": 0.26
-        },
-        {
-          "word": "was",
-          "start": 0.26,
-          "end": 0.39
-        },
-        {
-          "word": "not",
-          "start": 0.39,
-          "end": 0.51
-        },
-        {
-          "word": "a",
-          "start": 0.51,
-          "end": 0.63
-        },
-        {
-          "word": "perfect",
-          "start": 0.63,
-          "end": 0.86
-        },
-        {
-          "word": "landing.",
-          "start": 0.86,
-          "end": 1.09
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "One of my three feet came down on a rock, so I have been tilted about 8 degrees ever since.",
-      "start": 1.53,
-      "end": 5.84,
-      "words": [
-        {
-          "word": "One",
-          "start": 1.53,
-          "end": 1.71
-        },
-        {
-          "word": "of",
-          "start": 1.71,
-          "end": 1.89
-        },
-        {
-          "word": "my",
-          "start": 1.89,
-          "end": 2.06
-        },
-        {
-          "word": "three",
-          "start": 2.06,
-          "end": 2.26
-        },
-        {
-          "word": "feet",
-          "start": 2.26,
-          "end": 2.45
-        },
-        {
-          "word": "came",
-          "start": 2.45,
-          "end": 2.64
-        },
-        {
-          "word": "down",
-          "start": 2.64,
-          "end": 2.83
-        },
-        {
-          "word": "on",
-          "start": 2.83,
-          "end": 3.01
-        },
-        {
-          "word": "a",
-          "start": 3.01,
-          "end": 3.17
-        },
-        {
-          "word": "rock,",
-          "start": 3.17,
-          "end": 3.48
-        },
-        {
-          "word": "so",
-          "start": 3.48,
-          "end": 3.65
-        },
-        {
-          "word": "I",
-          "start": 3.65,
-          "end": 3.81
-        },
-        {
-          "word": "have",
-          "start": 3.81,
-          "end": 4.0
-        },
-        {
-          "word": "been",
-          "start": 4.0,
-          "end": 4.2
-        },
-        {
-          "word": "tilted",
-          "start": 4.2,
-          "end": 4.52
-        },
-        {
-          "word": "about",
-          "start": 4.52,
-          "end": 4.84
-        },
-        {
-          "word": "8",
-          "start": 4.84,
-          "end": 5.0
-        },
-        {
-          "word": "degrees",
-          "start": 5.0,
-          "end": 5.33
-        },
-        {
-          "word": "ever",
-          "start": 5.33,
-          "end": 5.64
-        },
-        {
-          "word": "since.",
-          "start": 5.64,
-          "end": 5.84
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Everything I photographed is slightly crooked.",
-      "start": 6.24,
-      "end": 8.08,
-      "words": [
-        {
-          "word": "Everything",
-          "start": 6.24,
-          "end": 6.73
-        },
-        {
-          "word": "I",
-          "start": 6.73,
-          "end": 6.87
-        },
-        {
-          "word": "photographed",
-          "start": 6.87,
-          "end": 7.37
-        },
-        {
-          "word": "is",
-          "start": 7.37,
-          "end": 7.52
-        },
-        {
-          "word": "slightly",
-          "start": 7.52,
-          "end": 7.8
-        },
-        {
-          "word": "crooked.",
-          "start": 7.8,
-          "end": 8.08
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Nobody minded.",
-      "start": 8.5,
-      "end": 9.08,
-      "words": [
-        {
-          "word": "Nobody",
-          "start": 8.5,
-          "end": 8.83
-        },
-        {
-          "word": "minded.",
-          "start": 8.83,
-          "end": 9.08
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I did the same experiments as my sister, looking for life in the soil.",
-      "start": 9.5,
-      "end": 12.6,
-      "words": [
-        {
-          "word": "I",
-          "start": 9.5,
-          "end": 9.65
-        },
-        {
-          "word": "did",
-          "start": 9.65,
-          "end": 9.82
-        },
-        {
-          "word": "the",
-          "start": 9.82,
-          "end": 9.99
-        },
-        {
-          "word": "same",
-          "start": 9.99,
-          "end": 10.16
-        },
-        {
-          "word": "experiments",
-          "start": 10.16,
-          "end": 10.72
-        },
-        {
-          "word": "as",
-          "start": 10.72,
-          "end": 10.88
-        },
-        {
-          "word": "my",
-          "start": 10.88,
-          "end": 11.04
-        },
-        {
-          "word": "sister,",
-          "start": 11.04,
-          "end": 11.44
-        },
-        {
-          "word": "looking",
-          "start": 11.44,
-          "end": 11.75
-        },
-        {
-          "word": "for",
-          "start": 11.75,
-          "end": 11.92
-        },
-        {
-          "word": "life",
-          "start": 11.92,
-          "end": 12.1
-        },
-        {
-          "word": "in",
-          "start": 12.1,
-          "end": 12.26
-        },
-        {
-          "word": "the",
-          "start": 12.26,
-          "end": 12.42
-        },
-        {
-          "word": "soil.",
-          "start": 12.42,
-          "end": 12.6
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "I found the same strange chemistry and the same answer: no clear sign of anything living.",
-      "start": 12.98,
-      "end": 17.28,
-      "words": [
-        {
-          "word": "I",
-          "start": 12.98,
-          "end": 13.16
-        },
-        {
-          "word": "found",
-          "start": 13.16,
-          "end": 13.38
-        },
-        {
-          "word": "the",
-          "start": 13.38,
-          "end": 13.58
-        },
-        {
-          "word": "same",
-          "start": 13.58,
-          "end": 13.79
-        },
-        {
-          "word": "strange",
-          "start": 13.79,
-          "end": 14.02
-        },
-        {
-          "word": "chemistry",
-          "start": 14.02,
-          "end": 14.53
-        },
-        {
-          "word": "and",
-          "start": 14.53,
-          "end": 14.73
-        },
-        {
-          "word": "the",
-          "start": 14.73,
-          "end": 14.93
-        },
-        {
-          "word": "same",
-          "start": 14.93,
-          "end": 15.14
-        },
-        {
-          "word": "answer:",
-          "start": 15.14,
-          "end": 15.62
-        },
-        {
-          "word": "no",
-          "start": 15.62,
-          "end": 15.81
-        },
-        {
-          "word": "clear",
-          "start": 15.81,
-          "end": 16.03
-        },
-        {
-          "word": "sign",
-          "start": 16.03,
-          "end": 16.24
-        },
-        {
-          "word": "of",
-          "start": 16.24,
-          "end": 16.43
-        },
-        {
-          "word": "anything",
-          "start": 16.43,
-          "end": 16.93
-        },
-        {
-          "word": "living.",
-          "start": 16.93,
-          "end": 17.28
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "08-viking-2-lander",
+    "card":  "card-2",
+    "duration":  19.344,
+    "speechStart":  0.099,
+    "speechEnd":  19.078,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "It was not a perfect landing. One of my three feet came down on a rock, so I have been tilted about 8 degrees ever since. Everything I photographed is slightly crooked. Nobody minded.\n\nI did the same experiments as my sister, looking for life in the soil. I found the same strange chemistry and the same answer: no clear sign of anything living.",
+                          "start":  0.099,
+                          "end":  19.078,
+                          "words":  [
+                                        {
+                                            "word":  "It",
+                                            "start":  0.099,
+                                            "end":  0.176
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  0.186,
+                                            "end":  0.295
+                                        },
+                                        {
+                                            "word":  "not",
+                                            "start":  0.306,
+                                            "end":  0.545
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  0.556,
+                                            "end":  0.632
+                                        },
+                                        {
+                                            "word":  "perfect",
+                                            "start":  0.643,
+                                            "end":  1.023
+                                        },
+                                        {
+                                            "word":  "landing.",
+                                            "start":  1.034,
+                                            "end":  1.523
+                                        },
+                                        {
+                                            "word":  "One",
+                                            "start":  1.882,
+                                            "end":  2.034
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.045,
+                                            "end":  2.11
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  2.121,
+                                            "end":  2.262
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  2.273,
+                                            "end":  2.523
+                                        },
+                                        {
+                                            "word":  "feet",
+                                            "start":  2.534,
+                                            "end":  2.817
+                                        },
+                                        {
+                                            "word":  "came",
+                                            "start":  2.828,
+                                            "end":  3.034
+                                        },
+                                        {
+                                            "word":  "down",
+                                            "start":  3.045,
+                                            "end":  3.295
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  3.306,
+                                            "end":  3.393
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  3.404,
+                                            "end":  3.447
+                                        },
+                                        {
+                                            "word":  "rock,",
+                                            "start":  3.458,
+                                            "end":  3.806
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  3.828,
+                                            "end":  4.023
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.034,
+                                            "end":  4.099
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  4.11,
+                                            "end":  4.219
+                                        },
+                                        {
+                                            "word":  "been",
+                                            "start":  4.23,
+                                            "end":  4.36
+                                        },
+                                        {
+                                            "word":  "tilted",
+                                            "start":  4.371,
+                                            "end":  4.708
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  4.719,
+                                            "end":  4.991
+                                        },
+                                        {
+                                            "word":  "8",
+                                            "start":  4.991,
+                                            "end":  5.064
+                                        },
+                                        {
+                                            "word":  "degrees",
+                                            "start":  5.064,
+                                            "end":  5.578
+                                        },
+                                        {
+                                            "word":  "ever",
+                                            "start":  5.578,
+                                            "end":  5.763
+                                        },
+                                        {
+                                            "word":  "since.",
+                                            "start":  5.773,
+                                            "end":  6.219
+                                        },
+                                        {
+                                            "word":  "Everything",
+                                            "start":  6.567,
+                                            "end":  6.969
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.98,
+                                            "end":  7.067
+                                        },
+                                        {
+                                            "word":  "photographed",
+                                            "start":  7.078,
+                                            "end":  7.708
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  7.719,
+                                            "end":  7.839
+                                        },
+                                        {
+                                            "word":  "slightly",
+                                            "start":  7.849,
+                                            "end":  8.262
+                                        },
+                                        {
+                                            "word":  "crooked.",
+                                            "start":  8.273,
+                                            "end":  8.762
+                                        },
+                                        {
+                                            "word":  "Nobody",
+                                            "start":  9.089,
+                                            "end":  9.404
+                                        },
+                                        {
+                                            "word":  "minded.",
+                                            "start":  9.415,
+                                            "end":  9.947
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  10.295,
+                                            "end":  10.371
+                                        },
+                                        {
+                                            "word":  "did",
+                                            "start":  10.382,
+                                            "end":  10.534
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.545,
+                                            "end":  10.61
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  10.621,
+                                            "end":  10.893
+                                        },
+                                        {
+                                            "word":  "experiments",
+                                            "start":  10.904,
+                                            "end":  11.502
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  11.513,
+                                            "end":  11.676
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  11.686,
+                                            "end":  11.839
+                                        },
+                                        {
+                                            "word":  "sister,",
+                                            "start":  11.849,
+                                            "end":  12.393
+                                        },
+                                        {
+                                            "word":  "looking",
+                                            "start":  12.599,
+                                            "end":  12.915
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  12.926,
+                                            "end":  13.089
+                                        },
+                                        {
+                                            "word":  "life",
+                                            "start":  13.099,
+                                            "end":  13.393
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  13.404,
+                                            "end":  13.48
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  13.491,
+                                            "end":  13.556
+                                        },
+                                        {
+                                            "word":  "soil.",
+                                            "start":  13.567,
+                                            "end":  14.013
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  14.36,
+                                            "end":  14.436
+                                        },
+                                        {
+                                            "word":  "found",
+                                            "start":  14.447,
+                                            "end":  14.697
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  14.708,
+                                            "end":  14.762
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  14.773,
+                                            "end":  15.045
+                                        },
+                                        {
+                                            "word":  "strange",
+                                            "start":  15.056,
+                                            "end":  15.458
+                                        },
+                                        {
+                                            "word":  "chemistry",
+                                            "start":  15.469,
+                                            "end":  16.012
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  16.023,
+                                            "end":  16.121
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  16.132,
+                                            "end":  16.197
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  16.208,
+                                            "end":  16.469
+                                        },
+                                        {
+                                            "word":  "answer:",
+                                            "start":  16.48,
+                                            "end":  16.947
+                                        },
+                                        {
+                                            "word":  "no",
+                                            "start":  17.415,
+                                            "end":  17.654
+                                        },
+                                        {
+                                            "word":  "clear",
+                                            "start":  17.665,
+                                            "end":  17.926
+                                        },
+                                        {
+                                            "word":  "sign",
+                                            "start":  17.936,
+                                            "end":  18.241
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  18.252,
+                                            "end":  18.339
+                                        },
+                                        {
+                                            "word":  "anything",
+                                            "start":  18.349,
+                                            "end":  18.708
+                                        },
+                                        {
+                                            "word":  "living.",
+                                            "start":  18.719,
+                                            "end":  19.078
+                                        }
+                                    ]
+                      }
+                  ]
 }
