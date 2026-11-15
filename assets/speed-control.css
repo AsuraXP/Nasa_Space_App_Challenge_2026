@@ -153,6 +153,17 @@
   .simulation-speed__value { font-size: 26px; margin-bottom: 6px; }
 }
 
+/* Locked while "Real positions" drives the planets (hub scene). */
+.simulation-speed[data-locked="true"] .simulation-speed__value,
+.simulation-speed[data-locked="true"] .simulation-speed__slider,
+.simulation-speed[data-locked="true"] .simulation-speed__ticks { opacity: .4; }
+.simulation-speed__button:disabled,
+.simulation-speed input:disabled { cursor: not-allowed; }
+.simulation-speed__button:disabled { opacity: .4; transform: none; box-shadow: none; border-color: #686868; color: #ccc; }
+.simulation-speed input:disabled::-webkit-slider-thumb { scale: 1; box-shadow: 0 0 0 1px #171717; }
+.simulation-speed input:disabled::-moz-range-thumb { scale: 1; box-shadow: 0 0 0 1px #171717; }
+.simulation-speed[data-locked="true"] .simulation-speed__status { color: #f2a541; }
+
 /* live planet positions panel (NASA/JPL orbital elements) */
 .live-positions {
   position: fixed;

@@ -1,6 +1,7 @@
 import { r as React, j as jsx } from './r3f-BNacQy8Q.js';
 import { a as useScene, u as useSettings } from './index-BS4g53at.js';
 import LivePositions from './LivePositions.js';
+import { liveClock } from './ephemeris.js';
 import { labelVisibility, useLabelsVisible } from './label-visibility.js';
 
 export default function SpeedControl() {
@@ -12,13 +13,17 @@ export default function SpeedControl() {
   const reduceMotion = useSettings(state => state.reduceMotion);
   const labelsOn = useLabelsVisible();
   const previousSpeed = React.useRef(1);
+  const live = React.useSyncExternalStore(liveClock.subscribe, liveClock.getSnapshot);
+  // In the hub, "Real positions" drives the planets, so the speed controls are locked while it is on.
+  const locked = scene === 'hub' && live.enabled;
   React.useEffect(() => {
     if (speed !== 0) previousSpeed.current = speed;
   }, [speed]);
   const es = locale === 'es';
   const label = es ? 'Velocidad' : 'Speed';
   const paused = speed === 0;
-  const status = reduceMotion ? (es ? 'Movimiento reducido activado' : 'Reduced motion is on')
+  const status = locked ? (es ? 'Bloqueado: las posiciones reales usan su propio ritmo' : 'Locked: Real positions sets its own time rate')
+    : reduceMotion ? (es ? 'Movimiento reducido activado' : 'Reduced motion is on')
     : paused ? (es ? 'En pausa' : 'Paused')
     : speed < 0 ? (es ? 'Retroceso' : 'Reverse') : (es ? 'Avance' : 'Forward');
   const formatted = `${speed > 0 ? '+' : ''}${speed}×`;
@@ -26,20 +31,20 @@ export default function SpeedControl() {
   const progress = (speed + 10) / 20;
   const speedPanel = jsx.jsxs('section', {
     className: 'simulation-speed', hidden: Boolean(selectedId), 'aria-label': label,
-    'data-reduced-motion': reduceMotion ? 'true' : 'false',
+    'data-reduced-motion': reduceMotion ? 'true' : 'false', 'data-locked': locked ? 'true' : 'false',
     children: [
       jsx.jsx('label', { htmlFor: 'simulation-speed', className: 'simulation-speed__label', children: label }),
       jsx.jsx('output', { htmlFor: 'simulation-speed', className: 'simulation-speed__value', children: formatted }),
       jsx.jsxs('div', { className: 'simulation-speed__buttons', children: [
-        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button',
+        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked,
           onClick: () => setSpeed(-Math.abs(speed || previousSpeed.current)),
           'aria-label': es ? 'Retroceder' : 'Reverse motion', 'aria-pressed': speed < 0,
           children: jsx.jsx('span', { 'aria-hidden': true, children: '◀◀' }) }),
-        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button simulation-speed__pause',
+        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button simulation-speed__pause', disabled: locked,
           onClick: () => setSpeed(paused ? previousSpeed.current : 0),
           'aria-label': paused ? (es ? 'Reanudar movimiento' : 'Resume motion') : (es ? 'Pausar movimiento' : 'Pause motion'),
           children: jsx.jsx('span', { 'aria-hidden': true, children: paused ? '▶' : 'Ⅱ' }) }),
-        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button',
+        jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked,
           onClick: () => setSpeed(Math.abs(speed || previousSpeed.current)),
           'aria-label': es ? 'Avanzar' : 'Forward motion', 'aria-pressed': speed > 0,
           children: jsx.jsx('span', { 'aria-hidden': true, children: '▶▶' }) }),
@@ -49,7 +54,7 @@ export default function SpeedControl() {
           jsx.jsx('svg', { className: 'simulation-speed__arc', viewBox: '0 0 1000 24', preserveAspectRatio: 'none', 'aria-hidden': true, children:
             jsx.jsx('path', { d: 'M 0 0 Q 500 48 1000 0', fill: 'none', stroke: 'currentColor', strokeWidth: 2, vectorEffect: 'non-scaling-stroke' }) }),
           jsx.jsx('span', { className: 'simulation-speed__zero', 'aria-hidden': true }),
-          jsx.jsx('input', { id: 'simulation-speed', type: 'range', min: -10, max: 10, step: 0.25, value: speed,
+          jsx.jsx('input', { id: 'simulation-speed', type: 'range', min: -10, max: 10, step: 0.25, value: speed, disabled: locked,
             'aria-describedby': 'simulation-speed-help', 'aria-valuetext': `${formatted}, ${status}`,
             onChange: event => setSpeed(event.target.valueAsNumber),
           }),
