@@ -23,6 +23,7 @@ export default function SpeedControl() {
   const progress = (speed + 10) / 20;
   return jsx.jsxs('section', {
     className: 'simulation-speed', hidden: Boolean(selectedId), 'aria-label': label,
+    'data-reduced-motion': reduceMotion ? 'true' : 'false',
     children: [
       jsx.jsx('label', { htmlFor: 'simulation-speed', className: 'simulation-speed__label', children: label }),
       jsx.jsx('output', { htmlFor: 'simulation-speed', className: 'simulation-speed__value', children: formatted }),
@@ -41,9 +42,9 @@ export default function SpeedControl() {
           children: jsx.jsx('span', { 'aria-hidden': true, children: '▶▶' }) }),
       ] }),
       jsx.jsxs('div', { className: 'simulation-speed__slider',
-        style: { '--thumb-offset': `${4 * progress * (1 - progress) * 36 - 36}px` }, children: [
-          jsx.jsx('svg', { className: 'simulation-speed__arc', viewBox: '0 0 1000 36', preserveAspectRatio: 'none', 'aria-hidden': true, children:
-            jsx.jsx('path', { d: 'M 0 0 Q 500 72 1000 0', fill: 'none', stroke: 'currentColor', strokeWidth: 2, vectorEffect: 'non-scaling-stroke' }) }),
+        style: { '--thumb-offset': `${4 * progress * (1 - progress) * 24 - 24}px` }, children: [
+          jsx.jsx('svg', { className: 'simulation-speed__arc', viewBox: '0 0 1000 24', preserveAspectRatio: 'none', 'aria-hidden': true, children:
+            jsx.jsx('path', { d: 'M 0 0 Q 500 48 1000 0', fill: 'none', stroke: 'currentColor', strokeWidth: 2, vectorEffect: 'non-scaling-stroke' }) }),
           jsx.jsx('span', { className: 'simulation-speed__zero', 'aria-hidden': true }),
           jsx.jsx('input', { id: 'simulation-speed', type: 'range', min: -10, max: 10, step: 0.25, value: speed,
             'aria-describedby': 'simulation-speed-help', 'aria-valuetext': `${formatted}, ${status}`,
