@@ -1,3 +1,5 @@
+import { liveClock } from './ephemeris.js';
+
 // Compressed animation periods in seconds, used when live positions are switched off.
 // These preserve orbital ordering, but are not a real-time ephemeris (see ephemeris.js).
 export const ORBIT_PERIODS = Object.freeze({
@@ -9,6 +11,32 @@ export function simulationDelta(delta, speed = 1) {
   if (!Number.isFinite(delta) || delta <= 0 || !Number.isFinite(speed)) return 0;
   // Cap wall-clock time before scaling, so high speeds still work at low FPS.
   return Math.min(delta, 0.1) * speed;
+}
+
+// Real axial rotation periods in seconds. Earth uses the 24 h solar day, so "1 day/s" is exactly
+// one turn per second. The others are the sidereal periods (Venus and Uranus are retrograde, which
+// the scene already handles with the sign of AXIAL_SPINS and the tilt of the model).
+export const ROTATION_PERIODS = Object.freeze({
+  mercury: 5067015, venus: 20996798, earth: 86400, moon: 2360592, mars: 88642.66,
+  jupiter: 35729.85, saturn: 38361.6, uranus: 62064, neptune: 57996,
+});
+
+// How far (radians) a body's globe turns this frame. In the hub with the live clock running faster
+// than real time (1 day/s, 1 month/s, 1 year/s) the globe follows the clock: real rotation period,
+// so Earth turns once per second at 1 day/s, about 30 times per second at 1 month/s and about 365
+// times per second at 1 year/s (at those rates the screen refresh aliases the motion; that is real). Everywhere else it keeps the illustrative spin
+// driven by the speed slider. `state` is the scene store state ({ scene, speed }).
+export function spinDelta(delta, state, spin, id) {
+  if (!Number.isFinite(delta) || delta <= 0) return 0;
+  if (state.scene === 'hub' && liveClock.enabled() && spin) {
+    const rate = liveClock.getSnapshot().rate;
+    const period = ROTATION_PERIODS[id];
+    if (period && rate > 1) {
+      // same 0.1 s wall-clock cap the live clock uses, so spin and orbits stay in step
+      return Math.sign(spin) * Math.PI * 2 * (rate / period) * Math.min(delta, 0.1);
+    }
+  }
+  return spin * simulationDelta(delta, state.speed);
 }
 
 // `live` is optional (see ephemeris.js liveClock). When it is switched on, every body is placed
