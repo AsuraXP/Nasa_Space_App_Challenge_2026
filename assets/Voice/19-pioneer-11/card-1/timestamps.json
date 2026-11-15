@@ -1,480 +1,448 @@
-{
-  "story": "19-pioneer-11",
-  "card": "card-1",
-  "duration": 24.43,
-  "speechStart": 0.14,
-  "speechEnd": 24.07,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "My twin, Pioneer 10, went first and proved the way was open.",
-      "start": 0.14,
-      "end": 3.6,
-      "words": [
-        {
-          "word": "My",
-          "start": 0.14,
-          "end": 0.35
-        },
-        {
-          "word": "twin,",
-          "start": 0.35,
-          "end": 0.72
-        },
-        {
-          "word": "Pioneer",
-          "start": 0.72,
-          "end": 1.13
-        },
-        {
-          "word": "10,",
-          "start": 1.13,
-          "end": 1.48
-        },
-        {
-          "word": "went",
-          "start": 1.48,
-          "end": 1.71
-        },
-        {
-          "word": "first",
-          "start": 1.71,
-          "end": 1.95
-        },
-        {
-          "word": "and",
-          "start": 1.95,
-          "end": 2.17
-        },
-        {
-          "word": "proved",
-          "start": 2.17,
-          "end": 2.57
-        },
-        {
-          "word": "the",
-          "start": 2.57,
-          "end": 2.79
-        },
-        {
-          "word": "way",
-          "start": 2.79,
-          "end": 3.01
-        },
-        {
-          "word": "was",
-          "start": 3.01,
-          "end": 3.23
-        },
-        {
-          "word": "open.",
-          "start": 3.23,
-          "end": 3.6
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I launched a year later, in April 1973, and I was sent to do something riskier.",
-      "start": 3.99,
-      "end": 8.33,
-      "words": [
-        {
-          "word": "I",
-          "start": 3.99,
-          "end": 4.17
-        },
-        {
-          "word": "launched",
-          "start": 4.17,
-          "end": 4.55
-        },
-        {
-          "word": "a",
-          "start": 4.55,
-          "end": 4.73
-        },
-        {
-          "word": "year",
-          "start": 4.73,
-          "end": 4.94
-        },
-        {
-          "word": "later,",
-          "start": 4.94,
-          "end": 5.41
-        },
-        {
-          "word": "in",
-          "start": 5.41,
-          "end": 5.6
-        },
-        {
-          "word": "April",
-          "start": 5.6,
-          "end": 5.94
-        },
-        {
-          "word": "1973,",
-          "start": 5.94,
-          "end": 6.28
-        },
-        {
-          "word": "and",
-          "start": 6.28,
-          "end": 6.48
-        },
-        {
-          "word": "I",
-          "start": 6.48,
-          "end": 6.66
-        },
-        {
-          "word": "was",
-          "start": 6.66,
-          "end": 6.86
-        },
-        {
-          "word": "sent",
-          "start": 6.86,
-          "end": 7.07
-        },
-        {
-          "word": "to",
-          "start": 7.07,
-          "end": 7.26
-        },
-        {
-          "word": "do",
-          "start": 7.26,
-          "end": 7.45
-        },
-        {
-          "word": "something",
-          "start": 7.45,
-          "end": 7.96
-        },
-        {
-          "word": "riskier.",
-          "start": 7.96,
-          "end": 8.33
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I flew past Jupiter three times closer than my twin had.",
-      "start": 8.73,
-      "end": 11.36,
-      "words": [
-        {
-          "word": "I",
-          "start": 8.73,
-          "end": 8.9
-        },
-        {
-          "word": "flew",
-          "start": 8.9,
-          "end": 9.09
-        },
-        {
-          "word": "past",
-          "start": 9.09,
-          "end": 9.29
-        },
-        {
-          "word": "Jupiter",
-          "start": 9.29,
-          "end": 9.75
-        },
-        {
-          "word": "three",
-          "start": 9.75,
-          "end": 9.95
-        },
-        {
-          "word": "times",
-          "start": 9.95,
-          "end": 10.27
-        },
-        {
-          "word": "closer",
-          "start": 10.27,
-          "end": 10.61
-        },
-        {
-          "word": "than",
-          "start": 10.61,
-          "end": 10.8
-        },
-        {
-          "word": "my",
-          "start": 10.8,
-          "end": 10.98
-        },
-        {
-          "word": "twin",
-          "start": 10.98,
-          "end": 11.17
-        },
-        {
-          "word": "had.",
-          "start": 11.17,
-          "end": 11.36
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I dived in fast, to spend as little time as possible in the radiation, and I got the first good look at the top of the planet.",
-      "start": 11.74,
-      "end": 17.63,
-      "words": [
-        {
-          "word": "I",
-          "start": 11.74,
-          "end": 11.9
-        },
-        {
-          "word": "dived",
-          "start": 11.9,
-          "end": 12.2
-        },
-        {
-          "word": "in",
-          "start": 12.2,
-          "end": 12.37
-        },
-        {
-          "word": "fast,",
-          "start": 12.37,
-          "end": 12.67
-        },
-        {
-          "word": "to",
-          "start": 12.67,
-          "end": 12.83
-        },
-        {
-          "word": "spend",
-          "start": 12.83,
-          "end": 13.03
-        },
-        {
-          "word": "as",
-          "start": 13.03,
-          "end": 13.19
-        },
-        {
-          "word": "little",
-          "start": 13.19,
-          "end": 13.51
-        },
-        {
-          "word": "time",
-          "start": 13.51,
-          "end": 13.69
-        },
-        {
-          "word": "as",
-          "start": 13.69,
-          "end": 13.86
-        },
-        {
-          "word": "possible",
-          "start": 13.86,
-          "end": 14.3
-        },
-        {
-          "word": "in",
-          "start": 14.3,
-          "end": 14.47
-        },
-        {
-          "word": "the",
-          "start": 14.47,
-          "end": 14.64
-        },
-        {
-          "word": "radiation,",
-          "start": 14.64,
-          "end": 15.2
-        },
-        {
-          "word": "and",
-          "start": 15.2,
-          "end": 15.38
-        },
-        {
-          "word": "I",
-          "start": 15.38,
-          "end": 15.54
-        },
-        {
-          "word": "got",
-          "start": 15.54,
-          "end": 15.72
-        },
-        {
-          "word": "the",
-          "start": 15.72,
-          "end": 15.89
-        },
-        {
-          "word": "first",
-          "start": 15.89,
-          "end": 16.08
-        },
-        {
-          "word": "good",
-          "start": 16.08,
-          "end": 16.27
-        },
-        {
-          "word": "look",
-          "start": 16.27,
-          "end": 16.45
-        },
-        {
-          "word": "at",
-          "start": 16.45,
-          "end": 16.62
-        },
-        {
-          "word": "the",
-          "start": 16.62,
-          "end": 16.8
-        },
-        {
-          "word": "top",
-          "start": 16.8,
-          "end": 16.97
-        },
-        {
-          "word": "of",
-          "start": 16.97,
-          "end": 17.14
-        },
-        {
-          "word": "the",
-          "start": 17.14,
-          "end": 17.32
-        },
-        {
-          "word": "planet.",
-          "start": 17.32,
-          "end": 17.63
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Then Jupiter's gravity flung me up and across the whole solar system, toward a planet no spacecraft had ever visited.",
-      "start": 18.1,
-      "end": 24.07,
-      "words": [
-        {
-          "word": "Then",
-          "start": 18.1,
-          "end": 18.3
-        },
-        {
-          "word": "Jupiter's",
-          "start": 18.3,
-          "end": 18.77
-        },
-        {
-          "word": "gravity",
-          "start": 18.77,
-          "end": 19.23
-        },
-        {
-          "word": "flung",
-          "start": 19.23,
-          "end": 19.44
-        },
-        {
-          "word": "me",
-          "start": 19.44,
-          "end": 19.61
-        },
-        {
-          "word": "up",
-          "start": 19.61,
-          "end": 19.79
-        },
-        {
-          "word": "and",
-          "start": 19.79,
-          "end": 19.98
-        },
-        {
-          "word": "across",
-          "start": 19.98,
-          "end": 20.31
-        },
-        {
-          "word": "the",
-          "start": 20.31,
-          "end": 20.5
-        },
-        {
-          "word": "whole",
-          "start": 20.5,
-          "end": 20.83
-        },
-        {
-          "word": "solar",
-          "start": 20.83,
-          "end": 21.15
-        },
-        {
-          "word": "system,",
-          "start": 21.15,
-          "end": 21.6
-        },
-        {
-          "word": "toward",
-          "start": 21.6,
-          "end": 21.94
-        },
-        {
-          "word": "a",
-          "start": 21.94,
-          "end": 22.1
-        },
-        {
-          "word": "planet",
-          "start": 22.1,
-          "end": 22.44
-        },
-        {
-          "word": "no",
-          "start": 22.44,
-          "end": 22.62
-        },
-        {
-          "word": "spacecraft",
-          "start": 22.62,
-          "end": 23.11
-        },
-        {
-          "word": "had",
-          "start": 23.11,
-          "end": 23.29
-        },
-        {
-          "word": "ever",
-          "start": 23.29,
-          "end": 23.61
-        },
-        {
-          "word": "visited.",
-          "start": 23.61,
-          "end": 24.07
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "19-pioneer-11",
+    "card":  "card-1",
+    "duration":  24.384,
+    "speechStart":  0.11,
+    "speechEnd":  24.121,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "My twin, Pioneer 10, went first and proved the way was open. I launched a year later, in April 1973, and I was sent to do something riskier.\n\nI flew past Jupiter three times closer than my twin had. I dived in fast, to spend as little time as possible in the radiation, and I got the first good look at the top of the planet. Then Jupiter\u0027s gravity flung me up and across the whole solar system, toward a planet no spacecraft had ever visited.",
+                          "start":  0.11,
+                          "end":  24.121,
+                          "words":  [
+                                        {
+                                            "word":  "My",
+                                            "start":  0.11,
+                                            "end":  0.23
+                                        },
+                                        {
+                                            "word":  "twin,",
+                                            "start":  0.241,
+                                            "end":  0.632
+                                        },
+                                        {
+                                            "word":  "Pioneer",
+                                            "start":  0.654,
+                                            "end":  1.067
+                                        },
+                                        {
+                                            "word":  "10,",
+                                            "start":  1.078,
+                                            "end":  1.404
+                                        },
+                                        {
+                                            "word":  "went",
+                                            "start":  1.426,
+                                            "end":  1.654
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  1.665,
+                                            "end":  2.034
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  2.045,
+                                            "end":  2.143
+                                        },
+                                        {
+                                            "word":  "proved",
+                                            "start":  2.154,
+                                            "end":  2.48
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.491,
+                                            "end":  2.556
+                                        },
+                                        {
+                                            "word":  "way",
+                                            "start":  2.567,
+                                            "end":  2.73
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  2.741,
+                                            "end":  2.904
+                                        },
+                                        {
+                                            "word":  "open.",
+                                            "start":  2.915,
+                                            "end":  3.284
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  3.632,
+                                            "end":  3.708
+                                        },
+                                        {
+                                            "word":  "launched",
+                                            "start":  3.719,
+                                            "end":  4.078
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  4.089,
+                                            "end":  4.132
+                                        },
+                                        {
+                                            "word":  "year",
+                                            "start":  4.143,
+                                            "end":  4.349
+                                        },
+                                        {
+                                            "word":  "later,",
+                                            "start":  4.36,
+                                            "end":  4.741
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  4.763,
+                                            "end":  4.915
+                                        },
+                                        {
+                                            "word":  "April",
+                                            "start":  4.915,
+                                            "end":  5.675
+                                        },
+                                        {
+                                            "word":  "1973,",
+                                            "start":  5.675,
+                                            "end":  6.436
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  6.436,
+                                            "end":  6.643
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.654,
+                                            "end":  6.73
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  6.741,
+                                            "end":  6.86
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  6.871,
+                                            "end":  7.078
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.089,
+                                            "end":  7.165
+                                        },
+                                        {
+                                            "word":  "do",
+                                            "start":  7.176,
+                                            "end":  7.306
+                                        },
+                                        {
+                                            "word":  "something",
+                                            "start":  7.317,
+                                            "end":  7.676
+                                        },
+                                        {
+                                            "word":  "riskier.",
+                                            "start":  7.686,
+                                            "end":  8.186
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  8.534,
+                                            "end":  8.61
+                                        },
+                                        {
+                                            "word":  "flew",
+                                            "start":  8.621,
+                                            "end":  8.915
+                                        },
+                                        {
+                                            "word":  "past",
+                                            "start":  8.926,
+                                            "end":  9.241
+                                        },
+                                        {
+                                            "word":  "Jupiter",
+                                            "start":  9.252,
+                                            "end":  9.643
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  9.654,
+                                            "end":  9.849
+                                        },
+                                        {
+                                            "word":  "times",
+                                            "start":  9.86,
+                                            "end":  10.176
+                                        },
+                                        {
+                                            "word":  "closer",
+                                            "start":  10.186,
+                                            "end":  10.61
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  10.621,
+                                            "end":  10.73
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  10.741,
+                                            "end":  10.86
+                                        },
+                                        {
+                                            "word":  "twin",
+                                            "start":  10.871,
+                                            "end":  11.143
+                                        },
+                                        {
+                                            "word":  "had.",
+                                            "start":  11.154,
+                                            "end":  11.513
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.86,
+                                            "end":  11.958
+                                        },
+                                        {
+                                            "word":  "dived",
+                                            "start":  11.969,
+                                            "end":  12.262
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  12.273,
+                                            "end":  12.371
+                                        },
+                                        {
+                                            "word":  "fast,",
+                                            "start":  12.382,
+                                            "end":  12.849
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  12.871,
+                                            "end":  12.958
+                                        },
+                                        {
+                                            "word":  "spend",
+                                            "start":  12.969,
+                                            "end":  13.306
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  13.317,
+                                            "end":  13.436
+                                        },
+                                        {
+                                            "word":  "little",
+                                            "start":  13.447,
+                                            "end":  13.621
+                                        },
+                                        {
+                                            "word":  "time",
+                                            "start":  13.632,
+                                            "end":  13.904
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  13.915,
+                                            "end":  14.023
+                                        },
+                                        {
+                                            "word":  "possible",
+                                            "start":  14.034,
+                                            "end":  14.458
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  14.469,
+                                            "end":  14.523
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  14.534,
+                                            "end":  14.578
+                                        },
+                                        {
+                                            "word":  "radiation,",
+                                            "start":  14.589,
+                                            "end":  15.219
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  15.48,
+                                            "end":  15.665
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  15.676,
+                                            "end":  15.741
+                                        },
+                                        {
+                                            "word":  "got",
+                                            "start":  15.752,
+                                            "end":  15.926
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.936,
+                                            "end":  16.002
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  16.013,
+                                            "end":  16.317
+                                        },
+                                        {
+                                            "word":  "good",
+                                            "start":  16.328,
+                                            "end":  16.502
+                                        },
+                                        {
+                                            "word":  "look",
+                                            "start":  16.513,
+                                            "end":  16.73
+                                        },
+                                        {
+                                            "word":  "at",
+                                            "start":  16.741,
+                                            "end":  16.839
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  16.849,
+                                            "end":  16.915
+                                        },
+                                        {
+                                            "word":  "top",
+                                            "start":  16.926,
+                                            "end":  17.154
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  17.165,
+                                            "end":  17.208
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  17.219,
+                                            "end":  17.295
+                                        },
+                                        {
+                                            "word":  "planet.",
+                                            "start":  17.306,
+                                            "end":  17.763
+                                        },
+                                        {
+                                            "word":  "Then",
+                                            "start":  18.11,
+                                            "end":  18.273
+                                        },
+                                        {
+                                            "word":  "Jupiter\u0027s",
+                                            "start":  18.284,
+                                            "end":  18.665
+                                        },
+                                        {
+                                            "word":  "gravity",
+                                            "start":  18.676,
+                                            "end":  19.045
+                                        },
+                                        {
+                                            "word":  "flung",
+                                            "start":  19.056,
+                                            "end":  19.339
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  19.349,
+                                            "end":  19.491
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  19.502,
+                                            "end":  19.73
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  19.784,
+                                            "end":  19.849
+                                        },
+                                        {
+                                            "word":  "across",
+                                            "start":  19.86,
+                                            "end":  20.23
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  20.241,
+                                            "end":  20.295
+                                        },
+                                        {
+                                            "word":  "whole",
+                                            "start":  20.306,
+                                            "end":  20.578
+                                        },
+                                        {
+                                            "word":  "solar",
+                                            "start":  20.589,
+                                            "end":  20.926
+                                        },
+                                        {
+                                            "word":  "system,",
+                                            "start":  20.936,
+                                            "end":  21.328
+                                        },
+                                        {
+                                            "word":  "toward",
+                                            "start":  21.849,
+                                            "end":  22.056
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  22.067,
+                                            "end":  22.121
+                                        },
+                                        {
+                                            "word":  "planet",
+                                            "start":  22.132,
+                                            "end":  22.48
+                                        },
+                                        {
+                                            "word":  "no",
+                                            "start":  22.491,
+                                            "end":  22.665
+                                        },
+                                        {
+                                            "word":  "spacecraft",
+                                            "start":  22.676,
+                                            "end":  23.284
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  23.295,
+                                            "end":  23.469
+                                        },
+                                        {
+                                            "word":  "ever",
+                                            "start":  23.48,
+                                            "end":  23.686
+                                        },
+                                        {
+                                            "word":  "visited.",
+                                            "start":  23.697,
+                                            "end":  24.121
+                                        }
+                                    ]
+                      }
+                  ]
 }

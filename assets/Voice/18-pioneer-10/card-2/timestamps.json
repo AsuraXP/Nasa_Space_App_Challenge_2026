@@ -1,285 +1,253 @@
-{
-  "story": "18-pioneer-10",
-  "card": "card-2",
-  "duration": 14.54,
-  "speechStart": 0.13,
-  "speechEnd": 14.22,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "In December 1973 I became the first spacecraft to reach Jupiter.",
-      "start": 0.13,
-      "end": 4.07,
-      "words": [
-        {
-          "word": "In",
-          "start": 0.13,
-          "end": 0.36
-        },
-        {
-          "word": "December",
-          "start": 0.36,
-          "end": 0.96
-        },
-        {
-          "word": "1973",
-          "start": 0.96,
-          "end": 1.21
-        },
-        {
-          "word": "I",
-          "start": 1.21,
-          "end": 1.43
-        },
-        {
-          "word": "became",
-          "start": 1.43,
-          "end": 1.86
-        },
-        {
-          "word": "the",
-          "start": 1.86,
-          "end": 2.1
-        },
-        {
-          "word": "first",
-          "start": 2.1,
-          "end": 2.36
-        },
-        {
-          "word": "spacecraft",
-          "start": 2.36,
-          "end": 2.99
-        },
-        {
-          "word": "to",
-          "start": 2.99,
-          "end": 3.22
-        },
-        {
-          "word": "reach",
-          "start": 3.22,
-          "end": 3.48
-        },
-        {
-          "word": "Jupiter.",
-          "start": 3.48,
-          "end": 4.07
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I sent home the first close-up pictures of the giant planet.",
-      "start": 4.45,
-      "end": 6.95,
-      "words": [
-        {
-          "word": "I",
-          "start": 4.45,
-          "end": 4.61
-        },
-        {
-          "word": "sent",
-          "start": 4.61,
-          "end": 4.79
-        },
-        {
-          "word": "home",
-          "start": 4.79,
-          "end": 4.98
-        },
-        {
-          "word": "the",
-          "start": 4.98,
-          "end": 5.15
-        },
-        {
-          "word": "first",
-          "start": 5.15,
-          "end": 5.34
-        },
-        {
-          "word": "close-up",
-          "start": 5.34,
-          "end": 5.66
-        },
-        {
-          "word": "pictures",
-          "start": 5.66,
-          "end": 6.1
-        },
-        {
-          "word": "of",
-          "start": 6.1,
-          "end": 6.27
-        },
-        {
-          "word": "the",
-          "start": 6.27,
-          "end": 6.45
-        },
-        {
-          "word": "giant",
-          "start": 6.45,
-          "end": 6.64
-        },
-        {
-          "word": "planet.",
-          "start": 6.64,
-          "end": 6.95
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "The radiation around it was so strong it nearly ruined my electronics.",
-      "start": 7.41,
-      "end": 10.77,
-      "words": [
-        {
-          "word": "The",
-          "start": 7.41,
-          "end": 7.6
-        },
-        {
-          "word": "radiation",
-          "start": 7.6,
-          "end": 8.07
-        },
-        {
-          "word": "around",
-          "start": 8.07,
-          "end": 8.4
-        },
-        {
-          "word": "it",
-          "start": 8.4,
-          "end": 8.58
-        },
-        {
-          "word": "was",
-          "start": 8.58,
-          "end": 8.76
-        },
-        {
-          "word": "so",
-          "start": 8.76,
-          "end": 8.94
-        },
-        {
-          "word": "strong",
-          "start": 8.94,
-          "end": 9.15
-        },
-        {
-          "word": "it",
-          "start": 9.15,
-          "end": 9.33
-        },
-        {
-          "word": "nearly",
-          "start": 9.33,
-          "end": 9.66
-        },
-        {
-          "word": "ruined",
-          "start": 9.66,
-          "end": 9.98
-        },
-        {
-          "word": "my",
-          "start": 9.98,
-          "end": 10.16
-        },
-        {
-          "word": "electronics.",
-          "start": 10.16,
-          "end": 10.77
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "That was useful to know.",
-      "start": 11.17,
-      "end": 11.96,
-      "words": [
-        {
-          "word": "That",
-          "start": 11.17,
-          "end": 11.3
-        },
-        {
-          "word": "was",
-          "start": 11.3,
-          "end": 11.42
-        },
-        {
-          "word": "useful",
-          "start": 11.42,
-          "end": 11.72
-        },
-        {
-          "word": "to",
-          "start": 11.72,
-          "end": 11.83
-        },
-        {
-          "word": "know.",
-          "start": 11.83,
-          "end": 11.96
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Everyone who came after me was built tougher.",
-      "start": 12.32,
-      "end": 14.22,
-      "words": [
-        {
-          "word": "Everyone",
-          "start": 12.32,
-          "end": 12.75
-        },
-        {
-          "word": "who",
-          "start": 12.75,
-          "end": 12.92
-        },
-        {
-          "word": "came",
-          "start": 12.92,
-          "end": 13.1
-        },
-        {
-          "word": "after",
-          "start": 13.1,
-          "end": 13.39
-        },
-        {
-          "word": "me",
-          "start": 13.39,
-          "end": 13.55
-        },
-        {
-          "word": "was",
-          "start": 13.55,
-          "end": 13.72
-        },
-        {
-          "word": "built",
-          "start": 13.72,
-          "end": 13.91
-        },
-        {
-          "word": "tougher.",
-          "start": 13.91,
-          "end": 14.22
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "18-pioneer-10",
+    "card":  "card-2",
+    "duration":  15.408,
+    "speechStart":  0.132,
+    "speechEnd":  15.143,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "In December 1973 I became the first spacecraft to reach Jupiter. I sent home the first close-up pictures of the giant planet. The radiation around it was so strong it nearly ruined my electronics. That was useful to know. Everyone who came after me was built tougher.",
+                          "start":  0.132,
+                          "end":  15.143,
+                          "words":  [
+                                        {
+                                            "word":  "In",
+                                            "start":  0.132,
+                                            "end":  0.219
+                                        },
+                                        {
+                                            "word":  "December",
+                                            "start":  0.219,
+                                            "end":  1.118
+                                        },
+                                        {
+                                            "word":  "1973",
+                                            "start":  1.118,
+                                            "end":  1.567
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.567,
+                                            "end":  1.784
+                                        },
+                                        {
+                                            "word":  "became",
+                                            "start":  1.795,
+                                            "end":  2.132
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.143,
+                                            "end":  2.219
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  2.23,
+                                            "end":  2.513
+                                        },
+                                        {
+                                            "word":  "spacecraft",
+                                            "start":  2.523,
+                                            "end":  3.099
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  3.11,
+                                            "end":  3.197
+                                        },
+                                        {
+                                            "word":  "reach",
+                                            "start":  3.208,
+                                            "end":  3.436
+                                        },
+                                        {
+                                            "word":  "Jupiter.",
+                                            "start":  3.447,
+                                            "end":  3.936
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.284,
+                                            "end":  4.339
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  4.349,
+                                            "end":  4.556
+                                        },
+                                        {
+                                            "word":  "home",
+                                            "start":  4.567,
+                                            "end":  4.947
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  4.958,
+                                            "end":  5.056
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  5.067,
+                                            "end":  5.393
+                                        },
+                                        {
+                                            "word":  "close-up",
+                                            "start":  5.404,
+                                            "end":  5.817
+                                        },
+                                        {
+                                            "word":  "pictures",
+                                            "start":  5.828,
+                                            "end":  6.295
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  6.306,
+                                            "end":  6.447
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.458,
+                                            "end":  6.534
+                                        },
+                                        {
+                                            "word":  "giant",
+                                            "start":  6.545,
+                                            "end":  6.882
+                                        },
+                                        {
+                                            "word":  "planet.",
+                                            "start":  6.893,
+                                            "end":  7.328
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  7.665,
+                                            "end":  7.719
+                                        },
+                                        {
+                                            "word":  "radiation",
+                                            "start":  7.73,
+                                            "end":  8.219
+                                        },
+                                        {
+                                            "word":  "around",
+                                            "start":  8.23,
+                                            "end":  8.545
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  8.556,
+                                            "end":  8.665
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  8.676,
+                                            "end":  8.795
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  8.806,
+                                            "end":  9.023
+                                        },
+                                        {
+                                            "word":  "strong",
+                                            "start":  9.034,
+                                            "end":  9.415
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  9.426,
+                                            "end":  9.567
+                                        },
+                                        {
+                                            "word":  "nearly",
+                                            "start":  9.578,
+                                            "end":  9.904
+                                        },
+                                        {
+                                            "word":  "ruined",
+                                            "start":  9.915,
+                                            "end":  10.295
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  10.306,
+                                            "end":  10.436
+                                        },
+                                        {
+                                            "word":  "electronics.",
+                                            "start":  10.447,
+                                            "end":  11.165
+                                        },
+                                        {
+                                            "word":  "That",
+                                            "start":  11.491,
+                                            "end":  11.632
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  11.643,
+                                            "end":  11.795
+                                        },
+                                        {
+                                            "word":  "useful",
+                                            "start":  11.806,
+                                            "end":  12.197
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  12.208,
+                                            "end":  12.317
+                                        },
+                                        {
+                                            "word":  "know.",
+                                            "start":  12.328,
+                                            "end":  12.654
+                                        },
+                                        {
+                                            "word":  "Everyone",
+                                            "start":  13.002,
+                                            "end":  13.328
+                                        },
+                                        {
+                                            "word":  "who",
+                                            "start":  13.339,
+                                            "end":  13.469
+                                        },
+                                        {
+                                            "word":  "came",
+                                            "start":  13.48,
+                                            "end":  13.719
+                                        },
+                                        {
+                                            "word":  "after",
+                                            "start":  13.73,
+                                            "end":  14.013
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  14.023,
+                                            "end":  14.262
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  14.273,
+                                            "end":  14.458
+                                        },
+                                        {
+                                            "word":  "built",
+                                            "start":  14.469,
+                                            "end":  14.697
+                                        },
+                                        {
+                                            "word":  "tougher.",
+                                            "start":  14.708,
+                                            "end":  15.143
+                                        }
+                                    ]
+                      }
+                  ]
 }

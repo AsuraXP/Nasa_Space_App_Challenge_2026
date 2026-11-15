@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/09-pathfinder-and-sojourner/card-2/narration.mp3",
   "script": "audio/09-pathfinder-and-sojourner/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/09-pathfinder-and-sojourner/card-2/timings.json",
+  "vtt": "audio/09-pathfinder-and-sojourner/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 138240,
-  "duration_seconds": 23.04,
-  "words": 91
+  "bytes": 145872,
+  "duration_seconds": 24.312,
+  "words": 91,
+  "coverage": 1.0
 }

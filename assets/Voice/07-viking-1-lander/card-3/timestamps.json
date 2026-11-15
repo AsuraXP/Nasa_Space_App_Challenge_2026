@@ -1,408 +1,368 @@
-{
-  "story": "07-viking-1-lander",
-  "card": "card-3",
-  "duration": 19.15,
-  "speechStart": 0.14,
-  "speechEnd": 18.81,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I was meant to last 90 days.",
-      "start": 0.14,
-      "end": 1.48,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.31
-        },
-        {
-          "word": "was",
-          "start": 0.31,
-          "end": 0.5
-        },
-        {
-          "word": "meant",
-          "start": 0.5,
-          "end": 0.71
-        },
-        {
-          "word": "to",
-          "start": 0.71,
-          "end": 0.9
-        },
-        {
-          "word": "last",
-          "start": 0.9,
-          "end": 1.1
-        },
-        {
-          "word": "90",
-          "start": 1.1,
-          "end": 1.28
-        },
-        {
-          "word": "days.",
-          "start": 1.28,
-          "end": 1.48
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I kept going for more than six years, sending weather reports from Mars the whole time.",
-      "start": 1.88,
-      "end": 5.61,
-      "words": [
-        {
-          "word": "I",
-          "start": 1.88,
-          "end": 2.05
-        },
-        {
-          "word": "kept",
-          "start": 2.05,
-          "end": 2.24
-        },
-        {
-          "word": "going",
-          "start": 2.24,
-          "end": 2.44
-        },
-        {
-          "word": "for",
-          "start": 2.44,
-          "end": 2.63
-        },
-        {
-          "word": "more",
-          "start": 2.63,
-          "end": 2.82
-        },
-        {
-          "word": "than",
-          "start": 2.82,
-          "end": 3.01
-        },
-        {
-          "word": "six",
-          "start": 3.01,
-          "end": 3.2
-        },
-        {
-          "word": "years,",
-          "start": 3.2,
-          "end": 3.52
-        },
-        {
-          "word": "sending",
-          "start": 3.52,
-          "end": 3.85
-        },
-        {
-          "word": "weather",
-          "start": 3.85,
-          "end": 4.19
-        },
-        {
-          "word": "reports",
-          "start": 4.19,
-          "end": 4.53
-        },
-        {
-          "word": "from",
-          "start": 4.53,
-          "end": 4.72
-        },
-        {
-          "word": "Mars",
-          "start": 4.72,
-          "end": 4.91
-        },
-        {
-          "word": "the",
-          "start": 4.91,
-          "end": 5.1
-        },
-        {
-          "word": "whole",
-          "start": 5.1,
-          "end": 5.42
-        },
-        {
-          "word": "time.",
-          "start": 5.42,
-          "end": 5.61
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "The end was a simple mistake.",
-      "start": 6.03,
-      "end": 7.11,
-      "words": [
-        {
-          "word": "The",
-          "start": 6.03,
-          "end": 6.17
-        },
-        {
-          "word": "end",
-          "start": 6.17,
-          "end": 6.32
-        },
-        {
-          "word": "was",
-          "start": 6.32,
-          "end": 6.46
-        },
-        {
-          "word": "a",
-          "start": 6.46,
-          "end": 6.59
-        },
-        {
-          "word": "simple",
-          "start": 6.59,
-          "end": 6.85
-        },
-        {
-          "word": "mistake.",
-          "start": 6.85,
-          "end": 7.11
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "In November 1982, a command sent from Earth accidentally wrote over the instructions that told my antenna where to point.",
-      "start": 7.58,
-      "end": 13.8,
-      "words": [
-        {
-          "word": "In",
-          "start": 7.58,
-          "end": 7.78
-        },
-        {
-          "word": "November",
-          "start": 7.78,
-          "end": 8.29
-        },
-        {
-          "word": "1982,",
-          "start": 8.29,
-          "end": 8.64
-        },
-        {
-          "word": "a",
-          "start": 8.64,
-          "end": 8.82
-        },
-        {
-          "word": "command",
-          "start": 8.82,
-          "end": 9.2
-        },
-        {
-          "word": "sent",
-          "start": 9.2,
-          "end": 9.42
-        },
-        {
-          "word": "from",
-          "start": 9.42,
-          "end": 9.63
-        },
-        {
-          "word": "Earth",
-          "start": 9.63,
-          "end": 9.86
-        },
-        {
-          "word": "accidentally",
-          "start": 9.86,
-          "end": 10.68
-        },
-        {
-          "word": "wrote",
-          "start": 10.68,
-          "end": 10.91
-        },
-        {
-          "word": "over",
-          "start": 10.91,
-          "end": 11.25
-        },
-        {
-          "word": "the",
-          "start": 11.25,
-          "end": 11.46
-        },
-        {
-          "word": "instructions",
-          "start": 11.46,
-          "end": 12.02
-        },
-        {
-          "word": "that",
-          "start": 12.02,
-          "end": 12.23
-        },
-        {
-          "word": "told",
-          "start": 12.23,
-          "end": 12.45
-        },
-        {
-          "word": "my",
-          "start": 12.45,
-          "end": 12.64
-        },
-        {
-          "word": "antenna",
-          "start": 12.64,
-          "end": 13.15
-        },
-        {
-          "word": "where",
-          "start": 13.15,
-          "end": 13.38
-        },
-        {
-          "word": "to",
-          "start": 13.38,
-          "end": 13.57
-        },
-        {
-          "word": "point.",
-          "start": 13.57,
-          "end": 13.8
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I could no longer find home.",
-      "start": 14.27,
-      "end": 15.22,
-      "words": [
-        {
-          "word": "I",
-          "start": 14.27,
-          "end": 14.4
-        },
-        {
-          "word": "could",
-          "start": 14.4,
-          "end": 14.55
-        },
-        {
-          "word": "no",
-          "start": 14.55,
-          "end": 14.68
-        },
-        {
-          "word": "longer",
-          "start": 14.68,
-          "end": 14.93
-        },
-        {
-          "word": "find",
-          "start": 14.93,
-          "end": 15.07
-        },
-        {
-          "word": "home.",
-          "start": 15.07,
-          "end": 15.22
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "I am still here on the Golden Plain, as quiet as the rocks around me.",
-      "start": 15.66,
-      "end": 18.81,
-      "words": [
-        {
-          "word": "I",
-          "start": 15.66,
-          "end": 15.82
-        },
-        {
-          "word": "am",
-          "start": 15.82,
-          "end": 16.0
-        },
-        {
-          "word": "still",
-          "start": 16.0,
-          "end": 16.2
-        },
-        {
-          "word": "here",
-          "start": 16.2,
-          "end": 16.39
-        },
-        {
-          "word": "on",
-          "start": 16.39,
-          "end": 16.56
-        },
-        {
-          "word": "the",
-          "start": 16.56,
-          "end": 16.74
-        },
-        {
-          "word": "Golden",
-          "start": 16.74,
-          "end": 17.07
-        },
-        {
-          "word": "Plain,",
-          "start": 17.07,
-          "end": 17.38
-        },
-        {
-          "word": "as",
-          "start": 17.38,
-          "end": 17.56
-        },
-        {
-          "word": "quiet",
-          "start": 17.56,
-          "end": 17.76
-        },
-        {
-          "word": "as",
-          "start": 17.76,
-          "end": 17.93
-        },
-        {
-          "word": "the",
-          "start": 17.93,
-          "end": 18.11
-        },
-        {
-          "word": "rocks",
-          "start": 18.11,
-          "end": 18.31
-        },
-        {
-          "word": "around",
-          "start": 18.31,
-          "end": 18.64
-        },
-        {
-          "word": "me.",
-          "start": 18.64,
-          "end": 18.81
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "07-viking-1-lander",
+    "card":  "card-3",
+    "duration":  21,
+    "speechStart":  0.121,
+    "speechEnd":  20.719,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I was meant to last 90 days. I kept going for more than six years, sending weather reports from Mars the whole time.\n\nThe end was a simple mistake. In November 1982, a command sent from Earth accidentally wrote over the instructions that told my antenna where to point. I could no longer find home. I am still here on the Golden Plain, as quiet as the rocks around me.",
+                          "start":  0.121,
+                          "end":  20.719,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.121,
+                                            "end":  0.176
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  0.186,
+                                            "end":  0.339
+                                        },
+                                        {
+                                            "word":  "meant",
+                                            "start":  0.349,
+                                            "end":  0.589
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  0.599,
+                                            "end":  0.708
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  0.719,
+                                            "end":  1.034
+                                        },
+                                        {
+                                            "word":  "90",
+                                            "start":  1.034,
+                                            "end":  1.329
+                                        },
+                                        {
+                                            "word":  "days.",
+                                            "start":  1.329,
+                                            "end":  2.067
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.067,
+                                            "end":  2.121
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  2.132,
+                                            "end":  2.349
+                                        },
+                                        {
+                                            "word":  "going",
+                                            "start":  2.36,
+                                            "end":  2.621
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  2.632,
+                                            "end":  2.773
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  2.784,
+                                            "end":  2.991
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  3.002,
+                                            "end":  3.11
+                                        },
+                                        {
+                                            "word":  "six",
+                                            "start":  3.121,
+                                            "end":  3.371
+                                        },
+                                        {
+                                            "word":  "years,",
+                                            "start":  3.382,
+                                            "end":  3.784
+                                        },
+                                        {
+                                            "word":  "sending",
+                                            "start":  4.165,
+                                            "end":  4.567
+                                        },
+                                        {
+                                            "word":  "weather",
+                                            "start":  4.578,
+                                            "end":  4.817
+                                        },
+                                        {
+                                            "word":  "reports",
+                                            "start":  4.828,
+                                            "end":  5.241
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  5.252,
+                                            "end":  5.415
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  5.426,
+                                            "end":  5.719
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  5.73,
+                                            "end":  5.795
+                                        },
+                                        {
+                                            "word":  "whole",
+                                            "start":  5.806,
+                                            "end":  5.98
+                                        },
+                                        {
+                                            "word":  "time.",
+                                            "start":  5.991,
+                                            "end":  6.36
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  6.686,
+                                            "end":  6.741
+                                        },
+                                        {
+                                            "word":  "end",
+                                            "start":  6.752,
+                                            "end":  7.078
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  7.089,
+                                            "end":  7.263
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  7.273,
+                                            "end":  7.328
+                                        },
+                                        {
+                                            "word":  "simple",
+                                            "start":  7.339,
+                                            "end":  7.676
+                                        },
+                                        {
+                                            "word":  "mistake.",
+                                            "start":  7.686,
+                                            "end":  8.273
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  8.621,
+                                            "end":  8.697
+                                        },
+                                        {
+                                            "word":  "November",
+                                            "start":  8.697,
+                                            "end":  9.727
+                                        },
+                                        {
+                                            "word":  "1982,",
+                                            "start":  9.727,
+                                            "end":  10.371
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  10.371,
+                                            "end":  10.469
+                                        },
+                                        {
+                                            "word":  "command",
+                                            "start":  10.48,
+                                            "end":  10.839
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  10.849,
+                                            "end":  11.11
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  11.121,
+                                            "end":  11.284
+                                        },
+                                        {
+                                            "word":  "Earth",
+                                            "start":  11.306,
+                                            "end":  11.61
+                                        },
+                                        {
+                                            "word":  "accidentally",
+                                            "start":  11.632,
+                                            "end":  12.165
+                                        },
+                                        {
+                                            "word":  "wrote",
+                                            "start":  12.176,
+                                            "end":  12.48
+                                        },
+                                        {
+                                            "word":  "over",
+                                            "start":  12.502,
+                                            "end":  12.719
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  12.73,
+                                            "end":  12.784
+                                        },
+                                        {
+                                            "word":  "instructions",
+                                            "start":  12.795,
+                                            "end":  13.371
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  13.382,
+                                            "end":  13.502
+                                        },
+                                        {
+                                            "word":  "told",
+                                            "start":  13.513,
+                                            "end":  13.719
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  13.73,
+                                            "end":  13.849
+                                        },
+                                        {
+                                            "word":  "antenna",
+                                            "start":  13.86,
+                                            "end":  14.219
+                                        },
+                                        {
+                                            "word":  "where",
+                                            "start":  14.23,
+                                            "end":  14.371
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  14.382,
+                                            "end":  14.458
+                                        },
+                                        {
+                                            "word":  "point.",
+                                            "start":  14.469,
+                                            "end":  14.871
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  15.186,
+                                            "end":  15.241
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  15.252,
+                                            "end":  15.371
+                                        },
+                                        {
+                                            "word":  "no",
+                                            "start":  15.382,
+                                            "end":  15.523
+                                        },
+                                        {
+                                            "word":  "longer",
+                                            "start":  15.534,
+                                            "end":  15.839
+                                        },
+                                        {
+                                            "word":  "find",
+                                            "start":  15.849,
+                                            "end":  16.121
+                                        },
+                                        {
+                                            "word":  "home.",
+                                            "start":  16.132,
+                                            "end":  16.523
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  16.871,
+                                            "end":  16.958
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  16.969,
+                                            "end":  17.045
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  17.056,
+                                            "end":  17.349
+                                        },
+                                        {
+                                            "word":  "here",
+                                            "start":  17.36,
+                                            "end":  17.697
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  17.708,
+                                            "end":  17.806
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  17.817,
+                                            "end":  17.893
+                                        },
+                                        {
+                                            "word":  "Golden",
+                                            "start":  17.904,
+                                            "end":  18.23
+                                        },
+                                        {
+                                            "word":  "Plain,",
+                                            "start":  18.241,
+                                            "end":  18.665
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  19.013,
+                                            "end":  19.197
+                                        },
+                                        {
+                                            "word":  "quiet",
+                                            "start":  19.208,
+                                            "end":  19.632
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  19.643,
+                                            "end":  19.773
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  19.784,
+                                            "end":  19.86
+                                        },
+                                        {
+                                            "word":  "rocks",
+                                            "start":  19.871,
+                                            "end":  20.176
+                                        },
+                                        {
+                                            "word":  "around",
+                                            "start":  20.186,
+                                            "end":  20.502
+                                        },
+                                        {
+                                            "word":  "me.",
+                                            "start":  20.513,
+                                            "end":  20.719
+                                        }
+                                    ]
+                      }
+                  ]
 }

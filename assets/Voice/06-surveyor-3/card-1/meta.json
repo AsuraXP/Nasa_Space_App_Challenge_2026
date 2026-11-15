@@ -3,10 +3,13 @@
   "card": "card-1",
   "audio": "audio/06-surveyor-3/card-1/narration.mp3",
   "script": "audio/06-surveyor-3/card-1/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/06-surveyor-3/card-1/timings.json",
+  "vtt": "audio/06-surveyor-3/card-1/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 97056,
-  "duration_seconds": 16.18,
-  "words": 55
+  "bytes": 97488,
+  "duration_seconds": 16.248,
+  "words": 55,
+  "coverage": 0.9636
 }

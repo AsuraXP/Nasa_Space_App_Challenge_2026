@@ -1,292 +1,268 @@
-{
-  "story": "13-insight",
-  "card": "card-3",
-  "duration": 15.02,
-  "speechStart": 0.13,
-  "speechEnd": 14.7,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Dust slowly covered my solar panels, and my power faded a little more each month.",
-      "start": 0.13,
-      "end": 4.06,
-      "words": [
-        {
-          "word": "Dust",
-          "start": 0.13,
-          "end": 0.32
-        },
-        {
-          "word": "slowly",
-          "start": 0.32,
-          "end": 0.64
-        },
-        {
-          "word": "covered",
-          "start": 0.64,
-          "end": 1.09
-        },
-        {
-          "word": "my",
-          "start": 1.09,
-          "end": 1.26
-        },
-        {
-          "word": "solar",
-          "start": 1.26,
-          "end": 1.58
-        },
-        {
-          "word": "panels,",
-          "start": 1.58,
-          "end": 2.01
-        },
-        {
-          "word": "and",
-          "start": 2.01,
-          "end": 2.19
-        },
-        {
-          "word": "my",
-          "start": 2.19,
-          "end": 2.37
-        },
-        {
-          "word": "power",
-          "start": 2.37,
-          "end": 2.68
-        },
-        {
-          "word": "faded",
-          "start": 2.68,
-          "end": 2.99
-        },
-        {
-          "word": "a",
-          "start": 2.99,
-          "end": 3.16
-        },
-        {
-          "word": "little",
-          "start": 3.16,
-          "end": 3.48
-        },
-        {
-          "word": "more",
-          "start": 3.48,
-          "end": 3.67
-        },
-        {
-          "word": "each",
-          "start": 3.67,
-          "end": 3.86
-        },
-        {
-          "word": "month.",
-          "start": 3.86,
-          "end": 4.06
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I kept my seismometer running as long as I could.",
-      "start": 4.57,
-      "end": 6.64,
-      "words": [
-        {
-          "word": "I",
-          "start": 4.57,
-          "end": 4.71
-        },
-        {
-          "word": "kept",
-          "start": 4.71,
-          "end": 4.88
-        },
-        {
-          "word": "my",
-          "start": 4.88,
-          "end": 5.03
-        },
-        {
-          "word": "seismometer",
-          "start": 5.03,
-          "end": 5.56
-        },
-        {
-          "word": "running",
-          "start": 5.56,
-          "end": 5.85
-        },
-        {
-          "word": "as",
-          "start": 5.85,
-          "end": 6.0
-        },
-        {
-          "word": "long",
-          "start": 6.0,
-          "end": 6.17
-        },
-        {
-          "word": "as",
-          "start": 6.17,
-          "end": 6.32
-        },
-        {
-          "word": "I",
-          "start": 6.32,
-          "end": 6.46
-        },
-        {
-          "word": "could.",
-          "start": 6.46,
-          "end": 6.64
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "My last message reached Earth on December 15, 2022.",
-      "start": 7.03,
-      "end": 10.31,
-      "words": [
-        {
-          "word": "My",
-          "start": 7.03,
-          "end": 7.27
-        },
-        {
-          "word": "last",
-          "start": 7.27,
-          "end": 7.54
-        },
-        {
-          "word": "message",
-          "start": 7.54,
-          "end": 8.01
-        },
-        {
-          "word": "reached",
-          "start": 8.01,
-          "end": 8.47
-        },
-        {
-          "word": "Earth",
-          "start": 8.47,
-          "end": 8.76
-        },
-        {
-          "word": "on",
-          "start": 8.76,
-          "end": 9.0
-        },
-        {
-          "word": "December",
-          "start": 9.0,
-          "end": 9.64
-        },
-        {
-          "word": "15,",
-          "start": 9.64,
-          "end": 10.04
-        },
-        {
-          "word": "2022.",
-          "start": 10.04,
-          "end": 10.31
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I am still sitting on my parking lot, and Mars is still quietly shaking underneath me.",
-      "start": 10.67,
-      "end": 14.7,
-      "words": [
-        {
-          "word": "I",
-          "start": 10.67,
-          "end": 10.84
-        },
-        {
-          "word": "am",
-          "start": 10.84,
-          "end": 11.02
-        },
-        {
-          "word": "still",
-          "start": 11.02,
-          "end": 11.22
-        },
-        {
-          "word": "sitting",
-          "start": 11.22,
-          "end": 11.57
-        },
-        {
-          "word": "on",
-          "start": 11.57,
-          "end": 11.75
-        },
-        {
-          "word": "my",
-          "start": 11.75,
-          "end": 11.92
-        },
-        {
-          "word": "parking",
-          "start": 11.92,
-          "end": 12.27
-        },
-        {
-          "word": "lot,",
-          "start": 12.27,
-          "end": 12.57
-        },
-        {
-          "word": "and",
-          "start": 12.57,
-          "end": 12.76
-        },
-        {
-          "word": "Mars",
-          "start": 12.76,
-          "end": 12.96
-        },
-        {
-          "word": "is",
-          "start": 12.96,
-          "end": 13.14
-        },
-        {
-          "word": "still",
-          "start": 13.14,
-          "end": 13.34
-        },
-        {
-          "word": "quietly",
-          "start": 13.34,
-          "end": 13.69
-        },
-        {
-          "word": "shaking",
-          "start": 13.69,
-          "end": 14.03
-        },
-        {
-          "word": "underneath",
-          "start": 14.03,
-          "end": 14.52
-        },
-        {
-          "word": "me.",
-          "start": 14.52,
-          "end": 14.7
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "13-insight",
+    "card":  "card-3",
+    "duration":  16.224,
+    "speechStart":  0.132,
+    "speechEnd":  15.947,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Dust slowly covered my solar panels, and my power faded a little more each month. I kept my seismometer running as long as I could. My last message reached Earth on December 15, 2022. I am still sitting on my parking lot, and Mars is still quietly shaking underneath me.",
+                          "start":  0.132,
+                          "end":  15.947,
+                          "words":  [
+                                        {
+                                            "word":  "Dust",
+                                            "start":  0.132,
+                                            "end":  0.436
+                                        },
+                                        {
+                                            "word":  "slowly",
+                                            "start":  0.447,
+                                            "end":  0.904
+                                        },
+                                        {
+                                            "word":  "covered",
+                                            "start":  0.915,
+                                            "end":  1.186
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  1.197,
+                                            "end":  1.317
+                                        },
+                                        {
+                                            "word":  "solar",
+                                            "start":  1.328,
+                                            "end":  1.632
+                                        },
+                                        {
+                                            "word":  "panels,",
+                                            "start":  1.643,
+                                            "end":  2.121
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  2.371,
+                                            "end":  2.556
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  2.567,
+                                            "end":  2.686
+                                        },
+                                        {
+                                            "word":  "power",
+                                            "start":  2.697,
+                                            "end":  3.078
+                                        },
+                                        {
+                                            "word":  "faded",
+                                            "start":  3.089,
+                                            "end":  3.436
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  3.447,
+                                            "end":  3.512
+                                        },
+                                        {
+                                            "word":  "little",
+                                            "start":  3.523,
+                                            "end":  3.719
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  3.73,
+                                            "end":  3.936
+                                        },
+                                        {
+                                            "word":  "each",
+                                            "start":  3.947,
+                                            "end":  4.11
+                                        },
+                                        {
+                                            "word":  "month.",
+                                            "start":  4.121,
+                                            "end":  4.502
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.817,
+                                            "end":  4.893
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  4.904,
+                                            "end":  5.176
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  5.186,
+                                            "end":  5.349
+                                        },
+                                        {
+                                            "word":  "seismometer",
+                                            "start":  5.36,
+                                            "end":  6.045
+                                        },
+                                        {
+                                            "word":  "running",
+                                            "start":  6.056,
+                                            "end":  6.404
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  6.415,
+                                            "end":  6.578
+                                        },
+                                        {
+                                            "word":  "long",
+                                            "start":  6.589,
+                                            "end":  6.795
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  6.806,
+                                            "end":  6.915
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.926,
+                                            "end":  7.013
+                                        },
+                                        {
+                                            "word":  "could.",
+                                            "start":  7.023,
+                                            "end":  7.393
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  7.741,
+                                            "end":  7.839
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  7.849,
+                                            "end":  8.154
+                                        },
+                                        {
+                                            "word":  "message",
+                                            "start":  8.165,
+                                            "end":  8.556
+                                        },
+                                        {
+                                            "word":  "reached",
+                                            "start":  8.567,
+                                            "end":  8.849
+                                        },
+                                        {
+                                            "word":  "Earth",
+                                            "start":  8.86,
+                                            "end":  9.176
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  9.197,
+                                            "end":  9.339
+                                        },
+                                        {
+                                            "word":  "December",
+                                            "start":  9.339,
+                                            "end":  10.421
+                                        },
+                                        {
+                                            "word":  "15,",
+                                            "start":  10.421,
+                                            "end":  10.826
+                                        },
+                                        {
+                                            "word":  "2022.",
+                                            "start":  10.826,
+                                            "end":  11.502
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.502,
+                                            "end":  11.567
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  11.578,
+                                            "end":  11.654
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  11.665,
+                                            "end":  11.915
+                                        },
+                                        {
+                                            "word":  "sitting",
+                                            "start":  11.926,
+                                            "end":  12.208
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  12.219,
+                                            "end":  12.317
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  12.328,
+                                            "end":  12.447
+                                        },
+                                        {
+                                            "word":  "parking",
+                                            "start":  12.458,
+                                            "end":  12.828
+                                        },
+                                        {
+                                            "word":  "lot,",
+                                            "start":  12.839,
+                                            "end":  13.143
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  13.589,
+                                            "end":  13.752
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  13.763,
+                                            "end":  14.121
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  14.132,
+                                            "end":  14.23
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  14.241,
+                                            "end":  14.469
+                                        },
+                                        {
+                                            "word":  "quietly",
+                                            "start":  14.48,
+                                            "end":  14.904
+                                        },
+                                        {
+                                            "word":  "shaking",
+                                            "start":  14.915,
+                                            "end":  15.295
+                                        },
+                                        {
+                                            "word":  "underneath",
+                                            "start":  15.306,
+                                            "end":  15.708
+                                        },
+                                        {
+                                            "word":  "me.",
+                                            "start":  15.719,
+                                            "end":  15.947
+                                        }
+                                    ]
+                      }
+                  ]
 }

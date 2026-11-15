@@ -1,380 +1,348 @@
-{
-  "story": "15-perseverance",
-  "card": "card-1",
-  "duration": 19.51,
-  "speechStart": 0.14,
-  "speechEnd": 19.12,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I am not like the others in this collection.",
-      "start": 0.14,
-      "end": 1.56,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.25
-        },
-        {
-          "word": "am",
-          "start": 0.25,
-          "end": 0.37
-        },
-        {
-          "word": "not",
-          "start": 0.37,
-          "end": 0.5
-        },
-        {
-          "word": "like",
-          "start": 0.5,
-          "end": 0.63
-        },
-        {
-          "word": "the",
-          "start": 0.63,
-          "end": 0.76
-        },
-        {
-          "word": "others",
-          "start": 0.76,
-          "end": 0.98
-        },
-        {
-          "word": "in",
-          "start": 0.98,
-          "end": 1.1
-        },
-        {
-          "word": "this",
-          "start": 1.1,
-          "end": 1.23
-        },
-        {
-          "word": "collection.",
-          "start": 1.23,
-          "end": 1.56
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I am still awake.",
-      "start": 2.0,
-      "end": 2.55,
-      "words": [
-        {
-          "word": "I",
-          "start": 2.0,
-          "end": 2.11
-        },
-        {
-          "word": "am",
-          "start": 2.11,
-          "end": 2.22
-        },
-        {
-          "word": "still",
-          "start": 2.22,
-          "end": 2.35
-        },
-        {
-          "word": "awake.",
-          "start": 2.35,
-          "end": 2.55
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I landed on February 18, 2021, lowered on cables from a rocket-powered crane, into a crater called Jezero.",
-      "start": 3.05,
-      "end": 10.01,
-      "words": [
-        {
-          "word": "I",
-          "start": 3.05,
-          "end": 3.25
-        },
-        {
-          "word": "landed",
-          "start": 3.25,
-          "end": 3.65
-        },
-        {
-          "word": "on",
-          "start": 3.65,
-          "end": 3.87
-        },
-        {
-          "word": "February",
-          "start": 3.87,
-          "end": 4.44
-        },
-        {
-          "word": "18,",
-          "start": 4.44,
-          "end": 4.79
-        },
-        {
-          "word": "2021,",
-          "start": 4.79,
-          "end": 5.17
-        },
-        {
-          "word": "lowered",
-          "start": 5.17,
-          "end": 5.73
-        },
-        {
-          "word": "on",
-          "start": 5.73,
-          "end": 5.94
-        },
-        {
-          "word": "cables",
-          "start": 5.94,
-          "end": 6.34
-        },
-        {
-          "word": "from",
-          "start": 6.34,
-          "end": 6.58
-        },
-        {
-          "word": "a",
-          "start": 6.58,
-          "end": 6.78
-        },
-        {
-          "word": "rocket-powered",
-          "start": 6.78,
-          "end": 7.69
-        },
-        {
-          "word": "crane,",
-          "start": 7.69,
-          "end": 8.08
-        },
-        {
-          "word": "into",
-          "start": 8.08,
-          "end": 8.46
-        },
-        {
-          "word": "a",
-          "start": 8.46,
-          "end": 8.66
-        },
-        {
-          "word": "crater",
-          "start": 8.66,
-          "end": 9.06
-        },
-        {
-          "word": "called",
-          "start": 9.06,
-          "end": 9.47
-        },
-        {
-          "word": "Jezero.",
-          "start": 9.47,
-          "end": 10.01
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Long ago a river ran into this crater and filled it with a lake.",
-      "start": 10.38,
-      "end": 13.47,
-      "words": [
-        {
-          "word": "Long",
-          "start": 10.38,
-          "end": 10.56
-        },
-        {
-          "word": "ago",
-          "start": 10.56,
-          "end": 10.85
-        },
-        {
-          "word": "a",
-          "start": 10.85,
-          "end": 11.01
-        },
-        {
-          "word": "river",
-          "start": 11.01,
-          "end": 11.31
-        },
-        {
-          "word": "ran",
-          "start": 11.31,
-          "end": 11.49
-        },
-        {
-          "word": "into",
-          "start": 11.49,
-          "end": 11.79
-        },
-        {
-          "word": "this",
-          "start": 11.79,
-          "end": 11.97
-        },
-        {
-          "word": "crater",
-          "start": 11.97,
-          "end": 12.28
-        },
-        {
-          "word": "and",
-          "start": 12.28,
-          "end": 12.46
-        },
-        {
-          "word": "filled",
-          "start": 12.46,
-          "end": 12.77
-        },
-        {
-          "word": "it",
-          "start": 12.77,
-          "end": 12.94
-        },
-        {
-          "word": "with",
-          "start": 12.94,
-          "end": 13.13
-        },
-        {
-          "word": "a",
-          "start": 13.13,
-          "end": 13.29
-        },
-        {
-          "word": "lake.",
-          "start": 13.29,
-          "end": 13.47
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "If tiny living things ever existed on Mars, a lakeshore is a good place to look for what they left behind.",
-      "start": 13.96,
-      "end": 19.12,
-      "words": [
-        {
-          "word": "If",
-          "start": 13.96,
-          "end": 14.14
-        },
-        {
-          "word": "tiny",
-          "start": 14.14,
-          "end": 14.45
-        },
-        {
-          "word": "living",
-          "start": 14.45,
-          "end": 14.78
-        },
-        {
-          "word": "things",
-          "start": 14.78,
-          "end": 15.0
-        },
-        {
-          "word": "ever",
-          "start": 15.0,
-          "end": 15.31
-        },
-        {
-          "word": "existed",
-          "start": 15.31,
-          "end": 15.77
-        },
-        {
-          "word": "on",
-          "start": 15.77,
-          "end": 15.94
-        },
-        {
-          "word": "Mars,",
-          "start": 15.94,
-          "end": 16.25
-        },
-        {
-          "word": "a",
-          "start": 16.25,
-          "end": 16.42
-        },
-        {
-          "word": "lakeshore",
-          "start": 16.42,
-          "end": 16.9
-        },
-        {
-          "word": "is",
-          "start": 16.9,
-          "end": 17.08
-        },
-        {
-          "word": "a",
-          "start": 17.08,
-          "end": 17.24
-        },
-        {
-          "word": "good",
-          "start": 17.24,
-          "end": 17.44
-        },
-        {
-          "word": "place",
-          "start": 17.44,
-          "end": 17.64
-        },
-        {
-          "word": "to",
-          "start": 17.64,
-          "end": 17.82
-        },
-        {
-          "word": "look",
-          "start": 17.82,
-          "end": 18.02
-        },
-        {
-          "word": "for",
-          "start": 18.02,
-          "end": 18.2
-        },
-        {
-          "word": "what",
-          "start": 18.2,
-          "end": 18.4
-        },
-        {
-          "word": "they",
-          "start": 18.4,
-          "end": 18.59
-        },
-        {
-          "word": "left",
-          "start": 18.59,
-          "end": 18.79
-        },
-        {
-          "word": "behind.",
-          "start": 18.79,
-          "end": 19.12
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "15-perseverance",
+    "card":  "card-1",
+    "duration":  19.872,
+    "speechStart":  0.132,
+    "speechEnd":  19.617,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I am not like the others in this collection. I am still awake.\n\nI landed on February 18, 2021, lowered on cables from a rocket-powered crane, into a crater called Jezero. Long ago a river ran into this crater and filled it with a lake. If tiny living things ever existed on Mars, a lakeshore is a good place to look for what they left behind.",
+                          "start":  0.132,
+                          "end":  19.617,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.197
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  0.208,
+                                            "end":  0.306
+                                        },
+                                        {
+                                            "word":  "not",
+                                            "start":  0.317,
+                                            "end":  0.567
+                                        },
+                                        {
+                                            "word":  "like",
+                                            "start":  0.578,
+                                            "end":  0.795
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.806,
+                                            "end":  0.893
+                                        },
+                                        {
+                                            "word":  "others",
+                                            "start":  0.915,
+                                            "end":  1.306
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  1.317,
+                                            "end":  1.447
+                                        },
+                                        {
+                                            "word":  "this",
+                                            "start":  1.458,
+                                            "end":  1.61
+                                        },
+                                        {
+                                            "word":  "collection.",
+                                            "start":  1.621,
+                                            "end":  2.176
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.502,
+                                            "end":  2.567
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  2.578,
+                                            "end":  2.665
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  2.676,
+                                            "end":  2.98
+                                        },
+                                        {
+                                            "word":  "awake.",
+                                            "start":  2.991,
+                                            "end":  3.491
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  3.839,
+                                            "end":  3.904
+                                        },
+                                        {
+                                            "word":  "landed",
+                                            "start":  3.915,
+                                            "end":  4.241
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  4.252,
+                                            "end":  4.382
+                                        },
+                                        {
+                                            "word":  "February",
+                                            "start":  4.382,
+                                            "end":  5.399
+                                        },
+                                        {
+                                            "word":  "18,",
+                                            "start":  5.399,
+                                            "end":  5.78
+                                        },
+                                        {
+                                            "word":  "2021,",
+                                            "start":  5.78,
+                                            "end":  6.415
+                                        },
+                                        {
+                                            "word":  "lowered",
+                                            "start":  6.415,
+                                            "end":  6.763
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  6.773,
+                                            "end":  6.893
+                                        },
+                                        {
+                                            "word":  "cables",
+                                            "start":  6.904,
+                                            "end":  7.317
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  7.328,
+                                            "end":  7.469
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  7.48,
+                                            "end":  7.523
+                                        },
+                                        {
+                                            "word":  "rocket-powered",
+                                            "start":  7.534,
+                                            "end":  8.143
+                                        },
+                                        {
+                                            "word":  "crane,",
+                                            "start":  8.154,
+                                            "end":  8.545
+                                        },
+                                        {
+                                            "word":  "into",
+                                            "start":  8.795,
+                                            "end":  9.045
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.056,
+                                            "end":  9.099
+                                        },
+                                        {
+                                            "word":  "crater",
+                                            "start":  9.11,
+                                            "end":  9.447
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  9.458,
+                                            "end":  9.665
+                                        },
+                                        {
+                                            "word":  "Jezero.",
+                                            "start":  9.676,
+                                            "end":  10.197
+                                        },
+                                        {
+                                            "word":  "Long",
+                                            "start":  10.545,
+                                            "end":  10.817
+                                        },
+                                        {
+                                            "word":  "ago",
+                                            "start":  10.828,
+                                            "end":  11.154
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  11.165,
+                                            "end":  11.241
+                                        },
+                                        {
+                                            "word":  "river",
+                                            "start":  11.252,
+                                            "end":  11.61
+                                        },
+                                        {
+                                            "word":  "ran",
+                                            "start":  11.621,
+                                            "end":  11.882
+                                        },
+                                        {
+                                            "word":  "into",
+                                            "start":  11.893,
+                                            "end":  12.132
+                                        },
+                                        {
+                                            "word":  "this",
+                                            "start":  12.143,
+                                            "end":  12.295
+                                        },
+                                        {
+                                            "word":  "crater",
+                                            "start":  12.306,
+                                            "end":  12.752
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  12.763,
+                                            "end":  12.882
+                                        },
+                                        {
+                                            "word":  "filled",
+                                            "start":  12.893,
+                                            "end":  13.186
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  13.197,
+                                            "end":  13.317
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  13.328,
+                                            "end":  13.458
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  13.469,
+                                            "end":  13.502
+                                        },
+                                        {
+                                            "word":  "lake.",
+                                            "start":  13.513,
+                                            "end":  13.936
+                                        },
+                                        {
+                                            "word":  "If",
+                                            "start":  14.258,
+                                            "end":  14.367
+                                        },
+                                        {
+                                            "word":  "tiny",
+                                            "start":  14.378,
+                                            "end":  14.693
+                                        },
+                                        {
+                                            "word":  "living",
+                                            "start":  14.704,
+                                            "end":  14.965
+                                        },
+                                        {
+                                            "word":  "things",
+                                            "start":  14.976,
+                                            "end":  15.269
+                                        },
+                                        {
+                                            "word":  "ever",
+                                            "start":  15.28,
+                                            "end":  15.497
+                                        },
+                                        {
+                                            "word":  "existed",
+                                            "start":  15.508,
+                                            "end":  15.91
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  15.921,
+                                            "end":  16.03
+                                        },
+                                        {
+                                            "word":  "Mars,",
+                                            "start":  16.041,
+                                            "end":  16.497
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  16.932,
+                                            "end":  17.041
+                                        },
+                                        {
+                                            "word":  "lakeshore",
+                                            "start":  17.052,
+                                            "end":  17.476
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  17.486,
+                                            "end":  17.573
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.584,
+                                            "end":  17.639
+                                        },
+                                        {
+                                            "word":  "good",
+                                            "start":  17.649,
+                                            "end":  17.823
+                                        },
+                                        {
+                                            "word":  "place",
+                                            "start":  17.834,
+                                            "end":  18.128
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  18.139,
+                                            "end":  18.226
+                                        },
+                                        {
+                                            "word":  "look",
+                                            "start":  18.236,
+                                            "end":  18.465
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  18.476,
+                                            "end":  18.639
+                                        },
+                                        {
+                                            "word":  "what",
+                                            "start":  18.649,
+                                            "end":  18.769
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  18.78,
+                                            "end":  18.878
+                                        },
+                                        {
+                                            "word":  "left",
+                                            "start":  18.889,
+                                            "end":  19.139
+                                        },
+                                        {
+                                            "word":  "behind.",
+                                            "start":  19.149,
+                                            "end":  19.617
+                                        }
+                                    ]
+                      }
+                  ]
 }

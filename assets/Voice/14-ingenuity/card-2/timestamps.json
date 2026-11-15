@@ -1,514 +1,458 @@
-{
-  "story": "14-ingenuity",
-  "card": "card-2",
-  "duration": 26.98,
-  "speechStart": 0.13,
-  "speechEnd": 26.62,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "On April 19, 2021, I spun up, lifted 3 metres off the ground, hovered, and came back down.",
-      "start": 0.13,
-      "end": 4.74,
-      "words": [
-        {
-          "word": "On",
-          "start": 0.13,
-          "end": 0.31
-        },
-        {
-          "word": "April",
-          "start": 0.31,
-          "end": 0.63
-        },
-        {
-          "word": "19,",
-          "start": 0.63,
-          "end": 0.92
-        },
-        {
-          "word": "2021,",
-          "start": 0.92,
-          "end": 1.23
-        },
-        {
-          "word": "I",
-          "start": 1.23,
-          "end": 1.39
-        },
-        {
-          "word": "spun",
-          "start": 1.39,
-          "end": 1.59
-        },
-        {
-          "word": "up,",
-          "start": 1.59,
-          "end": 1.88
-        },
-        {
-          "word": "lifted",
-          "start": 1.88,
-          "end": 2.21
-        },
-        {
-          "word": "3",
-          "start": 2.21,
-          "end": 2.37
-        },
-        {
-          "word": "metres",
-          "start": 2.37,
-          "end": 2.7
-        },
-        {
-          "word": "off",
-          "start": 2.7,
-          "end": 2.89
-        },
-        {
-          "word": "the",
-          "start": 2.89,
-          "end": 3.07
-        },
-        {
-          "word": "ground,",
-          "start": 3.07,
-          "end": 3.4
-        },
-        {
-          "word": "hovered,",
-          "start": 3.4,
-          "end": 3.97
-        },
-        {
-          "word": "and",
-          "start": 3.97,
-          "end": 4.16
-        },
-        {
-          "word": "came",
-          "start": 4.16,
-          "end": 4.35
-        },
-        {
-          "word": "back",
-          "start": 4.35,
-          "end": 4.55
-        },
-        {
-          "word": "down.",
-          "start": 4.55,
-          "end": 4.74
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "Thirty-nine seconds.",
-      "start": 5.12,
-      "end": 6.44,
-      "words": [
-        {
-          "word": "Thirty-nine",
-          "start": 5.12,
-          "end": 5.9
-        },
-        {
-          "word": "seconds.",
-          "start": 5.9,
-          "end": 6.44
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Under my solar panel I carry a scrap of cloth from the Wright brothers' first aeroplane.",
-      "start": 6.88,
-      "end": 12.08,
-      "words": [
-        {
-          "word": "Under",
-          "start": 6.88,
-          "end": 7.3
-        },
-        {
-          "word": "my",
-          "start": 7.3,
-          "end": 7.53
-        },
-        {
-          "word": "solar",
-          "start": 7.53,
-          "end": 7.94
-        },
-        {
-          "word": "panel",
-          "start": 7.94,
-          "end": 8.36
-        },
-        {
-          "word": "I",
-          "start": 8.36,
-          "end": 8.58
-        },
-        {
-          "word": "carry",
-          "start": 8.58,
-          "end": 8.99
-        },
-        {
-          "word": "a",
-          "start": 8.99,
-          "end": 9.21
-        },
-        {
-          "word": "scrap",
-          "start": 9.21,
-          "end": 9.48
-        },
-        {
-          "word": "of",
-          "start": 9.48,
-          "end": 9.71
-        },
-        {
-          "word": "cloth",
-          "start": 9.71,
-          "end": 9.97
-        },
-        {
-          "word": "from",
-          "start": 9.97,
-          "end": 10.22
-        },
-        {
-          "word": "the",
-          "start": 10.22,
-          "end": 10.47
-        },
-        {
-          "word": "Wright",
-          "start": 10.47,
-          "end": 10.74
-        },
-        {
-          "word": "brothers'",
-          "start": 10.74,
-          "end": 11.2
-        },
-        {
-          "word": "first",
-          "start": 11.2,
-          "end": 11.46
-        },
-        {
-          "word": "aeroplane.",
-          "start": 11.46,
-          "end": 12.08
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "First flight on Earth, first flight on Mars.",
-      "start": 12.55,
-      "end": 13.23,
-      "words": [
-        {
-          "word": "First",
-          "start": 12.55,
-          "end": 12.63
-        },
-        {
-          "word": "flight",
-          "start": 12.63,
-          "end": 12.72
-        },
-        {
-          "word": "on",
-          "start": 12.72,
-          "end": 12.79
-        },
-        {
-          "word": "Earth,",
-          "start": 12.79,
-          "end": 12.92
-        },
-        {
-          "word": "first",
-          "start": 12.92,
-          "end": 13.0
-        },
-        {
-          "word": "flight",
-          "start": 13.0,
-          "end": 13.08
-        },
-        {
-          "word": "on",
-          "start": 13.08,
-          "end": 13.15
-        },
-        {
-          "word": "Mars.",
-          "start": 13.15,
-          "end": 13.23
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I was supposed to fly five times at most.",
-      "start": 13.63,
-      "end": 16.63,
-      "words": [
-        {
-          "word": "I",
-          "start": 13.63,
-          "end": 13.87
-        },
-        {
-          "word": "was",
-          "start": 13.87,
-          "end": 14.14
-        },
-        {
-          "word": "supposed",
-          "start": 14.14,
-          "end": 14.82
-        },
-        {
-          "word": "to",
-          "start": 14.82,
-          "end": 15.07
-        },
-        {
-          "word": "fly",
-          "start": 15.07,
-          "end": 15.34
-        },
-        {
-          "word": "five",
-          "start": 15.34,
-          "end": 15.63
-        },
-        {
-          "word": "times",
-          "start": 15.63,
-          "end": 16.09
-        },
-        {
-          "word": "at",
-          "start": 16.09,
-          "end": 16.35
-        },
-        {
-          "word": "most.",
-          "start": 16.35,
-          "end": 16.63
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "I flew 72 times.",
-      "start": 17.08,
-      "end": 18.33,
-      "words": [
-        {
-          "word": "I",
-          "start": 17.08,
-          "end": 17.32
-        },
-        {
-          "word": "flew",
-          "start": 17.32,
-          "end": 17.61
-        },
-        {
-          "word": "72",
-          "start": 17.61,
-          "end": 17.86
-        },
-        {
-          "word": "times.",
-          "start": 17.86,
-          "end": 18.33
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "I flew higher, faster and farther, and I became a scout for my rover, looking over the next hill.",
-      "start": 18.73,
-      "end": 23.69,
-      "words": [
-        {
-          "word": "I",
-          "start": 18.73,
-          "end": 18.9
-        },
-        {
-          "word": "flew",
-          "start": 18.9,
-          "end": 19.1
-        },
-        {
-          "word": "higher,",
-          "start": 19.1,
-          "end": 19.56
-        },
-        {
-          "word": "faster",
-          "start": 19.56,
-          "end": 19.89
-        },
-        {
-          "word": "and",
-          "start": 19.89,
-          "end": 20.08
-        },
-        {
-          "word": "farther,",
-          "start": 20.08,
-          "end": 20.55
-        },
-        {
-          "word": "and",
-          "start": 20.55,
-          "end": 20.74
-        },
-        {
-          "word": "I",
-          "start": 20.74,
-          "end": 20.91
-        },
-        {
-          "word": "became",
-          "start": 20.91,
-          "end": 21.24
-        },
-        {
-          "word": "a",
-          "start": 21.24,
-          "end": 21.41
-        },
-        {
-          "word": "scout",
-          "start": 21.41,
-          "end": 21.62
-        },
-        {
-          "word": "for",
-          "start": 21.62,
-          "end": 21.81
-        },
-        {
-          "word": "my",
-          "start": 21.81,
-          "end": 21.99
-        },
-        {
-          "word": "rover,",
-          "start": 21.99,
-          "end": 22.44
-        },
-        {
-          "word": "looking",
-          "start": 22.44,
-          "end": 22.78
-        },
-        {
-          "word": "over",
-          "start": 22.78,
-          "end": 23.1
-        },
-        {
-          "word": "the",
-          "start": 23.1,
-          "end": 23.29
-        },
-        {
-          "word": "next",
-          "start": 23.29,
-          "end": 23.49
-        },
-        {
-          "word": "hill.",
-          "start": 23.49,
-          "end": 23.69
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "I got through a Martian winter and more than one rough landing.",
-      "start": 24.08,
-      "end": 26.62,
-      "words": [
-        {
-          "word": "I",
-          "start": 24.08,
-          "end": 24.24
-        },
-        {
-          "word": "got",
-          "start": 24.24,
-          "end": 24.41
-        },
-        {
-          "word": "through",
-          "start": 24.41,
-          "end": 24.62
-        },
-        {
-          "word": "a",
-          "start": 24.62,
-          "end": 24.77
-        },
-        {
-          "word": "Martian",
-          "start": 24.77,
-          "end": 25.09
-        },
-        {
-          "word": "winter",
-          "start": 25.09,
-          "end": 25.4
-        },
-        {
-          "word": "and",
-          "start": 25.4,
-          "end": 25.57
-        },
-        {
-          "word": "more",
-          "start": 25.57,
-          "end": 25.76
-        },
-        {
-          "word": "than",
-          "start": 25.76,
-          "end": 25.94
-        },
-        {
-          "word": "one",
-          "start": 25.94,
-          "end": 26.11
-        },
-        {
-          "word": "rough",
-          "start": 26.11,
-          "end": 26.3
-        },
-        {
-          "word": "landing.",
-          "start": 26.3,
-          "end": 26.62
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "14-ingenuity",
+    "card":  "card-2",
+    "duration":  28.176,
+    "speechStart":  0.132,
+    "speechEnd":  27.904,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "On April 19, 2021, I spun up, lifted 3 metres off the ground, hovered, and came back down. Thirty-nine seconds. Under my solar panel I carry a scrap of cloth from the Wright brothers\u0027 first aeroplane. First flight on Earth, first flight on Mars.\n\nI was supposed to fly five times at most. I flew 72 times. I flew higher, faster and farther, and I became a scout for my rover, looking over the next hill. I got through a Martian winter and more than one rough landing.",
+                          "start":  0.132,
+                          "end":  27.904,
+                          "words":  [
+                                        {
+                                            "word":  "On",
+                                            "start":  0.132,
+                                            "end":  0.273
+                                        },
+                                        {
+                                            "word":  "April",
+                                            "start":  0.273,
+                                            "end":  1.009
+                                        },
+                                        {
+                                            "word":  "19,",
+                                            "start":  1.009,
+                                            "end":  1.45
+                                        },
+                                        {
+                                            "word":  "2021,",
+                                            "start":  1.45,
+                                            "end":  2.186
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.186,
+                                            "end":  2.295
+                                        },
+                                        {
+                                            "word":  "spun",
+                                            "start":  2.306,
+                                            "end":  2.578
+                                        },
+                                        {
+                                            "word":  "up,",
+                                            "start":  2.589,
+                                            "end":  2.839
+                                        },
+                                        {
+                                            "word":  "lifted",
+                                            "start":  3.11,
+                                            "end":  3.469
+                                        },
+                                        {
+                                            "word":  "3",
+                                            "start":  3.48,
+                                            "end":  3.697
+                                        },
+                                        {
+                                            "word":  "metres",
+                                            "start":  3.708,
+                                            "end":  4.012
+                                        },
+                                        {
+                                            "word":  "off",
+                                            "start":  4.023,
+                                            "end":  4.186
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  4.197,
+                                            "end":  4.262
+                                        },
+                                        {
+                                            "word":  "ground,",
+                                            "start":  4.273,
+                                            "end":  4.708
+                                        },
+                                        {
+                                            "word":  "hovered,",
+                                            "start":  4.839,
+                                            "end":  5.295
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  5.317,
+                                            "end":  5.458
+                                        },
+                                        {
+                                            "word":  "came",
+                                            "start":  5.469,
+                                            "end":  5.654
+                                        },
+                                        {
+                                            "word":  "back",
+                                            "start":  5.665,
+                                            "end":  5.86
+                                        },
+                                        {
+                                            "word":  "down.",
+                                            "start":  5.871,
+                                            "end":  6.208
+                                        },
+                                        {
+                                            "word":  "Thirty-nine",
+                                            "start":  6.556,
+                                            "end":  6.98
+                                        },
+                                        {
+                                            "word":  "seconds.",
+                                            "start":  6.991,
+                                            "end":  7.545
+                                        },
+                                        {
+                                            "word":  "Under",
+                                            "start":  7.893,
+                                            "end":  8.089
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  8.099,
+                                            "end":  8.23
+                                        },
+                                        {
+                                            "word":  "solar",
+                                            "start":  8.241,
+                                            "end":  8.556
+                                        },
+                                        {
+                                            "word":  "panel",
+                                            "start":  8.567,
+                                            "end":  8.936
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  8.947,
+                                            "end":  9.045
+                                        },
+                                        {
+                                            "word":  "carry",
+                                            "start":  9.056,
+                                            "end":  9.382
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.393,
+                                            "end":  9.447
+                                        },
+                                        {
+                                            "word":  "scrap",
+                                            "start":  9.458,
+                                            "end":  9.784
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  9.795,
+                                            "end":  9.893
+                                        },
+                                        {
+                                            "word":  "cloth",
+                                            "start":  9.904,
+                                            "end":  10.295
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  10.306,
+                                            "end":  10.469
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.48,
+                                            "end":  10.534
+                                        },
+                                        {
+                                            "word":  "Wright",
+                                            "start":  10.545,
+                                            "end":  10.773
+                                        },
+                                        {
+                                            "word":  "brothers\u0027",
+                                            "start":  10.784,
+                                            "end":  11.121
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  11.132,
+                                            "end":  11.415
+                                        },
+                                        {
+                                            "word":  "aeroplane.",
+                                            "start":  11.426,
+                                            "end":  11.947
+                                        },
+                                        {
+                                            "word":  "First",
+                                            "start":  12.295,
+                                            "end":  12.578
+                                        },
+                                        {
+                                            "word":  "flight",
+                                            "start":  12.589,
+                                            "end":  12.882
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  12.893,
+                                            "end":  13.013
+                                        },
+                                        {
+                                            "word":  "Earth,",
+                                            "start":  13.023,
+                                            "end":  13.426
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  13.567,
+                                            "end":  13.893
+                                        },
+                                        {
+                                            "word":  "flight",
+                                            "start":  13.904,
+                                            "end":  14.176
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  14.186,
+                                            "end":  14.306
+                                        },
+                                        {
+                                            "word":  "Mars.",
+                                            "start":  14.317,
+                                            "end":  14.773
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  15.121,
+                                            "end":  15.176
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  15.186,
+                                            "end":  15.295
+                                        },
+                                        {
+                                            "word":  "supposed",
+                                            "start":  15.306,
+                                            "end":  15.599
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  15.61,
+                                            "end":  15.676
+                                        },
+                                        {
+                                            "word":  "fly",
+                                            "start":  15.686,
+                                            "end":  16.002
+                                        },
+                                        {
+                                            "word":  "five",
+                                            "start":  16.013,
+                                            "end":  16.295
+                                        },
+                                        {
+                                            "word":  "times",
+                                            "start":  16.306,
+                                            "end":  16.643
+                                        },
+                                        {
+                                            "word":  "at",
+                                            "start":  16.654,
+                                            "end":  16.752
+                                        },
+                                        {
+                                            "word":  "most.",
+                                            "start":  16.763,
+                                            "end":  17.219
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  17.545,
+                                            "end":  17.61
+                                        },
+                                        {
+                                            "word":  "flew",
+                                            "start":  17.621,
+                                            "end":  17.86
+                                        },
+                                        {
+                                            "word":  "72",
+                                            "start":  17.871,
+                                            "end":  18.415
+                                        },
+                                        {
+                                            "word":  "times.",
+                                            "start":  18.426,
+                                            "end":  18.915
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  19.263,
+                                            "end":  19.349
+                                        },
+                                        {
+                                            "word":  "flew",
+                                            "start":  19.36,
+                                            "end":  19.632
+                                        },
+                                        {
+                                            "word":  "higher,",
+                                            "start":  19.643,
+                                            "end":  20.132
+                                        },
+                                        {
+                                            "word":  "faster",
+                                            "start":  20.273,
+                                            "end":  20.741
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  20.752,
+                                            "end":  20.839
+                                        },
+                                        {
+                                            "word":  "farther,",
+                                            "start":  20.849,
+                                            "end":  21.339
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  21.697,
+                                            "end":  21.86
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  21.871,
+                                            "end":  21.958
+                                        },
+                                        {
+                                            "word":  "became",
+                                            "start":  21.969,
+                                            "end":  22.241
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  22.252,
+                                            "end":  22.295
+                                        },
+                                        {
+                                            "word":  "scout",
+                                            "start":  22.306,
+                                            "end":  22.697
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  22.708,
+                                            "end":  22.817
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  22.828,
+                                            "end":  22.958
+                                        },
+                                        {
+                                            "word":  "rover,",
+                                            "start":  22.969,
+                                            "end":  23.415
+                                        },
+                                        {
+                                            "word":  "looking",
+                                            "start":  23.773,
+                                            "end":  24.089
+                                        },
+                                        {
+                                            "word":  "over",
+                                            "start":  24.099,
+                                            "end":  24.252
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  24.263,
+                                            "end":  24.328
+                                        },
+                                        {
+                                            "word":  "next",
+                                            "start":  24.339,
+                                            "end":  24.599
+                                        },
+                                        {
+                                            "word":  "hill.",
+                                            "start":  24.61,
+                                            "end":  24.893
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  25.23,
+                                            "end":  25.284
+                                        },
+                                        {
+                                            "word":  "got",
+                                            "start":  25.295,
+                                            "end":  25.469
+                                        },
+                                        {
+                                            "word":  "through",
+                                            "start":  25.48,
+                                            "end":  25.654
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  25.665,
+                                            "end":  25.708
+                                        },
+                                        {
+                                            "word":  "Martian",
+                                            "start":  25.719,
+                                            "end":  26.089
+                                        },
+                                        {
+                                            "word":  "winter",
+                                            "start":  26.099,
+                                            "end":  26.512
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  26.523,
+                                            "end":  26.621
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  26.632,
+                                            "end":  26.839
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  26.849,
+                                            "end":  26.98
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  26.991,
+                                            "end":  27.208
+                                        },
+                                        {
+                                            "word":  "rough",
+                                            "start":  27.219,
+                                            "end":  27.447
+                                        },
+                                        {
+                                            "word":  "landing.",
+                                            "start":  27.458,
+                                            "end":  27.904
+                                        }
+                                    ]
+                      }
+                  ]
 }

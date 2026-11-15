@@ -1,459 +1,403 @@
-{
-  "story": "17-voyager-2",
-  "card": "card-1",
-  "duration": 24.79,
-  "speechStart": 0.14,
-  "speechEnd": 24.51,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I am the second Voyager, even though I left first.",
-      "start": 0.14,
-      "end": 2.41,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.3
-        },
-        {
-          "word": "am",
-          "start": 0.3,
-          "end": 0.46
-        },
-        {
-          "word": "the",
-          "start": 0.46,
-          "end": 0.64
-        },
-        {
-          "word": "second",
-          "start": 0.64,
-          "end": 0.95
-        },
-        {
-          "word": "Voyager,",
-          "start": 0.95,
-          "end": 1.38
-        },
-        {
-          "word": "even",
-          "start": 1.38,
-          "end": 1.67
-        },
-        {
-          "word": "though",
-          "start": 1.67,
-          "end": 1.88
-        },
-        {
-          "word": "I",
-          "start": 1.88,
-          "end": 2.03
-        },
-        {
-          "word": "left",
-          "start": 2.03,
-          "end": 2.22
-        },
-        {
-          "word": "first.",
-          "start": 2.22,
-          "end": 2.41
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I launched on August 20, 1977, on the slower road.",
-      "start": 2.89,
-      "end": 6.46,
-      "words": [
-        {
-          "word": "I",
-          "start": 2.89,
-          "end": 3.13
-        },
-        {
-          "word": "launched",
-          "start": 3.13,
-          "end": 3.62
-        },
-        {
-          "word": "on",
-          "start": 3.62,
-          "end": 3.87
-        },
-        {
-          "word": "August",
-          "start": 3.87,
-          "end": 4.34
-        },
-        {
-          "word": "20,",
-          "start": 4.34,
-          "end": 4.76
-        },
-        {
-          "word": "1977,",
-          "start": 4.76,
-          "end": 5.2
-        },
-        {
-          "word": "on",
-          "start": 5.2,
-          "end": 5.45
-        },
-        {
-          "word": "the",
-          "start": 5.45,
-          "end": 5.71
-        },
-        {
-          "word": "slower",
-          "start": 5.71,
-          "end": 6.18
-        },
-        {
-          "word": "road.",
-          "start": 6.18,
-          "end": 6.46
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "The slow road turned out to be the grand one.",
-      "start": 6.9,
-      "end": 8.76,
-      "words": [
-        {
-          "word": "The",
-          "start": 6.9,
-          "end": 7.07
-        },
-        {
-          "word": "slow",
-          "start": 7.07,
-          "end": 7.25
-        },
-        {
-          "word": "road",
-          "start": 7.25,
-          "end": 7.43
-        },
-        {
-          "word": "turned",
-          "start": 7.43,
-          "end": 7.73
-        },
-        {
-          "word": "out",
-          "start": 7.73,
-          "end": 7.91
-        },
-        {
-          "word": "to",
-          "start": 7.91,
-          "end": 8.07
-        },
-        {
-          "word": "be",
-          "start": 8.07,
-          "end": 8.23
-        },
-        {
-          "word": "the",
-          "start": 8.23,
-          "end": 8.4
-        },
-        {
-          "word": "grand",
-          "start": 8.4,
-          "end": 8.59
-        },
-        {
-          "word": "one.",
-          "start": 8.59,
-          "end": 8.76
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "In the late 1970s the four giant planets were lined up in a way that happens only about once every 175 years.",
-      "start": 9.16,
-      "end": 15.79,
-      "words": [
-        {
-          "word": "In",
-          "start": 9.16,
-          "end": 9.39
-        },
-        {
-          "word": "the",
-          "start": 9.39,
-          "end": 9.63
-        },
-        {
-          "word": "late",
-          "start": 9.63,
-          "end": 9.88
-        },
-        {
-          "word": "1970s",
-          "start": 9.88,
-          "end": 10.15
-        },
-        {
-          "word": "the",
-          "start": 10.15,
-          "end": 10.39
-        },
-        {
-          "word": "four",
-          "start": 10.39,
-          "end": 10.65
-        },
-        {
-          "word": "giant",
-          "start": 10.65,
-          "end": 10.91
-        },
-        {
-          "word": "planets",
-          "start": 10.91,
-          "end": 11.35
-        },
-        {
-          "word": "were",
-          "start": 11.35,
-          "end": 11.61
-        },
-        {
-          "word": "lined",
-          "start": 11.61,
-          "end": 12.02
-        },
-        {
-          "word": "up",
-          "start": 12.02,
-          "end": 12.25
-        },
-        {
-          "word": "in",
-          "start": 12.25,
-          "end": 12.48
-        },
-        {
-          "word": "a",
-          "start": 12.48,
-          "end": 12.7
-        },
-        {
-          "word": "way",
-          "start": 12.7,
-          "end": 12.94
-        },
-        {
-          "word": "that",
-          "start": 12.94,
-          "end": 13.19
-        },
-        {
-          "word": "happens",
-          "start": 13.19,
-          "end": 13.64
-        },
-        {
-          "word": "only",
-          "start": 13.64,
-          "end": 14.04
-        },
-        {
-          "word": "about",
-          "start": 14.04,
-          "end": 14.46
-        },
-        {
-          "word": "once",
-          "start": 14.46,
-          "end": 14.71
-        },
-        {
-          "word": "every",
-          "start": 14.71,
-          "end": 15.28
-        },
-        {
-          "word": "175",
-          "start": 15.28,
-          "end": 15.52
-        },
-        {
-          "word": "years.",
-          "start": 15.52,
-          "end": 15.79
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Each planet's gravity could fling me on to the next.",
-      "start": 16.2,
-      "end": 18.66,
-      "words": [
-        {
-          "word": "Each",
-          "start": 16.2,
-          "end": 16.41
-        },
-        {
-          "word": "planet's",
-          "start": 16.41,
-          "end": 16.77
-        },
-        {
-          "word": "gravity",
-          "start": 16.77,
-          "end": 17.26
-        },
-        {
-          "word": "could",
-          "start": 17.26,
-          "end": 17.47
-        },
-        {
-          "word": "fling",
-          "start": 17.47,
-          "end": 17.69
-        },
-        {
-          "word": "me",
-          "start": 17.69,
-          "end": 17.88
-        },
-        {
-          "word": "on",
-          "start": 17.88,
-          "end": 18.07
-        },
-        {
-          "word": "to",
-          "start": 18.07,
-          "end": 18.25
-        },
-        {
-          "word": "the",
-          "start": 18.25,
-          "end": 18.45
-        },
-        {
-          "word": "next.",
-          "start": 18.45,
-          "end": 18.66
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Jupiter in 1979.",
-      "start": 19.13,
-      "end": 20.6,
-      "words": [
-        {
-          "word": "Jupiter",
-          "start": 19.13,
-          "end": 19.94
-        },
-        {
-          "word": "in",
-          "start": 19.94,
-          "end": 20.25
-        },
-        {
-          "word": "1979.",
-          "start": 20.25,
-          "end": 20.6
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "Saturn in 1981.",
-      "start": 21.04,
-      "end": 22.25,
-      "words": [
-        {
-          "word": "Saturn",
-          "start": 21.04,
-          "end": 21.61
-        },
-        {
-          "word": "in",
-          "start": 21.61,
-          "end": 21.91
-        },
-        {
-          "word": "1981.",
-          "start": 21.91,
-          "end": 22.25
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "And then my team asked: can you keep going?",
-      "start": 22.66,
-      "end": 24.51,
-      "words": [
-        {
-          "word": "And",
-          "start": 22.66,
-          "end": 22.84
-        },
-        {
-          "word": "then",
-          "start": 22.84,
-          "end": 23.02
-        },
-        {
-          "word": "my",
-          "start": 23.02,
-          "end": 23.19
-        },
-        {
-          "word": "team",
-          "start": 23.19,
-          "end": 23.37
-        },
-        {
-          "word": "asked:",
-          "start": 23.37,
-          "end": 23.78
-        },
-        {
-          "word": "can",
-          "start": 23.78,
-          "end": 23.96
-        },
-        {
-          "word": "you",
-          "start": 23.96,
-          "end": 24.13
-        },
-        {
-          "word": "keep",
-          "start": 24.13,
-          "end": 24.32
-        },
-        {
-          "word": "going?",
-          "start": 24.32,
-          "end": 24.51
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "17-voyager-2",
+    "card":  "card-1",
+    "duration":  25.896,
+    "speechStart":  0.132,
+    "speechEnd":  25.621,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I am the second Voyager, even though I left first. I launched on August 20, 1977, on the slower road.\n\nThe slow road turned out to be the grand one. In the late 1970s the four giant planets were lined up in a way that happens only about once every 175 years. Each planet\u0027s gravity could fling me on to the next. Jupiter in 1979. Saturn in 1981. And then my team asked: can you keep going?",
+                          "start":  0.132,
+                          "end":  25.621,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.23
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  0.241,
+                                            "end":  0.382
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.393,
+                                            "end":  0.458
+                                        },
+                                        {
+                                            "word":  "second",
+                                            "start":  0.469,
+                                            "end":  0.806
+                                        },
+                                        {
+                                            "word":  "Voyager,",
+                                            "start":  0.817,
+                                            "end":  1.328
+                                        },
+                                        {
+                                            "word":  "even",
+                                            "start":  1.349,
+                                            "end":  1.578
+                                        },
+                                        {
+                                            "word":  "though",
+                                            "start":  1.589,
+                                            "end":  1.773
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.784,
+                                            "end":  1.871
+                                        },
+                                        {
+                                            "word":  "left",
+                                            "start":  1.882,
+                                            "end":  2.154
+                                        },
+                                        {
+                                            "word":  "first.",
+                                            "start":  2.165,
+                                            "end":  2.632
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.98,
+                                            "end":  3.056
+                                        },
+                                        {
+                                            "word":  "launched",
+                                            "start":  3.067,
+                                            "end":  3.469
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  3.48,
+                                            "end":  3.632
+                                        },
+                                        {
+                                            "word":  "August",
+                                            "start":  3.632,
+                                            "end":  4.629
+                                        },
+                                        {
+                                            "word":  "20,",
+                                            "start":  4.629,
+                                            "end":  5.127
+                                        },
+                                        {
+                                            "word":  "1977,",
+                                            "start":  5.127,
+                                            "end":  5.958
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  5.958,
+                                            "end":  6.089
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.099,
+                                            "end":  6.165
+                                        },
+                                        {
+                                            "word":  "slower",
+                                            "start":  6.176,
+                                            "end":  6.578
+                                        },
+                                        {
+                                            "word":  "road.",
+                                            "start":  6.589,
+                                            "end":  6.926
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  7.263,
+                                            "end":  7.317
+                                        },
+                                        {
+                                            "word":  "slow",
+                                            "start":  7.328,
+                                            "end":  7.643
+                                        },
+                                        {
+                                            "word":  "road",
+                                            "start":  7.654,
+                                            "end":  7.969
+                                        },
+                                        {
+                                            "word":  "turned",
+                                            "start":  7.98,
+                                            "end":  8.219
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  8.23,
+                                            "end":  8.426
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  8.436,
+                                            "end":  8.523
+                                        },
+                                        {
+                                            "word":  "be",
+                                            "start":  8.534,
+                                            "end":  8.676
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  8.686,
+                                            "end":  8.752
+                                        },
+                                        {
+                                            "word":  "grand",
+                                            "start":  8.763,
+                                            "end":  9.067
+                                        },
+                                        {
+                                            "word":  "one.",
+                                            "start":  9.078,
+                                            "end":  9.36
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  9.719,
+                                            "end":  9.817
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  9.828,
+                                            "end":  9.915
+                                        },
+                                        {
+                                            "word":  "late",
+                                            "start":  9.926,
+                                            "end":  10.143
+                                        },
+                                        {
+                                            "word":  "1970s",
+                                            "start":  10.154,
+                                            "end":  11.013
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  11.023,
+                                            "end":  11.121
+                                        },
+                                        {
+                                            "word":  "four",
+                                            "start":  11.132,
+                                            "end":  11.36
+                                        },
+                                        {
+                                            "word":  "giant",
+                                            "start":  11.371,
+                                            "end":  11.654
+                                        },
+                                        {
+                                            "word":  "planets",
+                                            "start":  11.665,
+                                            "end":  12.078
+                                        },
+                                        {
+                                            "word":  "were",
+                                            "start":  12.089,
+                                            "end":  12.208
+                                        },
+                                        {
+                                            "word":  "lined",
+                                            "start":  12.219,
+                                            "end":  12.512
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  12.523,
+                                            "end":  12.708
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  12.73,
+                                            "end":  12.817
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.828,
+                                            "end":  12.893
+                                        },
+                                        {
+                                            "word":  "way",
+                                            "start":  12.904,
+                                            "end":  13.132
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  13.143,
+                                            "end":  13.263
+                                        },
+                                        {
+                                            "word":  "happens",
+                                            "start":  13.273,
+                                            "end":  13.697
+                                        },
+                                        {
+                                            "word":  "only",
+                                            "start":  13.708,
+                                            "end":  13.936
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  13.947,
+                                            "end":  14.208
+                                        },
+                                        {
+                                            "word":  "once",
+                                            "start":  14.219,
+                                            "end":  14.502
+                                        },
+                                        {
+                                            "word":  "every",
+                                            "start":  14.523,
+                                            "end":  14.73
+                                        },
+                                        {
+                                            "word":  "175",
+                                            "start":  14.73,
+                                            "end":  15.252
+                                        },
+                                        {
+                                            "word":  "years.",
+                                            "start":  15.252,
+                                            "end":  16.295
+                                        },
+                                        {
+                                            "word":  "Each",
+                                            "start":  16.295,
+                                            "end":  16.491
+                                        },
+                                        {
+                                            "word":  "planet\u0027s",
+                                            "start":  16.502,
+                                            "end":  16.849
+                                        },
+                                        {
+                                            "word":  "gravity",
+                                            "start":  16.86,
+                                            "end":  17.317
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  17.328,
+                                            "end":  17.491
+                                        },
+                                        {
+                                            "word":  "fling",
+                                            "start":  17.502,
+                                            "end":  17.784
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  17.795,
+                                            "end":  17.969
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  17.98,
+                                            "end":  18.219
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  18.23,
+                                            "end":  18.339
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.349,
+                                            "end":  18.436
+                                        },
+                                        {
+                                            "word":  "next.",
+                                            "start":  18.447,
+                                            "end":  18.882
+                                        },
+                                        {
+                                            "word":  "Jupiter",
+                                            "start":  19.23,
+                                            "end":  19.697
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  19.697,
+                                            "end":  20.169
+                                        },
+                                        {
+                                            "word":  "1979.",
+                                            "start":  20.169,
+                                            "end":  21.349
+                                        },
+                                        {
+                                            "word":  "Saturn",
+                                            "start":  21.349,
+                                            "end":  21.784
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  21.784,
+                                            "end":  22.225
+                                        },
+                                        {
+                                            "word":  "1981.",
+                                            "start":  22.225,
+                                            "end":  23.328
+                                        },
+                                        {
+                                            "word":  "And",
+                                            "start":  23.328,
+                                            "end":  23.404
+                                        },
+                                        {
+                                            "word":  "then",
+                                            "start":  23.415,
+                                            "end":  23.556
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  23.567,
+                                            "end":  23.686
+                                        },
+                                        {
+                                            "word":  "team",
+                                            "start":  23.697,
+                                            "end":  23.958
+                                        },
+                                        {
+                                            "word":  "asked:",
+                                            "start":  23.969,
+                                            "end":  24.393
+                                        },
+                                        {
+                                            "word":  "can",
+                                            "start":  24.839,
+                                            "end":  24.947
+                                        },
+                                        {
+                                            "word":  "you",
+                                            "start":  24.958,
+                                            "end":  25.023
+                                        },
+                                        {
+                                            "word":  "keep",
+                                            "start":  25.034,
+                                            "end":  25.219
+                                        },
+                                        {
+                                            "word":  "going?",
+                                            "start":  25.23,
+                                            "end":  25.621
+                                        }
+                                    ]
+                      }
+                  ]
 }

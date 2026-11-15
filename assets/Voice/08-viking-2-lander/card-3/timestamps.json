@@ -1,401 +1,353 @@
-{
-  "story": "08-viking-2-lander",
-  "card": "card-3",
-  "duration": 18.7,
-  "speechStart": 0.14,
-  "speechEnd": 18.31,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "But I saw something she could not.",
-      "start": 0.14,
-      "end": 1.2,
-      "words": [
-        {
-          "word": "But",
-          "start": 0.14,
-          "end": 0.26
-        },
-        {
-          "word": "I",
-          "start": 0.26,
-          "end": 0.38
-        },
-        {
-          "word": "saw",
-          "start": 0.38,
-          "end": 0.5
-        },
-        {
-          "word": "something",
-          "start": 0.5,
-          "end": 0.82
-        },
-        {
-          "word": "she",
-          "start": 0.82,
-          "end": 0.94
-        },
-        {
-          "word": "could",
-          "start": 0.94,
-          "end": 1.08
-        },
-        {
-          "word": "not.",
-          "start": 1.08,
-          "end": 1.2
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "One winter morning, the ground around me was white.",
-      "start": 1.65,
-      "end": 3.89,
-      "words": [
-        {
-          "word": "One",
-          "start": 1.65,
-          "end": 1.83
-        },
-        {
-          "word": "winter",
-          "start": 1.83,
-          "end": 2.16
-        },
-        {
-          "word": "morning,",
-          "start": 2.16,
-          "end": 2.61
-        },
-        {
-          "word": "the",
-          "start": 2.61,
-          "end": 2.79
-        },
-        {
-          "word": "ground",
-          "start": 2.79,
-          "end": 3.0
-        },
-        {
-          "word": "around",
-          "start": 3.0,
-          "end": 3.33
-        },
-        {
-          "word": "me",
-          "start": 3.33,
-          "end": 3.5
-        },
-        {
-          "word": "was",
-          "start": 3.5,
-          "end": 3.69
-        },
-        {
-          "word": "white.",
-          "start": 3.69,
-          "end": 3.89
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "A thin coat of frost had formed on the rocks.",
-      "start": 4.35,
-      "end": 6.54,
-      "words": [
-        {
-          "word": "A",
-          "start": 4.35,
-          "end": 4.53
-        },
-        {
-          "word": "thin",
-          "start": 4.53,
-          "end": 4.74
-        },
-        {
-          "word": "coat",
-          "start": 4.74,
-          "end": 4.95
-        },
-        {
-          "word": "of",
-          "start": 4.95,
-          "end": 5.14
-        },
-        {
-          "word": "frost",
-          "start": 5.14,
-          "end": 5.37
-        },
-        {
-          "word": "had",
-          "start": 5.37,
-          "end": 5.57
-        },
-        {
-          "word": "formed",
-          "start": 5.57,
-          "end": 5.93
-        },
-        {
-          "word": "on",
-          "start": 5.93,
-          "end": 6.12
-        },
-        {
-          "word": "the",
-          "start": 6.12,
-          "end": 6.32
-        },
-        {
-          "word": "rocks.",
-          "start": 6.32,
-          "end": 6.54
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Water ice, on Mars, right in front of my cameras.",
-      "start": 6.94,
-      "end": 9.57,
-      "words": [
-        {
-          "word": "Water",
-          "start": 6.94,
-          "end": 7.28
-        },
-        {
-          "word": "ice,",
-          "start": 7.28,
-          "end": 7.59
-        },
-        {
-          "word": "on",
-          "start": 7.59,
-          "end": 7.78
-        },
-        {
-          "word": "Mars,",
-          "start": 7.78,
-          "end": 8.11
-        },
-        {
-          "word": "right",
-          "start": 8.11,
-          "end": 8.32
-        },
-        {
-          "word": "in",
-          "start": 8.32,
-          "end": 8.51
-        },
-        {
-          "word": "front",
-          "start": 8.51,
-          "end": 8.72
-        },
-        {
-          "word": "of",
-          "start": 8.72,
-          "end": 8.91
-        },
-        {
-          "word": "my",
-          "start": 8.91,
-          "end": 9.09
-        },
-        {
-          "word": "cameras.",
-          "start": 9.09,
-          "end": 9.57
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I kept working for more than three years.",
-      "start": 9.98,
-      "end": 11.55,
-      "words": [
-        {
-          "word": "I",
-          "start": 9.98,
-          "end": 10.14
-        },
-        {
-          "word": "kept",
-          "start": 10.14,
-          "end": 10.32
-        },
-        {
-          "word": "working",
-          "start": 10.32,
-          "end": 10.63
-        },
-        {
-          "word": "for",
-          "start": 10.63,
-          "end": 10.81
-        },
-        {
-          "word": "more",
-          "start": 10.81,
-          "end": 10.99
-        },
-        {
-          "word": "than",
-          "start": 10.99,
-          "end": 11.17
-        },
-        {
-          "word": "three",
-          "start": 11.17,
-          "end": 11.36
-        },
-        {
-          "word": "years.",
-          "start": 11.36,
-          "end": 11.55
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Then, in April 1980, my batteries failed and I was switched off.",
-      "start": 11.95,
-      "end": 15.5,
-      "words": [
-        {
-          "word": "Then,",
-          "start": 11.95,
-          "end": 12.3
-        },
-        {
-          "word": "in",
-          "start": 12.3,
-          "end": 12.5
-        },
-        {
-          "word": "April",
-          "start": 12.5,
-          "end": 12.85
-        },
-        {
-          "word": "1980,",
-          "start": 12.85,
-          "end": 13.2
-        },
-        {
-          "word": "my",
-          "start": 13.2,
-          "end": 13.4
-        },
-        {
-          "word": "batteries",
-          "start": 13.4,
-          "end": 13.93
-        },
-        {
-          "word": "failed",
-          "start": 13.93,
-          "end": 14.3
-        },
-        {
-          "word": "and",
-          "start": 14.3,
-          "end": 14.51
-        },
-        {
-          "word": "I",
-          "start": 14.51,
-          "end": 14.69
-        },
-        {
-          "word": "was",
-          "start": 14.69,
-          "end": 14.9
-        },
-        {
-          "word": "switched",
-          "start": 14.9,
-          "end": 15.29
-        },
-        {
-          "word": "off.",
-          "start": 15.29,
-          "end": 15.5
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "I am still here on Utopia, still leaning on my rock.",
-      "start": 15.97,
-      "end": 18.31,
-      "words": [
-        {
-          "word": "I",
-          "start": 15.97,
-          "end": 16.12
-        },
-        {
-          "word": "am",
-          "start": 16.12,
-          "end": 16.28
-        },
-        {
-          "word": "still",
-          "start": 16.28,
-          "end": 16.47
-        },
-        {
-          "word": "here",
-          "start": 16.47,
-          "end": 16.64
-        },
-        {
-          "word": "on",
-          "start": 16.64,
-          "end": 16.81
-        },
-        {
-          "word": "Utopia,",
-          "start": 16.81,
-          "end": 17.32
-        },
-        {
-          "word": "still",
-          "start": 17.32,
-          "end": 17.5
-        },
-        {
-          "word": "leaning",
-          "start": 17.5,
-          "end": 17.81
-        },
-        {
-          "word": "on",
-          "start": 17.81,
-          "end": 17.97
-        },
-        {
-          "word": "my",
-          "start": 17.97,
-          "end": 18.13
-        },
-        {
-          "word": "rock.",
-          "start": 18.13,
-          "end": 18.31
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "08-viking-2-lander",
+    "card":  "card-3",
+    "duration":  19.8,
+    "speechStart":  0.132,
+    "speechEnd":  19.523,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "But I saw something she could not. One winter morning, the ground around me was white. A thin coat of frost had formed on the rocks. Water ice, on Mars, right in front of my cameras.\n\nI kept working for more than three years. Then, in April 1980, my batteries failed and I was switched off. I am still here on Utopia, still leaning on my rock.",
+                          "start":  0.132,
+                          "end":  19.523,
+                          "words":  [
+                                        {
+                                            "word":  "But",
+                                            "start":  0.132,
+                                            "end":  0.219
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  0.23,
+                                            "end":  0.306
+                                        },
+                                        {
+                                            "word":  "saw",
+                                            "start":  0.317,
+                                            "end":  0.556
+                                        },
+                                        {
+                                            "word":  "something",
+                                            "start":  0.567,
+                                            "end":  0.904
+                                        },
+                                        {
+                                            "word":  "she",
+                                            "start":  0.915,
+                                            "end":  1.078
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  1.089,
+                                            "end":  1.241
+                                        },
+                                        {
+                                            "word":  "not.",
+                                            "start":  1.252,
+                                            "end":  1.654
+                                        },
+                                        {
+                                            "word":  "One",
+                                            "start":  2.002,
+                                            "end":  2.208
+                                        },
+                                        {
+                                            "word":  "winter",
+                                            "start":  2.219,
+                                            "end":  2.458
+                                        },
+                                        {
+                                            "word":  "morning,",
+                                            "start":  2.469,
+                                            "end":  2.936
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.089,
+                                            "end":  3.186
+                                        },
+                                        {
+                                            "word":  "ground",
+                                            "start":  3.197,
+                                            "end":  3.523
+                                        },
+                                        {
+                                            "word":  "around",
+                                            "start":  3.534,
+                                            "end":  3.817
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  3.828,
+                                            "end":  3.958
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  3.969,
+                                            "end":  4.121
+                                        },
+                                        {
+                                            "word":  "white.",
+                                            "start":  4.132,
+                                            "end":  4.502
+                                        },
+                                        {
+                                            "word":  "A",
+                                            "start":  4.849,
+                                            "end":  4.926
+                                        },
+                                        {
+                                            "word":  "thin",
+                                            "start":  4.936,
+                                            "end":  5.208
+                                        },
+                                        {
+                                            "word":  "coat",
+                                            "start":  5.219,
+                                            "end":  5.447
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  5.458,
+                                            "end":  5.534
+                                        },
+                                        {
+                                            "word":  "frost",
+                                            "start":  5.545,
+                                            "end":  5.98
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  5.991,
+                                            "end":  6.154
+                                        },
+                                        {
+                                            "word":  "formed",
+                                            "start":  6.165,
+                                            "end":  6.556
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  6.567,
+                                            "end":  6.686
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.697,
+                                            "end":  6.762
+                                        },
+                                        {
+                                            "word":  "rocks.",
+                                            "start":  6.773,
+                                            "end":  7.252
+                                        },
+                                        {
+                                            "word":  "Water",
+                                            "start":  7.589,
+                                            "end":  7.893
+                                        },
+                                        {
+                                            "word":  "ice,",
+                                            "start":  7.904,
+                                            "end":  8.186
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  8.208,
+                                            "end":  8.36
+                                        },
+                                        {
+                                            "word":  "Mars,",
+                                            "start":  8.371,
+                                            "end":  8.795
+                                        },
+                                        {
+                                            "word":  "right",
+                                            "start":  8.817,
+                                            "end":  9.056
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  9.067,
+                                            "end":  9.176
+                                        },
+                                        {
+                                            "word":  "front",
+                                            "start":  9.186,
+                                            "end":  9.371
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  9.382,
+                                            "end":  9.426
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  9.436,
+                                            "end":  9.545
+                                        },
+                                        {
+                                            "word":  "cameras.",
+                                            "start":  9.556,
+                                            "end":  10.089
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  10.404,
+                                            "end":  10.469
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  10.48,
+                                            "end":  10.708
+                                        },
+                                        {
+                                            "word":  "working",
+                                            "start":  10.719,
+                                            "end":  11.078
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  11.089,
+                                            "end":  11.263
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  11.273,
+                                            "end":  11.491
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  11.502,
+                                            "end":  11.632
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  11.643,
+                                            "end":  11.849
+                                        },
+                                        {
+                                            "word":  "years.",
+                                            "start":  11.86,
+                                            "end":  12.295
+                                        },
+                                        {
+                                            "word":  "Then,",
+                                            "start":  12.632,
+                                            "end":  12.915
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  12.936,
+                                            "end":  13.099
+                                        },
+                                        {
+                                            "word":  "April",
+                                            "start":  13.099,
+                                            "end":  13.578
+                                        },
+                                        {
+                                            "word":  "1980,",
+                                            "start":  13.578,
+                                            "end":  14.056
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  14.056,
+                                            "end":  14.208
+                                        },
+                                        {
+                                            "word":  "batteries",
+                                            "start":  14.219,
+                                            "end":  14.632
+                                        },
+                                        {
+                                            "word":  "failed",
+                                            "start":  14.643,
+                                            "end":  15.023
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  15.034,
+                                            "end":  15.132
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  15.143,
+                                            "end":  15.208
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  15.219,
+                                            "end":  15.328
+                                        },
+                                        {
+                                            "word":  "switched",
+                                            "start":  15.339,
+                                            "end":  15.654
+                                        },
+                                        {
+                                            "word":  "off.",
+                                            "start":  15.665,
+                                            "end":  15.991
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  16.339,
+                                            "end":  16.393
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  16.404,
+                                            "end":  16.48
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  16.491,
+                                            "end":  16.784
+                                        },
+                                        {
+                                            "word":  "here",
+                                            "start":  16.795,
+                                            "end":  17.089
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  17.099,
+                                            "end":  17.208
+                                        },
+                                        {
+                                            "word":  "Utopia,",
+                                            "start":  17.219,
+                                            "end":  17.828
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  18.197,
+                                            "end":  18.556
+                                        },
+                                        {
+                                            "word":  "leaning",
+                                            "start":  18.567,
+                                            "end":  18.849
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  18.86,
+                                            "end":  18.958
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  18.969,
+                                            "end":  19.089
+                                        },
+                                        {
+                                            "word":  "rock.",
+                                            "start":  19.099,
+                                            "end":  19.523
+                                        }
+                                    ]
+                      }
+                  ]
 }

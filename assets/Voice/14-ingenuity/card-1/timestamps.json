@@ -1,597 +1,533 @@
-{
-  "story": "14-ingenuity",
-  "card": "card-1",
-  "duration": 26.47,
-  "speechStart": 0.14,
-  "speechEnd": 26.08,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I am small.",
-      "start": 0.14,
-      "end": 0.64,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.29
-        },
-        {
-          "word": "am",
-          "start": 0.29,
-          "end": 0.45
-        },
-        {
-          "word": "small.",
-          "start": 0.45,
-          "end": 0.64
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I weigh less than a big bottle of water, and I rode to Mars tucked under the belly of a rover the size of a car.",
-      "start": 1.02,
-      "end": 6.01,
-      "words": [
-        {
-          "word": "I",
-          "start": 1.02,
-          "end": 1.17
-        },
-        {
-          "word": "weigh",
-          "start": 1.17,
-          "end": 1.34
-        },
-        {
-          "word": "less",
-          "start": 1.34,
-          "end": 1.51
-        },
-        {
-          "word": "than",
-          "start": 1.51,
-          "end": 1.69
-        },
-        {
-          "word": "a",
-          "start": 1.69,
-          "end": 1.83
-        },
-        {
-          "word": "big",
-          "start": 1.83,
-          "end": 1.99
-        },
-        {
-          "word": "bottle",
-          "start": 1.99,
-          "end": 2.28
-        },
-        {
-          "word": "of",
-          "start": 2.28,
-          "end": 2.44
-        },
-        {
-          "word": "water,",
-          "start": 2.44,
-          "end": 2.82
-        },
-        {
-          "word": "and",
-          "start": 2.82,
-          "end": 2.98
-        },
-        {
-          "word": "I",
-          "start": 2.98,
-          "end": 3.13
-        },
-        {
-          "word": "rode",
-          "start": 3.13,
-          "end": 3.3
-        },
-        {
-          "word": "to",
-          "start": 3.3,
-          "end": 3.45
-        },
-        {
-          "word": "Mars",
-          "start": 3.45,
-          "end": 3.62
-        },
-        {
-          "word": "tucked",
-          "start": 3.62,
-          "end": 3.91
-        },
-        {
-          "word": "under",
-          "start": 3.91,
-          "end": 4.19
-        },
-        {
-          "word": "the",
-          "start": 4.19,
-          "end": 4.35
-        },
-        {
-          "word": "belly",
-          "start": 4.35,
-          "end": 4.63
-        },
-        {
-          "word": "of",
-          "start": 4.63,
-          "end": 4.79
-        },
-        {
-          "word": "a",
-          "start": 4.79,
-          "end": 4.93
-        },
-        {
-          "word": "rover",
-          "start": 4.93,
-          "end": 5.22
-        },
-        {
-          "word": "the",
-          "start": 5.22,
-          "end": 5.38
-        },
-        {
-          "word": "size",
-          "start": 5.38,
-          "end": 5.55
-        },
-        {
-          "word": "of",
-          "start": 5.55,
-          "end": 5.7
-        },
-        {
-          "word": "a",
-          "start": 5.7,
-          "end": 5.85
-        },
-        {
-          "word": "car.",
-          "start": 5.85,
-          "end": 6.01
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "My whole job was to answer one question: can anything fly here?",
-      "start": 6.41,
-      "end": 9.28,
-      "words": [
-        {
-          "word": "My",
-          "start": 6.41,
-          "end": 6.58
-        },
-        {
-          "word": "whole",
-          "start": 6.58,
-          "end": 6.88
-        },
-        {
-          "word": "job",
-          "start": 6.88,
-          "end": 7.05
-        },
-        {
-          "word": "was",
-          "start": 7.05,
-          "end": 7.22
-        },
-        {
-          "word": "to",
-          "start": 7.22,
-          "end": 7.39
-        },
-        {
-          "word": "answer",
-          "start": 7.39,
-          "end": 7.7
-        },
-        {
-          "word": "one",
-          "start": 7.7,
-          "end": 7.87
-        },
-        {
-          "word": "question:",
-          "start": 7.87,
-          "end": 8.31
-        },
-        {
-          "word": "can",
-          "start": 8.31,
-          "end": 8.49
-        },
-        {
-          "word": "anything",
-          "start": 8.49,
-          "end": 8.92
-        },
-        {
-          "word": "fly",
-          "start": 8.92,
-          "end": 9.1
-        },
-        {
-          "word": "here?",
-          "start": 9.1,
-          "end": 9.28
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "It was a fair question.",
-      "start": 9.66,
-      "end": 10.45,
-      "words": [
-        {
-          "word": "It",
-          "start": 9.66,
-          "end": 9.79
-        },
-        {
-          "word": "was",
-          "start": 9.79,
-          "end": 9.93
-        },
-        {
-          "word": "a",
-          "start": 9.93,
-          "end": 10.05
-        },
-        {
-          "word": "fair",
-          "start": 10.05,
-          "end": 10.19
-        },
-        {
-          "word": "question.",
-          "start": 10.19,
-          "end": 10.45
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "The air on Mars is about a hundred times thinner than the air on Earth.",
-      "start": 10.84,
-      "end": 13.72,
-      "words": [
-        {
-          "word": "The",
-          "start": 10.84,
-          "end": 11.0
-        },
-        {
-          "word": "air",
-          "start": 11.0,
-          "end": 11.16
-        },
-        {
-          "word": "on",
-          "start": 11.16,
-          "end": 11.31
-        },
-        {
-          "word": "Mars",
-          "start": 11.31,
-          "end": 11.48
-        },
-        {
-          "word": "is",
-          "start": 11.48,
-          "end": 11.63
-        },
-        {
-          "word": "about",
-          "start": 11.63,
-          "end": 11.9
-        },
-        {
-          "word": "a",
-          "start": 11.9,
-          "end": 12.05
-        },
-        {
-          "word": "hundred",
-          "start": 12.05,
-          "end": 12.34
-        },
-        {
-          "word": "times",
-          "start": 12.34,
-          "end": 12.62
-        },
-        {
-          "word": "thinner",
-          "start": 12.62,
-          "end": 12.91
-        },
-        {
-          "word": "than",
-          "start": 12.91,
-          "end": 13.07
-        },
-        {
-          "word": "the",
-          "start": 13.07,
-          "end": 13.23
-        },
-        {
-          "word": "air",
-          "start": 13.23,
-          "end": 13.39
-        },
-        {
-          "word": "on",
-          "start": 13.39,
-          "end": 13.54
-        },
-        {
-          "word": "Earth.",
-          "start": 13.54,
-          "end": 13.72
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "There is almost nothing for a blade to push against.",
-      "start": 14.25,
-      "end": 16.34,
-      "words": [
-        {
-          "word": "There",
-          "start": 14.25,
-          "end": 14.43
-        },
-        {
-          "word": "is",
-          "start": 14.43,
-          "end": 14.59
-        },
-        {
-          "word": "almost",
-          "start": 14.59,
-          "end": 14.89
-        },
-        {
-          "word": "nothing",
-          "start": 14.89,
-          "end": 15.2
-        },
-        {
-          "word": "for",
-          "start": 15.2,
-          "end": 15.36
-        },
-        {
-          "word": "a",
-          "start": 15.36,
-          "end": 15.51
-        },
-        {
-          "word": "blade",
-          "start": 15.51,
-          "end": 15.7
-        },
-        {
-          "word": "to",
-          "start": 15.7,
-          "end": 15.86
-        },
-        {
-          "word": "push",
-          "start": 15.86,
-          "end": 16.03
-        },
-        {
-          "word": "against.",
-          "start": 16.03,
-          "end": 16.34
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "So my two rotors spin in opposite directions, incredibly fast.",
-      "start": 16.81,
-      "end": 19.99,
-      "words": [
-        {
-          "word": "So",
-          "start": 16.81,
-          "end": 16.99
-        },
-        {
-          "word": "my",
-          "start": 16.99,
-          "end": 17.17
-        },
-        {
-          "word": "two",
-          "start": 17.17,
-          "end": 17.36
-        },
-        {
-          "word": "rotors",
-          "start": 17.36,
-          "end": 17.7
-        },
-        {
-          "word": "spin",
-          "start": 17.7,
-          "end": 17.9
-        },
-        {
-          "word": "in",
-          "start": 17.9,
-          "end": 18.08
-        },
-        {
-          "word": "opposite",
-          "start": 18.08,
-          "end": 18.56
-        },
-        {
-          "word": "directions,",
-          "start": 18.56,
-          "end": 19.17
-        },
-        {
-          "word": "incredibly",
-          "start": 19.17,
-          "end": 19.79
-        },
-        {
-          "word": "fast.",
-          "start": 19.79,
-          "end": 19.99
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "And nobody could steer me with a joystick, because radio signals take minutes to cross from Earth.",
-      "start": 20.44,
-      "end": 24.8,
-      "words": [
-        {
-          "word": "And",
-          "start": 20.44,
-          "end": 20.62
-        },
-        {
-          "word": "nobody",
-          "start": 20.62,
-          "end": 21.06
-        },
-        {
-          "word": "could",
-          "start": 21.06,
-          "end": 21.26
-        },
-        {
-          "word": "steer",
-          "start": 21.26,
-          "end": 21.45
-        },
-        {
-          "word": "me",
-          "start": 21.45,
-          "end": 21.63
-        },
-        {
-          "word": "with",
-          "start": 21.63,
-          "end": 21.82
-        },
-        {
-          "word": "a",
-          "start": 21.82,
-          "end": 21.98
-        },
-        {
-          "word": "joystick,",
-          "start": 21.98,
-          "end": 22.43
-        },
-        {
-          "word": "because",
-          "start": 22.43,
-          "end": 22.76
-        },
-        {
-          "word": "radio",
-          "start": 22.76,
-          "end": 23.08
-        },
-        {
-          "word": "signals",
-          "start": 23.08,
-          "end": 23.41
-        },
-        {
-          "word": "take",
-          "start": 23.41,
-          "end": 23.6
-        },
-        {
-          "word": "minutes",
-          "start": 23.6,
-          "end": 24.04
-        },
-        {
-          "word": "to",
-          "start": 24.04,
-          "end": 24.21
-        },
-        {
-          "word": "cross",
-          "start": 24.21,
-          "end": 24.41
-        },
-        {
-          "word": "from",
-          "start": 24.41,
-          "end": 24.6
-        },
-        {
-          "word": "Earth.",
-          "start": 24.6,
-          "end": 24.8
-        }
-      ]
-    },
-    {
-      "index": 8,
-      "text": "I had to fly myself.",
-      "start": 25.32,
-      "end": 26.08,
-      "words": [
-        {
-          "word": "I",
-          "start": 25.32,
-          "end": 25.44
-        },
-        {
-          "word": "had",
-          "start": 25.44,
-          "end": 25.58
-        },
-        {
-          "word": "to",
-          "start": 25.58,
-          "end": 25.7
-        },
-        {
-          "word": "fly",
-          "start": 25.7,
-          "end": 25.84
-        },
-        {
-          "word": "myself.",
-          "start": 25.84,
-          "end": 26.08
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "14-ingenuity",
+    "card":  "card-1",
+    "duration":  29.04,
+    "speechStart":  0.121,
+    "speechEnd":  28.773,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I am small. I weigh less than a big bottle of water, and I rode to Mars tucked under the belly of a rover the size of a car. My whole job was to answer one question: can anything fly here?\n\nIt was a fair question. The air on Mars is about a hundred times thinner than the air on Earth. There is almost nothing for a blade to push against. So my two rotors spin in opposite directions, incredibly fast. And nobody could steer me with a joystick, because radio signals take minutes to cross from Earth. I had to fly myself.",
+                          "start":  0.121,
+                          "end":  28.773,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.121,
+                                            "end":  0.176
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  0.186,
+                                            "end":  0.273
+                                        },
+                                        {
+                                            "word":  "small.",
+                                            "start":  0.284,
+                                            "end":  0.762
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.11,
+                                            "end":  1.208
+                                        },
+                                        {
+                                            "word":  "weigh",
+                                            "start":  1.219,
+                                            "end":  1.393
+                                        },
+                                        {
+                                            "word":  "less",
+                                            "start":  1.404,
+                                            "end":  1.665
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  1.676,
+                                            "end":  1.773
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  1.784,
+                                            "end":  1.86
+                                        },
+                                        {
+                                            "word":  "big",
+                                            "start":  1.871,
+                                            "end":  2.056
+                                        },
+                                        {
+                                            "word":  "bottle",
+                                            "start":  2.067,
+                                            "end":  2.339
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.349,
+                                            "end":  2.436
+                                        },
+                                        {
+                                            "word":  "water,",
+                                            "start":  2.447,
+                                            "end":  2.86
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  3.143,
+                                            "end":  3.317
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  3.328,
+                                            "end":  3.404
+                                        },
+                                        {
+                                            "word":  "rode",
+                                            "start":  3.415,
+                                            "end":  3.643
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  3.654,
+                                            "end":  3.73
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  3.741,
+                                            "end":  4.11
+                                        },
+                                        {
+                                            "word":  "tucked",
+                                            "start":  4.121,
+                                            "end":  4.404
+                                        },
+                                        {
+                                            "word":  "under",
+                                            "start":  4.415,
+                                            "end":  4.61
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  4.621,
+                                            "end":  4.708
+                                        },
+                                        {
+                                            "word":  "belly",
+                                            "start":  4.719,
+                                            "end":  5.045
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  5.056,
+                                            "end":  5.143
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  5.154,
+                                            "end":  5.186
+                                        },
+                                        {
+                                            "word":  "rover",
+                                            "start":  5.197,
+                                            "end":  5.523
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  5.534,
+                                            "end":  5.599
+                                        },
+                                        {
+                                            "word":  "size",
+                                            "start":  5.61,
+                                            "end":  5.904
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  5.915,
+                                            "end":  5.969
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  5.98,
+                                            "end":  6.034
+                                        },
+                                        {
+                                            "word":  "car.",
+                                            "start":  6.045,
+                                            "end":  6.415
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  6.741,
+                                            "end":  6.828
+                                        },
+                                        {
+                                            "word":  "whole",
+                                            "start":  6.839,
+                                            "end":  7.034
+                                        },
+                                        {
+                                            "word":  "job",
+                                            "start":  7.045,
+                                            "end":  7.382
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  7.393,
+                                            "end":  7.545
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  7.556,
+                                            "end":  7.654
+                                        },
+                                        {
+                                            "word":  "answer",
+                                            "start":  7.665,
+                                            "end":  8.023
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  8.034,
+                                            "end":  8.208
+                                        },
+                                        {
+                                            "word":  "question:",
+                                            "start":  8.219,
+                                            "end":  8.719
+                                        },
+                                        {
+                                            "word":  "can",
+                                            "start":  9.295,
+                                            "end":  9.436
+                                        },
+                                        {
+                                            "word":  "anything",
+                                            "start":  9.447,
+                                            "end":  9.762
+                                        },
+                                        {
+                                            "word":  "fly",
+                                            "start":  9.773,
+                                            "end":  10.045
+                                        },
+                                        {
+                                            "word":  "here?",
+                                            "start":  10.056,
+                                            "end":  10.371
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  10.688,
+                                            "end":  10.775
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  10.786,
+                                            "end":  10.916
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  10.927,
+                                            "end":  10.992
+                                        },
+                                        {
+                                            "word":  "fair",
+                                            "start":  11.003,
+                                            "end":  11.264
+                                        },
+                                        {
+                                            "word":  "question.",
+                                            "start":  11.275,
+                                            "end":  11.808
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  12.132,
+                                            "end":  12.186
+                                        },
+                                        {
+                                            "word":  "air",
+                                            "start":  12.197,
+                                            "end":  12.469
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  12.48,
+                                            "end":  12.599
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  12.61,
+                                            "end":  13.002
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  13.013,
+                                            "end":  13.143
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  13.154,
+                                            "end":  13.436
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  13.447,
+                                            "end":  13.491
+                                        },
+                                        {
+                                            "word":  "hundred",
+                                            "start":  13.502,
+                                            "end":  13.806
+                                        },
+                                        {
+                                            "word":  "times",
+                                            "start":  13.817,
+                                            "end":  14.154
+                                        },
+                                        {
+                                            "word":  "thinner",
+                                            "start":  14.165,
+                                            "end":  14.523
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  14.534,
+                                            "end":  14.676
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  14.686,
+                                            "end":  14.741
+                                        },
+                                        {
+                                            "word":  "air",
+                                            "start":  14.752,
+                                            "end":  15.045
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  15.056,
+                                            "end":  15.176
+                                        },
+                                        {
+                                            "word":  "Earth.",
+                                            "start":  15.186,
+                                            "end":  15.599
+                                        },
+                                        {
+                                            "word":  "There",
+                                            "start":  15.958,
+                                            "end":  16.121
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  16.132,
+                                            "end":  16.252
+                                        },
+                                        {
+                                            "word":  "almost",
+                                            "start":  16.263,
+                                            "end":  16.632
+                                        },
+                                        {
+                                            "word":  "nothing",
+                                            "start":  16.643,
+                                            "end":  17.034
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  17.045,
+                                            "end":  17.23
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.241,
+                                            "end":  17.306
+                                        },
+                                        {
+                                            "word":  "blade",
+                                            "start":  17.317,
+                                            "end":  17.621
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  17.632,
+                                            "end":  17.719
+                                        },
+                                        {
+                                            "word":  "push",
+                                            "start":  17.73,
+                                            "end":  17.947
+                                        },
+                                        {
+                                            "word":  "against.",
+                                            "start":  17.958,
+                                            "end":  18.458
+                                        },
+                                        {
+                                            "word":  "So",
+                                            "start":  18.777,
+                                            "end":  18.896
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  18.907,
+                                            "end":  19.037
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  19.048,
+                                            "end":  19.266
+                                        },
+                                        {
+                                            "word":  "rotors",
+                                            "start":  19.277,
+                                            "end":  19.581
+                                        },
+                                        {
+                                            "word":  "spin",
+                                            "start":  19.592,
+                                            "end":  19.94
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  19.951,
+                                            "end":  20.124
+                                        },
+                                        {
+                                            "word":  "opposite",
+                                            "start":  20.135,
+                                            "end":  20.516
+                                        },
+                                        {
+                                            "word":  "directions,",
+                                            "start":  20.527,
+                                            "end":  21.135
+                                        },
+                                        {
+                                            "word":  "incredibly",
+                                            "start":  21.32,
+                                            "end":  21.842
+                                        },
+                                        {
+                                            "word":  "fast.",
+                                            "start":  21.853,
+                                            "end":  22.342
+                                        },
+                                        {
+                                            "word":  "And",
+                                            "start":  22.676,
+                                            "end":  22.773
+                                        },
+                                        {
+                                            "word":  "nobody",
+                                            "start":  22.784,
+                                            "end":  23.089
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  23.099,
+                                            "end":  23.219
+                                        },
+                                        {
+                                            "word":  "steer",
+                                            "start":  23.23,
+                                            "end":  23.545
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  23.556,
+                                            "end":  23.697
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  23.708,
+                                            "end":  23.839
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  23.849,
+                                            "end":  23.893
+                                        },
+                                        {
+                                            "word":  "joystick,",
+                                            "start":  23.904,
+                                            "end":  24.545
+                                        },
+                                        {
+                                            "word":  "because",
+                                            "start":  24.784,
+                                            "end":  25.089
+                                        },
+                                        {
+                                            "word":  "radio",
+                                            "start":  25.099,
+                                            "end":  25.393
+                                        },
+                                        {
+                                            "word":  "signals",
+                                            "start":  25.404,
+                                            "end":  25.806
+                                        },
+                                        {
+                                            "word":  "take",
+                                            "start":  25.817,
+                                            "end":  26.002
+                                        },
+                                        {
+                                            "word":  "minutes",
+                                            "start":  26.013,
+                                            "end":  26.306
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  26.317,
+                                            "end":  26.404
+                                        },
+                                        {
+                                            "word":  "cross",
+                                            "start":  26.415,
+                                            "end":  26.719
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  26.73,
+                                            "end":  26.871
+                                        },
+                                        {
+                                            "word":  "Earth.",
+                                            "start":  26.882,
+                                            "end":  27.252
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  27.578,
+                                            "end":  27.632
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  27.643,
+                                            "end":  27.795
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  27.806,
+                                            "end":  27.871
+                                        },
+                                        {
+                                            "word":  "fly",
+                                            "start":  27.882,
+                                            "end":  28.176
+                                        },
+                                        {
+                                            "word":  "myself.",
+                                            "start":  28.186,
+                                            "end":  28.773
+                                        }
+                                    ]
+                      }
+                  ]
 }

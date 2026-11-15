@@ -1,446 +1,398 @@
-{
-  "story": "18-pioneer-10",
-  "card": "card-3",
-  "duration": 21.98,
-  "speechStart": 0.14,
-  "speechEnd": 21.7,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Then I simply kept going.",
-      "start": 0.14,
-      "end": 1.04,
-      "words": [
-        {
-          "word": "Then",
-          "start": 0.14,
-          "end": 0.3
-        },
-        {
-          "word": "I",
-          "start": 0.3,
-          "end": 0.44
-        },
-        {
-          "word": "simply",
-          "start": 0.44,
-          "end": 0.71
-        },
-        {
-          "word": "kept",
-          "start": 0.71,
-          "end": 0.87
-        },
-        {
-          "word": "going.",
-          "start": 0.87,
-          "end": 1.04
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "In 1983 I passed the orbit of Neptune.",
-      "start": 1.46,
-      "end": 3.9,
-      "words": [
-        {
-          "word": "In",
-          "start": 1.46,
-          "end": 1.69
-        },
-        {
-          "word": "1983",
-          "start": 1.69,
-          "end": 1.94
-        },
-        {
-          "word": "I",
-          "start": 1.94,
-          "end": 2.15
-        },
-        {
-          "word": "passed",
-          "start": 2.15,
-          "end": 2.58
-        },
-        {
-          "word": "the",
-          "start": 2.58,
-          "end": 2.82
-        },
-        {
-          "word": "orbit",
-          "start": 2.82,
-          "end": 3.23
-        },
-        {
-          "word": "of",
-          "start": 3.23,
-          "end": 3.46
-        },
-        {
-          "word": "Neptune.",
-          "start": 3.46,
-          "end": 3.9
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "My signal grew weaker every year, until the biggest antennas on Earth could barely hear it.",
-      "start": 4.33,
-      "end": 8.85,
-      "words": [
-        {
-          "word": "My",
-          "start": 4.33,
-          "end": 4.51
-        },
-        {
-          "word": "signal",
-          "start": 4.51,
-          "end": 4.84
-        },
-        {
-          "word": "grew",
-          "start": 4.84,
-          "end": 5.04
-        },
-        {
-          "word": "weaker",
-          "start": 5.04,
-          "end": 5.37
-        },
-        {
-          "word": "every",
-          "start": 5.37,
-          "end": 5.81
-        },
-        {
-          "word": "year,",
-          "start": 5.81,
-          "end": 6.12
-        },
-        {
-          "word": "until",
-          "start": 6.12,
-          "end": 6.44
-        },
-        {
-          "word": "the",
-          "start": 6.44,
-          "end": 6.63
-        },
-        {
-          "word": "biggest",
-          "start": 6.63,
-          "end": 6.97
-        },
-        {
-          "word": "antennas",
-          "start": 6.97,
-          "end": 7.44
-        },
-        {
-          "word": "on",
-          "start": 7.44,
-          "end": 7.62
-        },
-        {
-          "word": "Earth",
-          "start": 7.62,
-          "end": 7.82
-        },
-        {
-          "word": "could",
-          "start": 7.82,
-          "end": 8.03
-        },
-        {
-          "word": "barely",
-          "start": 8.03,
-          "end": 8.48
-        },
-        {
-          "word": "hear",
-          "start": 8.48,
-          "end": 8.67
-        },
-        {
-          "word": "it.",
-          "start": 8.67,
-          "end": 8.85
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "My last faint signal arrived in January 2003.",
-      "start": 9.3,
-      "end": 12.05,
-      "words": [
-        {
-          "word": "My",
-          "start": 9.3,
-          "end": 9.52
-        },
-        {
-          "word": "last",
-          "start": 9.52,
-          "end": 9.77
-        },
-        {
-          "word": "faint",
-          "start": 9.77,
-          "end": 10.02
-        },
-        {
-          "word": "signal",
-          "start": 10.02,
-          "end": 10.44
-        },
-        {
-          "word": "arrived",
-          "start": 10.44,
-          "end": 11.01
-        },
-        {
-          "word": "in",
-          "start": 11.01,
-          "end": 11.23
-        },
-        {
-          "word": "January",
-          "start": 11.23,
-          "end": 11.81
-        },
-        {
-          "word": "2003.",
-          "start": 11.81,
-          "end": 12.05
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I was planned for 21 months and I spoke for more than 30 years.",
-      "start": 12.44,
-      "end": 15.51,
-      "words": [
-        {
-          "word": "I",
-          "start": 12.44,
-          "end": 12.62
-        },
-        {
-          "word": "was",
-          "start": 12.62,
-          "end": 12.83
-        },
-        {
-          "word": "planned",
-          "start": 12.83,
-          "end": 13.2
-        },
-        {
-          "word": "for",
-          "start": 13.2,
-          "end": 13.41
-        },
-        {
-          "word": "21",
-          "start": 13.41,
-          "end": 13.6
-        },
-        {
-          "word": "months",
-          "start": 13.6,
-          "end": 13.84
-        },
-        {
-          "word": "and",
-          "start": 13.84,
-          "end": 14.04
-        },
-        {
-          "word": "I",
-          "start": 14.04,
-          "end": 14.23
-        },
-        {
-          "word": "spoke",
-          "start": 14.23,
-          "end": 14.45
-        },
-        {
-          "word": "for",
-          "start": 14.45,
-          "end": 14.66
-        },
-        {
-          "word": "more",
-          "start": 14.66,
-          "end": 14.87
-        },
-        {
-          "word": "than",
-          "start": 14.87,
-          "end": 15.09
-        },
-        {
-          "word": "30",
-          "start": 15.09,
-          "end": 15.28
-        },
-        {
-          "word": "years.",
-          "start": 15.28,
-          "end": 15.51
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "I am silent now, coasting toward the stars with a small plaque on my side.",
-      "start": 15.92,
-      "end": 19.49,
-      "words": [
-        {
-          "word": "I",
-          "start": 15.92,
-          "end": 16.1
-        },
-        {
-          "word": "am",
-          "start": 16.1,
-          "end": 16.28
-        },
-        {
-          "word": "silent",
-          "start": 16.28,
-          "end": 16.63
-        },
-        {
-          "word": "now,",
-          "start": 16.63,
-          "end": 16.95
-        },
-        {
-          "word": "coasting",
-          "start": 16.95,
-          "end": 17.32
-        },
-        {
-          "word": "toward",
-          "start": 17.32,
-          "end": 17.67
-        },
-        {
-          "word": "the",
-          "start": 17.67,
-          "end": 17.87
-        },
-        {
-          "word": "stars",
-          "start": 17.87,
-          "end": 18.08
-        },
-        {
-          "word": "with",
-          "start": 18.08,
-          "end": 18.29
-        },
-        {
-          "word": "a",
-          "start": 18.29,
-          "end": 18.47
-        },
-        {
-          "word": "small",
-          "start": 18.47,
-          "end": 18.68
-        },
-        {
-          "word": "plaque",
-          "start": 18.68,
-          "end": 18.91
-        },
-        {
-          "word": "on",
-          "start": 18.91,
-          "end": 19.1
-        },
-        {
-          "word": "my",
-          "start": 19.1,
-          "end": 19.28
-        },
-        {
-          "word": "side.",
-          "start": 19.28,
-          "end": 19.49
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "It shows who sent me, and where to find you.",
-      "start": 19.92,
-      "end": 21.7,
-      "words": [
-        {
-          "word": "It",
-          "start": 19.92,
-          "end": 20.08
-        },
-        {
-          "word": "shows",
-          "start": 20.08,
-          "end": 20.26
-        },
-        {
-          "word": "who",
-          "start": 20.26,
-          "end": 20.42
-        },
-        {
-          "word": "sent",
-          "start": 20.42,
-          "end": 20.6
-        },
-        {
-          "word": "me,",
-          "start": 20.6,
-          "end": 20.86
-        },
-        {
-          "word": "and",
-          "start": 20.86,
-          "end": 21.02
-        },
-        {
-          "word": "where",
-          "start": 21.02,
-          "end": 21.2
-        },
-        {
-          "word": "to",
-          "start": 21.2,
-          "end": 21.36
-        },
-        {
-          "word": "find",
-          "start": 21.36,
-          "end": 21.53
-        },
-        {
-          "word": "you.",
-          "start": 21.53,
-          "end": 21.7
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "18-pioneer-10",
+    "card":  "card-3",
+    "duration":  22.896,
+    "speechStart":  0.11,
+    "speechEnd":  22.639,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Then I simply kept going. In 1983 I passed the orbit of Neptune. My signal grew weaker every year, until the biggest antennas on Earth could barely hear it.\n\nMy last faint signal arrived in January 2003. I was planned for 21 months and I spoke for more than 30 years. I am silent now, coasting toward the stars with a small plaque on my side. It shows who sent me, and where to find you.",
+                          "start":  0.11,
+                          "end":  22.639,
+                          "words":  [
+                                        {
+                                            "word":  "Then",
+                                            "start":  0.11,
+                                            "end":  0.252
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  0.263,
+                                            "end":  0.339
+                                        },
+                                        {
+                                            "word":  "simply",
+                                            "start":  0.349,
+                                            "end":  0.697
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  0.708,
+                                            "end":  0.947
+                                        },
+                                        {
+                                            "word":  "going.",
+                                            "start":  0.958,
+                                            "end":  1.371
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  1.371,
+                                            "end":  1.802
+                                        },
+                                        {
+                                            "word":  "1983",
+                                            "start":  1.802,
+                                            "end":  2.665
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  2.665,
+                                            "end":  2.817
+                                        },
+                                        {
+                                            "word":  "passed",
+                                            "start":  2.828,
+                                            "end":  3.176
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.186,
+                                            "end":  3.23
+                                        },
+                                        {
+                                            "word":  "orbit",
+                                            "start":  3.241,
+                                            "end":  3.589
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  3.599,
+                                            "end":  3.697
+                                        },
+                                        {
+                                            "word":  "Neptune.",
+                                            "start":  3.708,
+                                            "end":  4.208
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  4.567,
+                                            "end":  4.676
+                                        },
+                                        {
+                                            "word":  "signal",
+                                            "start":  4.686,
+                                            "end":  5.067
+                                        },
+                                        {
+                                            "word":  "grew",
+                                            "start":  5.078,
+                                            "end":  5.273
+                                        },
+                                        {
+                                            "word":  "weaker",
+                                            "start":  5.284,
+                                            "end":  5.676
+                                        },
+                                        {
+                                            "word":  "every",
+                                            "start":  5.686,
+                                            "end":  5.936
+                                        },
+                                        {
+                                            "word":  "year,",
+                                            "start":  5.947,
+                                            "end":  6.317
+                                        },
+                                        {
+                                            "word":  "until",
+                                            "start":  6.578,
+                                            "end":  6.871
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.882,
+                                            "end":  6.991
+                                        },
+                                        {
+                                            "word":  "biggest",
+                                            "start":  7.002,
+                                            "end":  7.339
+                                        },
+                                        {
+                                            "word":  "antennas",
+                                            "start":  7.349,
+                                            "end":  7.741
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  7.752,
+                                            "end":  7.86
+                                        },
+                                        {
+                                            "word":  "Earth",
+                                            "start":  7.871,
+                                            "end":  8.143
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  8.154,
+                                            "end":  8.317
+                                        },
+                                        {
+                                            "word":  "barely",
+                                            "start":  8.328,
+                                            "end":  8.61
+                                        },
+                                        {
+                                            "word":  "hear",
+                                            "start":  8.621,
+                                            "end":  8.839
+                                        },
+                                        {
+                                            "word":  "it.",
+                                            "start":  8.849,
+                                            "end":  9.056
+                                        },
+                                        {
+                                            "word":  "My",
+                                            "start":  9.382,
+                                            "end":  9.502
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  9.513,
+                                            "end":  9.849
+                                        },
+                                        {
+                                            "word":  "faint",
+                                            "start":  9.86,
+                                            "end":  10.089
+                                        },
+                                        {
+                                            "word":  "signal",
+                                            "start":  10.099,
+                                            "end":  10.502
+                                        },
+                                        {
+                                            "word":  "arrived",
+                                            "start":  10.523,
+                                            "end":  11.002
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  11.013,
+                                            "end":  11.154
+                                        },
+                                        {
+                                            "word":  "January",
+                                            "start":  11.154,
+                                            "end":  12.048
+                                        },
+                                        {
+                                            "word":  "2003.",
+                                            "start":  12.048,
+                                            "end":  12.686
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  12.686,
+                                            "end":  12.741
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  12.752,
+                                            "end":  12.904
+                                        },
+                                        {
+                                            "word":  "planned",
+                                            "start":  12.915,
+                                            "end":  13.263
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  13.273,
+                                            "end":  13.404
+                                        },
+                                        {
+                                            "word":  "21",
+                                            "start":  13.415,
+                                            "end":  13.849
+                                        },
+                                        {
+                                            "word":  "months",
+                                            "start":  13.86,
+                                            "end":  14.219
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  14.23,
+                                            "end":  14.339
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  14.349,
+                                            "end":  14.415
+                                        },
+                                        {
+                                            "word":  "spoke",
+                                            "start":  14.426,
+                                            "end":  14.763
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  14.773,
+                                            "end":  14.926
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  14.936,
+                                            "end":  15.143
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  15.154,
+                                            "end":  15.295
+                                        },
+                                        {
+                                            "word":  "30",
+                                            "start":  15.295,
+                                            "end":  15.55
+                                        },
+                                        {
+                                            "word":  "years.",
+                                            "start":  15.55,
+                                            "end":  16.317
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  16.317,
+                                            "end":  16.393
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  16.404,
+                                            "end":  16.469
+                                        },
+                                        {
+                                            "word":  "silent",
+                                            "start":  16.48,
+                                            "end":  16.871
+                                        },
+                                        {
+                                            "word":  "now,",
+                                            "start":  16.882,
+                                            "end":  17.219
+                                        },
+                                        {
+                                            "word":  "coasting",
+                                            "start":  17.61,
+                                            "end":  18.012
+                                        },
+                                        {
+                                            "word":  "toward",
+                                            "start":  18.023,
+                                            "end":  18.273
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.284,
+                                            "end":  18.349
+                                        },
+                                        {
+                                            "word":  "stars",
+                                            "start":  18.36,
+                                            "end":  18.795
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  18.806,
+                                            "end":  18.926
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  18.936,
+                                            "end":  18.969
+                                        },
+                                        {
+                                            "word":  "small",
+                                            "start":  18.98,
+                                            "end":  19.317
+                                        },
+                                        {
+                                            "word":  "plaque",
+                                            "start":  19.328,
+                                            "end":  19.643
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  19.654,
+                                            "end":  19.73
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  19.741,
+                                            "end":  19.849
+                                        },
+                                        {
+                                            "word":  "side.",
+                                            "start":  19.86,
+                                            "end":  20.262
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  20.584,
+                                            "end":  20.671
+                                        },
+                                        {
+                                            "word":  "shows",
+                                            "start":  20.682,
+                                            "end":  20.986
+                                        },
+                                        {
+                                            "word":  "who",
+                                            "start":  20.997,
+                                            "end":  21.084
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  21.095,
+                                            "end":  21.356
+                                        },
+                                        {
+                                            "word":  "me,",
+                                            "start":  21.367,
+                                            "end":  21.584
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  21.606,
+                                            "end":  21.758
+                                        },
+                                        {
+                                            "word":  "where",
+                                            "start":  21.769,
+                                            "end":  21.976
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  21.986,
+                                            "end":  22.062
+                                        },
+                                        {
+                                            "word":  "find",
+                                            "start":  22.073,
+                                            "end":  22.399
+                                        },
+                                        {
+                                            "word":  "you.",
+                                            "start":  22.41,
+                                            "end":  22.639
+                                        }
+                                    ]
+                      }
+                  ]
 }

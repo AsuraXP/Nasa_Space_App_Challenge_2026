@@ -3,10 +3,13 @@
   "card": "card-3",
   "audio": "audio/01-eagle-descent-stage/card-3/narration.mp3",
   "script": "audio/01-eagle-descent-stage/card-3/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/01-eagle-descent-stage/card-3/timings.json",
+  "vtt": "audio/01-eagle-descent-stage/card-3/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 101952,
-  "duration_seconds": 16.99,
-  "words": 68
+  "bytes": 110016,
+  "duration_seconds": 18.336,
+  "words": 68,
+  "coverage": 1.0
 }

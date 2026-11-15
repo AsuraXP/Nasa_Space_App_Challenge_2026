@@ -1,340 +1,308 @@
-{
-  "story": "15-perseverance",
-  "card": "card-2",
-  "duration": 13.54,
-  "speechStart": 0.14,
-  "speechEnd": 13.21,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I drill out pieces of rock the size of a stick of chalk and seal them in metal tubes.",
-      "start": 0.14,
-      "end": 4.14,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.31
-        },
-        {
-          "word": "drill",
-          "start": 0.31,
-          "end": 0.51
-        },
-        {
-          "word": "out",
-          "start": 0.51,
-          "end": 0.7
-        },
-        {
-          "word": "pieces",
-          "start": 0.7,
-          "end": 1.04
-        },
-        {
-          "word": "of",
-          "start": 1.04,
-          "end": 1.21
-        },
-        {
-          "word": "rock",
-          "start": 1.21,
-          "end": 1.41
-        },
-        {
-          "word": "the",
-          "start": 1.41,
-          "end": 1.6
-        },
-        {
-          "word": "size",
-          "start": 1.6,
-          "end": 1.8
-        },
-        {
-          "word": "of",
-          "start": 1.8,
-          "end": 1.97
-        },
-        {
-          "word": "a",
-          "start": 1.97,
-          "end": 2.14
-        },
-        {
-          "word": "stick",
-          "start": 2.14,
-          "end": 2.35
-        },
-        {
-          "word": "of",
-          "start": 2.35,
-          "end": 2.53
-        },
-        {
-          "word": "chalk",
-          "start": 2.53,
-          "end": 2.73
-        },
-        {
-          "word": "and",
-          "start": 2.73,
-          "end": 2.92
-        },
-        {
-          "word": "seal",
-          "start": 2.92,
-          "end": 3.12
-        },
-        {
-          "word": "them",
-          "start": 3.12,
-          "end": 3.31
-        },
-        {
-          "word": "in",
-          "start": 3.31,
-          "end": 3.49
-        },
-        {
-          "word": "metal",
-          "start": 3.49,
-          "end": 3.82
-        },
-        {
-          "word": "tubes.",
-          "start": 3.82,
-          "end": 4.14
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "Some I carry with me.",
-      "start": 4.54,
-      "end": 5.27,
-      "words": [
-        {
-          "word": "Some",
-          "start": 4.54,
-          "end": 4.68
-        },
-        {
-          "word": "I",
-          "start": 4.68,
-          "end": 4.79
-        },
-        {
-          "word": "carry",
-          "start": 4.79,
-          "end": 5.01
-        },
-        {
-          "word": "with",
-          "start": 5.01,
-          "end": 5.15
-        },
-        {
-          "word": "me.",
-          "start": 5.15,
-          "end": 5.27
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Some I have laid out on the ground in a place called Three Forks, for a future mission to collect.",
-      "start": 5.67,
-      "end": 9.85,
-      "words": [
-        {
-          "word": "Some",
-          "start": 5.67,
-          "end": 5.85
-        },
-        {
-          "word": "I",
-          "start": 5.85,
-          "end": 6.01
-        },
-        {
-          "word": "have",
-          "start": 6.01,
-          "end": 6.19
-        },
-        {
-          "word": "laid",
-          "start": 6.19,
-          "end": 6.38
-        },
-        {
-          "word": "out",
-          "start": 6.38,
-          "end": 6.55
-        },
-        {
-          "word": "on",
-          "start": 6.55,
-          "end": 6.71
-        },
-        {
-          "word": "the",
-          "start": 6.71,
-          "end": 6.89
-        },
-        {
-          "word": "ground",
-          "start": 6.89,
-          "end": 7.09
-        },
-        {
-          "word": "in",
-          "start": 7.09,
-          "end": 7.26
-        },
-        {
-          "word": "a",
-          "start": 7.26,
-          "end": 7.41
-        },
-        {
-          "word": "place",
-          "start": 7.41,
-          "end": 7.6
-        },
-        {
-          "word": "called",
-          "start": 7.6,
-          "end": 7.91
-        },
-        {
-          "word": "Three",
-          "start": 7.91,
-          "end": 8.11
-        },
-        {
-          "word": "Forks,",
-          "start": 8.11,
-          "end": 8.41
-        },
-        {
-          "word": "for",
-          "start": 8.41,
-          "end": 8.58
-        },
-        {
-          "word": "a",
-          "start": 8.58,
-          "end": 8.74
-        },
-        {
-          "word": "future",
-          "start": 8.74,
-          "end": 9.05
-        },
-        {
-          "word": "mission",
-          "start": 9.05,
-          "end": 9.37
-        },
-        {
-          "word": "to",
-          "start": 9.37,
-          "end": 9.53
-        },
-        {
-          "word": "collect.",
-          "start": 9.53,
-          "end": 9.85
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I cannot bring them home myself.",
-      "start": 10.34,
-      "end": 11.48,
-      "words": [
-        {
-          "word": "I",
-          "start": 10.34,
-          "end": 10.47
-        },
-        {
-          "word": "cannot",
-          "start": 10.47,
-          "end": 10.74
-        },
-        {
-          "word": "bring",
-          "start": 10.74,
-          "end": 10.9
-        },
-        {
-          "word": "them",
-          "start": 10.9,
-          "end": 11.06
-        },
-        {
-          "word": "home",
-          "start": 11.06,
-          "end": 11.22
-        },
-        {
-          "word": "myself.",
-          "start": 11.22,
-          "end": 11.48
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Somebody will have to come and get them.",
-      "start": 11.97,
-      "end": 13.21,
-      "words": [
-        {
-          "word": "Somebody",
-          "start": 11.97,
-          "end": 12.35
-        },
-        {
-          "word": "will",
-          "start": 12.35,
-          "end": 12.47
-        },
-        {
-          "word": "have",
-          "start": 12.47,
-          "end": 12.6
-        },
-        {
-          "word": "to",
-          "start": 12.6,
-          "end": 12.72
-        },
-        {
-          "word": "come",
-          "start": 12.72,
-          "end": 12.84
-        },
-        {
-          "word": "and",
-          "start": 12.84,
-          "end": 12.96
-        },
-        {
-          "word": "get",
-          "start": 12.96,
-          "end": 13.08
-        },
-        {
-          "word": "them.",
-          "start": 13.08,
-          "end": 13.21
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "15-perseverance",
+    "card":  "card-2",
+    "duration":  15.144,
+    "speechStart":  0.132,
+    "speechEnd":  14.882,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I drill out pieces of rock the size of a stick of chalk and seal them in metal tubes. Some I carry with me. Some I have laid out on the ground in a place called Three Forks, for a future mission to collect. I cannot bring them home myself. Somebody will have to come and get them.",
+                          "start":  0.132,
+                          "end":  14.882,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.208
+                                        },
+                                        {
+                                            "word":  "drill",
+                                            "start":  0.219,
+                                            "end":  0.512
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  0.523,
+                                            "end":  0.697
+                                        },
+                                        {
+                                            "word":  "pieces",
+                                            "start":  0.708,
+                                            "end":  1.034
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  1.045,
+                                            "end":  1.165
+                                        },
+                                        {
+                                            "word":  "rock",
+                                            "start":  1.176,
+                                            "end":  1.502
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  1.513,
+                                            "end":  1.589
+                                        },
+                                        {
+                                            "word":  "size",
+                                            "start":  1.599,
+                                            "end":  1.969
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  1.98,
+                                            "end":  2.034
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  2.045,
+                                            "end":  2.089
+                                        },
+                                        {
+                                            "word":  "stick",
+                                            "start":  2.099,
+                                            "end":  2.339
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.349,
+                                            "end":  2.426
+                                        },
+                                        {
+                                            "word":  "chalk",
+                                            "start":  2.436,
+                                            "end":  2.839
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  2.871,
+                                            "end":  2.98
+                                        },
+                                        {
+                                            "word":  "seal",
+                                            "start":  2.991,
+                                            "end":  3.252
+                                        },
+                                        {
+                                            "word":  "them",
+                                            "start":  3.263,
+                                            "end":  3.415
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  3.426,
+                                            "end":  3.513
+                                        },
+                                        {
+                                            "word":  "metal",
+                                            "start":  3.523,
+                                            "end":  3.741
+                                        },
+                                        {
+                                            "word":  "tubes.",
+                                            "start":  3.752,
+                                            "end":  4.186
+                                        },
+                                        {
+                                            "word":  "Some",
+                                            "start":  4.505,
+                                            "end":  4.711
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.722,
+                                            "end":  4.809
+                                        },
+                                        {
+                                            "word":  "carry",
+                                            "start":  4.82,
+                                            "end":  5.146
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  5.157,
+                                            "end":  5.331
+                                        },
+                                        {
+                                            "word":  "me.",
+                                            "start":  5.342,
+                                            "end":  5.635
+                                        },
+                                        {
+                                            "word":  "Some",
+                                            "start":  5.98,
+                                            "end":  6.208
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.219,
+                                            "end":  6.339
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  6.349,
+                                            "end":  6.502
+                                        },
+                                        {
+                                            "word":  "laid",
+                                            "start":  6.513,
+                                            "end":  6.719
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  6.73,
+                                            "end":  6.936
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  6.947,
+                                            "end":  7.045
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  7.056,
+                                            "end":  7.11
+                                        },
+                                        {
+                                            "word":  "ground",
+                                            "start":  7.121,
+                                            "end":  7.512
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  7.523,
+                                            "end":  7.632
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  7.643,
+                                            "end":  7.697
+                                        },
+                                        {
+                                            "word":  "place",
+                                            "start":  7.708,
+                                            "end":  8.002
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  8.013,
+                                            "end":  8.252
+                                        },
+                                        {
+                                            "word":  "Three",
+                                            "start":  8.263,
+                                            "end":  8.513
+                                        },
+                                        {
+                                            "word":  "Forks,",
+                                            "start":  8.523,
+                                            "end":  9.012
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  9.382,
+                                            "end":  9.578
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.589,
+                                            "end":  9.632
+                                        },
+                                        {
+                                            "word":  "future",
+                                            "start":  9.643,
+                                            "end":  9.947
+                                        },
+                                        {
+                                            "word":  "mission",
+                                            "start":  9.958,
+                                            "end":  10.262
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  10.273,
+                                            "end":  10.382
+                                        },
+                                        {
+                                            "word":  "collect.",
+                                            "start":  10.393,
+                                            "end":  10.871
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.19,
+                                            "end":  11.255
+                                        },
+                                        {
+                                            "word":  "cannot",
+                                            "start":  11.266,
+                                            "end":  11.603
+                                        },
+                                        {
+                                            "word":  "bring",
+                                            "start":  11.614,
+                                            "end":  11.809
+                                        },
+                                        {
+                                            "word":  "them",
+                                            "start":  11.82,
+                                            "end":  11.94
+                                        },
+                                        {
+                                            "word":  "home",
+                                            "start":  11.951,
+                                            "end":  12.179
+                                        },
+                                        {
+                                            "word":  "myself.",
+                                            "start":  12.19,
+                                            "end":  12.788
+                                        },
+                                        {
+                                            "word":  "Somebody",
+                                            "start":  13.121,
+                                            "end":  13.48
+                                        },
+                                        {
+                                            "word":  "will",
+                                            "start":  13.491,
+                                            "end":  13.643
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  13.654,
+                                            "end":  13.828
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  13.839,
+                                            "end":  13.936
+                                        },
+                                        {
+                                            "word":  "come",
+                                            "start":  13.947,
+                                            "end":  14.219
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  14.23,
+                                            "end":  14.36
+                                        },
+                                        {
+                                            "word":  "get",
+                                            "start":  14.371,
+                                            "end":  14.589
+                                        },
+                                        {
+                                            "word":  "them.",
+                                            "start":  14.599,
+                                            "end":  14.882
+                                        }
+                                    ]
+                      }
+                  ]
 }
