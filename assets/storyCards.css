@@ -1,0 +1,180 @@
+/* story cards, they turn over when you click them */
+.storyCardList {
+  display: grid;
+  gap: 15px;
+}
+
+/* closed cards are a fixed height, JS sets the real height when one is open */
+.storyCard {
+  height: 150px;
+  perspective: 1200px;
+  transition: height 500ms cubic-bezier(0.2, 0.75, 0.25, 1) 300ms;
+}
+
+.storyCard[data-flipped] {
+  transition-delay: 0s;
+}
+
+.storyCardTurn {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 750ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.storyCard[data-flipped] .storyCardTurn {
+  transform: rotateY(180deg);
+}
+
+.storyCardFront,
+.storyCardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 6px;
+}
+
+/* front face */
+.storyCardFront {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+  padding: 20px;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+  border: 1px solid rgb(var(--amber) / 0.45);
+  background:
+    radial-gradient(circle at 50% 0%, rgb(var(--amber) / 0.16), transparent 70%),
+    rgb(var(--panel) / 0.92);
+  box-shadow: 0 8px 22px rgb(0 0 0 / 35%);
+  transition: box-shadow 300ms ease, border-color 300ms ease, visibility 0s linear 0s;
+}
+
+.storyCardFront:hover {
+  border-color: rgb(var(--amber) / 0.9);
+  box-shadow: 0 10px 28px rgb(0 0 0 / 45%), 0 0 22px rgb(var(--amber) / 0.18);
+}
+
+.storyCardFront:focus-visible,
+.storyCardTurnBack:focus-visible {
+  outline: 2px solid rgb(var(--amber));
+  outline-offset: 3px;
+}
+
+.storyCardNumber {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  line-height: 1;
+  color: rgb(var(--amber));
+}
+
+.storyCardPart {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(var(--muted));
+}
+
+.storyCardHint {
+  font-size: 0.8rem;
+  color: rgb(var(--ink) / 0.7);
+}
+
+/* back face, the actual story text */
+.storyCardBack {
+  transform: rotateY(180deg);
+  visibility: hidden;
+  padding: 16px 16px 10px 18px;
+  border: 1px solid rgb(var(--line));
+  border-left: 2px solid rgb(var(--amber) / 0.6);
+  background: rgb(var(--panel) / 0.92);
+  transition: visibility 0s linear 375ms;
+}
+
+.storyCardText {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.storyCardText p {
+  margin: 0 0 12px;
+}
+
+.storyCardText p:last-child {
+  margin-bottom: 0;
+}
+
+.storyCardFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 6px;
+  border-top: 1px solid rgb(var(--line) / 0.6);
+}
+
+.storyCardTurnBack {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgb(var(--muted));
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: none;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.storyCardTurnBack:hover {
+  color: rgb(var(--amber));
+  border-color: rgb(var(--amber) / 0.5);
+}
+
+/* when flipped, swap which face counts as visible (so tab and screen readers skip the hidden one) */
+.storyCard[data-flipped] .storyCardFront {
+  visibility: hidden;
+  transition: box-shadow 300ms ease, border-color 300ms ease, visibility 0s linear 375ms;
+}
+
+.storyCard[data-flipped] .storyCardBack {
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+/* reduced motion, no spinning, just swap the faces */
+:root[data-motion='reduced'] .storyCard,
+:root[data-motion='reduced'] .storyCardTurn,
+:root[data-motion='reduced'] .storyCardFront,
+:root[data-motion='reduced'] .storyCardBack {
+  transition: none !important;
+}
+
+:root[data-motion='reduced'] .storyCard[data-flipped] .storyCardTurn,
+:root[data-motion='reduced'] .storyCardBack {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .storyCard,
+  .storyCardTurn,
+  .storyCardFront,
+  .storyCardBack {
+    transition: none !important;
+  }
+
+  .storyCard[data-flipped] .storyCardTurn,
+  .storyCardBack {
+    transform: none;
+  }
+}
