@@ -6,6 +6,7 @@ import { P as Planet } from './Planet-BHsR4hM3.js';
 import { PLANETS, AXIAL_SPINS } from './solar-system.js';
 import { NasaPlanet } from './NasaPlanet.js';
 import { createOrbitalMotion } from './orbital-motion.js';
+import AsteroidBelt from './AsteroidBelt.js';
 
 const amber = '#f2a541';
 // Positions remain shared with destination callbacks, so camera flights follow
@@ -74,6 +75,7 @@ export default function HubScene() {
   return jsx.jsxs(jsx.Fragment, { children: [
     jsx.jsx('ambientLight', { intensity: 0.6 }),
     jsx.jsx('directionalLight', { position: [5, 10, 8], intensity: 2.6 }),
+    jsx.jsx(AsteroidBelt, {}),
     jsx.jsxs('mesh', { children: [
       jsx.jsx('sphereGeometry', { args: [0.9, 32, 32] }),
       jsx.jsx('meshBasicMaterial', { color: new Color('#ffc46b').multiplyScalar(2.4), toneMapped: false }),
