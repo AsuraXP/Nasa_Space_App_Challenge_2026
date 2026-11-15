@@ -1,0 +1,54 @@
+.explorer-card-hover {
+  width: 100%;
+  max-width: 24rem;
+  justify-self: center;
+  align-self: start;
+  perspective: 1100px;
+}
+
+.explorer-card-surface {
+  position: relative;
+  border-radius: 0.375rem;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: transform 550ms cubic-bezier(0.2, 0.75, 0.25, 1), box-shadow 550ms ease;
+}
+
+.explorer-card-surface canvas {
+  display: block;
+}
+
+.explorer-card-surface::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(circle at var(--card-light-x, 50%) var(--card-light-y, 50%),
+    rgb(255 223 162 / 18%), rgb(242 165 65 / 5%) 35%, transparent 65%);
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  :root:not([data-motion='reduced']) .explorer-card-hover[data-tilting] .explorer-card-surface {
+    transform: rotateX(var(--card-rotate-x, 0deg)) rotateY(var(--card-rotate-y, 0deg)) translateZ(14px);
+    box-shadow: 0 24px 48px rgb(0 0 0 / 45%), 0 0 25px rgb(242 165 65 / 12%);
+    transition-duration: 120ms, 400ms;
+  }
+
+  :root:not([data-motion='reduced']) .explorer-card-hover[data-tilting] .explorer-card-surface::after {
+    opacity: 1;
+  }
+}
+
+:root[data-motion='reduced'] .explorer-card-surface,
+:root[data-motion='reduced'] .explorer-card-surface::after {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .explorer-card-surface,
+  .explorer-card-surface::after {
+    transition: none;
+  }
+}
