@@ -1,0 +1,343 @@
+{
+  "story": "04-lunar-roving-vehicle-2",
+  "card": "card-3",
+  "duration": 15.22,
+  "speechStart": 0.14,
+  "speechEnd": 14.9,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "One of the rocks we collected weighs almost 12 kilograms.",
+      "start": 0.14,
+      "end": 3.0,
+      "words": [
+        {
+          "word": "One",
+          "start": 0.14,
+          "end": 0.34
+        },
+        {
+          "word": "of",
+          "start": 0.34,
+          "end": 0.54
+        },
+        {
+          "word": "the",
+          "start": 0.54,
+          "end": 0.74
+        },
+        {
+          "word": "rocks",
+          "start": 0.74,
+          "end": 0.97
+        },
+        {
+          "word": "we",
+          "start": 0.97,
+          "end": 1.16
+        },
+        {
+          "word": "collected",
+          "start": 1.16,
+          "end": 1.68
+        },
+        {
+          "word": "weighs",
+          "start": 1.68,
+          "end": 1.92
+        },
+        {
+          "word": "almost",
+          "start": 1.92,
+          "end": 2.28
+        },
+        {
+          "word": "12",
+          "start": 2.28,
+          "end": 2.48
+        },
+        {
+          "word": "kilograms.",
+          "start": 2.48,
+          "end": 3.0
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "It is the biggest rock any Apollo crew took home.",
+      "start": 3.41,
+      "end": 5.79,
+      "words": [
+        {
+          "word": "It",
+          "start": 3.41,
+          "end": 3.58
+        },
+        {
+          "word": "is",
+          "start": 3.58,
+          "end": 3.76
+        },
+        {
+          "word": "the",
+          "start": 3.76,
+          "end": 3.94
+        },
+        {
+          "word": "biggest",
+          "start": 3.94,
+          "end": 4.28
+        },
+        {
+          "word": "rock",
+          "start": 4.28,
+          "end": 4.47
+        },
+        {
+          "word": "any",
+          "start": 4.47,
+          "end": 4.77
+        },
+        {
+          "word": "Apollo",
+          "start": 4.77,
+          "end": 5.21
+        },
+        {
+          "word": "crew",
+          "start": 5.21,
+          "end": 5.4
+        },
+        {
+          "word": "took",
+          "start": 5.4,
+          "end": 5.6
+        },
+        {
+          "word": "home.",
+          "start": 5.6,
+          "end": 5.79
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "They named it Big Muley.",
+      "start": 6.21,
+      "end": 7.07,
+      "words": [
+        {
+          "word": "They",
+          "start": 6.21,
+          "end": 6.35
+        },
+        {
+          "word": "named",
+          "start": 6.35,
+          "end": 6.58
+        },
+        {
+          "word": "it",
+          "start": 6.58,
+          "end": 6.71
+        },
+        {
+          "word": "Big",
+          "start": 6.71,
+          "end": 6.84
+        },
+        {
+          "word": "Muley.",
+          "start": 6.84,
+          "end": 7.07
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Before they left, Charlie placed a photo of his family on the ground.",
+      "start": 7.46,
+      "end": 10.36,
+      "words": [
+        {
+          "word": "Before",
+          "start": 7.46,
+          "end": 7.75
+        },
+        {
+          "word": "they",
+          "start": 7.75,
+          "end": 7.93
+        },
+        {
+          "word": "left,",
+          "start": 7.93,
+          "end": 8.2
+        },
+        {
+          "word": "Charlie",
+          "start": 8.2,
+          "end": 8.4
+        },
+        {
+          "word": "placed",
+          "start": 8.4,
+          "end": 8.7
+        },
+        {
+          "word": "a",
+          "start": 8.7,
+          "end": 8.84
+        },
+        {
+          "word": "photo",
+          "start": 8.84,
+          "end": 9.13
+        },
+        {
+          "word": "of",
+          "start": 9.13,
+          "end": 9.29
+        },
+        {
+          "word": "his",
+          "start": 9.29,
+          "end": 9.45
+        },
+        {
+          "word": "family",
+          "start": 9.45,
+          "end": 9.85
+        },
+        {
+          "word": "on",
+          "start": 9.85,
+          "end": 10.01
+        },
+        {
+          "word": "the",
+          "start": 10.01,
+          "end": 10.17
+        },
+        {
+          "word": "ground.",
+          "start": 10.17,
+          "end": 10.36
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Then they flew home and I stayed.",
+      "start": 10.83,
+      "end": 12.11,
+      "words": [
+        {
+          "word": "Then",
+          "start": 10.83,
+          "end": 11.02
+        },
+        {
+          "word": "they",
+          "start": 11.02,
+          "end": 11.2
+        },
+        {
+          "word": "flew",
+          "start": 11.2,
+          "end": 11.39
+        },
+        {
+          "word": "home",
+          "start": 11.39,
+          "end": 11.57
+        },
+        {
+          "word": "and",
+          "start": 11.57,
+          "end": 11.75
+        },
+        {
+          "word": "I",
+          "start": 11.75,
+          "end": 11.91
+        },
+        {
+          "word": "stayed.",
+          "start": 11.91,
+          "end": 12.11
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "The photo and I have been keeping each other company ever since.",
+      "start": 12.56,
+      "end": 14.9,
+      "words": [
+        {
+          "word": "The",
+          "start": 12.56,
+          "end": 12.7
+        },
+        {
+          "word": "photo",
+          "start": 12.7,
+          "end": 12.95
+        },
+        {
+          "word": "and",
+          "start": 12.95,
+          "end": 13.09
+        },
+        {
+          "word": "I",
+          "start": 13.09,
+          "end": 13.21
+        },
+        {
+          "word": "have",
+          "start": 13.21,
+          "end": 13.36
+        },
+        {
+          "word": "been",
+          "start": 13.36,
+          "end": 13.51
+        },
+        {
+          "word": "keeping",
+          "start": 13.51,
+          "end": 13.77
+        },
+        {
+          "word": "each",
+          "start": 13.77,
+          "end": 13.92
+        },
+        {
+          "word": "other",
+          "start": 13.92,
+          "end": 14.16
+        },
+        {
+          "word": "company",
+          "start": 14.16,
+          "end": 14.51
+        },
+        {
+          "word": "ever",
+          "start": 14.51,
+          "end": 14.74
+        },
+        {
+          "word": "since.",
+          "start": 14.74,
+          "end": 14.9
+        }
+      ]
+    }
+  ]
+}

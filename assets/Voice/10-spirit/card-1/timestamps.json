@@ -1,0 +1,529 @@
+{
+  "story": "10-spirit",
+  "card": "card-1",
+  "duration": 25.99,
+  "speechStart": 0.14,
+  "speechEnd": 25.62,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I landed in January 2004 inside a wrapping of airbags, bounced across Gusev Crater and rolled to a stop.",
+      "start": 0.14,
+      "end": 6.09,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.33
+        },
+        {
+          "word": "landed",
+          "start": 0.33,
+          "end": 0.71
+        },
+        {
+          "word": "in",
+          "start": 0.71,
+          "end": 0.91
+        },
+        {
+          "word": "January",
+          "start": 0.91,
+          "end": 1.44
+        },
+        {
+          "word": "2004",
+          "start": 1.44,
+          "end": 1.66
+        },
+        {
+          "word": "inside",
+          "start": 1.66,
+          "end": 2.04
+        },
+        {
+          "word": "a",
+          "start": 2.04,
+          "end": 2.23
+        },
+        {
+          "word": "wrapping",
+          "start": 2.23,
+          "end": 2.63
+        },
+        {
+          "word": "of",
+          "start": 2.63,
+          "end": 2.84
+        },
+        {
+          "word": "airbags,",
+          "start": 2.84,
+          "end": 3.36
+        },
+        {
+          "word": "bounced",
+          "start": 3.36,
+          "end": 3.75
+        },
+        {
+          "word": "across",
+          "start": 3.75,
+          "end": 4.13
+        },
+        {
+          "word": "Gusev",
+          "start": 4.13,
+          "end": 4.5
+        },
+        {
+          "word": "Crater",
+          "start": 4.5,
+          "end": 4.88
+        },
+        {
+          "word": "and",
+          "start": 4.88,
+          "end": 5.09
+        },
+        {
+          "word": "rolled",
+          "start": 5.09,
+          "end": 5.47
+        },
+        {
+          "word": "to",
+          "start": 5.47,
+          "end": 5.67
+        },
+        {
+          "word": "a",
+          "start": 5.67,
+          "end": 5.87
+        },
+        {
+          "word": "stop.",
+          "start": 5.87,
+          "end": 6.09
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "My mission was supposed to last 90 days.",
+      "start": 6.57,
+      "end": 8.46,
+      "words": [
+        {
+          "word": "My",
+          "start": 6.57,
+          "end": 6.74
+        },
+        {
+          "word": "mission",
+          "start": 6.74,
+          "end": 7.08
+        },
+        {
+          "word": "was",
+          "start": 7.08,
+          "end": 7.26
+        },
+        {
+          "word": "supposed",
+          "start": 7.26,
+          "end": 7.73
+        },
+        {
+          "word": "to",
+          "start": 7.73,
+          "end": 7.9
+        },
+        {
+          "word": "last",
+          "start": 7.9,
+          "end": 8.09
+        },
+        {
+          "word": "90",
+          "start": 8.09,
+          "end": 8.27
+        },
+        {
+          "word": "days.",
+          "start": 8.27,
+          "end": 8.46
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "My twin, Opportunity, landed on the other side of the planet three weeks later.",
+      "start": 8.86,
+      "end": 12.77,
+      "words": [
+        {
+          "word": "My",
+          "start": 8.86,
+          "end": 9.03
+        },
+        {
+          "word": "twin,",
+          "start": 9.03,
+          "end": 9.34
+        },
+        {
+          "word": "Opportunity,",
+          "start": 9.34,
+          "end": 10.17
+        },
+        {
+          "word": "landed",
+          "start": 10.17,
+          "end": 10.5
+        },
+        {
+          "word": "on",
+          "start": 10.5,
+          "end": 10.67
+        },
+        {
+          "word": "the",
+          "start": 10.67,
+          "end": 10.86
+        },
+        {
+          "word": "other",
+          "start": 10.86,
+          "end": 11.17
+        },
+        {
+          "word": "side",
+          "start": 11.17,
+          "end": 11.37
+        },
+        {
+          "word": "of",
+          "start": 11.37,
+          "end": 11.54
+        },
+        {
+          "word": "the",
+          "start": 11.54,
+          "end": 11.72
+        },
+        {
+          "word": "planet",
+          "start": 11.72,
+          "end": 12.05
+        },
+        {
+          "word": "three",
+          "start": 12.05,
+          "end": 12.25
+        },
+        {
+          "word": "weeks",
+          "start": 12.25,
+          "end": 12.45
+        },
+        {
+          "word": "later.",
+          "start": 12.45,
+          "end": 12.77
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Scientists hoped my crater was an old lakebed.",
+      "start": 13.17,
+      "end": 15.46,
+      "words": [
+        {
+          "word": "Scientists",
+          "start": 13.17,
+          "end": 13.55
+        },
+        {
+          "word": "hoped",
+          "start": 13.55,
+          "end": 13.89
+        },
+        {
+          "word": "my",
+          "start": 13.89,
+          "end": 14.07
+        },
+        {
+          "word": "crater",
+          "start": 14.07,
+          "end": 14.41
+        },
+        {
+          "word": "was",
+          "start": 14.41,
+          "end": 14.61
+        },
+        {
+          "word": "an",
+          "start": 14.61,
+          "end": 14.79
+        },
+        {
+          "word": "old",
+          "start": 14.79,
+          "end": 14.98
+        },
+        {
+          "word": "lakebed.",
+          "start": 14.98,
+          "end": 15.46
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "At first all I found was dry lava.",
+      "start": 15.85,
+      "end": 17.28,
+      "words": [
+        {
+          "word": "At",
+          "start": 15.85,
+          "end": 16.01
+        },
+        {
+          "word": "first",
+          "start": 16.01,
+          "end": 16.19
+        },
+        {
+          "word": "all",
+          "start": 16.19,
+          "end": 16.35
+        },
+        {
+          "word": "I",
+          "start": 16.35,
+          "end": 16.5
+        },
+        {
+          "word": "found",
+          "start": 16.5,
+          "end": 16.68
+        },
+        {
+          "word": "was",
+          "start": 16.68,
+          "end": 16.84
+        },
+        {
+          "word": "dry",
+          "start": 16.84,
+          "end": 17.0
+        },
+        {
+          "word": "lava.",
+          "start": 17.0,
+          "end": 17.28
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "So I drove to the nearest hills, about three kilometres away, and climbed one.",
+      "start": 17.64,
+      "end": 21.37,
+      "words": [
+        {
+          "word": "So",
+          "start": 17.64,
+          "end": 17.81
+        },
+        {
+          "word": "I",
+          "start": 17.81,
+          "end": 17.97
+        },
+        {
+          "word": "drove",
+          "start": 17.97,
+          "end": 18.17
+        },
+        {
+          "word": "to",
+          "start": 18.17,
+          "end": 18.34
+        },
+        {
+          "word": "the",
+          "start": 18.34,
+          "end": 18.52
+        },
+        {
+          "word": "nearest",
+          "start": 18.52,
+          "end": 18.85
+        },
+        {
+          "word": "hills,",
+          "start": 18.85,
+          "end": 19.17
+        },
+        {
+          "word": "about",
+          "start": 19.17,
+          "end": 19.48
+        },
+        {
+          "word": "three",
+          "start": 19.48,
+          "end": 19.68
+        },
+        {
+          "word": "kilometres",
+          "start": 19.68,
+          "end": 20.26
+        },
+        {
+          "word": "away,",
+          "start": 20.26,
+          "end": 20.68
+        },
+        {
+          "word": "and",
+          "start": 20.68,
+          "end": 20.86
+        },
+        {
+          "word": "climbed",
+          "start": 20.86,
+          "end": 21.19
+        },
+        {
+          "word": "one.",
+          "start": 21.19,
+          "end": 21.37
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "It took more than a year.",
+      "start": 21.78,
+      "end": 22.58,
+      "words": [
+        {
+          "word": "It",
+          "start": 21.78,
+          "end": 21.91
+        },
+        {
+          "word": "took",
+          "start": 21.91,
+          "end": 22.04
+        },
+        {
+          "word": "more",
+          "start": 22.04,
+          "end": 22.18
+        },
+        {
+          "word": "than",
+          "start": 22.18,
+          "end": 22.32
+        },
+        {
+          "word": "a",
+          "start": 22.32,
+          "end": 22.44
+        },
+        {
+          "word": "year.",
+          "start": 22.44,
+          "end": 22.58
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I am a rover, not a mountain goat, but I got to the top.",
+      "start": 22.96,
+      "end": 25.62,
+      "words": [
+        {
+          "word": "I",
+          "start": 22.96,
+          "end": 23.11
+        },
+        {
+          "word": "am",
+          "start": 23.11,
+          "end": 23.26
+        },
+        {
+          "word": "a",
+          "start": 23.26,
+          "end": 23.41
+        },
+        {
+          "word": "rover,",
+          "start": 23.41,
+          "end": 23.79
+        },
+        {
+          "word": "not",
+          "start": 23.79,
+          "end": 23.95
+        },
+        {
+          "word": "a",
+          "start": 23.95,
+          "end": 24.1
+        },
+        {
+          "word": "mountain",
+          "start": 24.1,
+          "end": 24.4
+        },
+        {
+          "word": "goat,",
+          "start": 24.4,
+          "end": 24.67
+        },
+        {
+          "word": "but",
+          "start": 24.67,
+          "end": 24.83
+        },
+        {
+          "word": "I",
+          "start": 24.83,
+          "end": 24.98
+        },
+        {
+          "word": "got",
+          "start": 24.98,
+          "end": 25.14
+        },
+        {
+          "word": "to",
+          "start": 25.14,
+          "end": 25.3
+        },
+        {
+          "word": "the",
+          "start": 25.3,
+          "end": 25.46
+        },
+        {
+          "word": "top.",
+          "start": 25.46,
+          "end": 25.62
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "story": "18-pioneer-10",
+  "card": "card-1",
+  "duration": 18.91,
+  "speechStart": 0.14,
+  "speechEnd": 18.6,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "Somebody has to go first.",
+      "start": 0.14,
+      "end": 1.13,
+      "words": [
+        {
+          "word": "Somebody",
+          "start": 0.14,
+          "end": 0.58
+        },
+        {
+          "word": "has",
+          "start": 0.58,
+          "end": 0.71
+        },
+        {
+          "word": "to",
+          "start": 0.71,
+          "end": 0.85
+        },
+        {
+          "word": "go",
+          "start": 0.85,
+          "end": 0.98
+        },
+        {
+          "word": "first.",
+          "start": 0.98,
+          "end": 1.13
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "In 1972, that was me.",
+      "start": 1.58,
+      "end": 3.31,
+      "words": [
+        {
+          "word": "In",
+          "start": 1.58,
+          "end": 1.87
+        },
+        {
+          "word": "1972,",
+          "start": 1.87,
+          "end": 2.39
+        },
+        {
+          "word": "that",
+          "start": 2.39,
+          "end": 2.71
+        },
+        {
+          "word": "was",
+          "start": 2.71,
+          "end": 3.02
+        },
+        {
+          "word": "me.",
+          "start": 3.02,
+          "end": 3.31
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Between Mars and Jupiter there is a wide belt of asteroids.",
+      "start": 3.71,
+      "end": 6.58,
+      "words": [
+        {
+          "word": "Between",
+          "start": 3.71,
+          "end": 4.06
+        },
+        {
+          "word": "Mars",
+          "start": 4.06,
+          "end": 4.26
+        },
+        {
+          "word": "and",
+          "start": 4.26,
+          "end": 4.46
+        },
+        {
+          "word": "Jupiter",
+          "start": 4.46,
+          "end": 4.93
+        },
+        {
+          "word": "there",
+          "start": 4.93,
+          "end": 5.14
+        },
+        {
+          "word": "is",
+          "start": 5.14,
+          "end": 5.33
+        },
+        {
+          "word": "a",
+          "start": 5.33,
+          "end": 5.5
+        },
+        {
+          "word": "wide",
+          "start": 5.5,
+          "end": 5.7
+        },
+        {
+          "word": "belt",
+          "start": 5.7,
+          "end": 5.9
+        },
+        {
+          "word": "of",
+          "start": 5.9,
+          "end": 6.09
+        },
+        {
+          "word": "asteroids.",
+          "start": 6.09,
+          "end": 6.58
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Before I launched, nobody knew if a spacecraft could cross it.",
+      "start": 6.99,
+      "end": 9.73,
+      "words": [
+        {
+          "word": "Before",
+          "start": 6.99,
+          "end": 7.29
+        },
+        {
+          "word": "I",
+          "start": 7.29,
+          "end": 7.44
+        },
+        {
+          "word": "launched,",
+          "start": 7.44,
+          "end": 7.86
+        },
+        {
+          "word": "nobody",
+          "start": 7.86,
+          "end": 8.27
+        },
+        {
+          "word": "knew",
+          "start": 8.27,
+          "end": 8.45
+        },
+        {
+          "word": "if",
+          "start": 8.45,
+          "end": 8.61
+        },
+        {
+          "word": "a",
+          "start": 8.61,
+          "end": 8.76
+        },
+        {
+          "word": "spacecraft",
+          "start": 8.76,
+          "end": 9.2
+        },
+        {
+          "word": "could",
+          "start": 9.2,
+          "end": 9.38
+        },
+        {
+          "word": "cross",
+          "start": 9.38,
+          "end": 9.57
+        },
+        {
+          "word": "it.",
+          "start": 9.57,
+          "end": 9.73
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Some people thought I would be hit and destroyed.",
+      "start": 10.18,
+      "end": 12.05,
+      "words": [
+        {
+          "word": "Some",
+          "start": 10.18,
+          "end": 10.36
+        },
+        {
+          "word": "people",
+          "start": 10.36,
+          "end": 10.67
+        },
+        {
+          "word": "thought",
+          "start": 10.67,
+          "end": 10.87
+        },
+        {
+          "word": "I",
+          "start": 10.87,
+          "end": 11.03
+        },
+        {
+          "word": "would",
+          "start": 11.03,
+          "end": 11.21
+        },
+        {
+          "word": "be",
+          "start": 11.21,
+          "end": 11.38
+        },
+        {
+          "word": "hit",
+          "start": 11.38,
+          "end": 11.55
+        },
+        {
+          "word": "and",
+          "start": 11.55,
+          "end": 11.72
+        },
+        {
+          "word": "destroyed.",
+          "start": 11.72,
+          "end": 12.05
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "I spent seven months flying through, and I came out the other side without a scratch that mattered.",
+      "start": 12.47,
+      "end": 16.6,
+      "words": [
+        {
+          "word": "I",
+          "start": 12.47,
+          "end": 12.63
+        },
+        {
+          "word": "spent",
+          "start": 12.63,
+          "end": 12.83
+        },
+        {
+          "word": "seven",
+          "start": 12.83,
+          "end": 13.14
+        },
+        {
+          "word": "months",
+          "start": 13.14,
+          "end": 13.34
+        },
+        {
+          "word": "flying",
+          "start": 13.34,
+          "end": 13.55
+        },
+        {
+          "word": "through,",
+          "start": 13.55,
+          "end": 13.88
+        },
+        {
+          "word": "and",
+          "start": 13.88,
+          "end": 14.06
+        },
+        {
+          "word": "I",
+          "start": 14.06,
+          "end": 14.22
+        },
+        {
+          "word": "came",
+          "start": 14.22,
+          "end": 14.4
+        },
+        {
+          "word": "out",
+          "start": 14.4,
+          "end": 14.58
+        },
+        {
+          "word": "the",
+          "start": 14.58,
+          "end": 14.76
+        },
+        {
+          "word": "other",
+          "start": 14.76,
+          "end": 15.07
+        },
+        {
+          "word": "side",
+          "start": 15.07,
+          "end": 15.26
+        },
+        {
+          "word": "without",
+          "start": 15.26,
+          "end": 15.59
+        },
+        {
+          "word": "a",
+          "start": 15.59,
+          "end": 15.75
+        },
+        {
+          "word": "scratch",
+          "start": 15.75,
+          "end": 15.96
+        },
+        {
+          "word": "that",
+          "start": 15.96,
+          "end": 16.15
+        },
+        {
+          "word": "mattered.",
+          "start": 16.15,
+          "end": 16.6
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "The road to the outer planets was open.",
+      "start": 17.04,
+      "end": 18.6,
+      "words": [
+        {
+          "word": "The",
+          "start": 17.04,
+          "end": 17.19
+        },
+        {
+          "word": "road",
+          "start": 17.19,
+          "end": 17.35
+        },
+        {
+          "word": "to",
+          "start": 17.35,
+          "end": 17.5
+        },
+        {
+          "word": "the",
+          "start": 17.5,
+          "end": 17.65
+        },
+        {
+          "word": "outer",
+          "start": 17.65,
+          "end": 17.91
+        },
+        {
+          "word": "planets",
+          "start": 17.91,
+          "end": 18.19
+        },
+        {
+          "word": "was",
+          "start": 18.19,
+          "end": 18.34
+        },
+        {
+          "word": "open.",
+          "start": 18.34,
+          "end": 18.6
+        }
+      ]
+    }
+  ]
+}

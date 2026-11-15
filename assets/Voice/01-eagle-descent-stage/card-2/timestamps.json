@@ -1,0 +1,164 @@
+{
+  "story": "01-eagle-descent-stage",
+  "card": "card-2",
+  "duration": 7.68,
+  "speechStart": 0.13,
+  "speechEnd": 7.34,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "Neil climbed down my ladder first.",
+      "start": 0.13,
+      "end": 1.42,
+      "words": [
+        {
+          "word": "Neil",
+          "start": 0.13,
+          "end": 0.3
+        },
+        {
+          "word": "climbed",
+          "start": 0.3,
+          "end": 0.61
+        },
+        {
+          "word": "down",
+          "start": 0.61,
+          "end": 0.78
+        },
+        {
+          "word": "my",
+          "start": 0.78,
+          "end": 0.94
+        },
+        {
+          "word": "ladder",
+          "start": 0.94,
+          "end": 1.24
+        },
+        {
+          "word": "first.",
+          "start": 1.24,
+          "end": 1.42
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "Buzz Aldrin followed.",
+      "start": 1.89,
+      "end": 2.76,
+      "words": [
+        {
+          "word": "Buzz",
+          "start": 1.89,
+          "end": 2.06
+        },
+        {
+          "word": "Aldrin",
+          "start": 2.06,
+          "end": 2.35
+        },
+        {
+          "word": "followed.",
+          "start": 2.35,
+          "end": 2.76
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "For about two and a half hours they collected rocks, set up experiments and planted a flag.",
+      "start": 3.2,
+      "end": 7.34,
+      "words": [
+        {
+          "word": "For",
+          "start": 3.2,
+          "end": 3.38
+        },
+        {
+          "word": "about",
+          "start": 3.38,
+          "end": 3.69
+        },
+        {
+          "word": "two",
+          "start": 3.69,
+          "end": 3.87
+        },
+        {
+          "word": "and",
+          "start": 3.87,
+          "end": 4.05
+        },
+        {
+          "word": "a",
+          "start": 4.05,
+          "end": 4.21
+        },
+        {
+          "word": "half",
+          "start": 4.21,
+          "end": 4.4
+        },
+        {
+          "word": "hours",
+          "start": 4.4,
+          "end": 4.59
+        },
+        {
+          "word": "they",
+          "start": 4.59,
+          "end": 4.78
+        },
+        {
+          "word": "collected",
+          "start": 4.78,
+          "end": 5.24
+        },
+        {
+          "word": "rocks,",
+          "start": 5.24,
+          "end": 5.55
+        },
+        {
+          "word": "set",
+          "start": 5.55,
+          "end": 5.73
+        },
+        {
+          "word": "up",
+          "start": 5.73,
+          "end": 5.9
+        },
+        {
+          "word": "experiments",
+          "start": 5.9,
+          "end": 6.48
+        },
+        {
+          "word": "and",
+          "start": 6.48,
+          "end": 6.66
+        },
+        {
+          "word": "planted",
+          "start": 6.66,
+          "end": 6.99
+        },
+        {
+          "word": "a",
+          "start": 6.99,
+          "end": 7.15
+        },
+        {
+          "word": "flag.",
+          "start": 7.15,
+          "end": 7.34
+        }
+      ]
+    }
+  ]
+}

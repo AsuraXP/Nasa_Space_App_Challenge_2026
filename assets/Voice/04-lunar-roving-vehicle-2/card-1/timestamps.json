@@ -1,0 +1,420 @@
+{
+  "story": "04-lunar-roving-vehicle-2",
+  "card": "card-1",
+  "duration": 24.5,
+  "speechStart": 0.14,
+  "speechEnd": 24.18,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I am the second Moon car, and I got the bumpy neighbourhood: the Descartes Highlands, bright hilly country that is older than the dark lunar seas.",
+      "start": 0.14,
+      "end": 8.8,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.35
+        },
+        {
+          "word": "am",
+          "start": 0.35,
+          "end": 0.58
+        },
+        {
+          "word": "the",
+          "start": 0.58,
+          "end": 0.81
+        },
+        {
+          "word": "second",
+          "start": 0.81,
+          "end": 1.23
+        },
+        {
+          "word": "Moon",
+          "start": 1.23,
+          "end": 1.48
+        },
+        {
+          "word": "car,",
+          "start": 1.48,
+          "end": 1.86
+        },
+        {
+          "word": "and",
+          "start": 1.86,
+          "end": 2.1
+        },
+        {
+          "word": "I",
+          "start": 2.1,
+          "end": 2.31
+        },
+        {
+          "word": "got",
+          "start": 2.31,
+          "end": 2.54
+        },
+        {
+          "word": "the",
+          "start": 2.54,
+          "end": 2.78
+        },
+        {
+          "word": "bumpy",
+          "start": 2.78,
+          "end": 3.19
+        },
+        {
+          "word": "neighbourhood:",
+          "start": 3.19,
+          "end": 3.99
+        },
+        {
+          "word": "the",
+          "start": 3.99,
+          "end": 4.22
+        },
+        {
+          "word": "Descartes",
+          "start": 4.22,
+          "end": 4.82
+        },
+        {
+          "word": "Highlands,",
+          "start": 4.82,
+          "end": 5.43
+        },
+        {
+          "word": "bright",
+          "start": 5.43,
+          "end": 5.7
+        },
+        {
+          "word": "hilly",
+          "start": 5.7,
+          "end": 6.11
+        },
+        {
+          "word": "country",
+          "start": 6.11,
+          "end": 6.54
+        },
+        {
+          "word": "that",
+          "start": 6.54,
+          "end": 6.78
+        },
+        {
+          "word": "is",
+          "start": 6.78,
+          "end": 7.01
+        },
+        {
+          "word": "older",
+          "start": 7.01,
+          "end": 7.41
+        },
+        {
+          "word": "than",
+          "start": 7.41,
+          "end": 7.66
+        },
+        {
+          "word": "the",
+          "start": 7.66,
+          "end": 7.9
+        },
+        {
+          "word": "dark",
+          "start": 7.9,
+          "end": 8.15
+        },
+        {
+          "word": "lunar",
+          "start": 8.15,
+          "end": 8.55
+        },
+        {
+          "word": "seas.",
+          "start": 8.55,
+          "end": 8.8
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "John Young and Charlie Duke drove me for three days in April 1972, about 27 kilometres in all.",
+      "start": 8.98,
+      "end": 13.85,
+      "words": [
+        {
+          "word": "John",
+          "start": 8.98,
+          "end": 9.2
+        },
+        {
+          "word": "Young",
+          "start": 9.2,
+          "end": 9.44
+        },
+        {
+          "word": "and",
+          "start": 9.44,
+          "end": 9.65
+        },
+        {
+          "word": "Charlie",
+          "start": 9.65,
+          "end": 9.91
+        },
+        {
+          "word": "Duke",
+          "start": 9.91,
+          "end": 10.13
+        },
+        {
+          "word": "drove",
+          "start": 10.13,
+          "end": 10.37
+        },
+        {
+          "word": "me",
+          "start": 10.37,
+          "end": 10.57
+        },
+        {
+          "word": "for",
+          "start": 10.57,
+          "end": 10.78
+        },
+        {
+          "word": "three",
+          "start": 10.78,
+          "end": 11.02
+        },
+        {
+          "word": "days",
+          "start": 11.02,
+          "end": 11.24
+        },
+        {
+          "word": "in",
+          "start": 11.24,
+          "end": 11.44
+        },
+        {
+          "word": "April",
+          "start": 11.44,
+          "end": 11.81
+        },
+        {
+          "word": "1972,",
+          "start": 11.81,
+          "end": 12.17
+        },
+        {
+          "word": "about",
+          "start": 12.17,
+          "end": 12.54
+        },
+        {
+          "word": "27",
+          "start": 12.54,
+          "end": 12.74
+        },
+        {
+          "word": "kilometres",
+          "start": 12.74,
+          "end": 13.43
+        },
+        {
+          "word": "in",
+          "start": 13.43,
+          "end": 13.64
+        },
+        {
+          "word": "all.",
+          "start": 13.64,
+          "end": 13.85
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Scientists back home expected us to find rocks from ancient volcanoes.",
+      "start": 14.25,
+      "end": 17.87,
+      "words": [
+        {
+          "word": "Scientists",
+          "start": 14.25,
+          "end": 14.7
+        },
+        {
+          "word": "back",
+          "start": 14.7,
+          "end": 14.93
+        },
+        {
+          "word": "home",
+          "start": 14.93,
+          "end": 15.17
+        },
+        {
+          "word": "expected",
+          "start": 15.17,
+          "end": 15.73
+        },
+        {
+          "word": "us",
+          "start": 15.73,
+          "end": 15.95
+        },
+        {
+          "word": "to",
+          "start": 15.95,
+          "end": 16.16
+        },
+        {
+          "word": "find",
+          "start": 16.16,
+          "end": 16.4
+        },
+        {
+          "word": "rocks",
+          "start": 16.4,
+          "end": 16.65
+        },
+        {
+          "word": "from",
+          "start": 16.65,
+          "end": 16.88
+        },
+        {
+          "word": "ancient",
+          "start": 16.88,
+          "end": 17.29
+        },
+        {
+          "word": "volcanoes.",
+          "start": 17.29,
+          "end": 17.87
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "We kept finding something else: rocks smashed and stuck back together by enormous impacts.",
+      "start": 18.28,
+      "end": 22.68,
+      "words": [
+        {
+          "word": "We",
+          "start": 18.28,
+          "end": 18.47
+        },
+        {
+          "word": "kept",
+          "start": 18.47,
+          "end": 18.68
+        },
+        {
+          "word": "finding",
+          "start": 18.68,
+          "end": 19.05
+        },
+        {
+          "word": "something",
+          "start": 19.05,
+          "end": 19.56
+        },
+        {
+          "word": "else:",
+          "start": 19.56,
+          "end": 19.9
+        },
+        {
+          "word": "rocks",
+          "start": 19.9,
+          "end": 20.12
+        },
+        {
+          "word": "smashed",
+          "start": 20.12,
+          "end": 20.49
+        },
+        {
+          "word": "and",
+          "start": 20.49,
+          "end": 20.69
+        },
+        {
+          "word": "stuck",
+          "start": 20.69,
+          "end": 20.91
+        },
+        {
+          "word": "back",
+          "start": 20.91,
+          "end": 21.12
+        },
+        {
+          "word": "together",
+          "start": 21.12,
+          "end": 21.62
+        },
+        {
+          "word": "by",
+          "start": 21.62,
+          "end": 21.81
+        },
+        {
+          "word": "enormous",
+          "start": 21.81,
+          "end": 22.31
+        },
+        {
+          "word": "impacts.",
+          "start": 22.31,
+          "end": 22.68
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "The textbooks had to change.",
+      "start": 23.08,
+      "end": 24.18,
+      "words": [
+        {
+          "word": "The",
+          "start": 23.08,
+          "end": 23.26
+        },
+        {
+          "word": "textbooks",
+          "start": 23.26,
+          "end": 23.61
+        },
+        {
+          "word": "had",
+          "start": 23.61,
+          "end": 23.8
+        },
+        {
+          "word": "to",
+          "start": 23.8,
+          "end": 23.97
+        },
+        {
+          "word": "change.",
+          "start": 23.97,
+          "end": 24.18
+        }
+      ]
+    }
+  ]
+}

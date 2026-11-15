@@ -195,3 +195,11 @@
   color: rgb(var(--night));
   background: rgb(var(--amber));
 }
+
+
+/* the word being spoken looks bolder. text-stroke thickens the letters without changing
+   their width, so the lines, spacing and card height stay exactly the same */
+.storyWord.is-current {
+  -webkit-text-stroke: 0.7px currentColor;
+  text-shadow: 0 0 0.5px currentColor;
+}

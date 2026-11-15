@@ -1,0 +1,370 @@
+{
+  "story": "10-spirit",
+  "card": "card-2",
+  "duration": 19.49,
+  "speechStart": 0.13,
+  "speechEnd": 19.18,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In 2006 my right front wheel stopped turning.",
+      "start": 0.13,
+      "end": 2.22,
+      "words": [
+        {
+          "word": "In",
+          "start": 0.13,
+          "end": 0.33
+        },
+        {
+          "word": "2006",
+          "start": 0.33,
+          "end": 0.55
+        },
+        {
+          "word": "my",
+          "start": 0.55,
+          "end": 0.75
+        },
+        {
+          "word": "right",
+          "start": 0.75,
+          "end": 0.98
+        },
+        {
+          "word": "front",
+          "start": 0.98,
+          "end": 1.22
+        },
+        {
+          "word": "wheel",
+          "start": 1.22,
+          "end": 1.45
+        },
+        {
+          "word": "stopped",
+          "start": 1.45,
+          "end": 1.83
+        },
+        {
+          "word": "turning.",
+          "start": 1.83,
+          "end": 2.22
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "After that I drove backwards, dragging the dead wheel behind me like a stubborn suitcase.",
+      "start": 2.65,
+      "end": 7.14,
+      "words": [
+        {
+          "word": "After",
+          "start": 2.65,
+          "end": 3.02
+        },
+        {
+          "word": "that",
+          "start": 3.02,
+          "end": 3.25
+        },
+        {
+          "word": "I",
+          "start": 3.25,
+          "end": 3.44
+        },
+        {
+          "word": "drove",
+          "start": 3.44,
+          "end": 3.68
+        },
+        {
+          "word": "backwards,",
+          "start": 3.68,
+          "end": 4.23
+        },
+        {
+          "word": "dragging",
+          "start": 4.23,
+          "end": 4.64
+        },
+        {
+          "word": "the",
+          "start": 4.64,
+          "end": 4.85
+        },
+        {
+          "word": "dead",
+          "start": 4.85,
+          "end": 5.08
+        },
+        {
+          "word": "wheel",
+          "start": 5.08,
+          "end": 5.32
+        },
+        {
+          "word": "behind",
+          "start": 5.32,
+          "end": 5.7
+        },
+        {
+          "word": "me",
+          "start": 5.7,
+          "end": 5.91
+        },
+        {
+          "word": "like",
+          "start": 5.91,
+          "end": 6.13
+        },
+        {
+          "word": "a",
+          "start": 6.13,
+          "end": 6.33
+        },
+        {
+          "word": "stubborn",
+          "start": 6.33,
+          "end": 6.73
+        },
+        {
+          "word": "suitcase.",
+          "start": 6.73,
+          "end": 7.14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "And that is how I made my best discovery.",
+      "start": 7.54,
+      "end": 9.1,
+      "words": [
+        {
+          "word": "And",
+          "start": 7.54,
+          "end": 7.68
+        },
+        {
+          "word": "that",
+          "start": 7.68,
+          "end": 7.83
+        },
+        {
+          "word": "is",
+          "start": 7.83,
+          "end": 7.96
+        },
+        {
+          "word": "how",
+          "start": 7.96,
+          "end": 8.1
+        },
+        {
+          "word": "I",
+          "start": 8.1,
+          "end": 8.23
+        },
+        {
+          "word": "made",
+          "start": 8.23,
+          "end": 8.37
+        },
+        {
+          "word": "my",
+          "start": 8.37,
+          "end": 8.51
+        },
+        {
+          "word": "best",
+          "start": 8.51,
+          "end": 8.65
+        },
+        {
+          "word": "discovery.",
+          "start": 8.65,
+          "end": 9.1
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "The dragging wheel scraped up bright white soil: nearly pure silica, left behind by ancient hot water or steam.",
+      "start": 9.49,
+      "end": 15.83,
+      "words": [
+        {
+          "word": "The",
+          "start": 9.49,
+          "end": 9.73
+        },
+        {
+          "word": "dragging",
+          "start": 9.73,
+          "end": 10.17
+        },
+        {
+          "word": "wheel",
+          "start": 10.17,
+          "end": 10.43
+        },
+        {
+          "word": "scraped",
+          "start": 10.43,
+          "end": 10.86
+        },
+        {
+          "word": "up",
+          "start": 10.86,
+          "end": 11.08
+        },
+        {
+          "word": "bright",
+          "start": 11.08,
+          "end": 11.35
+        },
+        {
+          "word": "white",
+          "start": 11.35,
+          "end": 11.61
+        },
+        {
+          "word": "soil:",
+          "start": 11.61,
+          "end": 12.01
+        },
+        {
+          "word": "nearly",
+          "start": 12.01,
+          "end": 12.42
+        },
+        {
+          "word": "pure",
+          "start": 12.42,
+          "end": 12.67
+        },
+        {
+          "word": "silica,",
+          "start": 12.67,
+          "end": 13.39
+        },
+        {
+          "word": "left",
+          "start": 13.39,
+          "end": 13.63
+        },
+        {
+          "word": "behind",
+          "start": 13.63,
+          "end": 14.05
+        },
+        {
+          "word": "by",
+          "start": 14.05,
+          "end": 14.27
+        },
+        {
+          "word": "ancient",
+          "start": 14.27,
+          "end": 14.71
+        },
+        {
+          "word": "hot",
+          "start": 14.71,
+          "end": 14.94
+        },
+        {
+          "word": "water",
+          "start": 14.94,
+          "end": 15.35
+        },
+        {
+          "word": "or",
+          "start": 15.35,
+          "end": 15.57
+        },
+        {
+          "word": "steam.",
+          "start": 15.57,
+          "end": 15.83
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "It was a place where tiny living things could once have been comfortable.",
+      "start": 16.28,
+      "end": 19.18,
+      "words": [
+        {
+          "word": "It",
+          "start": 16.28,
+          "end": 16.44
+        },
+        {
+          "word": "was",
+          "start": 16.44,
+          "end": 16.61
+        },
+        {
+          "word": "a",
+          "start": 16.61,
+          "end": 16.76
+        },
+        {
+          "word": "place",
+          "start": 16.76,
+          "end": 16.95
+        },
+        {
+          "word": "where",
+          "start": 16.95,
+          "end": 17.13
+        },
+        {
+          "word": "tiny",
+          "start": 17.13,
+          "end": 17.41
+        },
+        {
+          "word": "living",
+          "start": 17.41,
+          "end": 17.71
+        },
+        {
+          "word": "things",
+          "start": 17.71,
+          "end": 17.91
+        },
+        {
+          "word": "could",
+          "start": 17.91,
+          "end": 18.09
+        },
+        {
+          "word": "once",
+          "start": 18.09,
+          "end": 18.27
+        },
+        {
+          "word": "have",
+          "start": 18.27,
+          "end": 18.45
+        },
+        {
+          "word": "been",
+          "start": 18.45,
+          "end": 18.63
+        },
+        {
+          "word": "comfortable.",
+          "start": 18.63,
+          "end": 19.18
+        }
+      ]
+    }
+  ]
+}

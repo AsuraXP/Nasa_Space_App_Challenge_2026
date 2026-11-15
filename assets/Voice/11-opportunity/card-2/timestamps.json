@@ -1,0 +1,386 @@
+{
+  "story": "11-opportunity",
+  "card": "card-2",
+  "duration": 17.76,
+  "speechStart": 0.13,
+  "speechEnd": 17.39,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I was supposed to last 90 days and drive about a kilometre.",
+      "start": 0.13,
+      "end": 2.79,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.13,
+          "end": 0.28
+        },
+        {
+          "word": "was",
+          "start": 0.28,
+          "end": 0.45
+        },
+        {
+          "word": "supposed",
+          "start": 0.45,
+          "end": 0.88
+        },
+        {
+          "word": "to",
+          "start": 0.88,
+          "end": 1.04
+        },
+        {
+          "word": "last",
+          "start": 1.04,
+          "end": 1.22
+        },
+        {
+          "word": "90",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "word": "days",
+          "start": 1.38,
+          "end": 1.55
+        },
+        {
+          "word": "and",
+          "start": 1.55,
+          "end": 1.72
+        },
+        {
+          "word": "drive",
+          "start": 1.72,
+          "end": 1.91
+        },
+        {
+          "word": "about",
+          "start": 1.91,
+          "end": 2.2
+        },
+        {
+          "word": "a",
+          "start": 2.2,
+          "end": 2.36
+        },
+        {
+          "word": "kilometre.",
+          "start": 2.36,
+          "end": 2.79
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "So I just kept going.",
+      "start": 3.19,
+      "end": 3.85,
+      "words": [
+        {
+          "word": "So",
+          "start": 3.19,
+          "end": 3.31
+        },
+        {
+          "word": "I",
+          "start": 3.31,
+          "end": 3.43
+        },
+        {
+          "word": "just",
+          "start": 3.43,
+          "end": 3.57
+        },
+        {
+          "word": "kept",
+          "start": 3.57,
+          "end": 3.71
+        },
+        {
+          "word": "going.",
+          "start": 3.71,
+          "end": 3.85
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I got stuck in a sand dune for weeks and wriggled free.",
+      "start": 4.27,
+      "end": 6.84,
+      "words": [
+        {
+          "word": "I",
+          "start": 4.27,
+          "end": 4.45
+        },
+        {
+          "word": "got",
+          "start": 4.45,
+          "end": 4.65
+        },
+        {
+          "word": "stuck",
+          "start": 4.65,
+          "end": 4.86
+        },
+        {
+          "word": "in",
+          "start": 4.86,
+          "end": 5.05
+        },
+        {
+          "word": "a",
+          "start": 5.05,
+          "end": 5.23
+        },
+        {
+          "word": "sand",
+          "start": 5.23,
+          "end": 5.44
+        },
+        {
+          "word": "dune",
+          "start": 5.44,
+          "end": 5.65
+        },
+        {
+          "word": "for",
+          "start": 5.65,
+          "end": 5.84
+        },
+        {
+          "word": "weeks",
+          "start": 5.84,
+          "end": 6.06
+        },
+        {
+          "word": "and",
+          "start": 6.06,
+          "end": 6.26
+        },
+        {
+          "word": "wriggled",
+          "start": 6.26,
+          "end": 6.63
+        },
+        {
+          "word": "free.",
+          "start": 6.63,
+          "end": 6.84
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I explored one crater after another, each bigger than the last.",
+      "start": 7.25,
+      "end": 10.41,
+      "words": [
+        {
+          "word": "I",
+          "start": 7.25,
+          "end": 7.42
+        },
+        {
+          "word": "explored",
+          "start": 7.42,
+          "end": 7.89
+        },
+        {
+          "word": "one",
+          "start": 7.89,
+          "end": 8.07
+        },
+        {
+          "word": "crater",
+          "start": 8.07,
+          "end": 8.4
+        },
+        {
+          "word": "after",
+          "start": 8.4,
+          "end": 8.73
+        },
+        {
+          "word": "another,",
+          "start": 8.73,
+          "end": 9.3
+        },
+        {
+          "word": "each",
+          "start": 9.3,
+          "end": 9.5
+        },
+        {
+          "word": "bigger",
+          "start": 9.5,
+          "end": 9.83
+        },
+        {
+          "word": "than",
+          "start": 9.83,
+          "end": 10.03
+        },
+        {
+          "word": "the",
+          "start": 10.03,
+          "end": 10.21
+        },
+        {
+          "word": "last.",
+          "start": 10.21,
+          "end": 10.41
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I found a meteorite.",
+      "start": 10.87,
+      "end": 11.62,
+      "words": [
+        {
+          "word": "I",
+          "start": 10.87,
+          "end": 10.99
+        },
+        {
+          "word": "found",
+          "start": 10.99,
+          "end": 11.14
+        },
+        {
+          "word": "a",
+          "start": 11.14,
+          "end": 11.27
+        },
+        {
+          "word": "meteorite.",
+          "start": 11.27,
+          "end": 11.62
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "In 2015 I finished a marathon.",
+      "start": 12.07,
+      "end": 14.11,
+      "words": [
+        {
+          "word": "In",
+          "start": 12.07,
+          "end": 12.29
+        },
+        {
+          "word": "2015",
+          "start": 12.29,
+          "end": 12.53
+        },
+        {
+          "word": "I",
+          "start": 12.53,
+          "end": 12.74
+        },
+        {
+          "word": "finished",
+          "start": 12.74,
+          "end": 13.32
+        },
+        {
+          "word": "a",
+          "start": 13.32,
+          "end": 13.53
+        },
+        {
+          "word": "marathon.",
+          "start": 13.53,
+          "end": 14.11
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "It took me 11 years, which I believe is a record of some kind.",
+      "start": 14.52,
+      "end": 17.39,
+      "words": [
+        {
+          "word": "It",
+          "start": 14.52,
+          "end": 14.69
+        },
+        {
+          "word": "took",
+          "start": 14.69,
+          "end": 14.88
+        },
+        {
+          "word": "me",
+          "start": 14.88,
+          "end": 15.04
+        },
+        {
+          "word": "11",
+          "start": 15.04,
+          "end": 15.21
+        },
+        {
+          "word": "years,",
+          "start": 15.21,
+          "end": 15.52
+        },
+        {
+          "word": "which",
+          "start": 15.52,
+          "end": 15.72
+        },
+        {
+          "word": "I",
+          "start": 15.72,
+          "end": 15.88
+        },
+        {
+          "word": "believe",
+          "start": 15.88,
+          "end": 16.2
+        },
+        {
+          "word": "is",
+          "start": 16.2,
+          "end": 16.37
+        },
+        {
+          "word": "a",
+          "start": 16.37,
+          "end": 16.53
+        },
+        {
+          "word": "record",
+          "start": 16.53,
+          "end": 16.85
+        },
+        {
+          "word": "of",
+          "start": 16.85,
+          "end": 17.02
+        },
+        {
+          "word": "some",
+          "start": 17.02,
+          "end": 17.2
+        },
+        {
+          "word": "kind.",
+          "start": 17.2,
+          "end": 17.39
+        }
+      ]
+    }
+  ]
+}

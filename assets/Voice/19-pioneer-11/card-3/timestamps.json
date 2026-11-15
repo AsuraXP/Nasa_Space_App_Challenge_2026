@@ -1,0 +1,342 @@
+{
+  "story": "19-pioneer-11",
+  "card": "card-3",
+  "duration": 16.42,
+  "speechStart": 0.13,
+  "speechEnd": 16.07,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "After Saturn I headed out of the solar system, in almost the opposite direction from my twin.",
+      "start": 0.13,
+      "end": 4.57,
+      "words": [
+        {
+          "word": "After",
+          "start": 0.13,
+          "end": 0.44
+        },
+        {
+          "word": "Saturn",
+          "start": 0.44,
+          "end": 0.75
+        },
+        {
+          "word": "I",
+          "start": 0.75,
+          "end": 0.91
+        },
+        {
+          "word": "headed",
+          "start": 0.91,
+          "end": 1.22
+        },
+        {
+          "word": "out",
+          "start": 1.22,
+          "end": 1.4
+        },
+        {
+          "word": "of",
+          "start": 1.4,
+          "end": 1.57
+        },
+        {
+          "word": "the",
+          "start": 1.57,
+          "end": 1.74
+        },
+        {
+          "word": "solar",
+          "start": 1.74,
+          "end": 2.05
+        },
+        {
+          "word": "system,",
+          "start": 2.05,
+          "end": 2.48
+        },
+        {
+          "word": "in",
+          "start": 2.48,
+          "end": 2.64
+        },
+        {
+          "word": "almost",
+          "start": 2.64,
+          "end": 2.96
+        },
+        {
+          "word": "the",
+          "start": 2.96,
+          "end": 3.14
+        },
+        {
+          "word": "opposite",
+          "start": 3.14,
+          "end": 3.58
+        },
+        {
+          "word": "direction",
+          "start": 3.58,
+          "end": 4.03
+        },
+        {
+          "word": "from",
+          "start": 4.03,
+          "end": 4.22
+        },
+        {
+          "word": "my",
+          "start": 4.22,
+          "end": 4.38
+        },
+        {
+          "word": "twin.",
+          "start": 4.38,
+          "end": 4.57
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "By 1995 I did not have enough power to run my instruments, and my regular mission ended.",
+      "start": 4.99,
+      "end": 9.46,
+      "words": [
+        {
+          "word": "By",
+          "start": 4.99,
+          "end": 5.17
+        },
+        {
+          "word": "1995",
+          "start": 5.17,
+          "end": 5.37
+        },
+        {
+          "word": "I",
+          "start": 5.37,
+          "end": 5.54
+        },
+        {
+          "word": "did",
+          "start": 5.54,
+          "end": 5.73
+        },
+        {
+          "word": "not",
+          "start": 5.73,
+          "end": 5.92
+        },
+        {
+          "word": "have",
+          "start": 5.92,
+          "end": 6.12
+        },
+        {
+          "word": "enough",
+          "start": 6.12,
+          "end": 6.45
+        },
+        {
+          "word": "power",
+          "start": 6.45,
+          "end": 6.78
+        },
+        {
+          "word": "to",
+          "start": 6.78,
+          "end": 6.96
+        },
+        {
+          "word": "run",
+          "start": 6.96,
+          "end": 7.15
+        },
+        {
+          "word": "my",
+          "start": 7.15,
+          "end": 7.33
+        },
+        {
+          "word": "instruments,",
+          "start": 7.33,
+          "end": 7.95
+        },
+        {
+          "word": "and",
+          "start": 7.95,
+          "end": 8.14
+        },
+        {
+          "word": "my",
+          "start": 8.14,
+          "end": 8.32
+        },
+        {
+          "word": "regular",
+          "start": 8.32,
+          "end": 8.79
+        },
+        {
+          "word": "mission",
+          "start": 8.79,
+          "end": 9.13
+        },
+        {
+          "word": "ended.",
+          "start": 9.13,
+          "end": 9.46
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I am silent now.",
+      "start": 9.9,
+      "end": 10.63,
+      "words": [
+        {
+          "word": "I",
+          "start": 9.9,
+          "end": 10.04
+        },
+        {
+          "word": "am",
+          "start": 10.04,
+          "end": 10.19
+        },
+        {
+          "word": "silent",
+          "start": 10.19,
+          "end": 10.47
+        },
+        {
+          "word": "now.",
+          "start": 10.47,
+          "end": 10.63
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I carry the same small plaque as Pioneer 10: a picture of the people who built me, and a map of home.",
+      "start": 11.0,
+      "end": 16.07,
+      "words": [
+        {
+          "word": "I",
+          "start": 11.0,
+          "end": 11.17
+        },
+        {
+          "word": "carry",
+          "start": 11.17,
+          "end": 11.51
+        },
+        {
+          "word": "the",
+          "start": 11.51,
+          "end": 11.7
+        },
+        {
+          "word": "same",
+          "start": 11.7,
+          "end": 11.9
+        },
+        {
+          "word": "small",
+          "start": 11.9,
+          "end": 12.11
+        },
+        {
+          "word": "plaque",
+          "start": 12.11,
+          "end": 12.33
+        },
+        {
+          "word": "as",
+          "start": 12.33,
+          "end": 12.52
+        },
+        {
+          "word": "Pioneer",
+          "start": 12.52,
+          "end": 12.87
+        },
+        {
+          "word": "10:",
+          "start": 12.87,
+          "end": 13.17
+        },
+        {
+          "word": "a",
+          "start": 13.17,
+          "end": 13.35
+        },
+        {
+          "word": "picture",
+          "start": 13.35,
+          "end": 13.7
+        },
+        {
+          "word": "of",
+          "start": 13.7,
+          "end": 13.88
+        },
+        {
+          "word": "the",
+          "start": 13.88,
+          "end": 14.08
+        },
+        {
+          "word": "people",
+          "start": 14.08,
+          "end": 14.42
+        },
+        {
+          "word": "who",
+          "start": 14.42,
+          "end": 14.61
+        },
+        {
+          "word": "built",
+          "start": 14.61,
+          "end": 14.82
+        },
+        {
+          "word": "me,",
+          "start": 14.82,
+          "end": 15.13
+        },
+        {
+          "word": "and",
+          "start": 15.13,
+          "end": 15.32
+        },
+        {
+          "word": "a",
+          "start": 15.32,
+          "end": 15.49
+        },
+        {
+          "word": "map",
+          "start": 15.49,
+          "end": 15.68
+        },
+        {
+          "word": "of",
+          "start": 15.68,
+          "end": 15.87
+        },
+        {
+          "word": "home.",
+          "start": 15.87,
+          "end": 16.07
+        }
+      ]
+    }
+  ]
+}

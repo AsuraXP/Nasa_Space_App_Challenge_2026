@@ -54,6 +54,37 @@ function narrationUrl(id, index) {
   return './assets/Voice/' + folder + '/card-' + (index + 1) + '/narration.mp3';
 }
 
+function stampsUrl(id, index) {
+  var url = narrationUrl(id, index);
+  return url ? url.replace('narration.mp3', 'timestamps.json') : null;
+}
+
+// split a paragraph into words, wrapping each one so it can light up while it is spoken
+function highlightParagraph(text, firstWord, current) {
+  var bits = text.split(/(\s+)/);
+  var out = [];
+  var n = firstWord;
+  var k;
+  var cls;
+  for (k = 0; k < bits.length; k++) {
+    if (bits[k] === '') continue;
+    if (/^\s+$/.test(bits[k])) {
+      out.push(bits[k]);
+    } else {
+      cls = 'storyWord';
+      if (n === current) cls = cls + ' is-current';
+      out.push(jsx.jsx('span', { className: cls, children: bits[k] }, 'w' + n));
+      n++;
+    }
+  }
+  return out;
+}
+
+function countWords(text) {
+  var m = text.match(/\S+/g);
+  return m ? m.length : 0;
+}
+
 var flipSound = new Audio('./assets/sfx/card-flip.mp3');
 flipSound.preload = 'auto';
 
@@ -123,6 +154,14 @@ export default function StoryCards(props) {
   var voiceRef = React.useRef(null);
   var runId = React.useRef(0);
   var playingNow = React.useRef(-1);
+  var stampState = React.useState({});
+  var stamps = stampState[0];
+  var setStamps = stampState[1];
+  var wordState = React.useState(-1);
+  var currentWord = wordState[0];
+  var setCurrentWord = wordState[1];
+  var frameRef = React.useRef(0);
+  var stampCache = React.useRef({});
   var allOpen = true;
   var cards = [];
   var i;
@@ -174,7 +213,60 @@ export default function StoryCards(props) {
       voiceRef.current.onended = null;
       voiceRef.current.onerror = null;
     }
+    window.cancelAnimationFrame(frameRef.current);
+    setCurrentWord(-1);
     setPlaying(-1);
+  }
+
+  // load the word times for a card (once), then keep the highlight in step with the audio
+  function followWords(index, audio, mine) {
+    var url = stampsUrl(props.id, index);
+    var last = -1;
+
+    function tick() {
+      var list = stampCache.current[index];
+      var t = audio.currentTime;
+      var found = -1;
+      var k;
+      if (runId.current !== mine) return;
+      if (list) {
+        for (k = 0; k < list.length; k++) {
+          if (list[k].start <= t) found = k;
+          else break;
+        }
+        if (found !== last) {
+          last = found;
+          setCurrentWord(found);
+        }
+      }
+      frameRef.current = window.requestAnimationFrame(tick);
+    }
+
+    if (!url) return;
+    if (stampCache.current[index]) {
+      tick();
+      return;
+    }
+    fetch(url).then(function (r) {
+      return r.ok ? r.json() : null;
+    }).then(function (data) {
+      var words = [];
+      var a;
+      var b;
+      if (!data) return;
+      for (a = 0; a < data.sentences.length; a++) {
+        for (b = 0; b < data.sentences[a].words.length; b++) {
+          words.push(data.sentences[a].words[b]);
+        }
+      }
+      stampCache.current[index] = words;
+      setStamps(function (old) {
+        var next = Object.assign({}, old);
+        next[index] = words.length;
+        return next;
+      });
+      if (runId.current === mine) tick();
+    }).catch(function () {});
   }
 
   // play one card's narration; with chain on, carry on to the next card when it ends
@@ -201,6 +293,7 @@ export default function StoryCards(props) {
       setPlaying(-1);
     };
     setPlaying(index);
+    followWords(index, audio, mine);
     audio.play().catch(function () {
       if (runId.current === mine) setPlaying(-1);
     });
@@ -276,8 +369,18 @@ export default function StoryCards(props) {
     var partLabel = t('story.part', { n: i + 1, total: parts.length });
     var paragraphs = [];
     var p;
+    var wordCount = 0;
+    var firstWord = 0;
+    // only highlight when the on-screen text has exactly the words the narration has
     for (p = 0; p < parts[i].length; p++) {
-      paragraphs.push(jsx.jsx('p', { children: parts[i][p] }, p));
+      wordCount = wordCount + countWords(parts[i][p]);
+    }
+    var canHighlight = playing === i && stamps[i] === wordCount;
+    for (p = 0; p < parts[i].length; p++) {
+      paragraphs.push(jsx.jsx('p', {
+        children: canHighlight ? highlightParagraph(parts[i][p], firstWord, currentWord) : parts[i][p]
+      }, p));
+      firstWord = firstWord + countWords(parts[i][p]);
     }
 
     cards.push(jsx.jsx('div', {

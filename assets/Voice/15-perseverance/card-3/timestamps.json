@@ -1,0 +1,464 @@
+{
+  "story": "15-perseverance",
+  "card": "card-3",
+  "duration": 23.4,
+  "speechStart": 0.14,
+  "speechEnd": 23.12,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I brought a friend, a small helicopter named Ingenuity.",
+      "start": 0.14,
+      "end": 2.99,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.31
+        },
+        {
+          "word": "brought",
+          "start": 0.31,
+          "end": 0.54
+        },
+        {
+          "word": "a",
+          "start": 0.54,
+          "end": 0.71
+        },
+        {
+          "word": "friend,",
+          "start": 0.71,
+          "end": 1.05
+        },
+        {
+          "word": "a",
+          "start": 1.05,
+          "end": 1.22
+        },
+        {
+          "word": "small",
+          "start": 1.22,
+          "end": 1.43
+        },
+        {
+          "word": "helicopter",
+          "start": 1.43,
+          "end": 2.05
+        },
+        {
+          "word": "named",
+          "start": 2.05,
+          "end": 2.38
+        },
+        {
+          "word": "Ingenuity.",
+          "start": 2.38,
+          "end": 2.99
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I set it down, backed away, and filmed its first flight.",
+      "start": 3.4,
+      "end": 6.04,
+      "words": [
+        {
+          "word": "I",
+          "start": 3.4,
+          "end": 3.56
+        },
+        {
+          "word": "set",
+          "start": 3.56,
+          "end": 3.74
+        },
+        {
+          "word": "it",
+          "start": 3.74,
+          "end": 3.91
+        },
+        {
+          "word": "down,",
+          "start": 3.91,
+          "end": 4.22
+        },
+        {
+          "word": "backed",
+          "start": 4.22,
+          "end": 4.54
+        },
+        {
+          "word": "away,",
+          "start": 4.54,
+          "end": 4.95
+        },
+        {
+          "word": "and",
+          "start": 4.95,
+          "end": 5.13
+        },
+        {
+          "word": "filmed",
+          "start": 5.13,
+          "end": 5.45
+        },
+        {
+          "word": "its",
+          "start": 5.45,
+          "end": 5.63
+        },
+        {
+          "word": "first",
+          "start": 5.63,
+          "end": 5.83
+        },
+        {
+          "word": "flight.",
+          "start": 5.83,
+          "end": 6.04
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "It flew 72 times.",
+      "start": 6.52,
+      "end": 7.82,
+      "words": [
+        {
+          "word": "It",
+          "start": 6.52,
+          "end": 6.78
+        },
+        {
+          "word": "flew",
+          "start": 6.78,
+          "end": 7.08
+        },
+        {
+          "word": "72",
+          "start": 7.08,
+          "end": 7.34
+        },
+        {
+          "word": "times.",
+          "start": 7.34,
+          "end": 7.82
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "It is silent now, and I have driven on.",
+      "start": 8.23,
+      "end": 10.0,
+      "words": [
+        {
+          "word": "It",
+          "start": 8.23,
+          "end": 8.38
+        },
+        {
+          "word": "is",
+          "start": 8.38,
+          "end": 8.54
+        },
+        {
+          "word": "silent",
+          "start": 8.54,
+          "end": 8.82
+        },
+        {
+          "word": "now,",
+          "start": 8.82,
+          "end": 9.09
+        },
+        {
+          "word": "and",
+          "start": 9.09,
+          "end": 9.25
+        },
+        {
+          "word": "I",
+          "start": 9.25,
+          "end": 9.39
+        },
+        {
+          "word": "have",
+          "start": 9.39,
+          "end": 9.56
+        },
+        {
+          "word": "driven",
+          "start": 9.56,
+          "end": 9.85
+        },
+        {
+          "word": "on.",
+          "start": 9.85,
+          "end": 10.0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I know about the ones who came before me: the Vikings, little Sojourner, Spirit, Opportunity, Phoenix, InSight.",
+      "start": 10.41,
+      "end": 16.63,
+      "words": [
+        {
+          "word": "I",
+          "start": 10.41,
+          "end": 10.59
+        },
+        {
+          "word": "know",
+          "start": 10.59,
+          "end": 10.8
+        },
+        {
+          "word": "about",
+          "start": 10.8,
+          "end": 11.14
+        },
+        {
+          "word": "the",
+          "start": 11.14,
+          "end": 11.34
+        },
+        {
+          "word": "ones",
+          "start": 11.34,
+          "end": 11.67
+        },
+        {
+          "word": "who",
+          "start": 11.67,
+          "end": 11.87
+        },
+        {
+          "word": "came",
+          "start": 11.87,
+          "end": 12.07
+        },
+        {
+          "word": "before",
+          "start": 12.07,
+          "end": 12.43
+        },
+        {
+          "word": "me:",
+          "start": 12.43,
+          "end": 12.74
+        },
+        {
+          "word": "the",
+          "start": 12.74,
+          "end": 12.94
+        },
+        {
+          "word": "Vikings,",
+          "start": 12.94,
+          "end": 13.42
+        },
+        {
+          "word": "little",
+          "start": 13.42,
+          "end": 13.77
+        },
+        {
+          "word": "Sojourner,",
+          "start": 13.77,
+          "end": 14.41
+        },
+        {
+          "word": "Spirit,",
+          "start": 14.41,
+          "end": 14.88
+        },
+        {
+          "word": "Opportunity,",
+          "start": 14.88,
+          "end": 15.78
+        },
+        {
+          "word": "Phoenix,",
+          "start": 15.78,
+          "end": 16.27
+        },
+        {
+          "word": "InSight.",
+          "start": 16.27,
+          "end": 16.63
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Every one of them taught my builders something that is now part of me.",
+      "start": 17.07,
+      "end": 19.75,
+      "words": [
+        {
+          "word": "Every",
+          "start": 17.07,
+          "end": 17.42
+        },
+        {
+          "word": "one",
+          "start": 17.42,
+          "end": 17.57
+        },
+        {
+          "word": "of",
+          "start": 17.57,
+          "end": 17.72
+        },
+        {
+          "word": "them",
+          "start": 17.72,
+          "end": 17.87
+        },
+        {
+          "word": "taught",
+          "start": 17.87,
+          "end": 18.05
+        },
+        {
+          "word": "my",
+          "start": 18.05,
+          "end": 18.19
+        },
+        {
+          "word": "builders",
+          "start": 18.19,
+          "end": 18.47
+        },
+        {
+          "word": "something",
+          "start": 18.47,
+          "end": 18.86
+        },
+        {
+          "word": "that",
+          "start": 18.86,
+          "end": 19.01
+        },
+        {
+          "word": "is",
+          "start": 19.01,
+          "end": 19.16
+        },
+        {
+          "word": "now",
+          "start": 19.16,
+          "end": 19.31
+        },
+        {
+          "word": "part",
+          "start": 19.31,
+          "end": 19.46
+        },
+        {
+          "word": "of",
+          "start": 19.46,
+          "end": 19.61
+        },
+        {
+          "word": "me.",
+          "start": 19.61,
+          "end": 19.75
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "One day I will go quiet too.",
+      "start": 20.15,
+      "end": 21.26,
+      "words": [
+        {
+          "word": "One",
+          "start": 20.15,
+          "end": 20.31
+        },
+        {
+          "word": "day",
+          "start": 20.31,
+          "end": 20.47
+        },
+        {
+          "word": "I",
+          "start": 20.47,
+          "end": 20.61
+        },
+        {
+          "word": "will",
+          "start": 20.61,
+          "end": 20.78
+        },
+        {
+          "word": "go",
+          "start": 20.78,
+          "end": 20.93
+        },
+        {
+          "word": "quiet",
+          "start": 20.93,
+          "end": 21.1
+        },
+        {
+          "word": "too.",
+          "start": 21.1,
+          "end": 21.26
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "Until then, I have work to do.",
+      "start": 21.61,
+      "end": 23.12,
+      "words": [
+        {
+          "word": "Until",
+          "start": 21.61,
+          "end": 21.92
+        },
+        {
+          "word": "then,",
+          "start": 21.92,
+          "end": 22.23
+        },
+        {
+          "word": "I",
+          "start": 22.23,
+          "end": 22.39
+        },
+        {
+          "word": "have",
+          "start": 22.39,
+          "end": 22.58
+        },
+        {
+          "word": "work",
+          "start": 22.58,
+          "end": 22.77
+        },
+        {
+          "word": "to",
+          "start": 22.77,
+          "end": 22.95
+        },
+        {
+          "word": "do.",
+          "start": 22.95,
+          "end": 23.12
+        }
+      ]
+    }
+  ]
+}

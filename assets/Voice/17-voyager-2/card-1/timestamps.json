@@ -1,0 +1,459 @@
+{
+  "story": "17-voyager-2",
+  "card": "card-1",
+  "duration": 24.79,
+  "speechStart": 0.14,
+  "speechEnd": 24.51,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I am the second Voyager, even though I left first.",
+      "start": 0.14,
+      "end": 2.41,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.3
+        },
+        {
+          "word": "am",
+          "start": 0.3,
+          "end": 0.46
+        },
+        {
+          "word": "the",
+          "start": 0.46,
+          "end": 0.64
+        },
+        {
+          "word": "second",
+          "start": 0.64,
+          "end": 0.95
+        },
+        {
+          "word": "Voyager,",
+          "start": 0.95,
+          "end": 1.38
+        },
+        {
+          "word": "even",
+          "start": 1.38,
+          "end": 1.67
+        },
+        {
+          "word": "though",
+          "start": 1.67,
+          "end": 1.88
+        },
+        {
+          "word": "I",
+          "start": 1.88,
+          "end": 2.03
+        },
+        {
+          "word": "left",
+          "start": 2.03,
+          "end": 2.22
+        },
+        {
+          "word": "first.",
+          "start": 2.22,
+          "end": 2.41
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I launched on August 20, 1977, on the slower road.",
+      "start": 2.89,
+      "end": 6.46,
+      "words": [
+        {
+          "word": "I",
+          "start": 2.89,
+          "end": 3.13
+        },
+        {
+          "word": "launched",
+          "start": 3.13,
+          "end": 3.62
+        },
+        {
+          "word": "on",
+          "start": 3.62,
+          "end": 3.87
+        },
+        {
+          "word": "August",
+          "start": 3.87,
+          "end": 4.34
+        },
+        {
+          "word": "20,",
+          "start": 4.34,
+          "end": 4.76
+        },
+        {
+          "word": "1977,",
+          "start": 4.76,
+          "end": 5.2
+        },
+        {
+          "word": "on",
+          "start": 5.2,
+          "end": 5.45
+        },
+        {
+          "word": "the",
+          "start": 5.45,
+          "end": 5.71
+        },
+        {
+          "word": "slower",
+          "start": 5.71,
+          "end": 6.18
+        },
+        {
+          "word": "road.",
+          "start": 6.18,
+          "end": 6.46
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "The slow road turned out to be the grand one.",
+      "start": 6.9,
+      "end": 8.76,
+      "words": [
+        {
+          "word": "The",
+          "start": 6.9,
+          "end": 7.07
+        },
+        {
+          "word": "slow",
+          "start": 7.07,
+          "end": 7.25
+        },
+        {
+          "word": "road",
+          "start": 7.25,
+          "end": 7.43
+        },
+        {
+          "word": "turned",
+          "start": 7.43,
+          "end": 7.73
+        },
+        {
+          "word": "out",
+          "start": 7.73,
+          "end": 7.91
+        },
+        {
+          "word": "to",
+          "start": 7.91,
+          "end": 8.07
+        },
+        {
+          "word": "be",
+          "start": 8.07,
+          "end": 8.23
+        },
+        {
+          "word": "the",
+          "start": 8.23,
+          "end": 8.4
+        },
+        {
+          "word": "grand",
+          "start": 8.4,
+          "end": 8.59
+        },
+        {
+          "word": "one.",
+          "start": 8.59,
+          "end": 8.76
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "In the late 1970s the four giant planets were lined up in a way that happens only about once every 175 years.",
+      "start": 9.16,
+      "end": 15.79,
+      "words": [
+        {
+          "word": "In",
+          "start": 9.16,
+          "end": 9.39
+        },
+        {
+          "word": "the",
+          "start": 9.39,
+          "end": 9.63
+        },
+        {
+          "word": "late",
+          "start": 9.63,
+          "end": 9.88
+        },
+        {
+          "word": "1970s",
+          "start": 9.88,
+          "end": 10.15
+        },
+        {
+          "word": "the",
+          "start": 10.15,
+          "end": 10.39
+        },
+        {
+          "word": "four",
+          "start": 10.39,
+          "end": 10.65
+        },
+        {
+          "word": "giant",
+          "start": 10.65,
+          "end": 10.91
+        },
+        {
+          "word": "planets",
+          "start": 10.91,
+          "end": 11.35
+        },
+        {
+          "word": "were",
+          "start": 11.35,
+          "end": 11.61
+        },
+        {
+          "word": "lined",
+          "start": 11.61,
+          "end": 12.02
+        },
+        {
+          "word": "up",
+          "start": 12.02,
+          "end": 12.25
+        },
+        {
+          "word": "in",
+          "start": 12.25,
+          "end": 12.48
+        },
+        {
+          "word": "a",
+          "start": 12.48,
+          "end": 12.7
+        },
+        {
+          "word": "way",
+          "start": 12.7,
+          "end": 12.94
+        },
+        {
+          "word": "that",
+          "start": 12.94,
+          "end": 13.19
+        },
+        {
+          "word": "happens",
+          "start": 13.19,
+          "end": 13.64
+        },
+        {
+          "word": "only",
+          "start": 13.64,
+          "end": 14.04
+        },
+        {
+          "word": "about",
+          "start": 14.04,
+          "end": 14.46
+        },
+        {
+          "word": "once",
+          "start": 14.46,
+          "end": 14.71
+        },
+        {
+          "word": "every",
+          "start": 14.71,
+          "end": 15.28
+        },
+        {
+          "word": "175",
+          "start": 15.28,
+          "end": 15.52
+        },
+        {
+          "word": "years.",
+          "start": 15.52,
+          "end": 15.79
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Each planet's gravity could fling me on to the next.",
+      "start": 16.2,
+      "end": 18.66,
+      "words": [
+        {
+          "word": "Each",
+          "start": 16.2,
+          "end": 16.41
+        },
+        {
+          "word": "planet's",
+          "start": 16.41,
+          "end": 16.77
+        },
+        {
+          "word": "gravity",
+          "start": 16.77,
+          "end": 17.26
+        },
+        {
+          "word": "could",
+          "start": 17.26,
+          "end": 17.47
+        },
+        {
+          "word": "fling",
+          "start": 17.47,
+          "end": 17.69
+        },
+        {
+          "word": "me",
+          "start": 17.69,
+          "end": 17.88
+        },
+        {
+          "word": "on",
+          "start": 17.88,
+          "end": 18.07
+        },
+        {
+          "word": "to",
+          "start": 18.07,
+          "end": 18.25
+        },
+        {
+          "word": "the",
+          "start": 18.25,
+          "end": 18.45
+        },
+        {
+          "word": "next.",
+          "start": 18.45,
+          "end": 18.66
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Jupiter in 1979.",
+      "start": 19.13,
+      "end": 20.6,
+      "words": [
+        {
+          "word": "Jupiter",
+          "start": 19.13,
+          "end": 19.94
+        },
+        {
+          "word": "in",
+          "start": 19.94,
+          "end": 20.25
+        },
+        {
+          "word": "1979.",
+          "start": 20.25,
+          "end": 20.6
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Saturn in 1981.",
+      "start": 21.04,
+      "end": 22.25,
+      "words": [
+        {
+          "word": "Saturn",
+          "start": 21.04,
+          "end": 21.61
+        },
+        {
+          "word": "in",
+          "start": 21.61,
+          "end": 21.91
+        },
+        {
+          "word": "1981.",
+          "start": 21.91,
+          "end": 22.25
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "And then my team asked: can you keep going?",
+      "start": 22.66,
+      "end": 24.51,
+      "words": [
+        {
+          "word": "And",
+          "start": 22.66,
+          "end": 22.84
+        },
+        {
+          "word": "then",
+          "start": 22.84,
+          "end": 23.02
+        },
+        {
+          "word": "my",
+          "start": 23.02,
+          "end": 23.19
+        },
+        {
+          "word": "team",
+          "start": 23.19,
+          "end": 23.37
+        },
+        {
+          "word": "asked:",
+          "start": 23.37,
+          "end": 23.78
+        },
+        {
+          "word": "can",
+          "start": 23.78,
+          "end": 23.96
+        },
+        {
+          "word": "you",
+          "start": 23.96,
+          "end": 24.13
+        },
+        {
+          "word": "keep",
+          "start": 24.13,
+          "end": 24.32
+        },
+        {
+          "word": "going?",
+          "start": 24.32,
+          "end": 24.51
+        }
+      ]
+    }
+  ]
+}

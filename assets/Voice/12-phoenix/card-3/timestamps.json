@@ -1,0 +1,464 @@
+{
+  "story": "12-phoenix",
+  "card": "card-3",
+  "duration": 22.13,
+  "speechStart": 0.14,
+  "speechEnd": 21.76,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I always knew I would not last.",
+      "start": 0.14,
+      "end": 1.38,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "always",
+          "start": 0.28,
+          "end": 0.57
+        },
+        {
+          "word": "knew",
+          "start": 0.57,
+          "end": 0.73
+        },
+        {
+          "word": "I",
+          "start": 0.73,
+          "end": 0.88
+        },
+        {
+          "word": "would",
+          "start": 0.88,
+          "end": 1.05
+        },
+        {
+          "word": "not",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "word": "last.",
+          "start": 1.21,
+          "end": 1.38
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "In the far north the Sun sinks lower every day in autumn, and I run on sunlight.",
+      "start": 1.84,
+      "end": 5.62,
+      "words": [
+        {
+          "word": "In",
+          "start": 1.84,
+          "end": 2.01
+        },
+        {
+          "word": "the",
+          "start": 2.01,
+          "end": 2.19
+        },
+        {
+          "word": "far",
+          "start": 2.19,
+          "end": 2.36
+        },
+        {
+          "word": "north",
+          "start": 2.36,
+          "end": 2.56
+        },
+        {
+          "word": "the",
+          "start": 2.56,
+          "end": 2.74
+        },
+        {
+          "word": "Sun",
+          "start": 2.74,
+          "end": 2.91
+        },
+        {
+          "word": "sinks",
+          "start": 2.91,
+          "end": 3.11
+        },
+        {
+          "word": "lower",
+          "start": 3.11,
+          "end": 3.41
+        },
+        {
+          "word": "every",
+          "start": 3.41,
+          "end": 3.83
+        },
+        {
+          "word": "day",
+          "start": 3.83,
+          "end": 4.01
+        },
+        {
+          "word": "in",
+          "start": 4.01,
+          "end": 4.18
+        },
+        {
+          "word": "autumn,",
+          "start": 4.18,
+          "end": 4.6
+        },
+        {
+          "word": "and",
+          "start": 4.6,
+          "end": 4.78
+        },
+        {
+          "word": "I",
+          "start": 4.78,
+          "end": 4.94
+        },
+        {
+          "word": "run",
+          "start": 4.94,
+          "end": 5.12
+        },
+        {
+          "word": "on",
+          "start": 5.12,
+          "end": 5.29
+        },
+        {
+          "word": "sunlight.",
+          "start": 5.29,
+          "end": 5.62
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Dust storms made it worse.",
+      "start": 6.09,
+      "end": 7.15,
+      "words": [
+        {
+          "word": "Dust",
+          "start": 6.09,
+          "end": 6.3
+        },
+        {
+          "word": "storms",
+          "start": 6.3,
+          "end": 6.53
+        },
+        {
+          "word": "made",
+          "start": 6.53,
+          "end": 6.74
+        },
+        {
+          "word": "it",
+          "start": 6.74,
+          "end": 6.93
+        },
+        {
+          "word": "worse.",
+          "start": 6.93,
+          "end": 7.15
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "On November 2, 2008, I sent my last signal.",
+      "start": 7.55,
+      "end": 10.71,
+      "words": [
+        {
+          "word": "On",
+          "start": 7.55,
+          "end": 7.79
+        },
+        {
+          "word": "November",
+          "start": 7.79,
+          "end": 8.43
+        },
+        {
+          "word": "2,",
+          "start": 8.43,
+          "end": 8.82
+        },
+        {
+          "word": "2008,",
+          "start": 8.82,
+          "end": 9.25
+        },
+        {
+          "word": "I",
+          "start": 9.25,
+          "end": 9.48
+        },
+        {
+          "word": "sent",
+          "start": 9.48,
+          "end": 9.75
+        },
+        {
+          "word": "my",
+          "start": 9.75,
+          "end": 9.99
+        },
+        {
+          "word": "last",
+          "start": 9.99,
+          "end": 10.26
+        },
+        {
+          "word": "signal.",
+          "start": 10.26,
+          "end": 10.71
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Then winter came and buried me in dry-ice frost.",
+      "start": 11.11,
+      "end": 13.57,
+      "words": [
+        {
+          "word": "Then",
+          "start": 11.11,
+          "end": 11.35
+        },
+        {
+          "word": "winter",
+          "start": 11.35,
+          "end": 11.75
+        },
+        {
+          "word": "came",
+          "start": 11.75,
+          "end": 11.99
+        },
+        {
+          "word": "and",
+          "start": 11.99,
+          "end": 12.22
+        },
+        {
+          "word": "buried",
+          "start": 12.22,
+          "end": 12.63
+        },
+        {
+          "word": "me",
+          "start": 12.63,
+          "end": 12.84
+        },
+        {
+          "word": "in",
+          "start": 12.84,
+          "end": 13.06
+        },
+        {
+          "word": "dry-ice",
+          "start": 13.06,
+          "end": 13.32
+        },
+        {
+          "word": "frost.",
+          "start": 13.32,
+          "end": 13.57
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Pictures taken from orbit later showed my solar panels had been damaged, probably by the weight of that ice.",
+      "start": 14.06,
+      "end": 19.12,
+      "words": [
+        {
+          "word": "Pictures",
+          "start": 14.06,
+          "end": 14.5
+        },
+        {
+          "word": "taken",
+          "start": 14.5,
+          "end": 14.81
+        },
+        {
+          "word": "from",
+          "start": 14.81,
+          "end": 14.99
+        },
+        {
+          "word": "orbit",
+          "start": 14.99,
+          "end": 15.3
+        },
+        {
+          "word": "later",
+          "start": 15.3,
+          "end": 15.6
+        },
+        {
+          "word": "showed",
+          "start": 15.6,
+          "end": 15.91
+        },
+        {
+          "word": "my",
+          "start": 15.91,
+          "end": 16.08
+        },
+        {
+          "word": "solar",
+          "start": 16.08,
+          "end": 16.39
+        },
+        {
+          "word": "panels",
+          "start": 16.39,
+          "end": 16.7
+        },
+        {
+          "word": "had",
+          "start": 16.7,
+          "end": 16.88
+        },
+        {
+          "word": "been",
+          "start": 16.88,
+          "end": 17.06
+        },
+        {
+          "word": "damaged,",
+          "start": 17.06,
+          "end": 17.6
+        },
+        {
+          "word": "probably",
+          "start": 17.6,
+          "end": 18.05
+        },
+        {
+          "word": "by",
+          "start": 18.05,
+          "end": 18.21
+        },
+        {
+          "word": "the",
+          "start": 18.21,
+          "end": 18.39
+        },
+        {
+          "word": "weight",
+          "start": 18.39,
+          "end": 18.59
+        },
+        {
+          "word": "of",
+          "start": 18.59,
+          "end": 18.76
+        },
+        {
+          "word": "that",
+          "start": 18.76,
+          "end": 18.94
+        },
+        {
+          "word": "ice.",
+          "start": 18.94,
+          "end": 19.12
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "I had five months.",
+      "start": 19.54,
+      "end": 20.3,
+      "words": [
+        {
+          "word": "I",
+          "start": 19.54,
+          "end": 19.71
+        },
+        {
+          "word": "had",
+          "start": 19.71,
+          "end": 19.89
+        },
+        {
+          "word": "five",
+          "start": 19.89,
+          "end": 20.09
+        },
+        {
+          "word": "months.",
+          "start": 20.09,
+          "end": 20.3
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I found what I was sent to find.",
+      "start": 20.71,
+      "end": 21.76,
+      "words": [
+        {
+          "word": "I",
+          "start": 20.71,
+          "end": 20.83
+        },
+        {
+          "word": "found",
+          "start": 20.83,
+          "end": 20.97
+        },
+        {
+          "word": "what",
+          "start": 20.97,
+          "end": 21.11
+        },
+        {
+          "word": "I",
+          "start": 21.11,
+          "end": 21.23
+        },
+        {
+          "word": "was",
+          "start": 21.23,
+          "end": 21.36
+        },
+        {
+          "word": "sent",
+          "start": 21.36,
+          "end": 21.5
+        },
+        {
+          "word": "to",
+          "start": 21.5,
+          "end": 21.62
+        },
+        {
+          "word": "find.",
+          "start": 21.62,
+          "end": 21.76
+        }
+      ]
+    }
+  ]
+}

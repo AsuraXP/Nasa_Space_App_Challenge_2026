@@ -1,0 +1,388 @@
+{
+  "story": "17-voyager-2",
+  "card": "card-2",
+  "duration": 20.47,
+  "speechStart": 0.14,
+  "speechEnd": 20.16,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I could.",
+      "start": 0.14,
+      "end": 0.46,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "could.",
+          "start": 0.28,
+          "end": 0.46
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "In 1986 I reached Uranus, a pale blue-green world tipped on its side.",
+      "start": 0.84,
+      "end": 5.15,
+      "words": [
+        {
+          "word": "In",
+          "start": 0.84,
+          "end": 1.07
+        },
+        {
+          "word": "1986",
+          "start": 1.07,
+          "end": 1.31
+        },
+        {
+          "word": "I",
+          "start": 1.31,
+          "end": 1.53
+        },
+        {
+          "word": "reached",
+          "start": 1.53,
+          "end": 1.96
+        },
+        {
+          "word": "Uranus,",
+          "start": 1.96,
+          "end": 2.68
+        },
+        {
+          "word": "a",
+          "start": 2.68,
+          "end": 2.9
+        },
+        {
+          "word": "pale",
+          "start": 2.9,
+          "end": 3.3
+        },
+        {
+          "word": "blue-green",
+          "start": 3.3,
+          "end": 3.75
+        },
+        {
+          "word": "world",
+          "start": 3.75,
+          "end": 4.02
+        },
+        {
+          "word": "tipped",
+          "start": 4.02,
+          "end": 4.44
+        },
+        {
+          "word": "on",
+          "start": 4.44,
+          "end": 4.66
+        },
+        {
+          "word": "its",
+          "start": 4.66,
+          "end": 4.9
+        },
+        {
+          "word": "side.",
+          "start": 4.9,
+          "end": 5.15
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "In 1989 I reached Neptune, deep blue, with a dark storm as wide as Earth, and a frozen moon with geysers.",
+      "start": 5.58,
+      "end": 10.32,
+      "words": [
+        {
+          "word": "In",
+          "start": 5.58,
+          "end": 5.75
+        },
+        {
+          "word": "1989",
+          "start": 5.75,
+          "end": 5.94
+        },
+        {
+          "word": "I",
+          "start": 5.94,
+          "end": 6.1
+        },
+        {
+          "word": "reached",
+          "start": 6.1,
+          "end": 6.43
+        },
+        {
+          "word": "Neptune,",
+          "start": 6.43,
+          "end": 6.88
+        },
+        {
+          "word": "deep",
+          "start": 6.88,
+          "end": 7.06
+        },
+        {
+          "word": "blue,",
+          "start": 7.06,
+          "end": 7.37
+        },
+        {
+          "word": "with",
+          "start": 7.37,
+          "end": 7.56
+        },
+        {
+          "word": "a",
+          "start": 7.56,
+          "end": 7.72
+        },
+        {
+          "word": "dark",
+          "start": 7.72,
+          "end": 7.91
+        },
+        {
+          "word": "storm",
+          "start": 7.91,
+          "end": 8.11
+        },
+        {
+          "word": "as",
+          "start": 8.11,
+          "end": 8.28
+        },
+        {
+          "word": "wide",
+          "start": 8.28,
+          "end": 8.47
+        },
+        {
+          "word": "as",
+          "start": 8.47,
+          "end": 8.64
+        },
+        {
+          "word": "Earth,",
+          "start": 8.64,
+          "end": 8.95
+        },
+        {
+          "word": "and",
+          "start": 8.95,
+          "end": 9.13
+        },
+        {
+          "word": "a",
+          "start": 9.13,
+          "end": 9.29
+        },
+        {
+          "word": "frozen",
+          "start": 9.29,
+          "end": 9.61
+        },
+        {
+          "word": "moon",
+          "start": 9.61,
+          "end": 9.8
+        },
+        {
+          "word": "with",
+          "start": 9.8,
+          "end": 9.99
+        },
+        {
+          "word": "geysers.",
+          "start": 9.99,
+          "end": 10.32
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "No spacecraft had been to either planet before me.",
+      "start": 10.7,
+      "end": 14.56,
+      "words": [
+        {
+          "word": "No",
+          "start": 10.7,
+          "end": 10.99
+        },
+        {
+          "word": "spacecraft",
+          "start": 10.99,
+          "end": 11.77
+        },
+        {
+          "word": "had",
+          "start": 11.77,
+          "end": 12.07
+        },
+        {
+          "word": "been",
+          "start": 12.07,
+          "end": 12.39
+        },
+        {
+          "word": "to",
+          "start": 12.39,
+          "end": 12.67
+        },
+        {
+          "word": "either",
+          "start": 12.67,
+          "end": 13.21
+        },
+        {
+          "word": "planet",
+          "start": 13.21,
+          "end": 13.74
+        },
+        {
+          "word": "before",
+          "start": 13.74,
+          "end": 14.27
+        },
+        {
+          "word": "me.",
+          "start": 14.27,
+          "end": 14.56
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "None has been since.",
+      "start": 14.95,
+      "end": 15.71,
+      "words": [
+        {
+          "word": "None",
+          "start": 14.95,
+          "end": 15.14
+        },
+        {
+          "word": "has",
+          "start": 15.14,
+          "end": 15.32
+        },
+        {
+          "word": "been",
+          "start": 15.32,
+          "end": 15.51
+        },
+        {
+          "word": "since.",
+          "start": 15.51,
+          "end": 15.71
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Almost everything in your books about those two worlds up close came from my few hours there.",
+      "start": 16.11,
+      "end": 20.16,
+      "words": [
+        {
+          "word": "Almost",
+          "start": 16.11,
+          "end": 16.45
+        },
+        {
+          "word": "everything",
+          "start": 16.45,
+          "end": 17.06
+        },
+        {
+          "word": "in",
+          "start": 17.06,
+          "end": 17.24
+        },
+        {
+          "word": "your",
+          "start": 17.24,
+          "end": 17.44
+        },
+        {
+          "word": "books",
+          "start": 17.44,
+          "end": 17.65
+        },
+        {
+          "word": "about",
+          "start": 17.65,
+          "end": 17.97
+        },
+        {
+          "word": "those",
+          "start": 17.97,
+          "end": 18.18
+        },
+        {
+          "word": "two",
+          "start": 18.18,
+          "end": 18.37
+        },
+        {
+          "word": "worlds",
+          "start": 18.37,
+          "end": 18.59
+        },
+        {
+          "word": "up",
+          "start": 18.59,
+          "end": 18.77
+        },
+        {
+          "word": "close",
+          "start": 18.77,
+          "end": 18.98
+        },
+        {
+          "word": "came",
+          "start": 18.98,
+          "end": 19.18
+        },
+        {
+          "word": "from",
+          "start": 19.18,
+          "end": 19.37
+        },
+        {
+          "word": "my",
+          "start": 19.37,
+          "end": 19.55
+        },
+        {
+          "word": "few",
+          "start": 19.55,
+          "end": 19.74
+        },
+        {
+          "word": "hours",
+          "start": 19.74,
+          "end": 19.95
+        },
+        {
+          "word": "there.",
+          "start": 19.95,
+          "end": 20.16
+        }
+      ]
+    }
+  ]
+}

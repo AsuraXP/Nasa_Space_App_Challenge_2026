@@ -1,0 +1,395 @@
+{
+  "story": "16-voyager-1",
+  "card": "card-3",
+  "duration": 17.5,
+  "speechStart": 0.14,
+  "speechEnd": 17.14,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I am still talking to you.",
+      "start": 0.14,
+      "end": 0.98,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.25
+        },
+        {
+          "word": "am",
+          "start": 0.25,
+          "end": 0.37
+        },
+        {
+          "word": "still",
+          "start": 0.37,
+          "end": 0.51
+        },
+        {
+          "word": "talking",
+          "start": 0.51,
+          "end": 0.74
+        },
+        {
+          "word": "to",
+          "start": 0.74,
+          "end": 0.86
+        },
+        {
+          "word": "you.",
+          "start": 0.86,
+          "end": 0.98
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "My signal is fainter than a whisper by the time it arrives, and it takes most of a day to reach you.",
+      "start": 1.35,
+      "end": 5.9,
+      "words": [
+        {
+          "word": "My",
+          "start": 1.35,
+          "end": 1.51
+        },
+        {
+          "word": "signal",
+          "start": 1.51,
+          "end": 1.81
+        },
+        {
+          "word": "is",
+          "start": 1.81,
+          "end": 1.97
+        },
+        {
+          "word": "fainter",
+          "start": 1.97,
+          "end": 2.28
+        },
+        {
+          "word": "than",
+          "start": 2.28,
+          "end": 2.46
+        },
+        {
+          "word": "a",
+          "start": 2.46,
+          "end": 2.61
+        },
+        {
+          "word": "whisper",
+          "start": 2.61,
+          "end": 2.92
+        },
+        {
+          "word": "by",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "word": "the",
+          "start": 3.08,
+          "end": 3.25
+        },
+        {
+          "word": "time",
+          "start": 3.25,
+          "end": 3.42
+        },
+        {
+          "word": "it",
+          "start": 3.42,
+          "end": 3.58
+        },
+        {
+          "word": "arrives,",
+          "start": 3.58,
+          "end": 4.11
+        },
+        {
+          "word": "and",
+          "start": 4.11,
+          "end": 4.27
+        },
+        {
+          "word": "it",
+          "start": 4.27,
+          "end": 4.43
+        },
+        {
+          "word": "takes",
+          "start": 4.43,
+          "end": 4.73
+        },
+        {
+          "word": "most",
+          "start": 4.73,
+          "end": 4.9
+        },
+        {
+          "word": "of",
+          "start": 4.9,
+          "end": 5.06
+        },
+        {
+          "word": "a",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "word": "day",
+          "start": 5.22,
+          "end": 5.39
+        },
+        {
+          "word": "to",
+          "start": 5.39,
+          "end": 5.55
+        },
+        {
+          "word": "reach",
+          "start": 5.55,
+          "end": 5.73
+        },
+        {
+          "word": "you.",
+          "start": 5.73,
+          "end": 5.9
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "My power drops a little every year, and my team switches off instruments one by one to keep me going.",
+      "start": 6.26,
+      "end": 10.87,
+      "words": [
+        {
+          "word": "My",
+          "start": 6.26,
+          "end": 6.43
+        },
+        {
+          "word": "power",
+          "start": 6.43,
+          "end": 6.73
+        },
+        {
+          "word": "drops",
+          "start": 6.73,
+          "end": 6.93
+        },
+        {
+          "word": "a",
+          "start": 6.93,
+          "end": 7.09
+        },
+        {
+          "word": "little",
+          "start": 7.09,
+          "end": 7.4
+        },
+        {
+          "word": "every",
+          "start": 7.4,
+          "end": 7.82
+        },
+        {
+          "word": "year,",
+          "start": 7.82,
+          "end": 8.12
+        },
+        {
+          "word": "and",
+          "start": 8.12,
+          "end": 8.3
+        },
+        {
+          "word": "my",
+          "start": 8.3,
+          "end": 8.46
+        },
+        {
+          "word": "team",
+          "start": 8.46,
+          "end": 8.65
+        },
+        {
+          "word": "switches",
+          "start": 8.65,
+          "end": 8.98
+        },
+        {
+          "word": "off",
+          "start": 8.98,
+          "end": 9.16
+        },
+        {
+          "word": "instruments",
+          "start": 9.16,
+          "end": 9.63
+        },
+        {
+          "word": "one",
+          "start": 9.63,
+          "end": 9.81
+        },
+        {
+          "word": "by",
+          "start": 9.81,
+          "end": 9.98
+        },
+        {
+          "word": "one",
+          "start": 9.98,
+          "end": 10.15
+        },
+        {
+          "word": "to",
+          "start": 10.15,
+          "end": 10.32
+        },
+        {
+          "word": "keep",
+          "start": 10.32,
+          "end": 10.51
+        },
+        {
+          "word": "me",
+          "start": 10.51,
+          "end": 10.68
+        },
+        {
+          "word": "going.",
+          "start": 10.68,
+          "end": 10.87
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "One day I will go quiet.",
+      "start": 11.29,
+      "end": 12.15,
+      "words": [
+        {
+          "word": "One",
+          "start": 11.29,
+          "end": 11.43
+        },
+        {
+          "word": "day",
+          "start": 11.43,
+          "end": 11.58
+        },
+        {
+          "word": "I",
+          "start": 11.58,
+          "end": 11.71
+        },
+        {
+          "word": "will",
+          "start": 11.71,
+          "end": 11.86
+        },
+        {
+          "word": "go",
+          "start": 11.86,
+          "end": 11.99
+        },
+        {
+          "word": "quiet.",
+          "start": 11.99,
+          "end": 12.15
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "But I will keep travelling, carrying my Golden Record, for longer than anyone can imagine.",
+      "start": 12.62,
+      "end": 17.14,
+      "words": [
+        {
+          "word": "But",
+          "start": 12.62,
+          "end": 12.81
+        },
+        {
+          "word": "I",
+          "start": 12.81,
+          "end": 12.99
+        },
+        {
+          "word": "will",
+          "start": 12.99,
+          "end": 13.19
+        },
+        {
+          "word": "keep",
+          "start": 13.19,
+          "end": 13.4
+        },
+        {
+          "word": "travelling,",
+          "start": 13.4,
+          "end": 14.02
+        },
+        {
+          "word": "carrying",
+          "start": 14.02,
+          "end": 14.39
+        },
+        {
+          "word": "my",
+          "start": 14.39,
+          "end": 14.57
+        },
+        {
+          "word": "Golden",
+          "start": 14.57,
+          "end": 14.92
+        },
+        {
+          "word": "Record,",
+          "start": 14.92,
+          "end": 15.38
+        },
+        {
+          "word": "for",
+          "start": 15.38,
+          "end": 15.58
+        },
+        {
+          "word": "longer",
+          "start": 15.58,
+          "end": 15.92
+        },
+        {
+          "word": "than",
+          "start": 15.92,
+          "end": 16.12
+        },
+        {
+          "word": "anyone",
+          "start": 16.12,
+          "end": 16.47
+        },
+        {
+          "word": "can",
+          "start": 16.47,
+          "end": 16.66
+        },
+        {
+          "word": "imagine.",
+          "start": 16.66,
+          "end": 17.14
+        }
+      ]
+    }
+  ]
+}

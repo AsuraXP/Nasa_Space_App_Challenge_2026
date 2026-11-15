@@ -1,0 +1,312 @@
+{
+  "story": "12-phoenix",
+  "card": "card-1",
+  "duration": 17.23,
+  "speechStart": 0.14,
+  "speechEnd": 16.89,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I am the one who went north.",
+      "start": 0.14,
+      "end": 1.04,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.26
+        },
+        {
+          "word": "am",
+          "start": 0.26,
+          "end": 0.38
+        },
+        {
+          "word": "the",
+          "start": 0.38,
+          "end": 0.51
+        },
+        {
+          "word": "one",
+          "start": 0.51,
+          "end": 0.63
+        },
+        {
+          "word": "who",
+          "start": 0.63,
+          "end": 0.76
+        },
+        {
+          "word": "went",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "word": "north.",
+          "start": 0.9,
+          "end": 1.04
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "Far north, to the Martian arctic, where no lander had been before.",
+      "start": 1.6,
+      "end": 4.99,
+      "words": [
+        {
+          "word": "Far",
+          "start": 1.6,
+          "end": 1.8
+        },
+        {
+          "word": "north,",
+          "start": 1.8,
+          "end": 2.16
+        },
+        {
+          "word": "to",
+          "start": 2.16,
+          "end": 2.35
+        },
+        {
+          "word": "the",
+          "start": 2.35,
+          "end": 2.56
+        },
+        {
+          "word": "Martian",
+          "start": 2.56,
+          "end": 2.93
+        },
+        {
+          "word": "arctic,",
+          "start": 2.93,
+          "end": 3.42
+        },
+        {
+          "word": "where",
+          "start": 3.42,
+          "end": 3.65
+        },
+        {
+          "word": "no",
+          "start": 3.65,
+          "end": 3.84
+        },
+        {
+          "word": "lander",
+          "start": 3.84,
+          "end": 4.21
+        },
+        {
+          "word": "had",
+          "start": 4.21,
+          "end": 4.41
+        },
+        {
+          "word": "been",
+          "start": 4.41,
+          "end": 4.63
+        },
+        {
+          "word": "before.",
+          "start": 4.63,
+          "end": 4.99
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I came down on rockets on May 25, 2008, opened my two round solar panels like fans, and looked around.",
+      "start": 5.38,
+      "end": 11.45,
+      "words": [
+        {
+          "word": "I",
+          "start": 5.38,
+          "end": 5.58
+        },
+        {
+          "word": "came",
+          "start": 5.58,
+          "end": 5.81
+        },
+        {
+          "word": "down",
+          "start": 5.81,
+          "end": 6.05
+        },
+        {
+          "word": "on",
+          "start": 6.05,
+          "end": 6.26
+        },
+        {
+          "word": "rockets",
+          "start": 6.26,
+          "end": 6.67
+        },
+        {
+          "word": "on",
+          "start": 6.67,
+          "end": 6.88
+        },
+        {
+          "word": "May",
+          "start": 6.88,
+          "end": 7.1
+        },
+        {
+          "word": "25,",
+          "start": 7.1,
+          "end": 7.45
+        },
+        {
+          "word": "2008,",
+          "start": 7.45,
+          "end": 7.83
+        },
+        {
+          "word": "opened",
+          "start": 7.83,
+          "end": 8.36
+        },
+        {
+          "word": "my",
+          "start": 8.36,
+          "end": 8.58
+        },
+        {
+          "word": "two",
+          "start": 8.58,
+          "end": 8.8
+        },
+        {
+          "word": "round",
+          "start": 8.8,
+          "end": 9.04
+        },
+        {
+          "word": "solar",
+          "start": 9.04,
+          "end": 9.43
+        },
+        {
+          "word": "panels",
+          "start": 9.43,
+          "end": 9.83
+        },
+        {
+          "word": "like",
+          "start": 9.83,
+          "end": 10.06
+        },
+        {
+          "word": "fans,",
+          "start": 10.06,
+          "end": 10.43
+        },
+        {
+          "word": "and",
+          "start": 10.43,
+          "end": 10.66
+        },
+        {
+          "word": "looked",
+          "start": 10.66,
+          "end": 11.05
+        },
+        {
+          "word": "around.",
+          "start": 11.05,
+          "end": 11.45
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Flat, frozen ground, cracked into shapes like paving stones, all the way to the horizon.",
+      "start": 11.98,
+      "end": 16.89,
+      "words": [
+        {
+          "word": "Flat,",
+          "start": 11.98,
+          "end": 12.34
+        },
+        {
+          "word": "frozen",
+          "start": 12.34,
+          "end": 12.71
+        },
+        {
+          "word": "ground,",
+          "start": 12.71,
+          "end": 13.09
+        },
+        {
+          "word": "cracked",
+          "start": 13.09,
+          "end": 13.48
+        },
+        {
+          "word": "into",
+          "start": 13.48,
+          "end": 13.83
+        },
+        {
+          "word": "shapes",
+          "start": 13.83,
+          "end": 14.21
+        },
+        {
+          "word": "like",
+          "start": 14.21,
+          "end": 14.43
+        },
+        {
+          "word": "paving",
+          "start": 14.43,
+          "end": 14.81
+        },
+        {
+          "word": "stones,",
+          "start": 14.81,
+          "end": 15.32
+        },
+        {
+          "word": "all",
+          "start": 15.32,
+          "end": 15.53
+        },
+        {
+          "word": "the",
+          "start": 15.53,
+          "end": 15.74
+        },
+        {
+          "word": "way",
+          "start": 15.74,
+          "end": 15.96
+        },
+        {
+          "word": "to",
+          "start": 15.96,
+          "end": 16.16
+        },
+        {
+          "word": "the",
+          "start": 16.16,
+          "end": 16.37
+        },
+        {
+          "word": "horizon.",
+          "start": 16.37,
+          "end": 16.89
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "story": "20-new-horizons",
+  "card": "card-2",
+  "duration": 25.42,
+  "speechStart": 0.13,
+  "speechEnd": 25.14,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "On July 14, 2015, after nine and a half years, I flew past Pluto at about 14 kilometres every second.",
+      "start": 0.13,
+      "end": 7.27,
+      "words": [
+        {
+          "word": "On",
+          "start": 0.13,
+          "end": 0.36
+        },
+        {
+          "word": "July",
+          "start": 0.36,
+          "end": 0.78
+        },
+        {
+          "word": "14,",
+          "start": 0.78,
+          "end": 1.16
+        },
+        {
+          "word": "2015,",
+          "start": 1.16,
+          "end": 1.58
+        },
+        {
+          "word": "after",
+          "start": 1.58,
+          "end": 2.0
+        },
+        {
+          "word": "nine",
+          "start": 2.0,
+          "end": 2.26
+        },
+        {
+          "word": "and",
+          "start": 2.26,
+          "end": 2.5
+        },
+        {
+          "word": "a",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "word": "half",
+          "start": 2.72,
+          "end": 2.98
+        },
+        {
+          "word": "years,",
+          "start": 2.98,
+          "end": 3.41
+        },
+        {
+          "word": "I",
+          "start": 3.41,
+          "end": 3.63
+        },
+        {
+          "word": "flew",
+          "start": 3.63,
+          "end": 3.89
+        },
+        {
+          "word": "past",
+          "start": 3.89,
+          "end": 4.14
+        },
+        {
+          "word": "Pluto",
+          "start": 4.14,
+          "end": 4.57
+        },
+        {
+          "word": "at",
+          "start": 4.57,
+          "end": 4.8
+        },
+        {
+          "word": "about",
+          "start": 4.8,
+          "end": 5.23
+        },
+        {
+          "word": "14",
+          "start": 5.23,
+          "end": 5.46
+        },
+        {
+          "word": "kilometres",
+          "start": 5.46,
+          "end": 6.25
+        },
+        {
+          "word": "every",
+          "start": 6.25,
+          "end": 6.83
+        },
+        {
+          "word": "second.",
+          "start": 6.83,
+          "end": 7.27
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I could not slow down or stop.",
+      "start": 7.76,
+      "end": 8.98,
+      "words": [
+        {
+          "word": "I",
+          "start": 7.76,
+          "end": 7.91
+        },
+        {
+          "word": "could",
+          "start": 7.91,
+          "end": 8.1
+        },
+        {
+          "word": "not",
+          "start": 8.1,
+          "end": 8.28
+        },
+        {
+          "word": "slow",
+          "start": 8.28,
+          "end": 8.46
+        },
+        {
+          "word": "down",
+          "start": 8.46,
+          "end": 8.64
+        },
+        {
+          "word": "or",
+          "start": 8.64,
+          "end": 8.8
+        },
+        {
+          "word": "stop.",
+          "start": 8.8,
+          "end": 8.98
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I had a few hours to collect everything.",
+      "start": 9.45,
+      "end": 10.88,
+      "words": [
+        {
+          "word": "I",
+          "start": 9.45,
+          "end": 9.57
+        },
+        {
+          "word": "had",
+          "start": 9.57,
+          "end": 9.7
+        },
+        {
+          "word": "a",
+          "start": 9.7,
+          "end": 9.82
+        },
+        {
+          "word": "few",
+          "start": 9.82,
+          "end": 9.95
+        },
+        {
+          "word": "hours",
+          "start": 9.95,
+          "end": 10.09
+        },
+        {
+          "word": "to",
+          "start": 10.09,
+          "end": 10.22
+        },
+        {
+          "word": "collect",
+          "start": 10.22,
+          "end": 10.46
+        },
+        {
+          "word": "everything.",
+          "start": 10.46,
+          "end": 10.88
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Before me, the best picture of Pluto was a blurry smudge.",
+      "start": 11.32,
+      "end": 14.12,
+      "words": [
+        {
+          "word": "Before",
+          "start": 11.32,
+          "end": 11.66
+        },
+        {
+          "word": "me,",
+          "start": 11.66,
+          "end": 11.96
+        },
+        {
+          "word": "the",
+          "start": 11.96,
+          "end": 12.15
+        },
+        {
+          "word": "best",
+          "start": 12.15,
+          "end": 12.35
+        },
+        {
+          "word": "picture",
+          "start": 12.35,
+          "end": 12.69
+        },
+        {
+          "word": "of",
+          "start": 12.69,
+          "end": 12.87
+        },
+        {
+          "word": "Pluto",
+          "start": 12.87,
+          "end": 13.2
+        },
+        {
+          "word": "was",
+          "start": 13.2,
+          "end": 13.39
+        },
+        {
+          "word": "a",
+          "start": 13.39,
+          "end": 13.56
+        },
+        {
+          "word": "blurry",
+          "start": 13.56,
+          "end": 13.9
+        },
+        {
+          "word": "smudge.",
+          "start": 13.9,
+          "end": 14.12
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I showed you ice mountains, blue skies, and a bright heart thousands of kilometres wide.",
+      "start": 14.52,
+      "end": 19.03,
+      "words": [
+        {
+          "word": "I",
+          "start": 14.52,
+          "end": 14.71
+        },
+        {
+          "word": "showed",
+          "start": 14.71,
+          "end": 15.09
+        },
+        {
+          "word": "you",
+          "start": 15.09,
+          "end": 15.3
+        },
+        {
+          "word": "ice",
+          "start": 15.3,
+          "end": 15.51
+        },
+        {
+          "word": "mountains,",
+          "start": 15.51,
+          "end": 16.05
+        },
+        {
+          "word": "blue",
+          "start": 16.05,
+          "end": 16.27
+        },
+        {
+          "word": "skies,",
+          "start": 16.27,
+          "end": 16.64
+        },
+        {
+          "word": "and",
+          "start": 16.64,
+          "end": 16.85
+        },
+        {
+          "word": "a",
+          "start": 16.85,
+          "end": 17.04
+        },
+        {
+          "word": "bright",
+          "start": 17.04,
+          "end": 17.28
+        },
+        {
+          "word": "heart",
+          "start": 17.28,
+          "end": 17.51
+        },
+        {
+          "word": "thousands",
+          "start": 17.51,
+          "end": 17.92
+        },
+        {
+          "word": "of",
+          "start": 17.92,
+          "end": 18.12
+        },
+        {
+          "word": "kilometres",
+          "start": 18.12,
+          "end": 18.81
+        },
+        {
+          "word": "wide.",
+          "start": 18.81,
+          "end": 19.03
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "It took me more than a year to send all those pictures home, because I am so far away that my connection is very slow.",
+      "start": 19.46,
+      "end": 25.14,
+      "words": [
+        {
+          "word": "It",
+          "start": 19.46,
+          "end": 19.63
+        },
+        {
+          "word": "took",
+          "start": 19.63,
+          "end": 19.83
+        },
+        {
+          "word": "me",
+          "start": 19.83,
+          "end": 20.0
+        },
+        {
+          "word": "more",
+          "start": 20.0,
+          "end": 20.2
+        },
+        {
+          "word": "than",
+          "start": 20.2,
+          "end": 20.39
+        },
+        {
+          "word": "a",
+          "start": 20.39,
+          "end": 20.55
+        },
+        {
+          "word": "year",
+          "start": 20.55,
+          "end": 20.75
+        },
+        {
+          "word": "to",
+          "start": 20.75,
+          "end": 20.92
+        },
+        {
+          "word": "send",
+          "start": 20.92,
+          "end": 21.12
+        },
+        {
+          "word": "all",
+          "start": 21.12,
+          "end": 21.3
+        },
+        {
+          "word": "those",
+          "start": 21.3,
+          "end": 21.5
+        },
+        {
+          "word": "pictures",
+          "start": 21.5,
+          "end": 21.96
+        },
+        {
+          "word": "home,",
+          "start": 21.96,
+          "end": 22.27
+        },
+        {
+          "word": "because",
+          "start": 22.27,
+          "end": 22.61
+        },
+        {
+          "word": "I",
+          "start": 22.61,
+          "end": 22.77
+        },
+        {
+          "word": "am",
+          "start": 22.77,
+          "end": 22.95
+        },
+        {
+          "word": "so",
+          "start": 22.95,
+          "end": 23.12
+        },
+        {
+          "word": "far",
+          "start": 23.12,
+          "end": 23.31
+        },
+        {
+          "word": "away",
+          "start": 23.31,
+          "end": 23.62
+        },
+        {
+          "word": "that",
+          "start": 23.62,
+          "end": 23.81
+        },
+        {
+          "word": "my",
+          "start": 23.81,
+          "end": 23.98
+        },
+        {
+          "word": "connection",
+          "start": 23.98,
+          "end": 24.46
+        },
+        {
+          "word": "is",
+          "start": 24.46,
+          "end": 24.64
+        },
+        {
+          "word": "very",
+          "start": 24.64,
+          "end": 24.95
+        },
+        {
+          "word": "slow.",
+          "start": 24.95,
+          "end": 25.14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "story": "13-insight",
+  "card": "card-1",
+  "duration": 27.1,
+  "speechStart": 0.13,
+  "speechEnd": 26.72,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "Most Mars explorers look around.",
+      "start": 0.13,
+      "end": 1.63,
+      "words": [
+        {
+          "word": "Most",
+          "start": 0.13,
+          "end": 0.34
+        },
+        {
+          "word": "Mars",
+          "start": 0.34,
+          "end": 0.55
+        },
+        {
+          "word": "explorers",
+          "start": 0.55,
+          "end": 1.06
+        },
+        {
+          "word": "look",
+          "start": 1.06,
+          "end": 1.27
+        },
+        {
+          "word": "around.",
+          "start": 1.27,
+          "end": 1.63
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I was sent to listen.",
+      "start": 2.03,
+      "end": 2.72,
+      "words": [
+        {
+          "word": "I",
+          "start": 2.03,
+          "end": 2.14
+        },
+        {
+          "word": "was",
+          "start": 2.14,
+          "end": 2.26
+        },
+        {
+          "word": "sent",
+          "start": 2.26,
+          "end": 2.39
+        },
+        {
+          "word": "to",
+          "start": 2.39,
+          "end": 2.5
+        },
+        {
+          "word": "listen.",
+          "start": 2.5,
+          "end": 2.72
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I landed on November 26, 2018, on a plain so flat and plain that my team happily called it the biggest parking lot on Mars.",
+      "start": 3.13,
+      "end": 10.57,
+      "words": [
+        {
+          "word": "I",
+          "start": 3.13,
+          "end": 3.34
+        },
+        {
+          "word": "landed",
+          "start": 3.34,
+          "end": 3.75
+        },
+        {
+          "word": "on",
+          "start": 3.75,
+          "end": 3.96
+        },
+        {
+          "word": "November",
+          "start": 3.96,
+          "end": 4.54
+        },
+        {
+          "word": "26,",
+          "start": 4.54,
+          "end": 4.91
+        },
+        {
+          "word": "2018,",
+          "start": 4.91,
+          "end": 5.29
+        },
+        {
+          "word": "on",
+          "start": 5.29,
+          "end": 5.51
+        },
+        {
+          "word": "a",
+          "start": 5.51,
+          "end": 5.72
+        },
+        {
+          "word": "plain",
+          "start": 5.72,
+          "end": 5.97
+        },
+        {
+          "word": "so",
+          "start": 5.97,
+          "end": 6.19
+        },
+        {
+          "word": "flat",
+          "start": 6.19,
+          "end": 6.43
+        },
+        {
+          "word": "and",
+          "start": 6.43,
+          "end": 6.66
+        },
+        {
+          "word": "plain",
+          "start": 6.66,
+          "end": 6.91
+        },
+        {
+          "word": "that",
+          "start": 6.91,
+          "end": 7.15
+        },
+        {
+          "word": "my",
+          "start": 7.15,
+          "end": 7.37
+        },
+        {
+          "word": "team",
+          "start": 7.37,
+          "end": 7.61
+        },
+        {
+          "word": "happily",
+          "start": 7.61,
+          "end": 8.18
+        },
+        {
+          "word": "called",
+          "start": 8.18,
+          "end": 8.59
+        },
+        {
+          "word": "it",
+          "start": 8.59,
+          "end": 8.81
+        },
+        {
+          "word": "the",
+          "start": 8.81,
+          "end": 9.04
+        },
+        {
+          "word": "biggest",
+          "start": 9.04,
+          "end": 9.46
+        },
+        {
+          "word": "parking",
+          "start": 9.46,
+          "end": 9.88
+        },
+        {
+          "word": "lot",
+          "start": 9.88,
+          "end": 10.11
+        },
+        {
+          "word": "on",
+          "start": 10.11,
+          "end": 10.33
+        },
+        {
+          "word": "Mars.",
+          "start": 10.33,
+          "end": 10.57
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I did not need a view.",
+      "start": 10.97,
+      "end": 11.73,
+      "words": [
+        {
+          "word": "I",
+          "start": 10.97,
+          "end": 11.09
+        },
+        {
+          "word": "did",
+          "start": 11.09,
+          "end": 11.21
+        },
+        {
+          "word": "not",
+          "start": 11.21,
+          "end": 11.34
+        },
+        {
+          "word": "need",
+          "start": 11.34,
+          "end": 11.48
+        },
+        {
+          "word": "a",
+          "start": 11.48,
+          "end": 11.59
+        },
+        {
+          "word": "view.",
+          "start": 11.59,
+          "end": 11.73
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I needed quiet.",
+      "start": 12.09,
+      "end": 12.67,
+      "words": [
+        {
+          "word": "I",
+          "start": 12.09,
+          "end": 12.23
+        },
+        {
+          "word": "needed",
+          "start": 12.23,
+          "end": 12.5
+        },
+        {
+          "word": "quiet.",
+          "start": 12.5,
+          "end": 12.67
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "With my arm I lifted my seismometer off my deck and set it gently on the ground, then covered it with a dome to keep the wind out.",
+      "start": 13.13,
+      "end": 20.16,
+      "words": [
+        {
+          "word": "With",
+          "start": 13.13,
+          "end": 13.35
+        },
+        {
+          "word": "my",
+          "start": 13.35,
+          "end": 13.54
+        },
+        {
+          "word": "arm",
+          "start": 13.54,
+          "end": 13.75
+        },
+        {
+          "word": "I",
+          "start": 13.75,
+          "end": 13.94
+        },
+        {
+          "word": "lifted",
+          "start": 13.94,
+          "end": 14.31
+        },
+        {
+          "word": "my",
+          "start": 14.31,
+          "end": 14.51
+        },
+        {
+          "word": "seismometer",
+          "start": 14.51,
+          "end": 15.19
+        },
+        {
+          "word": "off",
+          "start": 15.19,
+          "end": 15.4
+        },
+        {
+          "word": "my",
+          "start": 15.4,
+          "end": 15.59
+        },
+        {
+          "word": "deck",
+          "start": 15.59,
+          "end": 15.81
+        },
+        {
+          "word": "and",
+          "start": 15.81,
+          "end": 16.02
+        },
+        {
+          "word": "set",
+          "start": 16.02,
+          "end": 16.22
+        },
+        {
+          "word": "it",
+          "start": 16.22,
+          "end": 16.42
+        },
+        {
+          "word": "gently",
+          "start": 16.42,
+          "end": 16.79
+        },
+        {
+          "word": "on",
+          "start": 16.79,
+          "end": 16.99
+        },
+        {
+          "word": "the",
+          "start": 16.99,
+          "end": 17.2
+        },
+        {
+          "word": "ground,",
+          "start": 17.2,
+          "end": 17.56
+        },
+        {
+          "word": "then",
+          "start": 17.56,
+          "end": 17.78
+        },
+        {
+          "word": "covered",
+          "start": 17.78,
+          "end": 18.29
+        },
+        {
+          "word": "it",
+          "start": 18.29,
+          "end": 18.49
+        },
+        {
+          "word": "with",
+          "start": 18.49,
+          "end": 18.71
+        },
+        {
+          "word": "a",
+          "start": 18.71,
+          "end": 18.89
+        },
+        {
+          "word": "dome",
+          "start": 18.89,
+          "end": 19.11
+        },
+        {
+          "word": "to",
+          "start": 19.11,
+          "end": 19.31
+        },
+        {
+          "word": "keep",
+          "start": 19.31,
+          "end": 19.53
+        },
+        {
+          "word": "the",
+          "start": 19.53,
+          "end": 19.73
+        },
+        {
+          "word": "wind",
+          "start": 19.73,
+          "end": 19.95
+        },
+        {
+          "word": "out.",
+          "start": 19.95,
+          "end": 20.16
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Then I waited.",
+      "start": 20.54,
+      "end": 21.31,
+      "words": [
+        {
+          "word": "Then",
+          "start": 20.54,
+          "end": 20.76
+        },
+        {
+          "word": "I",
+          "start": 20.76,
+          "end": 20.94
+        },
+        {
+          "word": "waited.",
+          "start": 20.94,
+          "end": 21.31
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "On April 6, 2019, I felt a faint tremble.",
+      "start": 21.69,
+      "end": 24.13,
+      "words": [
+        {
+          "word": "On",
+          "start": 21.69,
+          "end": 21.89
+        },
+        {
+          "word": "April",
+          "start": 21.89,
+          "end": 22.25
+        },
+        {
+          "word": "6,",
+          "start": 22.25,
+          "end": 22.57
+        },
+        {
+          "word": "2019,",
+          "start": 22.57,
+          "end": 22.92
+        },
+        {
+          "word": "I",
+          "start": 22.92,
+          "end": 23.11
+        },
+        {
+          "word": "felt",
+          "start": 23.11,
+          "end": 23.33
+        },
+        {
+          "word": "a",
+          "start": 23.33,
+          "end": 23.52
+        },
+        {
+          "word": "faint",
+          "start": 23.52,
+          "end": 23.75
+        },
+        {
+          "word": "tremble.",
+          "start": 23.75,
+          "end": 24.13
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "A marsquake.",
+      "start": 24.5,
+      "end": 24.96,
+      "words": [
+        {
+          "word": "A",
+          "start": 24.5,
+          "end": 24.65
+        },
+        {
+          "word": "marsquake.",
+          "start": 24.65,
+          "end": 24.96
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "The first one anyone had ever caught.",
+      "start": 25.45,
+      "end": 26.72,
+      "words": [
+        {
+          "word": "The",
+          "start": 25.45,
+          "end": 25.6
+        },
+        {
+          "word": "first",
+          "start": 25.6,
+          "end": 25.76
+        },
+        {
+          "word": "one",
+          "start": 25.76,
+          "end": 25.9
+        },
+        {
+          "word": "anyone",
+          "start": 25.9,
+          "end": 26.16
+        },
+        {
+          "word": "had",
+          "start": 26.16,
+          "end": 26.31
+        },
+        {
+          "word": "ever",
+          "start": 26.31,
+          "end": 26.55
+        },
+        {
+          "word": "caught.",
+          "start": 26.55,
+          "end": 26.72
+        }
+      ]
+    }
+  ]
+}

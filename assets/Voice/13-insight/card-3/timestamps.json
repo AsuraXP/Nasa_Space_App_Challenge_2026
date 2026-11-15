@@ -1,0 +1,292 @@
+{
+  "story": "13-insight",
+  "card": "card-3",
+  "duration": 15.02,
+  "speechStart": 0.13,
+  "speechEnd": 14.7,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "Dust slowly covered my solar panels, and my power faded a little more each month.",
+      "start": 0.13,
+      "end": 4.06,
+      "words": [
+        {
+          "word": "Dust",
+          "start": 0.13,
+          "end": 0.32
+        },
+        {
+          "word": "slowly",
+          "start": 0.32,
+          "end": 0.64
+        },
+        {
+          "word": "covered",
+          "start": 0.64,
+          "end": 1.09
+        },
+        {
+          "word": "my",
+          "start": 1.09,
+          "end": 1.26
+        },
+        {
+          "word": "solar",
+          "start": 1.26,
+          "end": 1.58
+        },
+        {
+          "word": "panels,",
+          "start": 1.58,
+          "end": 2.01
+        },
+        {
+          "word": "and",
+          "start": 2.01,
+          "end": 2.19
+        },
+        {
+          "word": "my",
+          "start": 2.19,
+          "end": 2.37
+        },
+        {
+          "word": "power",
+          "start": 2.37,
+          "end": 2.68
+        },
+        {
+          "word": "faded",
+          "start": 2.68,
+          "end": 2.99
+        },
+        {
+          "word": "a",
+          "start": 2.99,
+          "end": 3.16
+        },
+        {
+          "word": "little",
+          "start": 3.16,
+          "end": 3.48
+        },
+        {
+          "word": "more",
+          "start": 3.48,
+          "end": 3.67
+        },
+        {
+          "word": "each",
+          "start": 3.67,
+          "end": 3.86
+        },
+        {
+          "word": "month.",
+          "start": 3.86,
+          "end": 4.06
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I kept my seismometer running as long as I could.",
+      "start": 4.57,
+      "end": 6.64,
+      "words": [
+        {
+          "word": "I",
+          "start": 4.57,
+          "end": 4.71
+        },
+        {
+          "word": "kept",
+          "start": 4.71,
+          "end": 4.88
+        },
+        {
+          "word": "my",
+          "start": 4.88,
+          "end": 5.03
+        },
+        {
+          "word": "seismometer",
+          "start": 5.03,
+          "end": 5.56
+        },
+        {
+          "word": "running",
+          "start": 5.56,
+          "end": 5.85
+        },
+        {
+          "word": "as",
+          "start": 5.85,
+          "end": 6.0
+        },
+        {
+          "word": "long",
+          "start": 6.0,
+          "end": 6.17
+        },
+        {
+          "word": "as",
+          "start": 6.17,
+          "end": 6.32
+        },
+        {
+          "word": "I",
+          "start": 6.32,
+          "end": 6.46
+        },
+        {
+          "word": "could.",
+          "start": 6.46,
+          "end": 6.64
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "My last message reached Earth on December 15, 2022.",
+      "start": 7.03,
+      "end": 10.31,
+      "words": [
+        {
+          "word": "My",
+          "start": 7.03,
+          "end": 7.27
+        },
+        {
+          "word": "last",
+          "start": 7.27,
+          "end": 7.54
+        },
+        {
+          "word": "message",
+          "start": 7.54,
+          "end": 8.01
+        },
+        {
+          "word": "reached",
+          "start": 8.01,
+          "end": 8.47
+        },
+        {
+          "word": "Earth",
+          "start": 8.47,
+          "end": 8.76
+        },
+        {
+          "word": "on",
+          "start": 8.76,
+          "end": 9.0
+        },
+        {
+          "word": "December",
+          "start": 9.0,
+          "end": 9.64
+        },
+        {
+          "word": "15,",
+          "start": 9.64,
+          "end": 10.04
+        },
+        {
+          "word": "2022.",
+          "start": 10.04,
+          "end": 10.31
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I am still sitting on my parking lot, and Mars is still quietly shaking underneath me.",
+      "start": 10.67,
+      "end": 14.7,
+      "words": [
+        {
+          "word": "I",
+          "start": 10.67,
+          "end": 10.84
+        },
+        {
+          "word": "am",
+          "start": 10.84,
+          "end": 11.02
+        },
+        {
+          "word": "still",
+          "start": 11.02,
+          "end": 11.22
+        },
+        {
+          "word": "sitting",
+          "start": 11.22,
+          "end": 11.57
+        },
+        {
+          "word": "on",
+          "start": 11.57,
+          "end": 11.75
+        },
+        {
+          "word": "my",
+          "start": 11.75,
+          "end": 11.92
+        },
+        {
+          "word": "parking",
+          "start": 11.92,
+          "end": 12.27
+        },
+        {
+          "word": "lot,",
+          "start": 12.27,
+          "end": 12.57
+        },
+        {
+          "word": "and",
+          "start": 12.57,
+          "end": 12.76
+        },
+        {
+          "word": "Mars",
+          "start": 12.76,
+          "end": 12.96
+        },
+        {
+          "word": "is",
+          "start": 12.96,
+          "end": 13.14
+        },
+        {
+          "word": "still",
+          "start": 13.14,
+          "end": 13.34
+        },
+        {
+          "word": "quietly",
+          "start": 13.34,
+          "end": 13.69
+        },
+        {
+          "word": "shaking",
+          "start": 13.69,
+          "end": 14.03
+        },
+        {
+          "word": "underneath",
+          "start": 14.03,
+          "end": 14.52
+        },
+        {
+          "word": "me.",
+          "start": 14.52,
+          "end": 14.7
+        }
+      ]
+    }
+  ]
+}

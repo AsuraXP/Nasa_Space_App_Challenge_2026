@@ -1,0 +1,321 @@
+{
+  "story": "02-laser-ranging-retroreflector",
+  "card": "card-1",
+  "duration": 15.5,
+  "speechStart": 0.14,
+  "speechEnd": 15.15,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I am the quietest machine on the Moon.",
+      "start": 0.14,
+      "end": 1.66,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "am",
+          "start": 0.28,
+          "end": 0.43
+        },
+        {
+          "word": "the",
+          "start": 0.43,
+          "end": 0.59
+        },
+        {
+          "word": "quietest",
+          "start": 0.59,
+          "end": 0.89
+        },
+        {
+          "word": "machine",
+          "start": 0.89,
+          "end": 1.18
+        },
+        {
+          "word": "on",
+          "start": 1.18,
+          "end": 1.33
+        },
+        {
+          "word": "the",
+          "start": 1.33,
+          "end": 1.49
+        },
+        {
+          "word": "Moon.",
+          "start": 1.49,
+          "end": 1.66
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "No battery.",
+      "start": 2.05,
+      "end": 2.55,
+      "words": [
+        {
+          "word": "No",
+          "start": 2.05,
+          "end": 2.19
+        },
+        {
+          "word": "battery.",
+          "start": 2.19,
+          "end": 2.55
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "No antenna.",
+      "start": 2.95,
+      "end": 3.49,
+      "words": [
+        {
+          "word": "No",
+          "start": 2.95,
+          "end": 3.1
+        },
+        {
+          "word": "antenna.",
+          "start": 3.1,
+          "end": 3.49
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "No moving parts.",
+      "start": 3.85,
+      "end": 4.61,
+      "words": [
+        {
+          "word": "No",
+          "start": 3.85,
+          "end": 4.04
+        },
+        {
+          "word": "moving",
+          "start": 4.04,
+          "end": 4.39
+        },
+        {
+          "word": "parts.",
+          "start": 4.39,
+          "end": 4.61
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I am a tray of 100 little glass prisms, about as wide as a large pizza.",
+      "start": 5.02,
+      "end": 9.04,
+      "words": [
+        {
+          "word": "I",
+          "start": 5.02,
+          "end": 5.21
+        },
+        {
+          "word": "am",
+          "start": 5.21,
+          "end": 5.42
+        },
+        {
+          "word": "a",
+          "start": 5.42,
+          "end": 5.61
+        },
+        {
+          "word": "tray",
+          "start": 5.61,
+          "end": 5.83
+        },
+        {
+          "word": "of",
+          "start": 5.83,
+          "end": 6.03
+        },
+        {
+          "word": "100",
+          "start": 6.03,
+          "end": 6.25
+        },
+        {
+          "word": "little",
+          "start": 6.25,
+          "end": 6.63
+        },
+        {
+          "word": "glass",
+          "start": 6.63,
+          "end": 6.86
+        },
+        {
+          "word": "prisms,",
+          "start": 6.86,
+          "end": 7.24
+        },
+        {
+          "word": "about",
+          "start": 7.24,
+          "end": 7.61
+        },
+        {
+          "word": "as",
+          "start": 7.61,
+          "end": 7.82
+        },
+        {
+          "word": "wide",
+          "start": 7.82,
+          "end": 8.04
+        },
+        {
+          "word": "as",
+          "start": 8.04,
+          "end": 8.24
+        },
+        {
+          "word": "a",
+          "start": 8.24,
+          "end": 8.44
+        },
+        {
+          "word": "large",
+          "start": 8.44,
+          "end": 8.67
+        },
+        {
+          "word": "pizza.",
+          "start": 8.67,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Buzz Aldrin set me down in the dust in July 1969 and pointed me at Earth.",
+      "start": 9.41,
+      "end": 13.84,
+      "words": [
+        {
+          "word": "Buzz",
+          "start": 9.41,
+          "end": 9.66
+        },
+        {
+          "word": "Aldrin",
+          "start": 9.66,
+          "end": 10.09
+        },
+        {
+          "word": "set",
+          "start": 10.09,
+          "end": 10.34
+        },
+        {
+          "word": "me",
+          "start": 10.34,
+          "end": 10.56
+        },
+        {
+          "word": "down",
+          "start": 10.56,
+          "end": 10.82
+        },
+        {
+          "word": "in",
+          "start": 10.82,
+          "end": 11.05
+        },
+        {
+          "word": "the",
+          "start": 11.05,
+          "end": 11.29
+        },
+        {
+          "word": "dust",
+          "start": 11.29,
+          "end": 11.54
+        },
+        {
+          "word": "in",
+          "start": 11.54,
+          "end": 11.77
+        },
+        {
+          "word": "July",
+          "start": 11.77,
+          "end": 12.18
+        },
+        {
+          "word": "1969",
+          "start": 12.18,
+          "end": 12.43
+        },
+        {
+          "word": "and",
+          "start": 12.43,
+          "end": 12.67
+        },
+        {
+          "word": "pointed",
+          "start": 12.67,
+          "end": 13.12
+        },
+        {
+          "word": "me",
+          "start": 13.12,
+          "end": 13.34
+        },
+        {
+          "word": "at",
+          "start": 13.34,
+          "end": 13.57
+        },
+        {
+          "word": "Earth.",
+          "start": 13.57,
+          "end": 13.84
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Then everyone went home.",
+      "start": 14.36,
+      "end": 15.15,
+      "words": [
+        {
+          "word": "Then",
+          "start": 14.36,
+          "end": 14.51
+        },
+        {
+          "word": "everyone",
+          "start": 14.51,
+          "end": 14.86
+        },
+        {
+          "word": "went",
+          "start": 14.86,
+          "end": 15.0
+        },
+        {
+          "word": "home.",
+          "start": 15.0,
+          "end": 15.15
+        }
+      ]
+    }
+  ]
+}

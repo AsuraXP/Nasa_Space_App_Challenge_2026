@@ -1,0 +1,504 @@
+{
+  "story": "10-spirit",
+  "card": "card-3",
+  "duration": 22.9,
+  "speechStart": 0.14,
+  "speechEnd": 22.49,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In May 2009 my wheels broke through a crust into soft sand, and I was stuck.",
+      "start": 0.14,
+      "end": 4.25,
+      "words": [
+        {
+          "word": "In",
+          "start": 0.14,
+          "end": 0.36
+        },
+        {
+          "word": "May",
+          "start": 0.36,
+          "end": 0.59
+        },
+        {
+          "word": "2009",
+          "start": 0.59,
+          "end": 0.83
+        },
+        {
+          "word": "my",
+          "start": 0.83,
+          "end": 1.05
+        },
+        {
+          "word": "wheels",
+          "start": 1.05,
+          "end": 1.32
+        },
+        {
+          "word": "broke",
+          "start": 1.32,
+          "end": 1.57
+        },
+        {
+          "word": "through",
+          "start": 1.57,
+          "end": 1.85
+        },
+        {
+          "word": "a",
+          "start": 1.85,
+          "end": 2.06
+        },
+        {
+          "word": "crust",
+          "start": 2.06,
+          "end": 2.31
+        },
+        {
+          "word": "into",
+          "start": 2.31,
+          "end": 2.7
+        },
+        {
+          "word": "soft",
+          "start": 2.7,
+          "end": 2.94
+        },
+        {
+          "word": "sand,",
+          "start": 2.94,
+          "end": 3.33
+        },
+        {
+          "word": "and",
+          "start": 3.33,
+          "end": 3.56
+        },
+        {
+          "word": "I",
+          "start": 3.56,
+          "end": 3.77
+        },
+        {
+          "word": "was",
+          "start": 3.77,
+          "end": 4.0
+        },
+        {
+          "word": "stuck.",
+          "start": 4.0,
+          "end": 4.25
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "My team spent months trying to drive me out.",
+      "start": 4.75,
+      "end": 6.41,
+      "words": [
+        {
+          "word": "My",
+          "start": 4.75,
+          "end": 4.92
+        },
+        {
+          "word": "team",
+          "start": 4.92,
+          "end": 5.1
+        },
+        {
+          "word": "spent",
+          "start": 5.1,
+          "end": 5.3
+        },
+        {
+          "word": "months",
+          "start": 5.3,
+          "end": 5.5
+        },
+        {
+          "word": "trying",
+          "start": 5.5,
+          "end": 5.7
+        },
+        {
+          "word": "to",
+          "start": 5.7,
+          "end": 5.87
+        },
+        {
+          "word": "drive",
+          "start": 5.87,
+          "end": 6.07
+        },
+        {
+          "word": "me",
+          "start": 6.07,
+          "end": 6.23
+        },
+        {
+          "word": "out.",
+          "start": 6.23,
+          "end": 6.41
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "When winter came I could not tilt my solar panels toward the Sun.",
+      "start": 6.86,
+      "end": 9.45,
+      "words": [
+        {
+          "word": "When",
+          "start": 6.86,
+          "end": 7.03
+        },
+        {
+          "word": "winter",
+          "start": 7.03,
+          "end": 7.31
+        },
+        {
+          "word": "came",
+          "start": 7.31,
+          "end": 7.48
+        },
+        {
+          "word": "I",
+          "start": 7.48,
+          "end": 7.63
+        },
+        {
+          "word": "could",
+          "start": 7.63,
+          "end": 7.8
+        },
+        {
+          "word": "not",
+          "start": 7.8,
+          "end": 7.96
+        },
+        {
+          "word": "tilt",
+          "start": 7.96,
+          "end": 8.13
+        },
+        {
+          "word": "my",
+          "start": 8.13,
+          "end": 8.28
+        },
+        {
+          "word": "solar",
+          "start": 8.28,
+          "end": 8.56
+        },
+        {
+          "word": "panels",
+          "start": 8.56,
+          "end": 8.84
+        },
+        {
+          "word": "toward",
+          "start": 8.84,
+          "end": 9.13
+        },
+        {
+          "word": "the",
+          "start": 9.13,
+          "end": 9.29
+        },
+        {
+          "word": "Sun.",
+          "start": 9.29,
+          "end": 9.45
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "My last message reached Earth on March 22, 2010.",
+      "start": 9.85,
+      "end": 12.16,
+      "words": [
+        {
+          "word": "My",
+          "start": 9.85,
+          "end": 10.04
+        },
+        {
+          "word": "last",
+          "start": 10.04,
+          "end": 10.25
+        },
+        {
+          "word": "message",
+          "start": 10.25,
+          "end": 10.62
+        },
+        {
+          "word": "reached",
+          "start": 10.62,
+          "end": 10.99
+        },
+        {
+          "word": "Earth",
+          "start": 10.99,
+          "end": 11.22
+        },
+        {
+          "word": "on",
+          "start": 11.22,
+          "end": 11.41
+        },
+        {
+          "word": "March",
+          "start": 11.41,
+          "end": 11.63
+        },
+        {
+          "word": "22,",
+          "start": 11.63,
+          "end": 11.95
+        },
+        {
+          "word": "2010.",
+          "start": 11.95,
+          "end": 12.16
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "My team kept calling for more than a year, just in case.",
+      "start": 12.5,
+      "end": 15.32,
+      "words": [
+        {
+          "word": "My",
+          "start": 12.5,
+          "end": 12.7
+        },
+        {
+          "word": "team",
+          "start": 12.7,
+          "end": 12.91
+        },
+        {
+          "word": "kept",
+          "start": 12.91,
+          "end": 13.13
+        },
+        {
+          "word": "calling",
+          "start": 13.13,
+          "end": 13.51
+        },
+        {
+          "word": "for",
+          "start": 13.51,
+          "end": 13.72
+        },
+        {
+          "word": "more",
+          "start": 13.72,
+          "end": 13.94
+        },
+        {
+          "word": "than",
+          "start": 13.94,
+          "end": 14.15
+        },
+        {
+          "word": "a",
+          "start": 14.15,
+          "end": 14.34
+        },
+        {
+          "word": "year,",
+          "start": 14.34,
+          "end": 14.69
+        },
+        {
+          "word": "just",
+          "start": 14.69,
+          "end": 14.91
+        },
+        {
+          "word": "in",
+          "start": 14.91,
+          "end": 15.1
+        },
+        {
+          "word": "case.",
+          "start": 15.1,
+          "end": 15.32
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "I am still here beside Home Plate.",
+      "start": 15.59,
+      "end": 16.22,
+      "words": [
+        {
+          "word": "I",
+          "start": 15.59,
+          "end": 15.66
+        },
+        {
+          "word": "am",
+          "start": 15.66,
+          "end": 15.74
+        },
+        {
+          "word": "still",
+          "start": 15.74,
+          "end": 15.82
+        },
+        {
+          "word": "here",
+          "start": 15.82,
+          "end": 15.91
+        },
+        {
+          "word": "beside",
+          "start": 15.91,
+          "end": 16.05
+        },
+        {
+          "word": "Home",
+          "start": 16.05,
+          "end": 16.13
+        },
+        {
+          "word": "Plate.",
+          "start": 16.13,
+          "end": 16.22
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "I did not find a lake.",
+      "start": 16.63,
+      "end": 17.86,
+      "words": [
+        {
+          "word": "I",
+          "start": 16.63,
+          "end": 16.82
+        },
+        {
+          "word": "did",
+          "start": 16.82,
+          "end": 17.03
+        },
+        {
+          "word": "not",
+          "start": 17.03,
+          "end": 17.23
+        },
+        {
+          "word": "find",
+          "start": 17.23,
+          "end": 17.45
+        },
+        {
+          "word": "a",
+          "start": 17.45,
+          "end": 17.64
+        },
+        {
+          "word": "lake.",
+          "start": 17.64,
+          "end": 17.86
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I found something nobody was looking for, with a wheel that did not work.",
+      "start": 18.32,
+      "end": 22.49,
+      "words": [
+        {
+          "word": "I",
+          "start": 18.32,
+          "end": 18.52
+        },
+        {
+          "word": "found",
+          "start": 18.52,
+          "end": 18.77
+        },
+        {
+          "word": "something",
+          "start": 18.77,
+          "end": 19.34
+        },
+        {
+          "word": "nobody",
+          "start": 19.34,
+          "end": 19.88
+        },
+        {
+          "word": "was",
+          "start": 19.88,
+          "end": 20.11
+        },
+        {
+          "word": "looking",
+          "start": 20.11,
+          "end": 20.52
+        },
+        {
+          "word": "for,",
+          "start": 20.52,
+          "end": 20.88
+        },
+        {
+          "word": "with",
+          "start": 20.88,
+          "end": 21.12
+        },
+        {
+          "word": "a",
+          "start": 21.12,
+          "end": 21.32
+        },
+        {
+          "word": "wheel",
+          "start": 21.32,
+          "end": 21.57
+        },
+        {
+          "word": "that",
+          "start": 21.57,
+          "end": 21.81
+        },
+        {
+          "word": "did",
+          "start": 21.81,
+          "end": 22.03
+        },
+        {
+          "word": "not",
+          "start": 22.03,
+          "end": 22.25
+        },
+        {
+          "word": "work.",
+          "start": 22.25,
+          "end": 22.49
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "story": "01-eagle-descent-stage",
+  "card": "card-1",
+  "duration": 25.32,
+  "speechStart": 0.15,
+  "speechEnd": 25.0,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "Hello.",
+      "start": 0.15,
+      "end": 0.4,
+      "words": [
+        {
+          "word": "Hello.",
+          "start": 0.15,
+          "end": 0.4
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "You found me.",
+      "start": 0.76,
+      "end": 1.18,
+      "words": [
+        {
+          "word": "You",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "word": "found",
+          "start": 0.9,
+          "end": 1.05
+        },
+        {
+          "word": "me.",
+          "start": 1.05,
+          "end": 1.18
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I am the bottom half of a spacecraft called Eagle, and I have been sitting very still since July 1969.",
+      "start": 1.57,
+      "end": 6.9,
+      "words": [
+        {
+          "word": "I",
+          "start": 1.57,
+          "end": 1.75
+        },
+        {
+          "word": "am",
+          "start": 1.75,
+          "end": 1.94
+        },
+        {
+          "word": "the",
+          "start": 1.94,
+          "end": 2.14
+        },
+        {
+          "word": "bottom",
+          "start": 2.14,
+          "end": 2.49
+        },
+        {
+          "word": "half",
+          "start": 2.49,
+          "end": 2.7
+        },
+        {
+          "word": "of",
+          "start": 2.7,
+          "end": 2.89
+        },
+        {
+          "word": "a",
+          "start": 2.89,
+          "end": 3.07
+        },
+        {
+          "word": "spacecraft",
+          "start": 3.07,
+          "end": 3.59
+        },
+        {
+          "word": "called",
+          "start": 3.59,
+          "end": 3.95
+        },
+        {
+          "word": "Eagle,",
+          "start": 3.95,
+          "end": 4.42
+        },
+        {
+          "word": "and",
+          "start": 4.42,
+          "end": 4.62
+        },
+        {
+          "word": "I",
+          "start": 4.62,
+          "end": 4.8
+        },
+        {
+          "word": "have",
+          "start": 4.8,
+          "end": 5.01
+        },
+        {
+          "word": "been",
+          "start": 5.01,
+          "end": 5.22
+        },
+        {
+          "word": "sitting",
+          "start": 5.22,
+          "end": 5.58
+        },
+        {
+          "word": "very",
+          "start": 5.58,
+          "end": 5.92
+        },
+        {
+          "word": "still",
+          "start": 5.92,
+          "end": 6.14
+        },
+        {
+          "word": "since",
+          "start": 6.14,
+          "end": 6.36
+        },
+        {
+          "word": "July",
+          "start": 6.36,
+          "end": 6.69
+        },
+        {
+          "word": "1969.",
+          "start": 6.69,
+          "end": 6.9
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "My job was easy to say and hard to do: carry two people down to the Moon and set them down gently.",
+      "start": 7.32,
+      "end": 12.44,
+      "words": [
+        {
+          "word": "My",
+          "start": 7.32,
+          "end": 7.51
+        },
+        {
+          "word": "job",
+          "start": 7.51,
+          "end": 7.71
+        },
+        {
+          "word": "was",
+          "start": 7.71,
+          "end": 7.91
+        },
+        {
+          "word": "easy",
+          "start": 7.91,
+          "end": 8.25
+        },
+        {
+          "word": "to",
+          "start": 8.25,
+          "end": 8.44
+        },
+        {
+          "word": "say",
+          "start": 8.44,
+          "end": 8.64
+        },
+        {
+          "word": "and",
+          "start": 8.64,
+          "end": 8.84
+        },
+        {
+          "word": "hard",
+          "start": 8.84,
+          "end": 9.05
+        },
+        {
+          "word": "to",
+          "start": 9.05,
+          "end": 9.24
+        },
+        {
+          "word": "do:",
+          "start": 9.24,
+          "end": 9.55
+        },
+        {
+          "word": "carry",
+          "start": 9.55,
+          "end": 9.9
+        },
+        {
+          "word": "two",
+          "start": 9.9,
+          "end": 10.1
+        },
+        {
+          "word": "people",
+          "start": 10.1,
+          "end": 10.45
+        },
+        {
+          "word": "down",
+          "start": 10.45,
+          "end": 10.66
+        },
+        {
+          "word": "to",
+          "start": 10.66,
+          "end": 10.85
+        },
+        {
+          "word": "the",
+          "start": 10.85,
+          "end": 11.05
+        },
+        {
+          "word": "Moon",
+          "start": 11.05,
+          "end": 11.26
+        },
+        {
+          "word": "and",
+          "start": 11.26,
+          "end": 11.46
+        },
+        {
+          "word": "set",
+          "start": 11.46,
+          "end": 11.66
+        },
+        {
+          "word": "them",
+          "start": 11.66,
+          "end": 11.87
+        },
+        {
+          "word": "down",
+          "start": 11.87,
+          "end": 12.08
+        },
+        {
+          "word": "gently.",
+          "start": 12.08,
+          "end": 12.44
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "On the way down the computer flashed alarms, and Neil Armstrong took over the steering to fly us past a field of boulders.",
+      "start": 12.85,
+      "end": 18.73,
+      "words": [
+        {
+          "word": "On",
+          "start": 12.85,
+          "end": 13.04
+        },
+        {
+          "word": "the",
+          "start": 13.04,
+          "end": 13.23
+        },
+        {
+          "word": "way",
+          "start": 13.23,
+          "end": 13.43
+        },
+        {
+          "word": "down",
+          "start": 13.43,
+          "end": 13.63
+        },
+        {
+          "word": "the",
+          "start": 13.63,
+          "end": 13.83
+        },
+        {
+          "word": "computer",
+          "start": 13.83,
+          "end": 14.32
+        },
+        {
+          "word": "flashed",
+          "start": 14.32,
+          "end": 14.67
+        },
+        {
+          "word": "alarms,",
+          "start": 14.67,
+          "end": 15.14
+        },
+        {
+          "word": "and",
+          "start": 15.14,
+          "end": 15.34
+        },
+        {
+          "word": "Neil",
+          "start": 15.34,
+          "end": 15.54
+        },
+        {
+          "word": "Armstrong",
+          "start": 15.54,
+          "end": 15.92
+        },
+        {
+          "word": "took",
+          "start": 15.92,
+          "end": 16.13
+        },
+        {
+          "word": "over",
+          "start": 16.13,
+          "end": 16.45
+        },
+        {
+          "word": "the",
+          "start": 16.45,
+          "end": 16.65
+        },
+        {
+          "word": "steering",
+          "start": 16.65,
+          "end": 17.02
+        },
+        {
+          "word": "to",
+          "start": 17.02,
+          "end": 17.2
+        },
+        {
+          "word": "fly",
+          "start": 17.2,
+          "end": 17.4
+        },
+        {
+          "word": "us",
+          "start": 17.4,
+          "end": 17.58
+        },
+        {
+          "word": "past",
+          "start": 17.58,
+          "end": 17.79
+        },
+        {
+          "word": "a",
+          "start": 17.79,
+          "end": 17.96
+        },
+        {
+          "word": "field",
+          "start": 17.96,
+          "end": 18.18
+        },
+        {
+          "word": "of",
+          "start": 18.18,
+          "end": 18.36
+        },
+        {
+          "word": "boulders.",
+          "start": 18.36,
+          "end": 18.73
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "We landed with very little fuel to spare.",
+      "start": 19.13,
+      "end": 21.71,
+      "words": [
+        {
+          "word": "We",
+          "start": 19.13,
+          "end": 19.37
+        },
+        {
+          "word": "landed",
+          "start": 19.37,
+          "end": 19.81
+        },
+        {
+          "word": "with",
+          "start": 19.81,
+          "end": 20.07
+        },
+        {
+          "word": "very",
+          "start": 20.07,
+          "end": 20.49
+        },
+        {
+          "word": "little",
+          "start": 20.49,
+          "end": 20.94
+        },
+        {
+          "word": "fuel",
+          "start": 20.94,
+          "end": 21.2
+        },
+        {
+          "word": "to",
+          "start": 21.2,
+          "end": 21.44
+        },
+        {
+          "word": "spare.",
+          "start": 21.44,
+          "end": 21.71
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Then he said it: \"Houston, Tranquility Base here.",
+      "start": 22.19,
+      "end": 23.74,
+      "words": [
+        {
+          "word": "Then",
+          "start": 22.19,
+          "end": 22.32
+        },
+        {
+          "word": "he",
+          "start": 22.32,
+          "end": 22.44
+        },
+        {
+          "word": "said",
+          "start": 22.44,
+          "end": 22.57
+        },
+        {
+          "word": "it:",
+          "start": 22.57,
+          "end": 22.76
+        },
+        {
+          "word": "\"Houston,",
+          "start": 22.76,
+          "end": 23.07
+        },
+        {
+          "word": "Tranquility",
+          "start": 23.07,
+          "end": 23.48
+        },
+        {
+          "word": "Base",
+          "start": 23.48,
+          "end": 23.61
+        },
+        {
+          "word": "here.",
+          "start": 23.61,
+          "end": 23.74
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "The Eagle has landed.\"",
+      "start": 24.13,
+      "end": 25.0,
+      "words": [
+        {
+          "word": "The",
+          "start": 24.13,
+          "end": 24.29
+        },
+        {
+          "word": "Eagle",
+          "start": 24.29,
+          "end": 24.56
+        },
+        {
+          "word": "has",
+          "start": 24.56,
+          "end": 24.72
+        },
+        {
+          "word": "landed.\"",
+          "start": 24.72,
+          "end": 25.0
+        }
+      ]
+    }
+  ]
+}

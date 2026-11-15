@@ -1,0 +1,514 @@
+{
+  "story": "16-voyager-1",
+  "card": "card-1",
+  "duration": 26.93,
+  "speechStart": 0.13,
+  "speechEnd": 26.56,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I left Earth on September 5, 1977.",
+      "start": 0.13,
+      "end": 1.44,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.13,
+          "end": 0.26
+        },
+        {
+          "word": "left",
+          "start": 0.26,
+          "end": 0.41
+        },
+        {
+          "word": "Earth",
+          "start": 0.41,
+          "end": 0.57
+        },
+        {
+          "word": "on",
+          "start": 0.57,
+          "end": 0.7
+        },
+        {
+          "word": "September",
+          "start": 0.7,
+          "end": 1.07
+        },
+        {
+          "word": "5,",
+          "start": 1.07,
+          "end": 1.29
+        },
+        {
+          "word": "1977.",
+          "start": 1.29,
+          "end": 1.44
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "My job was to visit two planets, Jupiter and Saturn.",
+      "start": 1.83,
+      "end": 5.88,
+      "words": [
+        {
+          "word": "My",
+          "start": 1.83,
+          "end": 2.1
+        },
+        {
+          "word": "job",
+          "start": 2.1,
+          "end": 2.38
+        },
+        {
+          "word": "was",
+          "start": 2.38,
+          "end": 2.66
+        },
+        {
+          "word": "to",
+          "start": 2.66,
+          "end": 2.93
+        },
+        {
+          "word": "visit",
+          "start": 2.93,
+          "end": 3.42
+        },
+        {
+          "word": "two",
+          "start": 3.42,
+          "end": 3.7
+        },
+        {
+          "word": "planets,",
+          "start": 3.7,
+          "end": 4.4
+        },
+        {
+          "word": "Jupiter",
+          "start": 4.4,
+          "end": 5.09
+        },
+        {
+          "word": "and",
+          "start": 5.09,
+          "end": 5.38
+        },
+        {
+          "word": "Saturn.",
+          "start": 5.38,
+          "end": 5.88
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I was built to last about five years.",
+      "start": 6.3,
+      "end": 7.9,
+      "words": [
+        {
+          "word": "I",
+          "start": 6.3,
+          "end": 6.46
+        },
+        {
+          "word": "was",
+          "start": 6.46,
+          "end": 6.64
+        },
+        {
+          "word": "built",
+          "start": 6.64,
+          "end": 6.84
+        },
+        {
+          "word": "to",
+          "start": 6.84,
+          "end": 7.01
+        },
+        {
+          "word": "last",
+          "start": 7.01,
+          "end": 7.2
+        },
+        {
+          "word": "about",
+          "start": 7.2,
+          "end": 7.51
+        },
+        {
+          "word": "five",
+          "start": 7.51,
+          "end": 7.7
+        },
+        {
+          "word": "years.",
+          "start": 7.7,
+          "end": 7.9
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "At Jupiter I photographed storms bigger than Earth, and volcanoes erupting on a moon called Io.",
+      "start": 8.29,
+      "end": 13.32,
+      "words": [
+        {
+          "word": "At",
+          "start": 8.29,
+          "end": 8.48
+        },
+        {
+          "word": "Jupiter",
+          "start": 8.48,
+          "end": 8.97
+        },
+        {
+          "word": "I",
+          "start": 8.97,
+          "end": 9.15
+        },
+        {
+          "word": "photographed",
+          "start": 9.15,
+          "end": 9.83
+        },
+        {
+          "word": "storms",
+          "start": 9.83,
+          "end": 10.06
+        },
+        {
+          "word": "bigger",
+          "start": 10.06,
+          "end": 10.41
+        },
+        {
+          "word": "than",
+          "start": 10.41,
+          "end": 10.62
+        },
+        {
+          "word": "Earth,",
+          "start": 10.62,
+          "end": 10.97
+        },
+        {
+          "word": "and",
+          "start": 10.97,
+          "end": 11.17
+        },
+        {
+          "word": "volcanoes",
+          "start": 11.17,
+          "end": 11.69
+        },
+        {
+          "word": "erupting",
+          "start": 11.69,
+          "end": 12.19
+        },
+        {
+          "word": "on",
+          "start": 12.19,
+          "end": 12.38
+        },
+        {
+          "word": "a",
+          "start": 12.38,
+          "end": 12.56
+        },
+        {
+          "word": "moon",
+          "start": 12.56,
+          "end": 12.77
+        },
+        {
+          "word": "called",
+          "start": 12.77,
+          "end": 13.13
+        },
+        {
+          "word": "Io.",
+          "start": 13.13,
+          "end": 13.32
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Nobody expected that.",
+      "start": 13.67,
+      "end": 14.56,
+      "words": [
+        {
+          "word": "Nobody",
+          "start": 13.67,
+          "end": 14.03
+        },
+        {
+          "word": "expected",
+          "start": 14.03,
+          "end": 14.4
+        },
+        {
+          "word": "that.",
+          "start": 14.4,
+          "end": 14.56
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "At Saturn I flew close to the giant moon Titan and found it hidden under thick orange haze.",
+      "start": 14.98,
+      "end": 19.74,
+      "words": [
+        {
+          "word": "At",
+          "start": 14.98,
+          "end": 15.18
+        },
+        {
+          "word": "Saturn",
+          "start": 15.18,
+          "end": 15.57
+        },
+        {
+          "word": "I",
+          "start": 15.57,
+          "end": 15.76
+        },
+        {
+          "word": "flew",
+          "start": 15.76,
+          "end": 15.99
+        },
+        {
+          "word": "close",
+          "start": 15.99,
+          "end": 16.22
+        },
+        {
+          "word": "to",
+          "start": 16.22,
+          "end": 16.43
+        },
+        {
+          "word": "the",
+          "start": 16.43,
+          "end": 16.64
+        },
+        {
+          "word": "giant",
+          "start": 16.64,
+          "end": 16.88
+        },
+        {
+          "word": "moon",
+          "start": 16.88,
+          "end": 17.11
+        },
+        {
+          "word": "Titan",
+          "start": 17.11,
+          "end": 17.48
+        },
+        {
+          "word": "and",
+          "start": 17.48,
+          "end": 17.7
+        },
+        {
+          "word": "found",
+          "start": 17.7,
+          "end": 17.93
+        },
+        {
+          "word": "it",
+          "start": 17.93,
+          "end": 18.14
+        },
+        {
+          "word": "hidden",
+          "start": 18.14,
+          "end": 18.52
+        },
+        {
+          "word": "under",
+          "start": 18.52,
+          "end": 18.89
+        },
+        {
+          "word": "thick",
+          "start": 18.89,
+          "end": 19.13
+        },
+        {
+          "word": "orange",
+          "start": 19.13,
+          "end": 19.51
+        },
+        {
+          "word": "haze.",
+          "start": 19.51,
+          "end": 19.74
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "That close pass bent my path upward, out of the flat disc where the planets travel.",
+      "start": 20.17,
+      "end": 24.41,
+      "words": [
+        {
+          "word": "That",
+          "start": 20.17,
+          "end": 20.4
+        },
+        {
+          "word": "close",
+          "start": 20.4,
+          "end": 20.64
+        },
+        {
+          "word": "pass",
+          "start": 20.64,
+          "end": 20.87
+        },
+        {
+          "word": "bent",
+          "start": 20.87,
+          "end": 21.1
+        },
+        {
+          "word": "my",
+          "start": 21.1,
+          "end": 21.31
+        },
+        {
+          "word": "path",
+          "start": 21.31,
+          "end": 21.53
+        },
+        {
+          "word": "upward,",
+          "start": 21.53,
+          "end": 22.06
+        },
+        {
+          "word": "out",
+          "start": 22.06,
+          "end": 22.28
+        },
+        {
+          "word": "of",
+          "start": 22.28,
+          "end": 22.49
+        },
+        {
+          "word": "the",
+          "start": 22.49,
+          "end": 22.7
+        },
+        {
+          "word": "flat",
+          "start": 22.7,
+          "end": 22.93
+        },
+        {
+          "word": "disc",
+          "start": 22.93,
+          "end": 23.16
+        },
+        {
+          "word": "where",
+          "start": 23.16,
+          "end": 23.4
+        },
+        {
+          "word": "the",
+          "start": 23.4,
+          "end": 23.62
+        },
+        {
+          "word": "planets",
+          "start": 23.62,
+          "end": 24.02
+        },
+        {
+          "word": "travel.",
+          "start": 24.02,
+          "end": 24.41
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "There were no more worlds ahead of me after that.",
+      "start": 24.82,
+      "end": 26.56,
+      "words": [
+        {
+          "word": "There",
+          "start": 24.82,
+          "end": 24.98
+        },
+        {
+          "word": "were",
+          "start": 24.98,
+          "end": 25.14
+        },
+        {
+          "word": "no",
+          "start": 25.14,
+          "end": 25.28
+        },
+        {
+          "word": "more",
+          "start": 25.28,
+          "end": 25.44
+        },
+        {
+          "word": "worlds",
+          "start": 25.44,
+          "end": 25.61
+        },
+        {
+          "word": "ahead",
+          "start": 25.61,
+          "end": 25.86
+        },
+        {
+          "word": "of",
+          "start": 25.86,
+          "end": 26.01
+        },
+        {
+          "word": "me",
+          "start": 26.01,
+          "end": 26.15
+        },
+        {
+          "word": "after",
+          "start": 26.15,
+          "end": 26.4
+        },
+        {
+          "word": "that.",
+          "start": 26.4,
+          "end": 26.56
+        }
+      ]
+    }
+  ]
+}

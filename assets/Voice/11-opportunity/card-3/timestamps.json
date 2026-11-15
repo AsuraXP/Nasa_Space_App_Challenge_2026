@@ -1,0 +1,688 @@
+{
+  "story": "11-opportunity",
+  "card": "card-3",
+  "duration": 31.63,
+  "speechStart": 0.13,
+  "speechEnd": 31.31,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In 2018 I was working in a place called Perseverance Valley when a dust storm began.",
+      "start": 0.13,
+      "end": 4.71,
+      "words": [
+        {
+          "word": "In",
+          "start": 0.13,
+          "end": 0.33
+        },
+        {
+          "word": "2018",
+          "start": 0.33,
+          "end": 0.56
+        },
+        {
+          "word": "I",
+          "start": 0.56,
+          "end": 0.75
+        },
+        {
+          "word": "was",
+          "start": 0.75,
+          "end": 0.96
+        },
+        {
+          "word": "working",
+          "start": 0.96,
+          "end": 1.36
+        },
+        {
+          "word": "in",
+          "start": 1.36,
+          "end": 1.56
+        },
+        {
+          "word": "a",
+          "start": 1.56,
+          "end": 1.75
+        },
+        {
+          "word": "place",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "word": "called",
+          "start": 1.99,
+          "end": 2.37
+        },
+        {
+          "word": "Perseverance",
+          "start": 2.37,
+          "end": 3.08
+        },
+        {
+          "word": "Valley",
+          "start": 3.08,
+          "end": 3.46
+        },
+        {
+          "word": "when",
+          "start": 3.46,
+          "end": 3.69
+        },
+        {
+          "word": "a",
+          "start": 3.69,
+          "end": 3.88
+        },
+        {
+          "word": "dust",
+          "start": 3.88,
+          "end": 4.1
+        },
+        {
+          "word": "storm",
+          "start": 4.1,
+          "end": 4.34
+        },
+        {
+          "word": "began.",
+          "start": 4.34,
+          "end": 4.71
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "It grew until it covered the whole planet.",
+      "start": 5.11,
+      "end": 6.72,
+      "words": [
+        {
+          "word": "It",
+          "start": 5.11,
+          "end": 5.24
+        },
+        {
+          "word": "grew",
+          "start": 5.24,
+          "end": 5.39
+        },
+        {
+          "word": "until",
+          "start": 5.39,
+          "end": 5.63
+        },
+        {
+          "word": "it",
+          "start": 5.63,
+          "end": 5.76
+        },
+        {
+          "word": "covered",
+          "start": 5.76,
+          "end": 6.1
+        },
+        {
+          "word": "the",
+          "start": 6.1,
+          "end": 6.23
+        },
+        {
+          "word": "whole",
+          "start": 6.23,
+          "end": 6.47
+        },
+        {
+          "word": "planet.",
+          "start": 6.47,
+          "end": 6.72
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "The sky went dark in the middle of the day.",
+      "start": 7.2,
+      "end": 8.72,
+      "words": [
+        {
+          "word": "The",
+          "start": 7.2,
+          "end": 7.34
+        },
+        {
+          "word": "sky",
+          "start": 7.34,
+          "end": 7.48
+        },
+        {
+          "word": "went",
+          "start": 7.48,
+          "end": 7.63
+        },
+        {
+          "word": "dark",
+          "start": 7.63,
+          "end": 7.78
+        },
+        {
+          "word": "in",
+          "start": 7.78,
+          "end": 7.91
+        },
+        {
+          "word": "the",
+          "start": 7.91,
+          "end": 8.05
+        },
+        {
+          "word": "middle",
+          "start": 8.05,
+          "end": 8.3
+        },
+        {
+          "word": "of",
+          "start": 8.3,
+          "end": 8.44
+        },
+        {
+          "word": "the",
+          "start": 8.44,
+          "end": 8.58
+        },
+        {
+          "word": "day.",
+          "start": 8.58,
+          "end": 8.72
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I run on sunlight, and there was no sunlight.",
+      "start": 9.08,
+      "end": 11.01,
+      "words": [
+        {
+          "word": "I",
+          "start": 9.08,
+          "end": 9.23
+        },
+        {
+          "word": "run",
+          "start": 9.23,
+          "end": 9.4
+        },
+        {
+          "word": "on",
+          "start": 9.4,
+          "end": 9.57
+        },
+        {
+          "word": "sunlight,",
+          "start": 9.57,
+          "end": 10.0
+        },
+        {
+          "word": "and",
+          "start": 10.0,
+          "end": 10.17
+        },
+        {
+          "word": "there",
+          "start": 10.17,
+          "end": 10.36
+        },
+        {
+          "word": "was",
+          "start": 10.36,
+          "end": 10.53
+        },
+        {
+          "word": "no",
+          "start": 10.53,
+          "end": 10.69
+        },
+        {
+          "word": "sunlight.",
+          "start": 10.69,
+          "end": 11.01
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "On June 10, 2018, I sent my power level and a measurement of the dust in the sky.",
+      "start": 11.47,
+      "end": 16.49,
+      "words": [
+        {
+          "word": "On",
+          "start": 11.47,
+          "end": 11.68
+        },
+        {
+          "word": "June",
+          "start": 11.68,
+          "end": 11.91
+        },
+        {
+          "word": "10,",
+          "start": 11.91,
+          "end": 12.26
+        },
+        {
+          "word": "2018,",
+          "start": 12.26,
+          "end": 12.63
+        },
+        {
+          "word": "I",
+          "start": 12.63,
+          "end": 12.83
+        },
+        {
+          "word": "sent",
+          "start": 12.83,
+          "end": 13.06
+        },
+        {
+          "word": "my",
+          "start": 13.06,
+          "end": 13.27
+        },
+        {
+          "word": "power",
+          "start": 13.27,
+          "end": 13.65
+        },
+        {
+          "word": "level",
+          "start": 13.65,
+          "end": 14.03
+        },
+        {
+          "word": "and",
+          "start": 14.03,
+          "end": 14.25
+        },
+        {
+          "word": "a",
+          "start": 14.25,
+          "end": 14.45
+        },
+        {
+          "word": "measurement",
+          "start": 14.45,
+          "end": 15.18
+        },
+        {
+          "word": "of",
+          "start": 15.18,
+          "end": 15.39
+        },
+        {
+          "word": "the",
+          "start": 15.39,
+          "end": 15.61
+        },
+        {
+          "word": "dust",
+          "start": 15.61,
+          "end": 15.84
+        },
+        {
+          "word": "in",
+          "start": 15.84,
+          "end": 16.05
+        },
+        {
+          "word": "the",
+          "start": 16.05,
+          "end": 16.27
+        },
+        {
+          "word": "sky.",
+          "start": 16.27,
+          "end": 16.49
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Then I went to sleep to save energy.",
+      "start": 16.86,
+      "end": 18.17,
+      "words": [
+        {
+          "word": "Then",
+          "start": 16.86,
+          "end": 17.01
+        },
+        {
+          "word": "I",
+          "start": 17.01,
+          "end": 17.13
+        },
+        {
+          "word": "went",
+          "start": 17.13,
+          "end": 17.28
+        },
+        {
+          "word": "to",
+          "start": 17.28,
+          "end": 17.41
+        },
+        {
+          "word": "sleep",
+          "start": 17.41,
+          "end": 17.56
+        },
+        {
+          "word": "to",
+          "start": 17.56,
+          "end": 17.69
+        },
+        {
+          "word": "save",
+          "start": 17.69,
+          "end": 17.84
+        },
+        {
+          "word": "energy.",
+          "start": 17.84,
+          "end": 18.17
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "My team called me more than a thousand times over the next eight months.",
+      "start": 18.56,
+      "end": 22.38,
+      "words": [
+        {
+          "word": "My",
+          "start": 18.56,
+          "end": 18.77
+        },
+        {
+          "word": "team",
+          "start": 18.77,
+          "end": 19.0
+        },
+        {
+          "word": "called",
+          "start": 19.0,
+          "end": 19.39
+        },
+        {
+          "word": "me",
+          "start": 19.39,
+          "end": 19.6
+        },
+        {
+          "word": "more",
+          "start": 19.6,
+          "end": 19.83
+        },
+        {
+          "word": "than",
+          "start": 19.83,
+          "end": 20.07
+        },
+        {
+          "word": "a",
+          "start": 20.07,
+          "end": 20.26
+        },
+        {
+          "word": "thousand",
+          "start": 20.26,
+          "end": 20.68
+        },
+        {
+          "word": "times",
+          "start": 20.68,
+          "end": 21.06
+        },
+        {
+          "word": "over",
+          "start": 21.06,
+          "end": 21.43
+        },
+        {
+          "word": "the",
+          "start": 21.43,
+          "end": 21.65
+        },
+        {
+          "word": "next",
+          "start": 21.65,
+          "end": 21.88
+        },
+        {
+          "word": "eight",
+          "start": 21.88,
+          "end": 22.13
+        },
+        {
+          "word": "months.",
+          "start": 22.13,
+          "end": 22.38
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I did not answer.",
+      "start": 22.76,
+      "end": 23.79,
+      "words": [
+        {
+          "word": "I",
+          "start": 22.76,
+          "end": 22.96
+        },
+        {
+          "word": "did",
+          "start": 22.96,
+          "end": 23.18
+        },
+        {
+          "word": "not",
+          "start": 23.18,
+          "end": 23.4
+        },
+        {
+          "word": "answer.",
+          "start": 23.4,
+          "end": 23.79
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "On February 13, 2019, they said goodbye.",
+      "start": 24.2,
+      "end": 26.09,
+      "words": [
+        {
+          "word": "On",
+          "start": 24.2,
+          "end": 24.38
+        },
+        {
+          "word": "February",
+          "start": 24.38,
+          "end": 24.85
+        },
+        {
+          "word": "13,",
+          "start": 24.85,
+          "end": 25.15
+        },
+        {
+          "word": "2019,",
+          "start": 25.15,
+          "end": 25.47
+        },
+        {
+          "word": "they",
+          "start": 25.47,
+          "end": 25.67
+        },
+        {
+          "word": "said",
+          "start": 25.67,
+          "end": 25.86
+        },
+        {
+          "word": "goodbye.",
+          "start": 25.86,
+          "end": 26.09
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "I do not think of it as a sad ending.",
+      "start": 26.46,
+      "end": 27.75,
+      "words": [
+        {
+          "word": "I",
+          "start": 26.46,
+          "end": 26.57
+        },
+        {
+          "word": "do",
+          "start": 26.57,
+          "end": 26.69
+        },
+        {
+          "word": "not",
+          "start": 26.69,
+          "end": 26.81
+        },
+        {
+          "word": "think",
+          "start": 26.81,
+          "end": 26.95
+        },
+        {
+          "word": "of",
+          "start": 26.95,
+          "end": 27.06
+        },
+        {
+          "word": "it",
+          "start": 27.06,
+          "end": 27.18
+        },
+        {
+          "word": "as",
+          "start": 27.18,
+          "end": 27.3
+        },
+        {
+          "word": "a",
+          "start": 27.3,
+          "end": 27.41
+        },
+        {
+          "word": "sad",
+          "start": 27.41,
+          "end": 27.53
+        },
+        {
+          "word": "ending.",
+          "start": 27.53,
+          "end": 27.75
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "I was asked for 90 days and I gave them more than 14 years.",
+      "start": 28.2,
+      "end": 31.31,
+      "words": [
+        {
+          "word": "I",
+          "start": 28.2,
+          "end": 28.39
+        },
+        {
+          "word": "was",
+          "start": 28.39,
+          "end": 28.6
+        },
+        {
+          "word": "asked",
+          "start": 28.6,
+          "end": 28.96
+        },
+        {
+          "word": "for",
+          "start": 28.96,
+          "end": 29.17
+        },
+        {
+          "word": "90",
+          "start": 29.17,
+          "end": 29.37
+        },
+        {
+          "word": "days",
+          "start": 29.37,
+          "end": 29.59
+        },
+        {
+          "word": "and",
+          "start": 29.59,
+          "end": 29.81
+        },
+        {
+          "word": "I",
+          "start": 29.81,
+          "end": 29.99
+        },
+        {
+          "word": "gave",
+          "start": 29.99,
+          "end": 30.22
+        },
+        {
+          "word": "them",
+          "start": 30.22,
+          "end": 30.44
+        },
+        {
+          "word": "more",
+          "start": 30.44,
+          "end": 30.66
+        },
+        {
+          "word": "than",
+          "start": 30.66,
+          "end": 30.88
+        },
+        {
+          "word": "14",
+          "start": 30.88,
+          "end": 31.08
+        },
+        {
+          "word": "years.",
+          "start": 31.08,
+          "end": 31.31
+        }
+      ]
+    }
+  ]
+}

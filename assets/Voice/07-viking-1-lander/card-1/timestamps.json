@@ -1,0 +1,448 @@
+{
+  "story": "07-viking-1-lander",
+  "card": "card-1",
+  "duration": 21.05,
+  "speechStart": 0.18,
+  "speechEnd": 20.73,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "For a long time, nobody on Earth knew what the ground on Mars looked like up close.",
+      "start": 0.18,
+      "end": 4.04,
+      "words": [
+        {
+          "word": "For",
+          "start": 0.18,
+          "end": 0.37
+        },
+        {
+          "word": "a",
+          "start": 0.37,
+          "end": 0.54
+        },
+        {
+          "word": "long",
+          "start": 0.54,
+          "end": 0.74
+        },
+        {
+          "word": "time,",
+          "start": 0.74,
+          "end": 1.06
+        },
+        {
+          "word": "nobody",
+          "start": 1.06,
+          "end": 1.52
+        },
+        {
+          "word": "on",
+          "start": 1.52,
+          "end": 1.7
+        },
+        {
+          "word": "Earth",
+          "start": 1.7,
+          "end": 1.91
+        },
+        {
+          "word": "knew",
+          "start": 1.91,
+          "end": 2.12
+        },
+        {
+          "word": "what",
+          "start": 2.12,
+          "end": 2.32
+        },
+        {
+          "word": "the",
+          "start": 2.32,
+          "end": 2.51
+        },
+        {
+          "word": "ground",
+          "start": 2.51,
+          "end": 2.73
+        },
+        {
+          "word": "on",
+          "start": 2.73,
+          "end": 2.91
+        },
+        {
+          "word": "Mars",
+          "start": 2.91,
+          "end": 3.11
+        },
+        {
+          "word": "looked",
+          "start": 3.11,
+          "end": 3.45
+        },
+        {
+          "word": "like",
+          "start": 3.45,
+          "end": 3.65
+        },
+        {
+          "word": "up",
+          "start": 3.65,
+          "end": 3.83
+        },
+        {
+          "word": "close.",
+          "start": 3.83,
+          "end": 4.04
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I was sent to find out.",
+      "start": 4.45,
+      "end": 5.25,
+      "words": [
+        {
+          "word": "I",
+          "start": 4.45,
+          "end": 4.57
+        },
+        {
+          "word": "was",
+          "start": 4.57,
+          "end": 4.71
+        },
+        {
+          "word": "sent",
+          "start": 4.71,
+          "end": 4.85
+        },
+        {
+          "word": "to",
+          "start": 4.85,
+          "end": 4.97
+        },
+        {
+          "word": "find",
+          "start": 4.97,
+          "end": 5.12
+        },
+        {
+          "word": "out.",
+          "start": 5.12,
+          "end": 5.25
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I was supposed to land on July 4, 1976, but the first landing site looked too rough from orbit, so my team spent extra weeks finding a safer one.",
+      "start": 5.68,
+      "end": 14.01,
+      "words": [
+        {
+          "word": "I",
+          "start": 5.68,
+          "end": 5.88
+        },
+        {
+          "word": "was",
+          "start": 5.88,
+          "end": 6.1
+        },
+        {
+          "word": "supposed",
+          "start": 6.1,
+          "end": 6.65
+        },
+        {
+          "word": "to",
+          "start": 6.65,
+          "end": 6.86
+        },
+        {
+          "word": "land",
+          "start": 6.86,
+          "end": 7.09
+        },
+        {
+          "word": "on",
+          "start": 7.09,
+          "end": 7.3
+        },
+        {
+          "word": "July",
+          "start": 7.3,
+          "end": 7.67
+        },
+        {
+          "word": "4,",
+          "start": 7.67,
+          "end": 8.01
+        },
+        {
+          "word": "1976,",
+          "start": 8.01,
+          "end": 8.37
+        },
+        {
+          "word": "but",
+          "start": 8.37,
+          "end": 8.59
+        },
+        {
+          "word": "the",
+          "start": 8.59,
+          "end": 8.81
+        },
+        {
+          "word": "first",
+          "start": 8.81,
+          "end": 9.06
+        },
+        {
+          "word": "landing",
+          "start": 9.06,
+          "end": 9.46
+        },
+        {
+          "word": "site",
+          "start": 9.46,
+          "end": 9.69
+        },
+        {
+          "word": "looked",
+          "start": 9.69,
+          "end": 10.08
+        },
+        {
+          "word": "too",
+          "start": 10.08,
+          "end": 10.3
+        },
+        {
+          "word": "rough",
+          "start": 10.3,
+          "end": 10.54
+        },
+        {
+          "word": "from",
+          "start": 10.54,
+          "end": 10.78
+        },
+        {
+          "word": "orbit,",
+          "start": 10.78,
+          "end": 11.29
+        },
+        {
+          "word": "so",
+          "start": 11.29,
+          "end": 11.5
+        },
+        {
+          "word": "my",
+          "start": 11.5,
+          "end": 11.71
+        },
+        {
+          "word": "team",
+          "start": 11.71,
+          "end": 11.94
+        },
+        {
+          "word": "spent",
+          "start": 11.94,
+          "end": 12.19
+        },
+        {
+          "word": "extra",
+          "start": 12.19,
+          "end": 12.57
+        },
+        {
+          "word": "weeks",
+          "start": 12.57,
+          "end": 12.81
+        },
+        {
+          "word": "finding",
+          "start": 12.81,
+          "end": 13.21
+        },
+        {
+          "word": "a",
+          "start": 13.21,
+          "end": 13.41
+        },
+        {
+          "word": "safer",
+          "start": 13.41,
+          "end": 13.79
+        },
+        {
+          "word": "one.",
+          "start": 13.79,
+          "end": 14.01
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I touched down on July 20.",
+      "start": 14.43,
+      "end": 15.67,
+      "words": [
+        {
+          "word": "I",
+          "start": 14.43,
+          "end": 14.58
+        },
+        {
+          "word": "touched",
+          "start": 14.58,
+          "end": 14.89
+        },
+        {
+          "word": "down",
+          "start": 14.89,
+          "end": 15.07
+        },
+        {
+          "word": "on",
+          "start": 15.07,
+          "end": 15.23
+        },
+        {
+          "word": "July",
+          "start": 15.23,
+          "end": 15.51
+        },
+        {
+          "word": "20.",
+          "start": 15.51,
+          "end": 15.67
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "The first thing I did was photograph my own foot, to check it was sitting on solid ground.",
+      "start": 16.18,
+      "end": 19.96,
+      "words": [
+        {
+          "word": "The",
+          "start": 16.18,
+          "end": 16.35
+        },
+        {
+          "word": "first",
+          "start": 16.35,
+          "end": 16.54
+        },
+        {
+          "word": "thing",
+          "start": 16.54,
+          "end": 16.73
+        },
+        {
+          "word": "I",
+          "start": 16.73,
+          "end": 16.88
+        },
+        {
+          "word": "did",
+          "start": 16.88,
+          "end": 17.06
+        },
+        {
+          "word": "was",
+          "start": 17.06,
+          "end": 17.23
+        },
+        {
+          "word": "photograph",
+          "start": 17.23,
+          "end": 17.68
+        },
+        {
+          "word": "my",
+          "start": 17.68,
+          "end": 17.84
+        },
+        {
+          "word": "own",
+          "start": 17.84,
+          "end": 18.01
+        },
+        {
+          "word": "foot,",
+          "start": 18.01,
+          "end": 18.3
+        },
+        {
+          "word": "to",
+          "start": 18.3,
+          "end": 18.46
+        },
+        {
+          "word": "check",
+          "start": 18.46,
+          "end": 18.65
+        },
+        {
+          "word": "it",
+          "start": 18.65,
+          "end": 18.82
+        },
+        {
+          "word": "was",
+          "start": 18.82,
+          "end": 18.99
+        },
+        {
+          "word": "sitting",
+          "start": 18.99,
+          "end": 19.3
+        },
+        {
+          "word": "on",
+          "start": 19.3,
+          "end": 19.47
+        },
+        {
+          "word": "solid",
+          "start": 19.47,
+          "end": 19.76
+        },
+        {
+          "word": "ground.",
+          "start": 19.76,
+          "end": 19.96
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "It was.",
+      "start": 20.41,
+      "end": 20.73,
+      "words": [
+        {
+          "word": "It",
+          "start": 20.41,
+          "end": 20.57
+        },
+        {
+          "word": "was.",
+          "start": 20.57,
+          "end": 20.73
+        }
+      ]
+    }
+  ]
+}

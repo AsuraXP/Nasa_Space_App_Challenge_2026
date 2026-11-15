@@ -1,0 +1,338 @@
+{
+  "story": "09-pathfinder-and-sojourner",
+  "card": "card-3",
+  "duration": 16.1,
+  "speechStart": 0.14,
+  "speechEnd": 15.79,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "I was built to last a week.",
+      "start": 0.14,
+      "end": 1.25,
+      "words": [
+        {
+          "word": "I",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "was",
+          "start": 0.28,
+          "end": 0.44
+        },
+        {
+          "word": "built",
+          "start": 0.44,
+          "end": 0.62
+        },
+        {
+          "word": "to",
+          "start": 0.62,
+          "end": 0.77
+        },
+        {
+          "word": "last",
+          "start": 0.77,
+          "end": 0.94
+        },
+        {
+          "word": "a",
+          "start": 0.94,
+          "end": 1.08
+        },
+        {
+          "word": "week.",
+          "start": 1.08,
+          "end": 1.25
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "The lander was built to last a month.",
+      "start": 1.66,
+      "end": 3.04,
+      "words": [
+        {
+          "word": "The",
+          "start": 1.66,
+          "end": 1.82
+        },
+        {
+          "word": "lander",
+          "start": 1.82,
+          "end": 2.09
+        },
+        {
+          "word": "was",
+          "start": 2.09,
+          "end": 2.25
+        },
+        {
+          "word": "built",
+          "start": 2.25,
+          "end": 2.42
+        },
+        {
+          "word": "to",
+          "start": 2.42,
+          "end": 2.57
+        },
+        {
+          "word": "last",
+          "start": 2.57,
+          "end": 2.73
+        },
+        {
+          "word": "a",
+          "start": 2.73,
+          "end": 2.87
+        },
+        {
+          "word": "month.",
+          "start": 2.87,
+          "end": 3.04
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "We both kept going for nearly three months.",
+      "start": 3.55,
+      "end": 5.47,
+      "words": [
+        {
+          "word": "We",
+          "start": 3.55,
+          "end": 3.75
+        },
+        {
+          "word": "both",
+          "start": 3.75,
+          "end": 3.97
+        },
+        {
+          "word": "kept",
+          "start": 3.97,
+          "end": 4.19
+        },
+        {
+          "word": "going",
+          "start": 4.19,
+          "end": 4.42
+        },
+        {
+          "word": "for",
+          "start": 4.42,
+          "end": 4.63
+        },
+        {
+          "word": "nearly",
+          "start": 4.63,
+          "end": 5.0
+        },
+        {
+          "word": "three",
+          "start": 5.0,
+          "end": 5.23
+        },
+        {
+          "word": "months.",
+          "start": 5.23,
+          "end": 5.47
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "On September 27, 1997, the lander sent its last message.",
+      "start": 5.87,
+      "end": 9.33,
+      "words": [
+        {
+          "word": "On",
+          "start": 5.87,
+          "end": 6.1
+        },
+        {
+          "word": "September",
+          "start": 6.1,
+          "end": 6.71
+        },
+        {
+          "word": "27,",
+          "start": 6.71,
+          "end": 7.09
+        },
+        {
+          "word": "1997,",
+          "start": 7.09,
+          "end": 7.49
+        },
+        {
+          "word": "the",
+          "start": 7.49,
+          "end": 7.73
+        },
+        {
+          "word": "lander",
+          "start": 7.73,
+          "end": 8.15
+        },
+        {
+          "word": "sent",
+          "start": 8.15,
+          "end": 8.4
+        },
+        {
+          "word": "its",
+          "start": 8.4,
+          "end": 8.64
+        },
+        {
+          "word": "last",
+          "start": 8.64,
+          "end": 8.89
+        },
+        {
+          "word": "message.",
+          "start": 8.89,
+          "end": 9.33
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I could only talk to Earth through the lander, so that was my last message too.",
+      "start": 9.46,
+      "end": 14.01,
+      "words": [
+        {
+          "word": "I",
+          "start": 9.46,
+          "end": 9.67
+        },
+        {
+          "word": "could",
+          "start": 9.67,
+          "end": 9.93
+        },
+        {
+          "word": "only",
+          "start": 9.93,
+          "end": 10.33
+        },
+        {
+          "word": "talk",
+          "start": 10.33,
+          "end": 10.58
+        },
+        {
+          "word": "to",
+          "start": 10.58,
+          "end": 10.8
+        },
+        {
+          "word": "Earth",
+          "start": 10.8,
+          "end": 11.07
+        },
+        {
+          "word": "through",
+          "start": 11.07,
+          "end": 11.35
+        },
+        {
+          "word": "the",
+          "start": 11.35,
+          "end": 11.59
+        },
+        {
+          "word": "lander,",
+          "start": 11.59,
+          "end": 12.16
+        },
+        {
+          "word": "so",
+          "start": 12.16,
+          "end": 12.38
+        },
+        {
+          "word": "that",
+          "start": 12.38,
+          "end": 12.63
+        },
+        {
+          "word": "was",
+          "start": 12.63,
+          "end": 12.87
+        },
+        {
+          "word": "my",
+          "start": 12.87,
+          "end": 13.09
+        },
+        {
+          "word": "last",
+          "start": 13.09,
+          "end": 13.34
+        },
+        {
+          "word": "message",
+          "start": 13.34,
+          "end": 13.77
+        },
+        {
+          "word": "too.",
+          "start": 13.77,
+          "end": 14.01
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "We are still here, side by side.",
+      "start": 14.37,
+      "end": 15.79,
+      "words": [
+        {
+          "word": "We",
+          "start": 14.37,
+          "end": 14.54
+        },
+        {
+          "word": "are",
+          "start": 14.54,
+          "end": 14.73
+        },
+        {
+          "word": "still",
+          "start": 14.73,
+          "end": 14.93
+        },
+        {
+          "word": "here,",
+          "start": 14.93,
+          "end": 15.23
+        },
+        {
+          "word": "side",
+          "start": 15.23,
+          "end": 15.42
+        },
+        {
+          "word": "by",
+          "start": 15.42,
+          "end": 15.6
+        },
+        {
+          "word": "side.",
+          "start": 15.6,
+          "end": 15.79
+        }
+      ]
+    }
+  ]
+}

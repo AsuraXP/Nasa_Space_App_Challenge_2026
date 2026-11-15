@@ -1,0 +1,433 @@
+{
+  "story": "16-voyager-1",
+  "card": "card-2",
+  "duration": 21.43,
+  "speechStart": 0.13,
+  "speechEnd": 21.05,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In 1990, my team asked me to turn around and take one last set of pictures.",
+      "start": 0.13,
+      "end": 4.3,
+      "words": [
+        {
+          "word": "In",
+          "start": 0.13,
+          "end": 0.33
+        },
+        {
+          "word": "1990,",
+          "start": 0.33,
+          "end": 0.69
+        },
+        {
+          "word": "my",
+          "start": 0.69,
+          "end": 0.89
+        },
+        {
+          "word": "team",
+          "start": 0.89,
+          "end": 1.11
+        },
+        {
+          "word": "asked",
+          "start": 1.11,
+          "end": 1.48
+        },
+        {
+          "word": "me",
+          "start": 1.48,
+          "end": 1.68
+        },
+        {
+          "word": "to",
+          "start": 1.68,
+          "end": 1.88
+        },
+        {
+          "word": "turn",
+          "start": 1.88,
+          "end": 2.11
+        },
+        {
+          "word": "around",
+          "start": 2.11,
+          "end": 2.48
+        },
+        {
+          "word": "and",
+          "start": 2.48,
+          "end": 2.7
+        },
+        {
+          "word": "take",
+          "start": 2.7,
+          "end": 2.92
+        },
+        {
+          "word": "one",
+          "start": 2.92,
+          "end": 3.13
+        },
+        {
+          "word": "last",
+          "start": 3.13,
+          "end": 3.35
+        },
+        {
+          "word": "set",
+          "start": 3.35,
+          "end": 3.57
+        },
+        {
+          "word": "of",
+          "start": 3.57,
+          "end": 3.77
+        },
+        {
+          "word": "pictures.",
+          "start": 3.77,
+          "end": 4.3
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "From six billion kilometres away, Earth was a pale blue dot, smaller than a single pixel.",
+      "start": 4.74,
+      "end": 9.38,
+      "words": [
+        {
+          "word": "From",
+          "start": 4.74,
+          "end": 4.94
+        },
+        {
+          "word": "six",
+          "start": 4.94,
+          "end": 5.14
+        },
+        {
+          "word": "billion",
+          "start": 5.14,
+          "end": 5.49
+        },
+        {
+          "word": "kilometres",
+          "start": 5.49,
+          "end": 6.11
+        },
+        {
+          "word": "away,",
+          "start": 6.11,
+          "end": 6.56
+        },
+        {
+          "word": "Earth",
+          "start": 6.56,
+          "end": 6.77
+        },
+        {
+          "word": "was",
+          "start": 6.77,
+          "end": 6.96
+        },
+        {
+          "word": "a",
+          "start": 6.96,
+          "end": 7.14
+        },
+        {
+          "word": "pale",
+          "start": 7.14,
+          "end": 7.46
+        },
+        {
+          "word": "blue",
+          "start": 7.46,
+          "end": 7.66
+        },
+        {
+          "word": "dot,",
+          "start": 7.66,
+          "end": 7.98
+        },
+        {
+          "word": "smaller",
+          "start": 7.98,
+          "end": 8.33
+        },
+        {
+          "word": "than",
+          "start": 8.33,
+          "end": 8.53
+        },
+        {
+          "word": "a",
+          "start": 8.53,
+          "end": 8.7
+        },
+        {
+          "word": "single",
+          "start": 8.7,
+          "end": 9.05
+        },
+        {
+          "word": "pixel.",
+          "start": 9.05,
+          "end": 9.38
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Then they switched my cameras off for good, to save power.",
+      "start": 9.75,
+      "end": 12.23,
+      "words": [
+        {
+          "word": "Then",
+          "start": 9.75,
+          "end": 9.93
+        },
+        {
+          "word": "they",
+          "start": 9.93,
+          "end": 10.1
+        },
+        {
+          "word": "switched",
+          "start": 10.1,
+          "end": 10.42
+        },
+        {
+          "word": "my",
+          "start": 10.42,
+          "end": 10.58
+        },
+        {
+          "word": "cameras",
+          "start": 10.58,
+          "end": 10.99
+        },
+        {
+          "word": "off",
+          "start": 10.99,
+          "end": 11.16
+        },
+        {
+          "word": "for",
+          "start": 11.16,
+          "end": 11.32
+        },
+        {
+          "word": "good,",
+          "start": 11.32,
+          "end": 11.6
+        },
+        {
+          "word": "to",
+          "start": 11.6,
+          "end": 11.76
+        },
+        {
+          "word": "save",
+          "start": 11.76,
+          "end": 11.94
+        },
+        {
+          "word": "power.",
+          "start": 11.94,
+          "end": 12.23
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I kept flying.",
+      "start": 12.64,
+      "end": 13.19,
+      "words": [
+        {
+          "word": "I",
+          "start": 12.64,
+          "end": 12.8
+        },
+        {
+          "word": "kept",
+          "start": 12.8,
+          "end": 12.99
+        },
+        {
+          "word": "flying.",
+          "start": 12.99,
+          "end": 13.19
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "In August 2012 I crossed the edge of the Sun's bubble and entered the space between the stars.",
+      "start": 13.63,
+      "end": 18.78,
+      "words": [
+        {
+          "word": "In",
+          "start": 13.63,
+          "end": 13.84
+        },
+        {
+          "word": "August",
+          "start": 13.84,
+          "end": 14.25
+        },
+        {
+          "word": "2012",
+          "start": 14.25,
+          "end": 14.48
+        },
+        {
+          "word": "I",
+          "start": 14.48,
+          "end": 14.69
+        },
+        {
+          "word": "crossed",
+          "start": 14.69,
+          "end": 15.1
+        },
+        {
+          "word": "the",
+          "start": 15.1,
+          "end": 15.32
+        },
+        {
+          "word": "edge",
+          "start": 15.32,
+          "end": 15.56
+        },
+        {
+          "word": "of",
+          "start": 15.56,
+          "end": 15.78
+        },
+        {
+          "word": "the",
+          "start": 15.78,
+          "end": 16.0
+        },
+        {
+          "word": "Sun's",
+          "start": 16.0,
+          "end": 16.24
+        },
+        {
+          "word": "bubble",
+          "start": 16.24,
+          "end": 16.64
+        },
+        {
+          "word": "and",
+          "start": 16.64,
+          "end": 16.86
+        },
+        {
+          "word": "entered",
+          "start": 16.86,
+          "end": 17.42
+        },
+        {
+          "word": "the",
+          "start": 17.42,
+          "end": 17.65
+        },
+        {
+          "word": "space",
+          "start": 17.65,
+          "end": 17.89
+        },
+        {
+          "word": "between",
+          "start": 17.89,
+          "end": 18.31
+        },
+        {
+          "word": "the",
+          "start": 18.31,
+          "end": 18.53
+        },
+        {
+          "word": "stars.",
+          "start": 18.53,
+          "end": 18.78
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "I was the first thing from Earth ever to do that.",
+      "start": 19.18,
+      "end": 21.05,
+      "words": [
+        {
+          "word": "I",
+          "start": 19.18,
+          "end": 19.32
+        },
+        {
+          "word": "was",
+          "start": 19.32,
+          "end": 19.48
+        },
+        {
+          "word": "the",
+          "start": 19.48,
+          "end": 19.64
+        },
+        {
+          "word": "first",
+          "start": 19.64,
+          "end": 19.81
+        },
+        {
+          "word": "thing",
+          "start": 19.81,
+          "end": 19.98
+        },
+        {
+          "word": "from",
+          "start": 19.98,
+          "end": 20.15
+        },
+        {
+          "word": "Earth",
+          "start": 20.15,
+          "end": 20.32
+        },
+        {
+          "word": "ever",
+          "start": 20.32,
+          "end": 20.59
+        },
+        {
+          "word": "to",
+          "start": 20.59,
+          "end": 20.74
+        },
+        {
+          "word": "do",
+          "start": 20.74,
+          "end": 20.88
+        },
+        {
+          "word": "that.",
+          "start": 20.88,
+          "end": 21.05
+        }
+      ]
+    }
+  ]
+}

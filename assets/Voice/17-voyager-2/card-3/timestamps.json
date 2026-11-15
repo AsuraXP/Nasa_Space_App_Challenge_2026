@@ -1,0 +1,350 @@
+{
+  "story": "17-voyager-2",
+  "card": "card-3",
+  "duration": 18.19,
+  "speechStart": 0.13,
+  "speechEnd": 17.81,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "After Neptune I dived south, below the plane of the planets.",
+      "start": 0.13,
+      "end": 3.35,
+      "words": [
+        {
+          "word": "After",
+          "start": 0.13,
+          "end": 0.49
+        },
+        {
+          "word": "Neptune",
+          "start": 0.49,
+          "end": 0.87
+        },
+        {
+          "word": "I",
+          "start": 0.87,
+          "end": 1.05
+        },
+        {
+          "word": "dived",
+          "start": 1.05,
+          "end": 1.41
+        },
+        {
+          "word": "south,",
+          "start": 1.41,
+          "end": 1.77
+        },
+        {
+          "word": "below",
+          "start": 1.77,
+          "end": 2.13
+        },
+        {
+          "word": "the",
+          "start": 2.13,
+          "end": 2.34
+        },
+        {
+          "word": "plane",
+          "start": 2.34,
+          "end": 2.57
+        },
+        {
+          "word": "of",
+          "start": 2.57,
+          "end": 2.76
+        },
+        {
+          "word": "the",
+          "start": 2.76,
+          "end": 2.97
+        },
+        {
+          "word": "planets.",
+          "start": 2.97,
+          "end": 3.35
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "In November 2018 I crossed into interstellar space, six years after my twin.",
+      "start": 3.75,
+      "end": 6.99,
+      "words": [
+        {
+          "word": "In",
+          "start": 3.75,
+          "end": 3.91
+        },
+        {
+          "word": "November",
+          "start": 3.91,
+          "end": 4.32
+        },
+        {
+          "word": "2018",
+          "start": 4.32,
+          "end": 4.49
+        },
+        {
+          "word": "I",
+          "start": 4.49,
+          "end": 4.63
+        },
+        {
+          "word": "crossed",
+          "start": 4.63,
+          "end": 4.93
+        },
+        {
+          "word": "into",
+          "start": 4.93,
+          "end": 5.21
+        },
+        {
+          "word": "interstellar",
+          "start": 5.21,
+          "end": 5.75
+        },
+        {
+          "word": "space,",
+          "start": 5.75,
+          "end": 6.04
+        },
+        {
+          "word": "six",
+          "start": 6.04,
+          "end": 6.2
+        },
+        {
+          "word": "years",
+          "start": 6.2,
+          "end": 6.38
+        },
+        {
+          "word": "after",
+          "start": 6.38,
+          "end": 6.66
+        },
+        {
+          "word": "my",
+          "start": 6.66,
+          "end": 6.82
+        },
+        {
+          "word": "twin.",
+          "start": 6.82,
+          "end": 6.99
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I am still sending data home.",
+      "start": 7.24,
+      "end": 8.49,
+      "words": [
+        {
+          "word": "I",
+          "start": 7.24,
+          "end": 7.39
+        },
+        {
+          "word": "am",
+          "start": 7.39,
+          "end": 7.55
+        },
+        {
+          "word": "still",
+          "start": 7.55,
+          "end": 7.73
+        },
+        {
+          "word": "sending",
+          "start": 7.73,
+          "end": 8.04
+        },
+        {
+          "word": "data",
+          "start": 8.04,
+          "end": 8.32
+        },
+        {
+          "word": "home.",
+          "start": 8.32,
+          "end": 8.49
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "The two of us are flying in different directions and will never meet again.",
+      "start": 8.93,
+      "end": 13.51,
+      "words": [
+        {
+          "word": "The",
+          "start": 8.93,
+          "end": 9.17
+        },
+        {
+          "word": "two",
+          "start": 9.17,
+          "end": 9.42
+        },
+        {
+          "word": "of",
+          "start": 9.42,
+          "end": 9.65
+        },
+        {
+          "word": "us",
+          "start": 9.65,
+          "end": 9.88
+        },
+        {
+          "word": "are",
+          "start": 9.88,
+          "end": 10.13
+        },
+        {
+          "word": "flying",
+          "start": 10.13,
+          "end": 10.41
+        },
+        {
+          "word": "in",
+          "start": 10.41,
+          "end": 10.64
+        },
+        {
+          "word": "different",
+          "start": 10.64,
+          "end": 11.27
+        },
+        {
+          "word": "directions",
+          "start": 11.27,
+          "end": 11.91
+        },
+        {
+          "word": "and",
+          "start": 11.91,
+          "end": 12.15
+        },
+        {
+          "word": "will",
+          "start": 12.15,
+          "end": 12.41
+        },
+        {
+          "word": "never",
+          "start": 12.41,
+          "end": 12.83
+        },
+        {
+          "word": "meet",
+          "start": 12.83,
+          "end": 13.09
+        },
+        {
+          "word": "again.",
+          "start": 13.09,
+          "end": 13.51
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "But we carry the same Golden Record, with the same hello from the same small planet.",
+      "start": 13.93,
+      "end": 17.81,
+      "words": [
+        {
+          "word": "But",
+          "start": 13.93,
+          "end": 14.12
+        },
+        {
+          "word": "we",
+          "start": 14.12,
+          "end": 14.29
+        },
+        {
+          "word": "carry",
+          "start": 14.29,
+          "end": 14.62
+        },
+        {
+          "word": "the",
+          "start": 14.62,
+          "end": 14.81
+        },
+        {
+          "word": "same",
+          "start": 14.81,
+          "end": 15.0
+        },
+        {
+          "word": "Golden",
+          "start": 15.0,
+          "end": 15.34
+        },
+        {
+          "word": "Record,",
+          "start": 15.34,
+          "end": 15.79
+        },
+        {
+          "word": "with",
+          "start": 15.79,
+          "end": 15.98
+        },
+        {
+          "word": "the",
+          "start": 15.98,
+          "end": 16.17
+        },
+        {
+          "word": "same",
+          "start": 16.17,
+          "end": 16.37
+        },
+        {
+          "word": "hello",
+          "start": 16.37,
+          "end": 16.69
+        },
+        {
+          "word": "from",
+          "start": 16.69,
+          "end": 16.89
+        },
+        {
+          "word": "the",
+          "start": 16.89,
+          "end": 17.07
+        },
+        {
+          "word": "same",
+          "start": 17.07,
+          "end": 17.27
+        },
+        {
+          "word": "small",
+          "start": 17.27,
+          "end": 17.48
+        },
+        {
+          "word": "planet.",
+          "start": 17.48,
+          "end": 17.81
+        }
+      ]
+    }
+  ]
+}

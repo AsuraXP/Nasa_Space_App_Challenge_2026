@@ -1,0 +1,480 @@
+{
+  "story": "19-pioneer-11",
+  "card": "card-1",
+  "duration": 24.43,
+  "speechStart": 0.14,
+  "speechEnd": 24.07,
+  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
+  "sentences": [
+    {
+      "index": 0,
+      "text": "My twin, Pioneer 10, went first and proved the way was open.",
+      "start": 0.14,
+      "end": 3.6,
+      "words": [
+        {
+          "word": "My",
+          "start": 0.14,
+          "end": 0.35
+        },
+        {
+          "word": "twin,",
+          "start": 0.35,
+          "end": 0.72
+        },
+        {
+          "word": "Pioneer",
+          "start": 0.72,
+          "end": 1.13
+        },
+        {
+          "word": "10,",
+          "start": 1.13,
+          "end": 1.48
+        },
+        {
+          "word": "went",
+          "start": 1.48,
+          "end": 1.71
+        },
+        {
+          "word": "first",
+          "start": 1.71,
+          "end": 1.95
+        },
+        {
+          "word": "and",
+          "start": 1.95,
+          "end": 2.17
+        },
+        {
+          "word": "proved",
+          "start": 2.17,
+          "end": 2.57
+        },
+        {
+          "word": "the",
+          "start": 2.57,
+          "end": 2.79
+        },
+        {
+          "word": "way",
+          "start": 2.79,
+          "end": 3.01
+        },
+        {
+          "word": "was",
+          "start": 3.01,
+          "end": 3.23
+        },
+        {
+          "word": "open.",
+          "start": 3.23,
+          "end": 3.6
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I launched a year later, in April 1973, and I was sent to do something riskier.",
+      "start": 3.99,
+      "end": 8.33,
+      "words": [
+        {
+          "word": "I",
+          "start": 3.99,
+          "end": 4.17
+        },
+        {
+          "word": "launched",
+          "start": 4.17,
+          "end": 4.55
+        },
+        {
+          "word": "a",
+          "start": 4.55,
+          "end": 4.73
+        },
+        {
+          "word": "year",
+          "start": 4.73,
+          "end": 4.94
+        },
+        {
+          "word": "later,",
+          "start": 4.94,
+          "end": 5.41
+        },
+        {
+          "word": "in",
+          "start": 5.41,
+          "end": 5.6
+        },
+        {
+          "word": "April",
+          "start": 5.6,
+          "end": 5.94
+        },
+        {
+          "word": "1973,",
+          "start": 5.94,
+          "end": 6.28
+        },
+        {
+          "word": "and",
+          "start": 6.28,
+          "end": 6.48
+        },
+        {
+          "word": "I",
+          "start": 6.48,
+          "end": 6.66
+        },
+        {
+          "word": "was",
+          "start": 6.66,
+          "end": 6.86
+        },
+        {
+          "word": "sent",
+          "start": 6.86,
+          "end": 7.07
+        },
+        {
+          "word": "to",
+          "start": 7.07,
+          "end": 7.26
+        },
+        {
+          "word": "do",
+          "start": 7.26,
+          "end": 7.45
+        },
+        {
+          "word": "something",
+          "start": 7.45,
+          "end": 7.96
+        },
+        {
+          "word": "riskier.",
+          "start": 7.96,
+          "end": 8.33
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I flew past Jupiter three times closer than my twin had.",
+      "start": 8.73,
+      "end": 11.36,
+      "words": [
+        {
+          "word": "I",
+          "start": 8.73,
+          "end": 8.9
+        },
+        {
+          "word": "flew",
+          "start": 8.9,
+          "end": 9.09
+        },
+        {
+          "word": "past",
+          "start": 9.09,
+          "end": 9.29
+        },
+        {
+          "word": "Jupiter",
+          "start": 9.29,
+          "end": 9.75
+        },
+        {
+          "word": "three",
+          "start": 9.75,
+          "end": 9.95
+        },
+        {
+          "word": "times",
+          "start": 9.95,
+          "end": 10.27
+        },
+        {
+          "word": "closer",
+          "start": 10.27,
+          "end": 10.61
+        },
+        {
+          "word": "than",
+          "start": 10.61,
+          "end": 10.8
+        },
+        {
+          "word": "my",
+          "start": 10.8,
+          "end": 10.98
+        },
+        {
+          "word": "twin",
+          "start": 10.98,
+          "end": 11.17
+        },
+        {
+          "word": "had.",
+          "start": 11.17,
+          "end": 11.36
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I dived in fast, to spend as little time as possible in the radiation, and I got the first good look at the top of the planet.",
+      "start": 11.74,
+      "end": 17.63,
+      "words": [
+        {
+          "word": "I",
+          "start": 11.74,
+          "end": 11.9
+        },
+        {
+          "word": "dived",
+          "start": 11.9,
+          "end": 12.2
+        },
+        {
+          "word": "in",
+          "start": 12.2,
+          "end": 12.37
+        },
+        {
+          "word": "fast,",
+          "start": 12.37,
+          "end": 12.67
+        },
+        {
+          "word": "to",
+          "start": 12.67,
+          "end": 12.83
+        },
+        {
+          "word": "spend",
+          "start": 12.83,
+          "end": 13.03
+        },
+        {
+          "word": "as",
+          "start": 13.03,
+          "end": 13.19
+        },
+        {
+          "word": "little",
+          "start": 13.19,
+          "end": 13.51
+        },
+        {
+          "word": "time",
+          "start": 13.51,
+          "end": 13.69
+        },
+        {
+          "word": "as",
+          "start": 13.69,
+          "end": 13.86
+        },
+        {
+          "word": "possible",
+          "start": 13.86,
+          "end": 14.3
+        },
+        {
+          "word": "in",
+          "start": 14.3,
+          "end": 14.47
+        },
+        {
+          "word": "the",
+          "start": 14.47,
+          "end": 14.64
+        },
+        {
+          "word": "radiation,",
+          "start": 14.64,
+          "end": 15.2
+        },
+        {
+          "word": "and",
+          "start": 15.2,
+          "end": 15.38
+        },
+        {
+          "word": "I",
+          "start": 15.38,
+          "end": 15.54
+        },
+        {
+          "word": "got",
+          "start": 15.54,
+          "end": 15.72
+        },
+        {
+          "word": "the",
+          "start": 15.72,
+          "end": 15.89
+        },
+        {
+          "word": "first",
+          "start": 15.89,
+          "end": 16.08
+        },
+        {
+          "word": "good",
+          "start": 16.08,
+          "end": 16.27
+        },
+        {
+          "word": "look",
+          "start": 16.27,
+          "end": 16.45
+        },
+        {
+          "word": "at",
+          "start": 16.45,
+          "end": 16.62
+        },
+        {
+          "word": "the",
+          "start": 16.62,
+          "end": 16.8
+        },
+        {
+          "word": "top",
+          "start": 16.8,
+          "end": 16.97
+        },
+        {
+          "word": "of",
+          "start": 16.97,
+          "end": 17.14
+        },
+        {
+          "word": "the",
+          "start": 17.14,
+          "end": 17.32
+        },
+        {
+          "word": "planet.",
+          "start": 17.32,
+          "end": 17.63
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Then Jupiter's gravity flung me up and across the whole solar system, toward a planet no spacecraft had ever visited.",
+      "start": 18.1,
+      "end": 24.07,
+      "words": [
+        {
+          "word": "Then",
+          "start": 18.1,
+          "end": 18.3
+        },
+        {
+          "word": "Jupiter's",
+          "start": 18.3,
+          "end": 18.77
+        },
+        {
+          "word": "gravity",
+          "start": 18.77,
+          "end": 19.23
+        },
+        {
+          "word": "flung",
+          "start": 19.23,
+          "end": 19.44
+        },
+        {
+          "word": "me",
+          "start": 19.44,
+          "end": 19.61
+        },
+        {
+          "word": "up",
+          "start": 19.61,
+          "end": 19.79
+        },
+        {
+          "word": "and",
+          "start": 19.79,
+          "end": 19.98
+        },
+        {
+          "word": "across",
+          "start": 19.98,
+          "end": 20.31
+        },
+        {
+          "word": "the",
+          "start": 20.31,
+          "end": 20.5
+        },
+        {
+          "word": "whole",
+          "start": 20.5,
+          "end": 20.83
+        },
+        {
+          "word": "solar",
+          "start": 20.83,
+          "end": 21.15
+        },
+        {
+          "word": "system,",
+          "start": 21.15,
+          "end": 21.6
+        },
+        {
+          "word": "toward",
+          "start": 21.6,
+          "end": 21.94
+        },
+        {
+          "word": "a",
+          "start": 21.94,
+          "end": 22.1
+        },
+        {
+          "word": "planet",
+          "start": 22.1,
+          "end": 22.44
+        },
+        {
+          "word": "no",
+          "start": 22.44,
+          "end": 22.62
+        },
+        {
+          "word": "spacecraft",
+          "start": 22.62,
+          "end": 23.11
+        },
+        {
+          "word": "had",
+          "start": 23.11,
+          "end": 23.29
+        },
+        {
+          "word": "ever",
+          "start": 23.29,
+          "end": 23.61
+        },
+        {
+          "word": "visited.",
+          "start": 23.61,
+          "end": 24.07
+        }
+      ]
+    }
+  ]
+}
