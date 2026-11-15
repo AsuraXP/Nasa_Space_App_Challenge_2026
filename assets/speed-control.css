@@ -163,6 +163,23 @@
 .simulation-speed input:disabled::-webkit-slider-thumb { scale: 1; box-shadow: 0 0 0 1px #171717; }
 .simulation-speed input:disabled::-moz-range-thumb { scale: 1; box-shadow: 0 0 0 1px #171717; }
 .simulation-speed[data-locked="true"] .simulation-speed__status { color: #f2a541; }
+/* Hovering the locked controls explains how to unlock them and points at the switch. */
+.simulation-speed__lockzone { position: relative; }
+.simulation-speed[data-locked="true"] .simulation-speed__lockzone { pointer-events: auto; cursor: not-allowed; }
+.simulation-speed[data-locked="true"] .simulation-speed__button,
+.simulation-speed[data-locked="true"] input[type="range"] { pointer-events: none; }
+.simulation-speed__hint {
+  position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%);
+  width: max-content; max-width: 280px; padding: 7px 10px; z-index: 2;
+  font-size: 12px; line-height: 1.35; text-align: center; color: #fff;
+  background: rgba(8, 10, 14, .94); border: 1px solid #f2a541; border-radius: 6px;
+  opacity: 0; visibility: hidden; transition: opacity var(--control-transition) ease;
+  pointer-events: none;
+}
+.simulation-speed__lockzone:hover .simulation-speed__hint { opacity: 1; visibility: visible; }
+body:has(.simulation-speed__lockzone:hover) .live-positions__switch[aria-pressed="true"] {
+  border-color: #f2a541; color: #fff; box-shadow: 0 0 0 2px rgba(242, 165, 65, .55), 0 0 14px rgba(242, 165, 65, .5);
+}
 
 /* live planet positions panel (NASA/JPL orbital elements) */
 .live-positions {

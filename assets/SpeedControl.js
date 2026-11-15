@@ -22,7 +22,9 @@ export default function SpeedControl() {
   const es = locale === 'es';
   const label = es ? 'Velocidad' : 'Speed';
   const paused = speed === 0;
-  const status = locked ? (es ? 'Bloqueado: las posiciones reales usan su propio ritmo' : 'Locked: Real positions sets its own time rate')
+  const lockHint = es ? 'Desactiva «Posiciones reales» en el panel de posiciones en vivo para usar estos controles.'
+    : 'Turn off “Real positions” in the Live panel to use these controls.';
+  const status = locked ? lockHint
     : reduceMotion ? (es ? 'Movimiento reducido activado' : 'Reduced motion is on')
     : paused ? (es ? 'En pausa' : 'Paused')
     : speed < 0 ? (es ? 'Retroceso' : 'Reverse') : (es ? 'Avance' : 'Forward');
@@ -35,6 +37,8 @@ export default function SpeedControl() {
     children: [
       jsx.jsx('label', { htmlFor: 'simulation-speed', className: 'simulation-speed__label', children: label }),
       jsx.jsx('output', { htmlFor: 'simulation-speed', className: 'simulation-speed__value', children: formatted }),
+      jsx.jsxs('div', { className: 'simulation-speed__lockzone', title: locked ? lockHint : undefined, children: [
+      locked && jsx.jsx('span', { className: 'simulation-speed__hint', 'aria-hidden': true, children: lockHint }),
       jsx.jsxs('div', { className: 'simulation-speed__buttons', children: [
         jsx.jsx('button', { type: 'button', className: 'simulation-speed__button', disabled: locked,
           onClick: () => setSpeed(-Math.abs(speed || previousSpeed.current)),
@@ -61,6 +65,7 @@ export default function SpeedControl() {
         ] }),
       jsx.jsxs('div', { className: 'simulation-speed__ticks', 'aria-hidden': true, children: [
         jsx.jsx('span', { children: '−10×' }), jsx.jsx('span', { children: '0' }), jsx.jsx('span', { children: '+10×' }),
+      ] }),
       ] }),
       jsx.jsx('p', { className: 'simulation-speed__status', role: 'status', children: status }),
       jsx.jsx('p', { id: 'simulation-speed-help', className: 'sr-only',
