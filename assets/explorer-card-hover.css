@@ -8,6 +8,7 @@
 
 .explorer-card-surface {
   position: relative;
+  overflow: hidden;
   border-radius: 0.375rem;
   transform: rotateX(0deg) rotateY(0deg);
   transition: transform 550ms cubic-bezier(0.2, 0.75, 0.25, 1), box-shadow 550ms ease;
@@ -15,6 +16,18 @@
 
 .explorer-card-surface canvas {
   display: block;
+}
+
+.explorer-card-ripple {
+  position: absolute;
+  border: 1px solid rgb(255 215 147 / 60%);
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, transparent 25%, rgb(242 165 65 / 10%) 50%, rgb(255 215 147 / 32%) 70%, transparent 72%);
+}
+
+:root[data-motion='reduced'] .explorer-card-ripple {
+  display: none;
 }
 
 .explorer-card-surface::after {
@@ -47,6 +60,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .explorer-card-ripple {
+    display: none;
+  }
+
   .explorer-card-surface,
   .explorer-card-surface::after {
     transition: none;
