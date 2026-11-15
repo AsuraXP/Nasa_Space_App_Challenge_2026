@@ -1,4 +1,4 @@
-import { liveClock } from './ephemeris.js';
+import { liveClock, ORBIT_SHAPE } from './ephemeris.js';
 
 // Compressed animation periods in seconds, used when live positions are switched off.
 // These preserve orbital ordering, but are not a real-time ephemeris (see ephemeris.js).
@@ -39,15 +39,53 @@ export function spinDelta(delta, state, spin, id) {
   return spin * simulationDelta(delta, state.speed);
 }
 
+// ---- real elliptical orbits -------------------------------------------------------------
+// Each orbit is the planet's real ellipse (eccentricity and direction of perihelion from the JPL
+// table in ephemeris.js). The scene radius of a body is its semi-major axis, the Sun sits at a
+// focus, and bodies speed up near the Sun and slow down far from it (Kepler's second law).
+// Longitudes are ecliptic longitudes; the scene angle of a longitude L is -L.
+const TWO_PI = Math.PI * 2;
+const CIRCLE = Object.freeze({ e: 0, peri: 0 });
+const shapeOf = id => ORBIT_SHAPE[id] ?? CIRCLE;
+
+function solveKepler(mean, e) {
+  let E = mean + e * Math.sin(mean);
+  for (let k = 0; k < 12; k++) E -= (E - e * Math.sin(E) - mean) / (1 - e * Math.cos(E));
+  return E;
+}
+// distance from the Sun at a given longitude
+export function ellipseRadius(a, shape, longitude) {
+  return a * (1 - shape.e * shape.e) / (1 + shape.e * Math.cos(longitude - shape.peri));
+}
+function meanAnomalyAt(longitude, shape) {
+  const nu = longitude - shape.peri;
+  const E = 2 * Math.atan2(Math.sqrt(1 - shape.e) * Math.sin(nu / 2), Math.sqrt(1 + shape.e) * Math.cos(nu / 2));
+  return E - shape.e * Math.sin(E);
+}
+// scene x/z of a point on the ellipse at a longitude
+function scenePoint(a, shape, longitude) {
+  const r = ellipseRadius(a, shape, longitude);
+  return [Math.cos(-longitude) * r, 0, Math.sin(-longitude) * r];
+}
+// points for drawing the orbit line of body `id` whose semi-major axis in the scene is `a`
+export function orbitPoints(id, a, segments = 128) {
+  const shape = shapeOf(id);
+  return Array.from({ length: segments + 1 }, (_, index) => scenePoint(a, shape, shape.peri + index / segments * TWO_PI));
+}
+
 // `live` is optional (see ephemeris.js liveClock). When it is switched on, every body is placed
-// at its real angle for the live date. Distances stay the illustrative ones used by the scene.
+// at its real angle for the live date, on its own ellipse. Sizes stay the illustrative ones used by the scene.
 export function createOrbitalMotion(planets, earth, mars, moon, live) {
   const bodies = [...planets, { id: 'earth', position: earth }, { id: 'mars', position: mars }];
-  const orbits = bodies.map(({ id, position }) => ({
-    position, period: ORBIT_PERIODS[id],
-    radius: Math.hypot(position[0], position[2]),
-    phase: Math.atan2(position[2], position[0]),
-  }));
+  const orbits = bodies.map(({ id, position }) => {
+    const shape = shapeOf(id);
+    return {
+      position, shape, period: ORBIT_PERIODS[id],
+      semiMajor: Math.hypot(position[0], position[2]),
+      // where the body starts, as a mean anomaly, so every body keeps its starting direction
+      mean0: meanAnomalyAt(-Math.atan2(position[2], position[0]), shape),
+    };
+  });
   const offset = moon.map((value, index) => value - earth[index]);
   const radius = Math.hypot(...offset);
   const horizontalRadius = Math.hypot(offset[0], offset[2]);
@@ -66,9 +104,10 @@ export function createOrbitalMotion(planets, earth, mars, moon, live) {
   function placeLive() {
     const date = live.date();
     for (let k = 0; k < orbits.length; k++) {
-      const angle = -live.longitude(bodies[k].id, date);
-      orbits[k].position[0] = Math.cos(angle) * orbits[k].radius;
-      orbits[k].position[2] = Math.sin(angle) * orbits[k].radius;
+      const orbit = orbits[k];
+      const point = scenePoint(orbit.semiMajor, orbit.shape, live.longitude(bodies[k].id, date));
+      orbit.position[0] = point[0];
+      orbit.position[2] = point[2];
     }
     // the tilted orbit is slightly stretched, so solve for the angle that points at the real direction
     const turn = -live.moonLongitude(date) - moonPhase0;
@@ -79,7 +118,8 @@ export function createOrbitalMotion(planets, earth, mars, moon, live) {
   // leaving live mode: carry on from where the bodies are instead of jumping
   function rebase() {
     for (const orbit of orbits) {
-      orbit.phase = Math.atan2(orbit.position[2], orbit.position[0]) + elapsed * Math.PI * 2 / orbit.period;
+      const longitude = -Math.atan2(orbit.position[2], orbit.position[0]);
+      orbit.mean0 = meanAnomalyAt(longitude, orbit.shape) - elapsed * TWO_PI / orbit.period;
     }
     const rx = moon[0] - earth[0], ry = moon[1] - earth[1], rz = moon[2] - earth[2];
     const along = rx * offset[0] + ry * offset[1] + rz * offset[2];
@@ -99,11 +139,16 @@ export function createOrbitalMotion(planets, earth, mars, moon, live) {
     if (!step) return;
     elapsed += step;
     for (const orbit of orbits) {
-      const angle = orbit.phase - elapsed * Math.PI * 2 / orbit.period;
-      orbit.position[0] = Math.cos(angle) * orbit.radius;
-      orbit.position[2] = Math.sin(angle) * orbit.radius;
+      const { e, peri } = orbit.shape;
+      const raw = orbit.mean0 + elapsed * TWO_PI / orbit.period;
+      const mean = ((raw + Math.PI) % TWO_PI + TWO_PI) % TWO_PI - Math.PI;
+      const E = solveKepler(mean, e);
+      const nu = 2 * Math.atan2(Math.sqrt(1 + e) * Math.sin(E / 2), Math.sqrt(1 - e) * Math.cos(E / 2));
+      const r = orbit.semiMajor * (1 - e * Math.cos(E));
+      orbit.position[0] = Math.cos(-(peri + nu)) * r;
+      orbit.position[2] = Math.sin(-(peri + nu)) * r;
     }
-    const relative = moonOffset(moonBase - elapsed * Math.PI * 2 / ORBIT_PERIODS.moon);
+    const relative = moonOffset(moonBase - elapsed * TWO_PI / ORBIT_PERIODS.moon);
     for (let axis = 0; axis < 3; axis++) moon[axis] = earth[axis] + relative[axis];
   }
 

@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { createOrbitalMotion, ORBIT_PERIODS, simulationDelta } from '../assets/orbital-motion.js';
+import { createOrbitalMotion, ORBIT_PERIODS, simulationDelta, orbitPoints, ellipseRadius } from '../assets/orbital-motion.js';
+import { ORBIT_SHAPE } from '../assets/ephemeris.js';
 import { PLANETS, AXIAL_SPINS } from '../assets/solar-system.js';
 
 function fixture() {
@@ -14,9 +15,13 @@ const bodies = [...sample.planets.map(planet => planet.position), sample.earth, 
 const initial = bodies.map(position => [...position]);
 const radii = bodies.map(position => distance(position));
 const moonRadius = distance(sample.moon, sample.earth);
+const ids = [...sample.planets.map(planet => planet.id), 'earth', 'mars'];
 for (let frame = 0; frame < 1200; frame++) sample.motion.advance(1 / 60);
 bodies.forEach((position, index) => {
-  close(distance(position), radii[index]);
+  // real ellipse: the distance stays between perihelion and aphelion of the scene's semi-major axis
+  const { e } = ORBIT_SHAPE[ids[index]];
+  const r = distance(position);
+  assert.ok(r >= radii[index] * (1 - e) - 1e-9 && r <= radii[index] * (1 + e) + 1e-9, `${ids[index]} stays on its ellipse`);
   assert.ok(distance(position, initial[index]) > 0.1, 'Every planet must revolve');
 });
 close(distance(sample.moon, sample.earth), moonRadius);
@@ -37,6 +42,7 @@ for (const id of [...PLANETS.map(planet => planet.id), 'earth', 'mars', 'moon'])
 assert.ok(AXIAL_SPINS.venus < 0, 'Venus rotates retrograde');
 const reversible = fixture();
 const positions = sample => [...sample.planets.map(planet => planet.position), sample.earth, sample.mars, sample.moon];
+reversible.motion.advance(1e-9); // first step puts every body on its ellipse
 const original = positions(reversible).map(position => [...position]);
 for (let frame = 0; frame < 600; frame++) reversible.motion.advance(1 / 60, false, 2);
 for (let frame = 0; frame < 600; frame++) reversible.motion.advance(1 / 60, false, -2);
@@ -57,4 +63,39 @@ close(simulationDelta(5, -10), -1);
 close(simulationDelta(1 / 30, 10), 1 / 3);
 assert.equal(simulationDelta(-1, 2), 0);
 assert.equal(simulationDelta(NaN, 2), 0);
-console.log('Passed: solar and lunar orbits, radii, pause, frame-rate independence, lunar cycle, axial spins, signed speed, reversal, zero speed, invalid input, and capped frame delta.');
+// Real ellipses: Mercury swings between perihelion and aphelion, is fastest at perihelion, and
+// returns to the same place after one period.
+{
+  const mercury = fixture(), at = () => mercury.planets.find(planet => planet.id === 'mercury').position;
+  const a = distance(at()), { e } = ORBIT_SHAPE.mercury;
+  let min = Infinity, max = 0, fastest = 0, fastestR = 0, slowest = Infinity, slowestR = 0, last = null;
+  mercury.motion.advance(1e-9);
+  const first = [...at()];
+  const frames = ORBIT_PERIODS.mercury * 600;
+  for (let frame = 0; frame < frames; frame++) {
+    mercury.motion.advance(1 / 600);
+    const p = at(), r = distance(p);
+    min = Math.min(min, r); max = Math.max(max, r);
+    if (last) {
+      const turn = Math.abs(Math.atan2(p[0] * last[2] - p[2] * last[0], p[0] * last[0] + p[2] * last[2]));
+      if (turn > fastest) { fastest = turn; fastestR = r; }
+      if (turn < slowest) { slowest = turn; slowestR = r; }
+    }
+    last = [...p];
+  }
+  assert.ok(Math.abs(min - a * (1 - e)) < 0.01, `Mercury perihelion ${min}`);
+  assert.ok(Math.abs(max - a * (1 + e)) < 0.01, `Mercury aphelion ${max}`);
+  assert.ok(fastestR < slowestR, 'Mercury moves fastest close to the Sun');
+  at().forEach((value, axis) => assert.ok(Math.abs(value - first[axis]) < 1e-3, 'One period returns Mercury to its start'));
+  // the drawn orbit line matches the formula and is a closed ellipse with the Sun at a focus
+  const line = orbitPoints('mercury', a);
+  assert.ok(Math.abs(Math.hypot(line[0][0], line[0][2]) - a * (1 - e)) < 1e-9, 'line starts at perihelion');
+  line.forEach(point => {
+    const longitude = -Math.atan2(point[2], point[0]);
+    assert.ok(Math.abs(Math.hypot(point[0], point[2]) - ellipseRadius(a, ORBIT_SHAPE.mercury, longitude)) < 1e-9);
+  });
+  assert.ok(Math.hypot(line[0][0] - line[128][0], line[0][2] - line[128][2]) < 1e-9, 'line is closed');
+  const mid = line.reduce((m, p) => [m[0] + p[0] / line.length, m[1] + p[2] / line.length], [0, 0]);
+  assert.ok(Math.hypot(...mid) > 0.05, 'Sun is not at the centre of the ellipse');
+}
+console.log('Passed: solar and lunar orbits, real ellipses, radii, pause, frame-rate independence, lunar cycle, axial spins, signed speed, reversal, zero speed, invalid input, and capped frame delta.');

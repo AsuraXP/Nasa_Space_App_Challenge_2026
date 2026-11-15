@@ -5,7 +5,7 @@ import { u as useSceneEntry, B as Beacon } from './useSceneEntry-Dk2Atd0t.js';
 import { P as Planet } from './Planet-BHsR4hM3.js';
 import { PLANETS, AXIAL_SPINS } from './solar-system.js';
 import { NasaPlanet } from './NasaPlanet.js';
-import { createOrbitalMotion } from './orbital-motion.js';
+import { createOrbitalMotion, orbitPoints } from './orbital-motion.js';
 import { liveClock } from './ephemeris.js';
 import AsteroidBelt from './AsteroidBelt.js';
 
@@ -18,16 +18,10 @@ const positions = Object.fromEntries([
   ['earth', hub.earth], ['mars', hub.mars], ['moon', hub.moon],
 ]);
 const origin = [0, 0, 0];
-function circle(radius, segments = 128) {
-  return Array.from({ length: segments + 1 }, (_, index) => {
-    const angle = index / segments * Math.PI * 2;
-    return [Math.cos(angle) * radius, 0, Math.sin(angle) * radius];
-  });
-}
 const orbitPaths = [
-  ...PLANETS.map(planet => ({ id: planet.id, points: circle(planet.orbit) })),
-  { id: 'earth', points: circle(Math.hypot(hub.earth[0], hub.earth[2])) },
-  { id: 'mars', points: circle(Math.hypot(hub.mars[0], hub.mars[2])) },
+  ...PLANETS.map(planet => ({ id: planet.id, points: orbitPoints(planet.id, planet.orbit) })),
+  { id: 'earth', points: orbitPoints('earth', Math.hypot(hub.earth[0], hub.earth[2])) },
+  { id: 'mars', points: orbitPoints('mars', Math.hypot(hub.mars[0], hub.mars[2])) },
 ];
 const lunarPath = Array.from({ length: 65 }, (_, index) => motion.moonOffset(index / 64 * Math.PI * 2));
 function probeTrail(id) {

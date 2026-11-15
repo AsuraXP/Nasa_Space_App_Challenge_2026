@@ -23,6 +23,11 @@ const ELEMENTS = {
 };
 
 const RAD = Math.PI / 180;
+// Real orbit shape from the same JPL table (J2000): eccentricity and the longitude of perihelion
+// in radians. The scene uses these to draw each orbit as the real ellipse, with the Sun at a focus.
+export const ORBIT_SHAPE = Object.freeze(Object.fromEntries(
+  Object.entries(ELEMENTS).map(([id, [j2000]]) => [id, Object.freeze({ e: j2000[1], peri: j2000[4] * RAD })]),
+));
 const wrap180 = degrees => ((degrees + 180) % 360 + 360) % 360 - 180;
 
 function centuries(ms) {

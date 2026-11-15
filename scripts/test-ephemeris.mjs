@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { createOrbitalMotion } from '../assets/orbital-motion.js';
 import { PLANETS } from '../assets/solar-system.js';
-import { heliocentricLongitude, moonLongitude, liveClock } from '../assets/ephemeris.js';
+import { heliocentricLongitude, moonLongitude, liveClock, ORBIT_SHAPE } from '../assets/ephemeris.js';
+import { ellipseRadius } from '../assets/orbital-motion.js';
 
 const deg = r => ((r * 180 / Math.PI) % 360 + 360) % 360;
 const diff = (a, b) => Math.abs(((a - b + 180) % 360 + 360) % 360 - 180);
@@ -22,12 +23,13 @@ const radii = [...s.planets.map(p => radius(p.position)), radius(s.earth), radiu
 liveClock.setEnabled(true); liveClock.reset();
 s.motion.advance(1 / 60, false, 1);
 
-// each body sits at its real angle (scene angle = -longitude) on its own illustrative radius
+// each body sits at its real angle (scene angle = -longitude) on its own illustrative ellipse
 const now = liveClock.date();
 const ids = [...s.planets.map(p => p.id), 'earth', 'mars'];
 const bodies = [...s.planets.map(p => p.position), s.earth, s.mars];
 bodies.forEach((p, k) => {
-  assert.ok(Math.abs(radius(p) - radii[k]) < 1e-9, `${ids[k]} radius kept`);
+  const expected = ellipseRadius(radii[k], ORBIT_SHAPE[ids[k]], heliocentricLongitude(ids[k], now));
+  assert.ok(Math.abs(radius(p) - expected) < 1e-9, `${ids[k]} on its ellipse`);
   const sceneAngle = deg(Math.atan2(p[2], p[0]));
   assert.ok(diff(sceneAngle, deg(-heliocentricLongitude(ids[k], now))) < 0.01, `${ids[k]} angle`);
 });
@@ -64,4 +66,4 @@ s.motion.advance(1 / 600, false, 1);
 bodies.forEach((p, k) => assert.ok(Math.hypot(p[0] - snap[k][0], p[2] - snap[k][2]) < 0.05, `${ids[k]} no jump`));
 assert.ok(Math.hypot(...s.moon.map((v, k) => v - moonSnap[k])) < 0.05, 'moon no jump');
 liveClock.setEnabled(true);
-console.log('Passed: real angles, radii kept, moon direction, time travel, clamp, paused, live-off continuity.');
+console.log('Passed: real angles, real ellipses, moon direction, time travel, clamp, paused, live-off continuity.');
