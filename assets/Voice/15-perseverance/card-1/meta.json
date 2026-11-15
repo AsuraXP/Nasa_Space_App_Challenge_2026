@@ -1,0 +1,12 @@
+{
+  "story": "15-perseverance",
+  "card": "card-1",
+  "audio": "audio/15-perseverance/card-1/narration.mp3",
+  "script": "audio/15-perseverance/card-1/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 117072,
+  "duration_seconds": 19.51,
+  "words": 66
+}

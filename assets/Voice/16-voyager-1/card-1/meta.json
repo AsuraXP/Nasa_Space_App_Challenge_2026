@@ -1,0 +1,12 @@
+{
+  "story": "16-voyager-1",
+  "card": "card-1",
+  "audio": "audio/16-voyager-1/card-1/narration.mp3",
+  "script": "audio/16-voyager-1/card-1/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 161568,
+  "duration_seconds": 26.93,
+  "words": 88
+}

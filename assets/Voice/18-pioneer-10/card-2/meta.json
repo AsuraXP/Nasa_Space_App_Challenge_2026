@@ -1,0 +1,12 @@
+{
+  "story": "18-pioneer-10",
+  "card": "card-2",
+  "audio": "audio/18-pioneer-10/card-2/narration.mp3",
+  "script": "audio/18-pioneer-10/card-2/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 87264,
+  "duration_seconds": 14.54,
+  "words": 47
+}

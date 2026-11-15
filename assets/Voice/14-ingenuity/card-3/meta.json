@@ -1,0 +1,12 @@
+{
+  "story": "14-ingenuity",
+  "card": "card-3",
+  "audio": "audio/14-ingenuity/card-3/narration.mp3",
+  "script": "audio/14-ingenuity/card-3/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 102672,
+  "duration_seconds": 17.11,
+  "words": 57
+}

@@ -1,0 +1,12 @@
+{
+  "story": "01-eagle-descent-stage",
+  "card": "card-3",
+  "audio": "audio/01-eagle-descent-stage/card-3/narration.mp3",
+  "script": "audio/01-eagle-descent-stage/card-3/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 101952,
+  "duration_seconds": 16.99,
+  "words": 68
+}

@@ -1,0 +1,12 @@
+{
+  "story": "08-viking-2-lander",
+  "card": "card-3",
+  "audio": "audio/08-viking-2-lander/card-3/narration.mp3",
+  "script": "audio/08-viking-2-lander/card-3/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 112176,
+  "duration_seconds": 18.7,
+  "words": 67
+}

@@ -1,0 +1,12 @@
+{
+  "story": "11-opportunity",
+  "card": "card-2",
+  "audio": "audio/11-opportunity/card-2/narration.mp3",
+  "script": "audio/11-opportunity/card-2/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 106560,
+  "duration_seconds": 17.76,
+  "words": 64
+}

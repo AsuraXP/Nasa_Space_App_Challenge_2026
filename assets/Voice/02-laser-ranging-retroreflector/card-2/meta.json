@@ -1,0 +1,12 @@
+{
+  "story": "02-laser-ranging-retroreflector",
+  "card": "card-2",
+  "audio": "audio/02-laser-ranging-retroreflector/card-2/narration.mp3",
+  "script": "audio/02-laser-ranging-retroreflector/card-2/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 121680,
+  "duration_seconds": 20.28,
+  "words": 76
+}

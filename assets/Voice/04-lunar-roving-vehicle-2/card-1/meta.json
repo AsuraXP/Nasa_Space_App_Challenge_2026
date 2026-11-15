@@ -1,0 +1,12 @@
+{
+  "story": "04-lunar-roving-vehicle-2",
+  "card": "card-1",
+  "audio": "audio/04-lunar-roving-vehicle-2/card-1/narration.mp3",
+  "script": "audio/04-lunar-roving-vehicle-2/card-1/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 147024,
+  "duration_seconds": 24.5,
+  "words": 74
+}

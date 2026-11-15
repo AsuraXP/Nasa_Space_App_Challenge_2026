@@ -162,3 +162,36 @@
     transform: none;
   }
 }
+
+/* narration button, bottom right of the card */
+.storyCardSound {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  cursor: pointer;
+  color: rgb(var(--amber));
+  background: rgb(var(--amber) / 0.08);
+  border: 1px solid rgb(var(--amber) / 0.45);
+  border-radius: 999px;
+  transition: background 200ms ease, color 200ms ease, box-shadow 200ms ease;
+}
+
+.storyCardSound:hover,
+.storyCardSound:focus-visible {
+  background: rgb(var(--amber) / 0.2);
+  box-shadow: 0 0 14px rgb(var(--amber) / 0.25);
+}
+
+.storyCardSound:focus-visible {
+  outline: 2px solid rgb(var(--amber));
+  outline-offset: 2px;
+}
+
+.storyCardSound.is-playing {
+  color: rgb(var(--night));
+  background: rgb(var(--amber));
+}

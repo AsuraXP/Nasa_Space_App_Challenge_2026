@@ -24,6 +24,36 @@ var cardGroups = {
   'newhorizons': [2, 2, 1]
 };
 
+// story id -> folder name inside assets/Voice (each has card-1, card-2, card-3 with narration.mp3)
+var voiceFolders = {
+  'apollo11-eagle': '01-eagle-descent-stage',
+  'apollo11-lrrr': '02-laser-ranging-retroreflector',
+  'apollo15-lrv': '03-lunar-roving-vehicle-1',
+  'apollo16-lrv': '04-lunar-roving-vehicle-2',
+  'apollo17-lrv': '05-lunar-roving-vehicle-3',
+  'surveyor3': '06-surveyor-3',
+  'viking1': '07-viking-1-lander',
+  'viking2': '08-viking-2-lander',
+  'pathfinder': '09-pathfinder-and-sojourner',
+  'spirit': '10-spirit',
+  'opportunity': '11-opportunity',
+  'phoenix': '12-phoenix',
+  'insight': '13-insight',
+  'ingenuity': '14-ingenuity',
+  'perseverance': '15-perseverance',
+  'voyager1': '16-voyager-1',
+  'voyager2': '17-voyager-2',
+  'pioneer10': '18-pioneer-10',
+  'pioneer11': '19-pioneer-11',
+  'newhorizons': '20-new-horizons'
+};
+
+function narrationUrl(id, index) {
+  var folder = voiceFolders[id];
+  if (!folder) return null;
+  return './assets/Voice/' + folder + '/card-' + (index + 1) + '/narration.mp3';
+}
+
 var flipSound = new Audio('./assets/sfx/card-flip.mp3');
 flipSound.preload = 'auto';
 
@@ -87,6 +117,12 @@ export default function StoryCards(props) {
   var timers = React.useRef([]);
   var listRef = React.useRef(null);
   var flippedNow = React.useRef(flipped);
+  var playState = React.useState(-1);
+  var playing = playState[0];
+  var setPlaying = playState[1];
+  var voiceRef = React.useRef(null);
+  var runId = React.useRef(0);
+  var playingNow = React.useRef(-1);
   var allOpen = true;
   var cards = [];
   var i;
@@ -96,6 +132,7 @@ export default function StoryCards(props) {
   }
 
   flippedNow.current = flipped;
+  playingNow.current = playing;
 
   // open cards grow to fit their text, closed ones go back to the css height
   function fitCards() {
@@ -129,9 +166,58 @@ export default function StoryCards(props) {
     };
   }, []);
 
+  // stop whatever narration is playing (and cancel a play-all chain)
+  function stopVoice() {
+    runId.current = runId.current + 1;
+    if (voiceRef.current) {
+      voiceRef.current.pause();
+      voiceRef.current.onended = null;
+      voiceRef.current.onerror = null;
+    }
+    setPlaying(-1);
+  }
+
+  // play one card's narration; with chain on, carry on to the next card when it ends
+  function playVoice(index, chain) {
+    var url = narrationUrl(props.id, index);
+    var mine;
+    var audio;
+    stopVoice();
+    if (!url) return;
+    mine = runId.current;
+    audio = voiceRef.current || new Audio();
+    voiceRef.current = audio;
+    audio.src = url;
+    audio.onended = function () {
+      if (runId.current !== mine) return;
+      if (chain && index + 1 < parts.length) {
+        playVoice(index + 1, true);
+      } else {
+        setPlaying(-1);
+      }
+    };
+    audio.onerror = function () {
+      if (runId.current !== mine) return;
+      setPlaying(-1);
+    };
+    setPlaying(index);
+    audio.play().catch(function () {
+      if (runId.current === mine) setPlaying(-1);
+    });
+  }
+
+  // stop the voice if the card set goes away
+  React.useEffect(function () {
+    return function () {
+      runId.current = runId.current + 1;
+      if (voiceRef.current) voiceRef.current.pause();
+    };
+  }, []);
+
   function makeSetter(index, open) {
     return function () {
       playFlip();
+      if (!open && playingNow.current === index) stopVoice();
       setFlipped(function (old) {
         var next = old.slice();
         next[index] = open;
@@ -162,12 +248,28 @@ export default function StoryCards(props) {
       window.clearTimeout(timers.current[k]);
     }
     timers.current = [];
+    if (open) {
+      playVoice(0, true);
+    } else {
+      stopVoice();
+    }
     for (k = 0; k < parts.length; k++) {
       if (flipped[k] !== open) {
         timers.current.push(window.setTimeout(makeSetter(k, open), wait));
         wait = wait + gap;
       }
     }
+  }
+
+  // sound button on a card: play this part, or stop if it is already playing
+  function makeSoundToggle(index) {
+    return function () {
+      if (playingNow.current === index) {
+        stopVoice();
+      } else {
+        playVoice(index, false);
+      }
+    };
   }
 
   for (i = 0; i < parts.length; i++) {
@@ -196,7 +298,7 @@ export default function StoryCards(props) {
               jsx.jsx('span', { className: 'storyCardHint', children: t('story.reveal') })
             ]
           }, 'front'),
-          jsxBack(paragraphs, partLabel, makeFlipper(i, false))
+          jsxBack(paragraphs, partLabel, makeFlipper(i, false), narrationUrl(props.id, i) ? makeSoundToggle(i) : null, playing === i, t)
         ]
       })
     }, i));
@@ -224,13 +326,53 @@ export default function StoryCards(props) {
 }
 
 // back of a card, kept out of the loop so it stays readable
-function jsxBack(paragraphs, partLabel, turnBack) {
+function jsxBack(paragraphs, partLabel, turnBack, toggleSound, isPlaying, t) {
+  var foot = [jsx.jsx('span', { className: 'storyCardPart', children: partLabel }, 'part')];
+  if (toggleSound) {
+    foot.push(jsx.jsx('button', {
+      type: 'button',
+      className: 'storyCardSound' + (isPlaying ? ' is-playing' : ''),
+      'aria-pressed': isPlaying,
+      'aria-label': isPlaying ? t('story.stopNarration') : t('story.playNarration'),
+      title: isPlaying ? t('story.stopNarration') : t('story.playNarration'),
+      onClick: function (event) {
+        event.stopPropagation();
+        toggleSound();
+      },
+      onKeyDown: function (event) {
+        // keep Enter/Space from also turning the card back
+        event.stopPropagation();
+      },
+      children: jsx.jsx('svg', {
+        viewBox: '0 0 24 24',
+        width: 18,
+        height: 18,
+        fill: 'none',
+        stroke: 'currentColor',
+        strokeWidth: 2,
+        strokeLinecap: 'round',
+        strokeLinejoin: 'round',
+        'aria-hidden': 'true',
+        children: isPlaying
+          ? [
+              jsx.jsx('rect', { x: 6, y: 5, width: 4, height: 14, fill: 'currentColor' }, 'a'),
+              jsx.jsx('rect', { x: 14, y: 5, width: 4, height: 14, fill: 'currentColor' }, 'b')
+            ]
+          : [
+              jsx.jsx('polygon', { points: '11 5 6 9 2 9 2 15 6 15 11 19 11 5', fill: 'currentColor' }, 'a'),
+              jsx.jsx('path', { d: 'M15.5 8.5a5 5 0 0 1 0 7' }, 'b'),
+              jsx.jsx('path', { d: 'M19 5a10 10 0 0 1 0 14' }, 'c')
+            ]
+      })
+    }, 'sound'));
+  }
   return jsx.jsxs('div', {
     className: 'storyCardBack',
     role: 'button',
     tabIndex: 0,
     onClick: turnBack,
     onKeyDown: function (event) {
+      if (event.target !== event.currentTarget) return;
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
         turnBack(event);
@@ -238,7 +380,7 @@ function jsxBack(paragraphs, partLabel, turnBack) {
     },
     children: [
       jsx.jsx('div', { className: 'storyCardText', children: paragraphs }),
-      jsx.jsx('div', { className: 'storyCardFoot', children: jsx.jsx('span', { className: 'storyCardPart', children: partLabel }) })
+      jsx.jsx('div', { className: 'storyCardFoot', children: foot })
     ]
   }, 'back');
 }

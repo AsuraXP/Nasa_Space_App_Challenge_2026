@@ -1,0 +1,12 @@
+{
+  "story": "10-spirit",
+  "card": "card-2",
+  "audio": "audio/10-spirit/card-2/narration.mp3",
+  "script": "audio/10-spirit/card-2/script.txt",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+15%",
+  "format": "mp3",
+  "bytes": 116928,
+  "duration_seconds": 19.49,
+  "words": 64
+}
