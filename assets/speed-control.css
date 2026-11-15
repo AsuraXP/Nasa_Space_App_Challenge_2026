@@ -229,6 +229,13 @@ body:has(.simulation-speed__lockzone:hover) .live-positions__switch[aria-pressed
   .live-positions { left: 50%; transform: translateX(-50%); bottom: 190px; }
 }
 
+/* Keep the hint text at the bottom of the map above the Live panel instead of behind it. */
+@media (min-width: 761px) {
+  body:has(.live-positions:not([hidden])) footer.fixed {
+    padding-bottom: calc(max(22px, env(safe-area-inset-bottom)) + var(--live-panel-height, 0px) + 12px);
+  }
+}
+
 /* Labels on/off button (overview and deep-space view). */
 .label-toggle {
   position: fixed;

@@ -29,6 +29,19 @@ export default function LivePositions({ hidden, es }) {
   const state = React.useSyncExternalStore(liveClock.subscribe, liveClock.getSnapshot);
   const [now, setNow] = React.useState(() => liveClock.date());
   const [pickerKey, setPickerKey] = React.useState(0);
+  const panelRef = React.useRef(null);
+
+  // Publish the panel's height so the hint text under the map can sit above it instead of behind it.
+  React.useEffect(() => {
+    const el = panelRef.current;
+    if (!el || typeof ResizeObserver === 'undefined') return undefined;
+    const root = document.documentElement.style;
+    const publish = () => root.setProperty('--live-panel-height', `${el.offsetHeight}px`);
+    publish();
+    const observer = new ResizeObserver(publish);
+    observer.observe(el);
+    return () => { observer.disconnect(); root.removeProperty('--live-panel-height'); };
+  }, []);
 
   // the readout follows the live clock (a few times a second is plenty)
   React.useEffect(() => {
@@ -38,7 +51,7 @@ export default function LivePositions({ hidden, es }) {
 
   const atNow = Math.abs(liveClock.offset()) < 60000 && state.rate === 1;
   return jsx.jsxs('section', {
-    className: 'live-positions', hidden: Boolean(hidden), 'aria-label': t.title,
+    ref: panelRef, className: 'live-positions', hidden: Boolean(hidden), 'aria-label': t.title,
     children: [
       jsx.jsxs('div', { className: 'live-positions__head', children: [
         jsx.jsx('span', { className: 'live-positions__title', children: t.title }),
