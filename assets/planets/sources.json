@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mercury",
+    "file": "mercury.glb",
+    "sourcePage": "https://science.nasa.gov/resource/mercury-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/m/Mercury_1_4878.glb?emrc=6af9233f9332b",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "0222fa976a5bb3ae3222eeddaaa7150656837a97c515f065eb855e0b1dd2ab94",
+    "bytes": 3048920
+  },
+  {
+    "id": "venus",
+    "file": "venus.glb",
+    "sourcePage": "https://science.nasa.gov/resource/venus-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/v/Venus_1_12103.glb?emrc=6af923b391f23",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "6aa26809feeb74fee371c43e9904112a76ebb3df15696e6e75297c0fce063bf9",
+    "bytes": 298748
+  },
+  {
+    "id": "jupiter",
+    "file": "jupiter.glb",
+    "sourcePage": "https://science.nasa.gov/resource/jupiter-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/j/Jupiter_1_142984.glb?emrc=6af923b38e83b",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "8edc4e9b88b73ca1b125a258f0ecaef7fc6494a7cadda37704af459a119f4870",
+    "bytes": 11479456
+  },
+  {
+    "id": "saturn",
+    "file": "saturn.glb",
+    "sourcePage": "https://science.nasa.gov/resource/saturn-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/s/Saturn_1_120536.glb?emrc=6af890d49276b",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "8dbfde533b13e938408d8aded1d1ce48a084806233f67775371d83013dba7d38",
+    "bytes": 5476584
+  },
+  {
+    "id": "uranus",
+    "file": "uranus.glb",
+    "sourcePage": "https://science.nasa.gov/resource/uranus-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/u/Uranus_1_51118.glb?emrc=6af923b38ff33",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "9c56f96bbfa82d923479c3dd83a00c35238a36addcfbcc61916f1377fe586bd5",
+    "bytes": 172652
+  },
+  {
+    "id": "neptune",
+    "file": "neptune.glb",
+    "sourcePage": "https://science.nasa.gov/resource/neptune-3d-model/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/n/Neptune_1_49528.glb?emrc=6af923b38a65a",
+    "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+    "sha256": "2fc3af08d56ed429b9cc56b95d151102aa5807ea958e7cb8806a42e12a699ba8",
+    "bytes": 585104
+  }
+]
