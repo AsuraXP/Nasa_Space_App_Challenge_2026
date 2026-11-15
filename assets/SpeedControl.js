@@ -1,6 +1,7 @@
 import { r as React, j as jsx } from './r3f-BNacQy8Q.js';
 import { a as useScene, u as useSettings } from './index-BS4g53at.js';
 import LivePositions from './LivePositions.js';
+import { labelVisibility, useLabelsVisible } from './label-visibility.js';
 
 export default function SpeedControl() {
   const scene = useScene(state => state.scene);
@@ -9,6 +10,7 @@ export default function SpeedControl() {
   const setSpeed = useScene(state => state.setSpeed);
   const locale = useSettings(state => state.locale);
   const reduceMotion = useSettings(state => state.reduceMotion);
+  const labelsOn = useLabelsVisible();
   const previousSpeed = React.useRef(1);
   React.useEffect(() => {
     if (speed !== 0) previousSpeed.current = speed;
@@ -60,8 +62,17 @@ export default function SpeedControl() {
         children: es ? 'Velocidad negativa para retroceder, cero para pausar y positiva para avanzar.' : 'Negative speed reverses, zero pauses, and positive speed moves forward.' }),
     ],
   });
+  // Labels only exist in the overview and the deep-space view.
+  const labelToggle = (scene === 'hub' || scene === 'deep-space') && jsx.jsx('button', {
+    type: 'button', className: 'btn label-toggle', hidden: Boolean(selectedId),
+    'aria-pressed': labelsOn, onClick: () => labelVisibility.toggle(),
+    title: es ? 'Con las etiquetas ocultas, pasa el cursor sobre un cuerpo para ver su nombre.'
+      : 'With labels off, hover a planet or probe to see its name.',
+    children: `${es ? 'Etiquetas' : 'Labels'}: ${labelsOn ? (es ? 'Sí' : 'On') : (es ? 'No' : 'Off')}`,
+  });
   return jsx.jsxs(jsx.Fragment, { children: [
     speedPanel,
+    labelToggle,
     jsx.jsx(LivePositions, { hidden: Boolean(selectedId) || scene !== 'hub', es }),
   ] });
 }

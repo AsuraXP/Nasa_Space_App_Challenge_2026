@@ -59,6 +59,8 @@ export default function HubScene() {
     lunarOrbit.current?.position.fromArray(hub.earth);
   });
 
+  const selectOf = id => destinations.find(item => item.id === `hub-${id}`)?.onSelect;
+
   function beacon(id, height) {
     const destination = destinations.find(item => item.id === `hub-${id}`);
     return destination && jsx.jsx(Beacon, {
@@ -85,10 +87,10 @@ export default function HubScene() {
     ] }, planet.id)),
     jsx.jsx('group', { ref: bodyRefs.earth, position: hub.earth, children: jsx.jsx(Planet, { kind: 'earth', radius: 0.62, spin: AXIAL_SPINS.earth }) }),
     jsx.jsxs('group', { ref: bodyRefs.moon, position: hub.moon, children: [
-      jsx.jsx(Planet, { kind: 'moon', radius: 0.2, spin: AXIAL_SPINS.moon }), beacon('moon', 0.42),
+      jsx.jsx(Planet, { kind: 'moon', radius: 0.2, spin: AXIAL_SPINS.moon, hoverId: 'hub-moon', onSelect: selectOf('moon') }), beacon('moon', 0.42),
     ] }),
     jsx.jsxs('group', { ref: bodyRefs.mars, position: hub.mars, children: [
-      jsx.jsx(Planet, { kind: 'mars', radius: 0.42, spin: AXIAL_SPINS.mars }), beacon('mars', 0.68),
+      jsx.jsx(Planet, { kind: 'mars', radius: 0.42, spin: AXIAL_SPINS.mars, hoverId: 'hub-mars', onSelect: selectOf('mars') }), beacon('mars', 0.68),
     ] }),
     ...trails.map(trail => jsx.jsx(Line, { points: trail.points, color: amber, transparent: true, opacity: 0.4, lineWidth: 1.2, dashed: true, dashSize: 0.5, gapSize: 0.28 }, trail.id)),
     ...destinations.filter(destination => !destination.id.startsWith('hub-')).map(destination => jsx.jsx(Beacon, {

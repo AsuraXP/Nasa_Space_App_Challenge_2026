@@ -200,3 +200,26 @@
 @media (max-width: 760px) {
   .live-positions { left: 50%; transform: translateX(-50%); bottom: 190px; }
 }
+
+/* Labels on/off button (overview and deep-space view). */
+.label-toggle {
+  position: fixed;
+  z-index: 20;
+  top: 3.5rem;
+  left: 0.75rem;
+  min-height: 40px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+.label-toggle[hidden] { display: none; }
+.label-toggle[aria-pressed="true"] { border-color: rgb(var(--amber) / 0.7); }
+.label-toggle:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+@media (min-width: 768px) {
+  .label-toggle {
+    top: auto;
+    left: auto;
+    right: max(20px, env(safe-area-inset-right));
+    bottom: max(22px, env(safe-area-inset-bottom));
+  }
+}

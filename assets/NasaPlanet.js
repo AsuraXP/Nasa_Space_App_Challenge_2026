@@ -3,6 +3,7 @@ import { at as Box3, c as Vector3 } from './three-CxkaggD8.js';
 import { u as useSettings, a as useScene } from './index-BS4g53at.js';
 import { spinDelta } from './orbital-motion.js';
 import { AXIAL_SPINS } from './solar-system.js';
+import { bodyHoverEnter, bodyHoverLeave } from './label-visibility.js';
 
 function Placeholder({ planet, radius, failed = false }) {
   return jsx.jsxs('group', { children: [
@@ -44,7 +45,14 @@ export function NasaPlanet({ planet, radius = planet.radius, position, onSelect,
   const group = React.useRef(null);
   const reduceMotion = useSettings(state => state.reduceMotion);
   useFrame((_, delta) => { if (group.current && !reduceMotion) group.current.rotation.y += spinDelta(delta, useScene.getState(), spin, planet.id); });
-  return jsx.jsx('group', { position, onClick: event => { event.stopPropagation(); onSelect?.(); }, children:
+  // In the overview (where the planet can be selected) hovering it shows its label, even with labels off.
+  const hoverId = onSelect ? `hub-${planet.id}` : null;
+  React.useEffect(() => () => { if (hoverId) bodyHoverLeave(hoverId); }, [hoverId]);
+  return jsx.jsx('group', {
+    position,
+    onPointerOver: hoverId ? event => { event.stopPropagation(); bodyHoverEnter(hoverId); } : undefined,
+    onPointerOut: hoverId ? () => bodyHoverLeave(hoverId) : undefined,
+    onClick: event => { event.stopPropagation(); if (hoverId) bodyHoverLeave(hoverId); onSelect?.(); }, children:
     jsx.jsx('group', { rotation: [0, 0, planet.id === 'saturn' ? 0.47 : planet.id === 'uranus' ? 1.71 : 0], children:
       jsx.jsx('group', { ref: group, children:
         jsx.jsx(ModelBoundary, { fallback: jsx.jsx(Placeholder, { planet, radius, failed: true }), children:

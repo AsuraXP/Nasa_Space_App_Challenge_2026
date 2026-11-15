@@ -3,6 +3,7 @@ import { y as Object3D, s as Color } from './three-CxkaggD8.js';
 import { u as useSettings, a as useScene, r as runtime } from './index-BS4g53at.js';
 import { u as useQuality } from './Experience-Nj6LORV9.js';
 import { simulationDelta } from './orbital-motion.js';
+import { useLabelsVisible } from './label-visibility.js';
 
 // Illustrative main belt, safely between the existing Mars and Jupiter orbits.
 // Three instanced bands keep the draw-call count low on mobile devices.
@@ -57,11 +58,12 @@ function AsteroidBand({ band, index, count, paused }) {
 
 export default function AsteroidBelt() {
   const paused = useSettings(state => state.reduceMotion);
+  const labels = useLabelsVisible();
   const { tier } = useQuality();
   const count = tier === 'high' ? 600 : tier === 'medium' ? 360 : 180;
   return jsx.jsxs('group', { name: 'main-asteroid-belt', children: [
     ...bands.map((band, index) => jsx.jsx(AsteroidBand, { band, index, count, paused }, `${index}-${count}`)),
-    jsx.jsx(Html, { center: true, position: [-11.8, 0.5, 8.5], zIndexRange: [10, 0], style: { pointerEvents: 'none' }, children:
+    labels && jsx.jsx(Html, { center: true, position: [-11.8, 0.5, 8.5], zIndexRange: [10, 0], style: { pointerEvents: 'none' }, children:
       jsx.jsx('span', { style: { color: '#b7aca0', fontSize: '10px', letterSpacing: '0.16em', whiteSpace: 'nowrap', background: 'rgba(5,7,11,0.7)', padding: '4px 7px', borderRadius: '3px' }, children: 'ASTEROID BELT' }) }),
   ] });
 }
