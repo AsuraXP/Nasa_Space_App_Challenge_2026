@@ -18,3 +18,10 @@ export const PLANET_SHOTS = Object.fromEntries(PLANETS.map(({ id }) => [id, {
   position: [0, 2.2, 7.5], target: [0, 0, 0], duration: 1.6,
 }]));
 export const PLANET_ZOOM = Object.fromEntries(PLANETS.map(({ id }) => [id, [3.2, 12]]));
+
+// Illustrative axial speeds in radians per second. Venus spins retrograde;
+// Uranus's retrograde orientation comes from its tilted axis in NasaPlanet.
+export const AXIAL_SPINS = Object.freeze({
+  mercury: 0.035, venus: -0.025, earth: 0.08, moon: 0.04, mars: 0.075,
+  jupiter: 0.14, saturn: 0.12, uranus: 0.085, neptune: 0.09,
+});

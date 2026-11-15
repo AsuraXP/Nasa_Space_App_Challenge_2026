@@ -1,2 +1,105 @@
-import { PLANETS } from "./solar-system.js";import { NasaPlanet } from "./NasaPlanet.js";import { u as useThree } from "./r3f-BNacQy8Q.js";
-import{r as p,j as s,L as l}from"./r3f-BNacQy8Q.js";import{s as S,c,aU as w}from"./three-CxkaggD8.js";import{c as B,a as O,d as P,H as e,h as f,s as g,p as y}from"./index-BS4g53at.js";import{u as z,B as A}from"./useSceneEntry-Dk2Atd0t.js";import{P as b}from"./Planet-BHsR4hM3.js";import"./motion-Cv7Rbbxj.js";import"./Experience-Nj6LORV9.js";import"./fx-B4siyfXL.js";const x="#f2a541";function h(r,a=128){return Array.from({length:a+1},(o,i)=>{const n=i/a*Math.PI*2;return[Math.cos(n)*r,0,Math.sin(n)*r]})}function W(r){const a=new c(...f(r)),o=new c(...y(r)),i=new c(o.x,0,o.z).normalize(),n=i.clone().applyAxisAngle(new c(0,1,0),1.1).multiplyScalar(e.earthOrbit),m=i.clone().multiplyScalar(e.marsOrbit*.9).add(new c(0,o.y*2,0));return new w(n,m,a).getPoints(48).map(u=>u.toArray())}function D(){z("hub");const aspect=useThree(state=>state.size.width/state.size.height);p.useEffect(()=>{const scale=Math.max(1,1.5/aspect);O.getState().flyTo({position:[0,34*scale,60*scale],target:[0,0,0],duration:1.2})},[aspect]);const r=B(),a=O(t=>t.year),o=p.useMemo(()=>P("deep-space",a),[a]),i=p.useMemo(()=>o.map(t=>({id:t.id,points:W(t.id)})),[o]),n=p.useMemo(()=>h(e.earthOrbit),[]),m=p.useMemo(()=>h(e.marsOrbit),[]),u=p.useMemo(()=>h(1.58,64).map(t=>[t[0]+e.earth[0],t[1],t[2]+e.earth[2]]),[]);return s.jsxs(s.Fragment,{children:[s.jsx("ambientLight",{intensity:.6}),s.jsx("directionalLight",{position:[5,10,8],intensity:2.6}),...PLANETS.flatMap(planet=>[s.jsx(l,{points:h(planet.orbit),color:"#efe6d6",transparent:!0,opacity:.12,lineWidth:1},`orbit-${planet.id}`),s.jsx(NasaPlanet,{planet,position:planet.position,onSelect:()=>O.getState().travelTo(planet.id,{focus:planet.position})},planet.id)]),s.jsxs("mesh",{children:[s.jsx("sphereGeometry",{args:[.9,32,32]}),s.jsx("meshBasicMaterial",{color:new S("#ffc46b").multiplyScalar(2.4),toneMapped:!1})]}),s.jsx(l,{points:n,color:"#efe6d6",transparent:!0,opacity:.16,lineWidth:1}),s.jsx(l,{points:m,color:"#efe6d6",transparent:!0,opacity:.16,lineWidth:1}),s.jsx(l,{points:u,color:"#efe6d6",transparent:!0,opacity:.12,lineWidth:1}),s.jsx(b,{kind:"earth",radius:.62,position:e.earth,spin:.08}),s.jsx(b,{kind:"moon",radius:.2,position:e.moon}),s.jsx(b,{kind:"mars",radius:.42,position:e.mars,spin:.08}),i.map(t=>s.jsx(l,{points:t.points,color:x,transparent:!0,opacity:.4,lineWidth:1.2,dashed:!0,dashSize:.5,gapSize:.28},t.id)),r.map(t=>{const j=t.id.startsWith("hub-"),d=t.id==="hub-moon"?[0,.42,0]:t.id==="hub-mars"?[0,.68,0]:[0,(PLANETS.find(planet=>`hub-${planet.id}`===t.id)?.radius??-.25)+.25,0],M=[t.position[0]+d[0],t.position[1]+d[1],t.position[2]+d[2]];return s.jsx(A,{id:t.id,position:M,label:t.label,sublabel:t.sublabel,size:j?.13:.11,alwaysLabel:!0,onSelect:t.onSelect},t.id)}),o.map(t=>s.jsx(l,{points:[f(t.id),g(y(t.id),new c(...f(t.id)).length()+2.2)],color:x,transparent:!0,opacity:.18,lineWidth:1},`${t.id}-out`))]})}export{D as default};
+import { r as React, j as jsx, L as Line, u as useThree, a as useFrame } from './r3f-BNacQy8Q.js';
+import { s as Color, c as Vector3, aU as QuadraticBezierCurve3 } from './three-CxkaggD8.js';
+import { c as useDestinations, a as useScene, d as artifactsAtYear, H as hub, h as probePosition, s as scaleVector, p as probeDirection, u as useSettings, r as runtime } from './index-BS4g53at.js';
+import { u as useSceneEntry, B as Beacon } from './useSceneEntry-Dk2Atd0t.js';
+import { P as Planet } from './Planet-BHsR4hM3.js';
+import { PLANETS, AXIAL_SPINS } from './solar-system.js';
+import { NasaPlanet } from './NasaPlanet.js';
+import { createOrbitalMotion } from './orbital-motion.js';
+
+const amber = '#f2a541';
+// Positions remain shared with destination callbacks, so camera flights follow
+// the current location. Keep simulation time across visits to the overview.
+const motion = createOrbitalMotion(PLANETS, hub.earth, hub.mars, hub.moon);
+const positions = Object.fromEntries([
+  ...PLANETS.map(planet => [planet.id, planet.position]),
+  ['earth', hub.earth], ['mars', hub.mars], ['moon', hub.moon],
+]);
+const origin = [0, 0, 0];
+function circle(radius, segments = 128) {
+  return Array.from({ length: segments + 1 }, (_, index) => {
+    const angle = index / segments * Math.PI * 2;
+    return [Math.cos(angle) * radius, 0, Math.sin(angle) * radius];
+  });
+}
+const orbitPaths = [
+  ...PLANETS.map(planet => ({ id: planet.id, points: circle(planet.orbit) })),
+  { id: 'earth', points: circle(Math.hypot(hub.earth[0], hub.earth[2])) },
+  { id: 'mars', points: circle(Math.hypot(hub.mars[0], hub.mars[2])) },
+];
+const lunarPath = Array.from({ length: 65 }, (_, index) => motion.moonOffset(index / 64 * Math.PI * 2));
+function probeTrail(id) {
+  const end = new Vector3(...probePosition(id));
+  const direction = new Vector3(...probeDirection(id));
+  const flat = new Vector3(direction.x, 0, direction.z).normalize();
+  const start = flat.clone().applyAxisAngle(new Vector3(0, 1, 0), 1.1).multiplyScalar(hub.earthOrbit);
+  const control = flat.clone().multiplyScalar(hub.marsOrbit * 0.9).add(new Vector3(0, direction.y * 2, 0));
+  return new QuadraticBezierCurve3(start, control, end).getPoints(48).map(point => point.toArray());
+}
+
+export default function HubScene() {
+  useSceneEntry('hub');
+  const aspect = useThree(state => state.size.width / state.size.height);
+  const reduceMotion = useSettings(state => state.reduceMotion);
+  const destinations = useDestinations();
+  const year = useScene(state => state.year);
+  const probes = React.useMemo(() => artifactsAtYear('deep-space', year), [year]);
+  const trails = React.useMemo(() => probes.map(probe => ({ id: probe.id, points: probeTrail(probe.id) })), [probes]);
+  const bodyRefs = React.useMemo(() => Object.fromEntries(Object.keys(positions).map(id => [id, React.createRef()])), []);
+  const lunarOrbit = React.useRef(null);
+
+  React.useEffect(() => {
+    const scale = Math.max(1, 1.5 / aspect);
+    useScene.getState().flyTo({ position: [0, 34 * scale, 60 * scale], target: origin, duration: 1.2 });
+  }, [aspect]);
+
+  useFrame((_, delta) => {
+    // Hold still during selection flights so the camera reaches the chosen body.
+    motion.advance(delta, reduceMotion || runtime.flying || useScene.getState().fading);
+    for (const [id, position] of Object.entries(positions)) {
+      bodyRefs[id].current?.position.fromArray(position);
+    }
+    lunarOrbit.current?.position.fromArray(hub.earth);
+  });
+
+  function beacon(id, height) {
+    const destination = destinations.find(item => item.id === `hub-${id}`);
+    return destination && jsx.jsx(Beacon, {
+      id: destination.id, position: [0, height, 0],
+      label: destination.label, sublabel: destination.sublabel,
+      size: 0.13, alwaysLabel: true, onSelect: destination.onSelect,
+    });
+  }
+
+  return jsx.jsxs(jsx.Fragment, { children: [
+    jsx.jsx('ambientLight', { intensity: 0.6 }),
+    jsx.jsx('directionalLight', { position: [5, 10, 8], intensity: 2.6 }),
+    jsx.jsxs('mesh', { children: [
+      jsx.jsx('sphereGeometry', { args: [0.9, 32, 32] }),
+      jsx.jsx('meshBasicMaterial', { color: new Color('#ffc46b').multiplyScalar(2.4), toneMapped: false }),
+    ] }),
+    ...orbitPaths.map(path => jsx.jsx(Line, { points: path.points, color: '#efe6d6', transparent: true, opacity: 0.14, lineWidth: 1 }, `orbit-${path.id}`)),
+    jsx.jsx('group', { ref: lunarOrbit, position: hub.earth, children:
+      jsx.jsx(Line, { points: lunarPath, color: '#efe6d6', transparent: true, opacity: 0.12, lineWidth: 1 }) }),
+    ...PLANETS.map(planet => jsx.jsxs('group', { ref: bodyRefs[planet.id], position: planet.position, children: [
+      jsx.jsx(NasaPlanet, { planet, onSelect: () => useScene.getState().travelTo(planet.id, { focus: planet.position }) }),
+      beacon(planet.id, planet.radius + 0.25),
+    ] }, planet.id)),
+    jsx.jsx('group', { ref: bodyRefs.earth, position: hub.earth, children: jsx.jsx(Planet, { kind: 'earth', radius: 0.62, spin: AXIAL_SPINS.earth }) }),
+    jsx.jsxs('group', { ref: bodyRefs.moon, position: hub.moon, children: [
+      jsx.jsx(Planet, { kind: 'moon', radius: 0.2, spin: AXIAL_SPINS.moon }), beacon('moon', 0.42),
+    ] }),
+    jsx.jsxs('group', { ref: bodyRefs.mars, position: hub.mars, children: [
+      jsx.jsx(Planet, { kind: 'mars', radius: 0.42, spin: AXIAL_SPINS.mars }), beacon('mars', 0.68),
+    ] }),
+    ...trails.map(trail => jsx.jsx(Line, { points: trail.points, color: amber, transparent: true, opacity: 0.4, lineWidth: 1.2, dashed: true, dashSize: 0.5, gapSize: 0.28 }, trail.id)),
+    ...destinations.filter(destination => !destination.id.startsWith('hub-')).map(destination => jsx.jsx(Beacon, {
+      id: destination.id, position: destination.position, label: destination.label, sublabel: destination.sublabel,
+      size: 0.11, alwaysLabel: true, onSelect: destination.onSelect,
+    }, destination.id)),
+    ...probes.map(probe => jsx.jsx(Line, {
+      points: [probePosition(probe.id), scaleVector(probeDirection(probe.id), new Vector3(...probePosition(probe.id)).length() + 2.2)],
+      color: amber, transparent: true, opacity: 0.18, lineWidth: 1,
+    }, `${probe.id}-out`)),
+  ] });
+}
