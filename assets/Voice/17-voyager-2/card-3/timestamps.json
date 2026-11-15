@@ -1,350 +1,318 @@
-{
-  "story": "17-voyager-2",
-  "card": "card-3",
-  "duration": 18.19,
-  "speechStart": 0.13,
-  "speechEnd": 17.81,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "After Neptune I dived south, below the plane of the planets.",
-      "start": 0.13,
-      "end": 3.35,
-      "words": [
-        {
-          "word": "After",
-          "start": 0.13,
-          "end": 0.49
-        },
-        {
-          "word": "Neptune",
-          "start": 0.49,
-          "end": 0.87
-        },
-        {
-          "word": "I",
-          "start": 0.87,
-          "end": 1.05
-        },
-        {
-          "word": "dived",
-          "start": 1.05,
-          "end": 1.41
-        },
-        {
-          "word": "south,",
-          "start": 1.41,
-          "end": 1.77
-        },
-        {
-          "word": "below",
-          "start": 1.77,
-          "end": 2.13
-        },
-        {
-          "word": "the",
-          "start": 2.13,
-          "end": 2.34
-        },
-        {
-          "word": "plane",
-          "start": 2.34,
-          "end": 2.57
-        },
-        {
-          "word": "of",
-          "start": 2.57,
-          "end": 2.76
-        },
-        {
-          "word": "the",
-          "start": 2.76,
-          "end": 2.97
-        },
-        {
-          "word": "planets.",
-          "start": 2.97,
-          "end": 3.35
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "In November 2018 I crossed into interstellar space, six years after my twin.",
-      "start": 3.75,
-      "end": 6.99,
-      "words": [
-        {
-          "word": "In",
-          "start": 3.75,
-          "end": 3.91
-        },
-        {
-          "word": "November",
-          "start": 3.91,
-          "end": 4.32
-        },
-        {
-          "word": "2018",
-          "start": 4.32,
-          "end": 4.49
-        },
-        {
-          "word": "I",
-          "start": 4.49,
-          "end": 4.63
-        },
-        {
-          "word": "crossed",
-          "start": 4.63,
-          "end": 4.93
-        },
-        {
-          "word": "into",
-          "start": 4.93,
-          "end": 5.21
-        },
-        {
-          "word": "interstellar",
-          "start": 5.21,
-          "end": 5.75
-        },
-        {
-          "word": "space,",
-          "start": 5.75,
-          "end": 6.04
-        },
-        {
-          "word": "six",
-          "start": 6.04,
-          "end": 6.2
-        },
-        {
-          "word": "years",
-          "start": 6.2,
-          "end": 6.38
-        },
-        {
-          "word": "after",
-          "start": 6.38,
-          "end": 6.66
-        },
-        {
-          "word": "my",
-          "start": 6.66,
-          "end": 6.82
-        },
-        {
-          "word": "twin.",
-          "start": 6.82,
-          "end": 6.99
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I am still sending data home.",
-      "start": 7.24,
-      "end": 8.49,
-      "words": [
-        {
-          "word": "I",
-          "start": 7.24,
-          "end": 7.39
-        },
-        {
-          "word": "am",
-          "start": 7.39,
-          "end": 7.55
-        },
-        {
-          "word": "still",
-          "start": 7.55,
-          "end": 7.73
-        },
-        {
-          "word": "sending",
-          "start": 7.73,
-          "end": 8.04
-        },
-        {
-          "word": "data",
-          "start": 8.04,
-          "end": 8.32
-        },
-        {
-          "word": "home.",
-          "start": 8.32,
-          "end": 8.49
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "The two of us are flying in different directions and will never meet again.",
-      "start": 8.93,
-      "end": 13.51,
-      "words": [
-        {
-          "word": "The",
-          "start": 8.93,
-          "end": 9.17
-        },
-        {
-          "word": "two",
-          "start": 9.17,
-          "end": 9.42
-        },
-        {
-          "word": "of",
-          "start": 9.42,
-          "end": 9.65
-        },
-        {
-          "word": "us",
-          "start": 9.65,
-          "end": 9.88
-        },
-        {
-          "word": "are",
-          "start": 9.88,
-          "end": 10.13
-        },
-        {
-          "word": "flying",
-          "start": 10.13,
-          "end": 10.41
-        },
-        {
-          "word": "in",
-          "start": 10.41,
-          "end": 10.64
-        },
-        {
-          "word": "different",
-          "start": 10.64,
-          "end": 11.27
-        },
-        {
-          "word": "directions",
-          "start": 11.27,
-          "end": 11.91
-        },
-        {
-          "word": "and",
-          "start": 11.91,
-          "end": 12.15
-        },
-        {
-          "word": "will",
-          "start": 12.15,
-          "end": 12.41
-        },
-        {
-          "word": "never",
-          "start": 12.41,
-          "end": 12.83
-        },
-        {
-          "word": "meet",
-          "start": 12.83,
-          "end": 13.09
-        },
-        {
-          "word": "again.",
-          "start": 13.09,
-          "end": 13.51
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "But we carry the same Golden Record, with the same hello from the same small planet.",
-      "start": 13.93,
-      "end": 17.81,
-      "words": [
-        {
-          "word": "But",
-          "start": 13.93,
-          "end": 14.12
-        },
-        {
-          "word": "we",
-          "start": 14.12,
-          "end": 14.29
-        },
-        {
-          "word": "carry",
-          "start": 14.29,
-          "end": 14.62
-        },
-        {
-          "word": "the",
-          "start": 14.62,
-          "end": 14.81
-        },
-        {
-          "word": "same",
-          "start": 14.81,
-          "end": 15.0
-        },
-        {
-          "word": "Golden",
-          "start": 15.0,
-          "end": 15.34
-        },
-        {
-          "word": "Record,",
-          "start": 15.34,
-          "end": 15.79
-        },
-        {
-          "word": "with",
-          "start": 15.79,
-          "end": 15.98
-        },
-        {
-          "word": "the",
-          "start": 15.98,
-          "end": 16.17
-        },
-        {
-          "word": "same",
-          "start": 16.17,
-          "end": 16.37
-        },
-        {
-          "word": "hello",
-          "start": 16.37,
-          "end": 16.69
-        },
-        {
-          "word": "from",
-          "start": 16.69,
-          "end": 16.89
-        },
-        {
-          "word": "the",
-          "start": 16.89,
-          "end": 17.07
-        },
-        {
-          "word": "same",
-          "start": 17.07,
-          "end": 17.27
-        },
-        {
-          "word": "small",
-          "start": 17.27,
-          "end": 17.48
-        },
-        {
-          "word": "planet.",
-          "start": 17.48,
-          "end": 17.81
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "17-voyager-2",
+    "card":  "card-3",
+    "duration":  18.744,
+    "speechStart":  0.132,
+    "speechEnd":  18.458,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "After Neptune I dived south, below the plane of the planets. In November 2018 I crossed into interstellar space, six years after my twin.\n\nI am still sending data home. The two of us are flying in different directions and will never meet again. But we carry the same Golden Record, with the same hello from the same small planet.",
+                          "start":  0.132,
+                          "end":  18.458,
+                          "words":  [
+                                        {
+                                            "word":  "After",
+                                            "start":  0.132,
+                                            "end":  0.328
+                                        },
+                                        {
+                                            "word":  "Neptune",
+                                            "start":  0.339,
+                                            "end":  0.73
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  0.741,
+                                            "end":  0.839
+                                        },
+                                        {
+                                            "word":  "dived",
+                                            "start":  0.849,
+                                            "end":  1.143
+                                        },
+                                        {
+                                            "word":  "south,",
+                                            "start":  1.154,
+                                            "end":  1.643
+                                        },
+                                        {
+                                            "word":  "below",
+                                            "start":  1.98,
+                                            "end":  2.339
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.349,
+                                            "end":  2.436
+                                        },
+                                        {
+                                            "word":  "plane",
+                                            "start":  2.447,
+                                            "end":  2.752
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  2.763,
+                                            "end":  2.839
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.849,
+                                            "end":  2.926
+                                        },
+                                        {
+                                            "word":  "planets.",
+                                            "start":  2.936,
+                                            "end":  3.48
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  3.828,
+                                            "end":  3.915
+                                        },
+                                        {
+                                            "word":  "November",
+                                            "start":  3.915,
+                                            "end":  4.704
+                                        },
+                                        {
+                                            "word":  "2018",
+                                            "start":  4.704,
+                                            "end":  5.099
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  5.099,
+                                            "end":  5.273
+                                        },
+                                        {
+                                            "word":  "crossed",
+                                            "start":  5.284,
+                                            "end":  5.676
+                                        },
+                                        {
+                                            "word":  "into",
+                                            "start":  5.686,
+                                            "end":  5.958
+                                        },
+                                        {
+                                            "word":  "interstellar",
+                                            "start":  5.969,
+                                            "end":  6.458
+                                        },
+                                        {
+                                            "word":  "space,",
+                                            "start":  6.469,
+                                            "end":  6.926
+                                        },
+                                        {
+                                            "word":  "six",
+                                            "start":  7.284,
+                                            "end":  7.578
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  7.589,
+                                            "end":  7.882
+                                        },
+                                        {
+                                            "word":  "after",
+                                            "start":  7.893,
+                                            "end":  8.143
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  8.154,
+                                            "end":  8.263
+                                        },
+                                        {
+                                            "word":  "twin.",
+                                            "start":  8.273,
+                                            "end":  8.654
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  9.002,
+                                            "end":  9.056
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  9.067,
+                                            "end":  9.143
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  9.154,
+                                            "end":  9.436
+                                        },
+                                        {
+                                            "word":  "sending",
+                                            "start":  9.447,
+                                            "end":  9.828
+                                        },
+                                        {
+                                            "word":  "data",
+                                            "start":  9.839,
+                                            "end":  10.067
+                                        },
+                                        {
+                                            "word":  "home.",
+                                            "start":  10.078,
+                                            "end":  10.458
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  10.795,
+                                            "end":  10.86
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  10.871,
+                                            "end":  11.056
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  11.067,
+                                            "end":  11.165
+                                        },
+                                        {
+                                            "word":  "us",
+                                            "start":  11.176,
+                                            "end":  11.371
+                                        },
+                                        {
+                                            "word":  "are",
+                                            "start":  11.382,
+                                            "end":  11.512
+                                        },
+                                        {
+                                            "word":  "flying",
+                                            "start":  11.523,
+                                            "end":  11.915
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  11.926,
+                                            "end":  12.045
+                                        },
+                                        {
+                                            "word":  "different",
+                                            "start":  12.056,
+                                            "end":  12.328
+                                        },
+                                        {
+                                            "word":  "directions",
+                                            "start":  12.339,
+                                            "end":  12.904
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  12.915,
+                                            "end":  13.078
+                                        },
+                                        {
+                                            "word":  "will",
+                                            "start":  13.089,
+                                            "end":  13.197
+                                        },
+                                        {
+                                            "word":  "never",
+                                            "start":  13.208,
+                                            "end":  13.469
+                                        },
+                                        {
+                                            "word":  "meet",
+                                            "start":  13.48,
+                                            "end":  13.654
+                                        },
+                                        {
+                                            "word":  "again.",
+                                            "start":  13.665,
+                                            "end":  14.045
+                                        },
+                                        {
+                                            "word":  "But",
+                                            "start":  14.393,
+                                            "end":  14.502
+                                        },
+                                        {
+                                            "word":  "we",
+                                            "start":  14.513,
+                                            "end":  14.61
+                                        },
+                                        {
+                                            "word":  "carry",
+                                            "start":  14.621,
+                                            "end":  14.915
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  14.926,
+                                            "end":  15.002
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  15.013,
+                                            "end":  15.328
+                                        },
+                                        {
+                                            "word":  "Golden",
+                                            "start":  15.339,
+                                            "end":  15.654
+                                        },
+                                        {
+                                            "word":  "Record,",
+                                            "start":  15.665,
+                                            "end":  16.121
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  16.284,
+                                            "end":  16.458
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  16.469,
+                                            "end":  16.534
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  16.545,
+                                            "end":  16.828
+                                        },
+                                        {
+                                            "word":  "hello",
+                                            "start":  16.839,
+                                            "end":  17.186
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  17.197,
+                                            "end":  17.371
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  17.382,
+                                            "end":  17.436
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  17.447,
+                                            "end":  17.697
+                                        },
+                                        {
+                                            "word":  "small",
+                                            "start":  17.708,
+                                            "end":  17.98
+                                        },
+                                        {
+                                            "word":  "planet.",
+                                            "start":  17.991,
+                                            "end":  18.458
+                                        }
+                                    ]
+                      }
+                  ]
 }

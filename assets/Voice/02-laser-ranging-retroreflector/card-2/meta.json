@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/02-laser-ranging-retroreflector/card-2/narration.mp3",
   "script": "audio/02-laser-ranging-retroreflector/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/02-laser-ranging-retroreflector/card-2/timings.json",
+  "vtt": "audio/02-laser-ranging-retroreflector/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 121680,
-  "duration_seconds": 20.28,
-  "words": 76
+  "bytes": 130320,
+  "duration_seconds": 21.72,
+  "words": 76,
+  "coverage": 1.0
 }

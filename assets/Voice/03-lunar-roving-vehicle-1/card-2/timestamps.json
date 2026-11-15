@@ -1,292 +1,268 @@
-{
-  "story": "03-lunar-roving-vehicle-1",
-  "card": "card-2",
-  "duration": 12.79,
-  "speechStart": 0.13,
-  "speechEnd": 12.41,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "In three days we covered about 28 kilometres.",
-      "start": 0.13,
-      "end": 2.46,
-      "words": [
-        {
-          "word": "In",
-          "start": 0.13,
-          "end": 0.31
-        },
-        {
-          "word": "three",
-          "start": 0.31,
-          "end": 0.51
-        },
-        {
-          "word": "days",
-          "start": 0.51,
-          "end": 0.71
-        },
-        {
-          "word": "we",
-          "start": 0.71,
-          "end": 0.89
-        },
-        {
-          "word": "covered",
-          "start": 0.89,
-          "end": 1.35
-        },
-        {
-          "word": "about",
-          "start": 1.35,
-          "end": 1.67
-        },
-        {
-          "word": "28",
-          "start": 1.67,
-          "end": 1.85
-        },
-        {
-          "word": "kilometres.",
-          "start": 1.85,
-          "end": 2.46
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "We drove to the edge of a huge canyon called Hadley Rille and partway up a mountain.",
-      "start": 2.87,
-      "end": 6.43,
-      "words": [
-        {
-          "word": "We",
-          "start": 2.87,
-          "end": 3.03
-        },
-        {
-          "word": "drove",
-          "start": 3.03,
-          "end": 3.21
-        },
-        {
-          "word": "to",
-          "start": 3.21,
-          "end": 3.36
-        },
-        {
-          "word": "the",
-          "start": 3.36,
-          "end": 3.53
-        },
-        {
-          "word": "edge",
-          "start": 3.53,
-          "end": 3.7
-        },
-        {
-          "word": "of",
-          "start": 3.7,
-          "end": 3.86
-        },
-        {
-          "word": "a",
-          "start": 3.86,
-          "end": 4.01
-        },
-        {
-          "word": "huge",
-          "start": 4.01,
-          "end": 4.18
-        },
-        {
-          "word": "canyon",
-          "start": 4.18,
-          "end": 4.48
-        },
-        {
-          "word": "called",
-          "start": 4.48,
-          "end": 4.77
-        },
-        {
-          "word": "Hadley",
-          "start": 4.77,
-          "end": 5.06
-        },
-        {
-          "word": "Rille",
-          "start": 5.06,
-          "end": 5.35
-        },
-        {
-          "word": "and",
-          "start": 5.35,
-          "end": 5.51
-        },
-        {
-          "word": "partway",
-          "start": 5.51,
-          "end": 5.81
-        },
-        {
-          "word": "up",
-          "start": 5.81,
-          "end": 5.97
-        },
-        {
-          "word": "a",
-          "start": 5.97,
-          "end": 6.12
-        },
-        {
-          "word": "mountain.",
-          "start": 6.12,
-          "end": 6.43
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Up there the crew picked up a white rock that turned out to be about 4 billion years old.",
-      "start": 6.94,
-      "end": 10.77,
-      "words": [
-        {
-          "word": "Up",
-          "start": 6.94,
-          "end": 7.1
-        },
-        {
-          "word": "there",
-          "start": 7.1,
-          "end": 7.29
-        },
-        {
-          "word": "the",
-          "start": 7.29,
-          "end": 7.47
-        },
-        {
-          "word": "crew",
-          "start": 7.47,
-          "end": 7.65
-        },
-        {
-          "word": "picked",
-          "start": 7.65,
-          "end": 7.96
-        },
-        {
-          "word": "up",
-          "start": 7.96,
-          "end": 8.12
-        },
-        {
-          "word": "a",
-          "start": 8.12,
-          "end": 8.28
-        },
-        {
-          "word": "white",
-          "start": 8.28,
-          "end": 8.47
-        },
-        {
-          "word": "rock",
-          "start": 8.47,
-          "end": 8.65
-        },
-        {
-          "word": "that",
-          "start": 8.65,
-          "end": 8.83
-        },
-        {
-          "word": "turned",
-          "start": 8.83,
-          "end": 9.14
-        },
-        {
-          "word": "out",
-          "start": 9.14,
-          "end": 9.31
-        },
-        {
-          "word": "to",
-          "start": 9.31,
-          "end": 9.47
-        },
-        {
-          "word": "be",
-          "start": 9.47,
-          "end": 9.64
-        },
-        {
-          "word": "about",
-          "start": 9.64,
-          "end": 9.94
-        },
-        {
-          "word": "4",
-          "start": 9.94,
-          "end": 10.09
-        },
-        {
-          "word": "billion",
-          "start": 10.09,
-          "end": 10.41
-        },
-        {
-          "word": "years",
-          "start": 10.41,
-          "end": 10.6
-        },
-        {
-          "word": "old.",
-          "start": 10.6,
-          "end": 10.77
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "People call it the Genesis Rock.",
-      "start": 11.22,
-      "end": 12.41,
-      "words": [
-        {
-          "word": "People",
-          "start": 11.22,
-          "end": 11.48
-        },
-        {
-          "word": "call",
-          "start": 11.48,
-          "end": 11.63
-        },
-        {
-          "word": "it",
-          "start": 11.63,
-          "end": 11.76
-        },
-        {
-          "word": "the",
-          "start": 11.76,
-          "end": 11.91
-        },
-        {
-          "word": "Genesis",
-          "start": 11.91,
-          "end": 12.26
-        },
-        {
-          "word": "Rock.",
-          "start": 12.26,
-          "end": 12.41
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "03-lunar-roving-vehicle-1",
+    "card":  "card-2",
+    "duration":  13.344,
+    "speechStart":  0.106,
+    "speechEnd":  13.067,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "In three days we covered about 28 kilometres. We drove to the edge of a huge canyon called Hadley Rille and partway up a mountain. Up there the crew picked up a white rock that turned out to be about 4 billion years old. People call it the Genesis Rock.",
+                          "start":  0.106,
+                          "end":  13.067,
+                          "words":  [
+                                        {
+                                            "word":  "In",
+                                            "start":  0.106,
+                                            "end":  0.247
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  0.258,
+                                            "end":  0.486
+                                        },
+                                        {
+                                            "word":  "days",
+                                            "start":  0.497,
+                                            "end":  0.791
+                                        },
+                                        {
+                                            "word":  "we",
+                                            "start":  0.802,
+                                            "end":  0.921
+                                        },
+                                        {
+                                            "word":  "covered",
+                                            "start":  0.932,
+                                            "end":  1.28
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  1.291,
+                                            "end":  1.584
+                                        },
+                                        {
+                                            "word":  "28",
+                                            "start":  1.595,
+                                            "end":  2.062
+                                        },
+                                        {
+                                            "word":  "kilometres.",
+                                            "start":  2.073,
+                                            "end":  2.758
+                                        },
+                                        {
+                                            "word":  "We",
+                                            "start":  3.099,
+                                            "end":  3.165
+                                        },
+                                        {
+                                            "word":  "drove",
+                                            "start":  3.176,
+                                            "end":  3.469
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  3.48,
+                                            "end":  3.578
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.589,
+                                            "end":  3.643
+                                        },
+                                        {
+                                            "word":  "edge",
+                                            "start":  3.654,
+                                            "end":  3.915
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  3.926,
+                                            "end":  3.991
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  4.002,
+                                            "end":  4.034
+                                        },
+                                        {
+                                            "word":  "huge",
+                                            "start":  4.045,
+                                            "end":  4.349
+                                        },
+                                        {
+                                            "word":  "canyon",
+                                            "start":  4.36,
+                                            "end":  4.741
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  4.752,
+                                            "end":  4.969
+                                        },
+                                        {
+                                            "word":  "Hadley",
+                                            "start":  4.98,
+                                            "end":  5.317
+                                        },
+                                        {
+                                            "word":  "Rille",
+                                            "start":  5.328,
+                                            "end":  5.665
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  5.697,
+                                            "end":  5.839
+                                        },
+                                        {
+                                            "word":  "partway",
+                                            "start":  5.849,
+                                            "end":  6.186
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  6.197,
+                                            "end":  6.295
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  6.306,
+                                            "end":  6.349
+                                        },
+                                        {
+                                            "word":  "mountain.",
+                                            "start":  6.36,
+                                            "end":  6.795
+                                        },
+                                        {
+                                            "word":  "Up",
+                                            "start":  7.143,
+                                            "end":  7.273
+                                        },
+                                        {
+                                            "word":  "there",
+                                            "start":  7.284,
+                                            "end":  7.469
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  7.48,
+                                            "end":  7.556
+                                        },
+                                        {
+                                            "word":  "crew",
+                                            "start":  7.567,
+                                            "end":  7.882
+                                        },
+                                        {
+                                            "word":  "picked",
+                                            "start":  7.893,
+                                            "end":  8.121
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  8.132,
+                                            "end":  8.241
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  8.252,
+                                            "end":  8.339
+                                        },
+                                        {
+                                            "word":  "white",
+                                            "start":  8.349,
+                                            "end":  8.61
+                                        },
+                                        {
+                                            "word":  "rock",
+                                            "start":  8.621,
+                                            "end":  8.947
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  8.958,
+                                            "end":  9.078
+                                        },
+                                        {
+                                            "word":  "turned",
+                                            "start":  9.089,
+                                            "end":  9.317
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  9.328,
+                                            "end":  9.48
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  9.491,
+                                            "end":  9.556
+                                        },
+                                        {
+                                            "word":  "be",
+                                            "start":  9.567,
+                                            "end":  9.686
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  9.697,
+                                            "end":  9.947
+                                        },
+                                        {
+                                            "word":  "4",
+                                            "start":  9.947,
+                                            "end":  10.029
+                                        },
+                                        {
+                                            "word":  "billion",
+                                            "start":  10.029,
+                                            "end":  10.607
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  10.607,
+                                            "end":  11.019
+                                        },
+                                        {
+                                            "word":  "old.",
+                                            "start":  11.019,
+                                            "end":  11.349
+                                        },
+                                        {
+                                            "word":  "People",
+                                            "start":  11.349,
+                                            "end":  11.578
+                                        },
+                                        {
+                                            "word":  "call",
+                                            "start":  11.589,
+                                            "end":  11.849
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  11.86,
+                                            "end":  12.012
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  12.023,
+                                            "end":  12.11
+                                        },
+                                        {
+                                            "word":  "Genesis",
+                                            "start":  12.121,
+                                            "end":  12.599
+                                        },
+                                        {
+                                            "word":  "Rock.",
+                                            "start":  12.61,
+                                            "end":  13.067
+                                        }
+                                    ]
+                      }
+                  ]
 }

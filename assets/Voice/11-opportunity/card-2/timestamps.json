@@ -1,386 +1,338 @@
-{
-  "story": "11-opportunity",
-  "card": "card-2",
-  "duration": 17.76,
-  "speechStart": 0.13,
-  "speechEnd": 17.39,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I was supposed to last 90 days and drive about a kilometre.",
-      "start": 0.13,
-      "end": 2.79,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.13,
-          "end": 0.28
-        },
-        {
-          "word": "was",
-          "start": 0.28,
-          "end": 0.45
-        },
-        {
-          "word": "supposed",
-          "start": 0.45,
-          "end": 0.88
-        },
-        {
-          "word": "to",
-          "start": 0.88,
-          "end": 1.04
-        },
-        {
-          "word": "last",
-          "start": 1.04,
-          "end": 1.22
-        },
-        {
-          "word": "90",
-          "start": 1.22,
-          "end": 1.38
-        },
-        {
-          "word": "days",
-          "start": 1.38,
-          "end": 1.55
-        },
-        {
-          "word": "and",
-          "start": 1.55,
-          "end": 1.72
-        },
-        {
-          "word": "drive",
-          "start": 1.72,
-          "end": 1.91
-        },
-        {
-          "word": "about",
-          "start": 1.91,
-          "end": 2.2
-        },
-        {
-          "word": "a",
-          "start": 2.2,
-          "end": 2.36
-        },
-        {
-          "word": "kilometre.",
-          "start": 2.36,
-          "end": 2.79
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "So I just kept going.",
-      "start": 3.19,
-      "end": 3.85,
-      "words": [
-        {
-          "word": "So",
-          "start": 3.19,
-          "end": 3.31
-        },
-        {
-          "word": "I",
-          "start": 3.31,
-          "end": 3.43
-        },
-        {
-          "word": "just",
-          "start": 3.43,
-          "end": 3.57
-        },
-        {
-          "word": "kept",
-          "start": 3.57,
-          "end": 3.71
-        },
-        {
-          "word": "going.",
-          "start": 3.71,
-          "end": 3.85
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I got stuck in a sand dune for weeks and wriggled free.",
-      "start": 4.27,
-      "end": 6.84,
-      "words": [
-        {
-          "word": "I",
-          "start": 4.27,
-          "end": 4.45
-        },
-        {
-          "word": "got",
-          "start": 4.45,
-          "end": 4.65
-        },
-        {
-          "word": "stuck",
-          "start": 4.65,
-          "end": 4.86
-        },
-        {
-          "word": "in",
-          "start": 4.86,
-          "end": 5.05
-        },
-        {
-          "word": "a",
-          "start": 5.05,
-          "end": 5.23
-        },
-        {
-          "word": "sand",
-          "start": 5.23,
-          "end": 5.44
-        },
-        {
-          "word": "dune",
-          "start": 5.44,
-          "end": 5.65
-        },
-        {
-          "word": "for",
-          "start": 5.65,
-          "end": 5.84
-        },
-        {
-          "word": "weeks",
-          "start": 5.84,
-          "end": 6.06
-        },
-        {
-          "word": "and",
-          "start": 6.06,
-          "end": 6.26
-        },
-        {
-          "word": "wriggled",
-          "start": 6.26,
-          "end": 6.63
-        },
-        {
-          "word": "free.",
-          "start": 6.63,
-          "end": 6.84
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I explored one crater after another, each bigger than the last.",
-      "start": 7.25,
-      "end": 10.41,
-      "words": [
-        {
-          "word": "I",
-          "start": 7.25,
-          "end": 7.42
-        },
-        {
-          "word": "explored",
-          "start": 7.42,
-          "end": 7.89
-        },
-        {
-          "word": "one",
-          "start": 7.89,
-          "end": 8.07
-        },
-        {
-          "word": "crater",
-          "start": 8.07,
-          "end": 8.4
-        },
-        {
-          "word": "after",
-          "start": 8.4,
-          "end": 8.73
-        },
-        {
-          "word": "another,",
-          "start": 8.73,
-          "end": 9.3
-        },
-        {
-          "word": "each",
-          "start": 9.3,
-          "end": 9.5
-        },
-        {
-          "word": "bigger",
-          "start": 9.5,
-          "end": 9.83
-        },
-        {
-          "word": "than",
-          "start": 9.83,
-          "end": 10.03
-        },
-        {
-          "word": "the",
-          "start": 10.03,
-          "end": 10.21
-        },
-        {
-          "word": "last.",
-          "start": 10.21,
-          "end": 10.41
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I found a meteorite.",
-      "start": 10.87,
-      "end": 11.62,
-      "words": [
-        {
-          "word": "I",
-          "start": 10.87,
-          "end": 10.99
-        },
-        {
-          "word": "found",
-          "start": 10.99,
-          "end": 11.14
-        },
-        {
-          "word": "a",
-          "start": 11.14,
-          "end": 11.27
-        },
-        {
-          "word": "meteorite.",
-          "start": 11.27,
-          "end": 11.62
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "In 2015 I finished a marathon.",
-      "start": 12.07,
-      "end": 14.11,
-      "words": [
-        {
-          "word": "In",
-          "start": 12.07,
-          "end": 12.29
-        },
-        {
-          "word": "2015",
-          "start": 12.29,
-          "end": 12.53
-        },
-        {
-          "word": "I",
-          "start": 12.53,
-          "end": 12.74
-        },
-        {
-          "word": "finished",
-          "start": 12.74,
-          "end": 13.32
-        },
-        {
-          "word": "a",
-          "start": 13.32,
-          "end": 13.53
-        },
-        {
-          "word": "marathon.",
-          "start": 13.53,
-          "end": 14.11
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "It took me 11 years, which I believe is a record of some kind.",
-      "start": 14.52,
-      "end": 17.39,
-      "words": [
-        {
-          "word": "It",
-          "start": 14.52,
-          "end": 14.69
-        },
-        {
-          "word": "took",
-          "start": 14.69,
-          "end": 14.88
-        },
-        {
-          "word": "me",
-          "start": 14.88,
-          "end": 15.04
-        },
-        {
-          "word": "11",
-          "start": 15.04,
-          "end": 15.21
-        },
-        {
-          "word": "years,",
-          "start": 15.21,
-          "end": 15.52
-        },
-        {
-          "word": "which",
-          "start": 15.52,
-          "end": 15.72
-        },
-        {
-          "word": "I",
-          "start": 15.72,
-          "end": 15.88
-        },
-        {
-          "word": "believe",
-          "start": 15.88,
-          "end": 16.2
-        },
-        {
-          "word": "is",
-          "start": 16.2,
-          "end": 16.37
-        },
-        {
-          "word": "a",
-          "start": 16.37,
-          "end": 16.53
-        },
-        {
-          "word": "record",
-          "start": 16.53,
-          "end": 16.85
-        },
-        {
-          "word": "of",
-          "start": 16.85,
-          "end": 17.02
-        },
-        {
-          "word": "some",
-          "start": 17.02,
-          "end": 17.2
-        },
-        {
-          "word": "kind.",
-          "start": 17.2,
-          "end": 17.39
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "11-opportunity",
+    "card":  "card-2",
+    "duration":  18.84,
+    "speechStart":  0.132,
+    "speechEnd":  18.567,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I was supposed to last 90 days and drive about a kilometre. So I just kept going. I got stuck in a sand dune for weeks and wriggled free. I explored one crater after another, each bigger than the last. I found a meteorite. In 2015 I finished a marathon. It took me 11 years, which I believe is a record of some kind.",
+                          "start":  0.132,
+                          "end":  18.567,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.132,
+                                            "end":  0.197
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  0.208,
+                                            "end":  0.317
+                                        },
+                                        {
+                                            "word":  "supposed",
+                                            "start":  0.328,
+                                            "end":  0.621
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  0.632,
+                                            "end":  0.719
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  0.73,
+                                            "end":  1.056
+                                        },
+                                        {
+                                            "word":  "90",
+                                            "start":  1.056,
+                                            "end":  1.277
+                                        },
+                                        {
+                                            "word":  "days",
+                                            "start":  1.277,
+                                            "end":  1.719
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  1.719,
+                                            "end":  1.849
+                                        },
+                                        {
+                                            "word":  "drive",
+                                            "start":  1.86,
+                                            "end":  2.186
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  2.197,
+                                            "end":  2.447
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  2.458,
+                                            "end":  2.512
+                                        },
+                                        {
+                                            "word":  "kilometre.",
+                                            "start":  2.523,
+                                            "end":  3.099
+                                        },
+                                        {
+                                            "word":  "So",
+                                            "start":  3.418,
+                                            "end":  3.57
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  3.581,
+                                            "end":  3.657
+                                        },
+                                        {
+                                            "word":  "just",
+                                            "start":  3.668,
+                                            "end":  3.874
+                                        },
+                                        {
+                                            "word":  "kept",
+                                            "start":  3.885,
+                                            "end":  4.103
+                                        },
+                                        {
+                                            "word":  "going.",
+                                            "start":  4.114,
+                                            "end":  4.527
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.871,
+                                            "end":  4.915
+                                        },
+                                        {
+                                            "word":  "got",
+                                            "start":  4.926,
+                                            "end":  5.067
+                                        },
+                                        {
+                                            "word":  "stuck",
+                                            "start":  5.078,
+                                            "end":  5.371
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  5.382,
+                                            "end":  5.447
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  5.458,
+                                            "end":  5.502
+                                        },
+                                        {
+                                            "word":  "sand",
+                                            "start":  5.513,
+                                            "end":  5.882
+                                        },
+                                        {
+                                            "word":  "dune",
+                                            "start":  5.893,
+                                            "end":  6.121
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  6.132,
+                                            "end":  6.306
+                                        },
+                                        {
+                                            "word":  "weeks",
+                                            "start":  6.317,
+                                            "end":  6.654
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  6.665,
+                                            "end":  6.817
+                                        },
+                                        {
+                                            "word":  "wriggled",
+                                            "start":  6.828,
+                                            "end":  7.11
+                                        },
+                                        {
+                                            "word":  "free.",
+                                            "start":  7.121,
+                                            "end":  7.48
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  7.828,
+                                            "end":  7.893
+                                        },
+                                        {
+                                            "word":  "explored",
+                                            "start":  7.904,
+                                            "end":  8.371
+                                        },
+                                        {
+                                            "word":  "one",
+                                            "start":  8.382,
+                                            "end":  8.61
+                                        },
+                                        {
+                                            "word":  "crater",
+                                            "start":  8.621,
+                                            "end":  9.045
+                                        },
+                                        {
+                                            "word":  "after",
+                                            "start":  9.056,
+                                            "end":  9.339
+                                        },
+                                        {
+                                            "word":  "another,",
+                                            "start":  9.349,
+                                            "end":  9.806
+                                        },
+                                        {
+                                            "word":  "each",
+                                            "start":  10.11,
+                                            "end":  10.371
+                                        },
+                                        {
+                                            "word":  "bigger",
+                                            "start":  10.382,
+                                            "end":  10.686
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  10.697,
+                                            "end":  10.828
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.839,
+                                            "end":  10.915
+                                        },
+                                        {
+                                            "word":  "last.",
+                                            "start":  10.926,
+                                            "end":  11.393
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.708,
+                                            "end":  11.762
+                                        },
+                                        {
+                                            "word":  "found",
+                                            "start":  11.773,
+                                            "end":  12.056
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.067,
+                                            "end":  12.121
+                                        },
+                                        {
+                                            "word":  "meteorite.",
+                                            "start":  12.132,
+                                            "end":  12.762
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  12.762,
+                                            "end":  13.161
+                                        },
+                                        {
+                                            "word":  "2015",
+                                            "start":  13.161,
+                                            "end":  13.958
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  13.958,
+                                            "end":  14.143
+                                        },
+                                        {
+                                            "word":  "finished",
+                                            "start":  14.154,
+                                            "end":  14.523
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  14.534,
+                                            "end":  14.567
+                                        },
+                                        {
+                                            "word":  "marathon.",
+                                            "start":  14.578,
+                                            "end":  15.154
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  15.469,
+                                            "end":  15.512
+                                        },
+                                        {
+                                            "word":  "took",
+                                            "start":  15.523,
+                                            "end":  15.686
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  15.697,
+                                            "end":  15.817
+                                        },
+                                        {
+                                            "word":  "11",
+                                            "start":  15.817,
+                                            "end":  16.01
+                                        },
+                                        {
+                                            "word":  "years,",
+                                            "start":  16.01,
+                                            "end":  16.589
+                                        },
+                                        {
+                                            "word":  "which",
+                                            "start":  16.589,
+                                            "end":  16.795
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  16.806,
+                                            "end":  16.915
+                                        },
+                                        {
+                                            "word":  "believe",
+                                            "start":  16.926,
+                                            "end":  17.284
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  17.295,
+                                            "end":  17.404
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  17.415,
+                                            "end":  17.469
+                                        },
+                                        {
+                                            "word":  "record",
+                                            "start":  17.48,
+                                            "end":  17.86
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  17.871,
+                                            "end":  17.947
+                                        },
+                                        {
+                                            "word":  "some",
+                                            "start":  17.958,
+                                            "end":  18.154
+                                        },
+                                        {
+                                            "word":  "kind.",
+                                            "start":  18.165,
+                                            "end":  18.567
+                                        }
+                                    ]
+                      }
+                  ]
 }

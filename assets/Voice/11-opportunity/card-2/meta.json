@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/11-opportunity/card-2/narration.mp3",
   "script": "audio/11-opportunity/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/11-opportunity/card-2/timings.json",
+  "vtt": "audio/11-opportunity/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 106560,
-  "duration_seconds": 17.76,
-  "words": 64
+  "bytes": 113040,
+  "duration_seconds": 18.84,
+  "words": 64,
+  "coverage": 0.9062
 }

@@ -1,448 +1,408 @@
-{
-  "story": "07-viking-1-lander",
-  "card": "card-1",
-  "duration": 21.05,
-  "speechStart": 0.18,
-  "speechEnd": 20.73,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "For a long time, nobody on Earth knew what the ground on Mars looked like up close.",
-      "start": 0.18,
-      "end": 4.04,
-      "words": [
-        {
-          "word": "For",
-          "start": 0.18,
-          "end": 0.37
-        },
-        {
-          "word": "a",
-          "start": 0.37,
-          "end": 0.54
-        },
-        {
-          "word": "long",
-          "start": 0.54,
-          "end": 0.74
-        },
-        {
-          "word": "time,",
-          "start": 0.74,
-          "end": 1.06
-        },
-        {
-          "word": "nobody",
-          "start": 1.06,
-          "end": 1.52
-        },
-        {
-          "word": "on",
-          "start": 1.52,
-          "end": 1.7
-        },
-        {
-          "word": "Earth",
-          "start": 1.7,
-          "end": 1.91
-        },
-        {
-          "word": "knew",
-          "start": 1.91,
-          "end": 2.12
-        },
-        {
-          "word": "what",
-          "start": 2.12,
-          "end": 2.32
-        },
-        {
-          "word": "the",
-          "start": 2.32,
-          "end": 2.51
-        },
-        {
-          "word": "ground",
-          "start": 2.51,
-          "end": 2.73
-        },
-        {
-          "word": "on",
-          "start": 2.73,
-          "end": 2.91
-        },
-        {
-          "word": "Mars",
-          "start": 2.91,
-          "end": 3.11
-        },
-        {
-          "word": "looked",
-          "start": 3.11,
-          "end": 3.45
-        },
-        {
-          "word": "like",
-          "start": 3.45,
-          "end": 3.65
-        },
-        {
-          "word": "up",
-          "start": 3.65,
-          "end": 3.83
-        },
-        {
-          "word": "close.",
-          "start": 3.83,
-          "end": 4.04
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "I was sent to find out.",
-      "start": 4.45,
-      "end": 5.25,
-      "words": [
-        {
-          "word": "I",
-          "start": 4.45,
-          "end": 4.57
-        },
-        {
-          "word": "was",
-          "start": 4.57,
-          "end": 4.71
-        },
-        {
-          "word": "sent",
-          "start": 4.71,
-          "end": 4.85
-        },
-        {
-          "word": "to",
-          "start": 4.85,
-          "end": 4.97
-        },
-        {
-          "word": "find",
-          "start": 4.97,
-          "end": 5.12
-        },
-        {
-          "word": "out.",
-          "start": 5.12,
-          "end": 5.25
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "I was supposed to land on July 4, 1976, but the first landing site looked too rough from orbit, so my team spent extra weeks finding a safer one.",
-      "start": 5.68,
-      "end": 14.01,
-      "words": [
-        {
-          "word": "I",
-          "start": 5.68,
-          "end": 5.88
-        },
-        {
-          "word": "was",
-          "start": 5.88,
-          "end": 6.1
-        },
-        {
-          "word": "supposed",
-          "start": 6.1,
-          "end": 6.65
-        },
-        {
-          "word": "to",
-          "start": 6.65,
-          "end": 6.86
-        },
-        {
-          "word": "land",
-          "start": 6.86,
-          "end": 7.09
-        },
-        {
-          "word": "on",
-          "start": 7.09,
-          "end": 7.3
-        },
-        {
-          "word": "July",
-          "start": 7.3,
-          "end": 7.67
-        },
-        {
-          "word": "4,",
-          "start": 7.67,
-          "end": 8.01
-        },
-        {
-          "word": "1976,",
-          "start": 8.01,
-          "end": 8.37
-        },
-        {
-          "word": "but",
-          "start": 8.37,
-          "end": 8.59
-        },
-        {
-          "word": "the",
-          "start": 8.59,
-          "end": 8.81
-        },
-        {
-          "word": "first",
-          "start": 8.81,
-          "end": 9.06
-        },
-        {
-          "word": "landing",
-          "start": 9.06,
-          "end": 9.46
-        },
-        {
-          "word": "site",
-          "start": 9.46,
-          "end": 9.69
-        },
-        {
-          "word": "looked",
-          "start": 9.69,
-          "end": 10.08
-        },
-        {
-          "word": "too",
-          "start": 10.08,
-          "end": 10.3
-        },
-        {
-          "word": "rough",
-          "start": 10.3,
-          "end": 10.54
-        },
-        {
-          "word": "from",
-          "start": 10.54,
-          "end": 10.78
-        },
-        {
-          "word": "orbit,",
-          "start": 10.78,
-          "end": 11.29
-        },
-        {
-          "word": "so",
-          "start": 11.29,
-          "end": 11.5
-        },
-        {
-          "word": "my",
-          "start": 11.5,
-          "end": 11.71
-        },
-        {
-          "word": "team",
-          "start": 11.71,
-          "end": 11.94
-        },
-        {
-          "word": "spent",
-          "start": 11.94,
-          "end": 12.19
-        },
-        {
-          "word": "extra",
-          "start": 12.19,
-          "end": 12.57
-        },
-        {
-          "word": "weeks",
-          "start": 12.57,
-          "end": 12.81
-        },
-        {
-          "word": "finding",
-          "start": 12.81,
-          "end": 13.21
-        },
-        {
-          "word": "a",
-          "start": 13.21,
-          "end": 13.41
-        },
-        {
-          "word": "safer",
-          "start": 13.41,
-          "end": 13.79
-        },
-        {
-          "word": "one.",
-          "start": 13.79,
-          "end": 14.01
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "I touched down on July 20.",
-      "start": 14.43,
-      "end": 15.67,
-      "words": [
-        {
-          "word": "I",
-          "start": 14.43,
-          "end": 14.58
-        },
-        {
-          "word": "touched",
-          "start": 14.58,
-          "end": 14.89
-        },
-        {
-          "word": "down",
-          "start": 14.89,
-          "end": 15.07
-        },
-        {
-          "word": "on",
-          "start": 15.07,
-          "end": 15.23
-        },
-        {
-          "word": "July",
-          "start": 15.23,
-          "end": 15.51
-        },
-        {
-          "word": "20.",
-          "start": 15.51,
-          "end": 15.67
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "The first thing I did was photograph my own foot, to check it was sitting on solid ground.",
-      "start": 16.18,
-      "end": 19.96,
-      "words": [
-        {
-          "word": "The",
-          "start": 16.18,
-          "end": 16.35
-        },
-        {
-          "word": "first",
-          "start": 16.35,
-          "end": 16.54
-        },
-        {
-          "word": "thing",
-          "start": 16.54,
-          "end": 16.73
-        },
-        {
-          "word": "I",
-          "start": 16.73,
-          "end": 16.88
-        },
-        {
-          "word": "did",
-          "start": 16.88,
-          "end": 17.06
-        },
-        {
-          "word": "was",
-          "start": 17.06,
-          "end": 17.23
-        },
-        {
-          "word": "photograph",
-          "start": 17.23,
-          "end": 17.68
-        },
-        {
-          "word": "my",
-          "start": 17.68,
-          "end": 17.84
-        },
-        {
-          "word": "own",
-          "start": 17.84,
-          "end": 18.01
-        },
-        {
-          "word": "foot,",
-          "start": 18.01,
-          "end": 18.3
-        },
-        {
-          "word": "to",
-          "start": 18.3,
-          "end": 18.46
-        },
-        {
-          "word": "check",
-          "start": 18.46,
-          "end": 18.65
-        },
-        {
-          "word": "it",
-          "start": 18.65,
-          "end": 18.82
-        },
-        {
-          "word": "was",
-          "start": 18.82,
-          "end": 18.99
-        },
-        {
-          "word": "sitting",
-          "start": 18.99,
-          "end": 19.3
-        },
-        {
-          "word": "on",
-          "start": 19.3,
-          "end": 19.47
-        },
-        {
-          "word": "solid",
-          "start": 19.47,
-          "end": 19.76
-        },
-        {
-          "word": "ground.",
-          "start": 19.76,
-          "end": 19.96
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "It was.",
-      "start": 20.41,
-      "end": 20.73,
-      "words": [
-        {
-          "word": "It",
-          "start": 20.41,
-          "end": 20.57
-        },
-        {
-          "word": "was.",
-          "start": 20.57,
-          "end": 20.73
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "07-viking-1-lander",
+    "card":  "card-1",
+    "duration":  22.224,
+    "speechStart":  0.132,
+    "speechEnd":  21.954,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "For a long time, nobody on Earth knew what the ground on Mars looked like up close. I was sent to find out.\n\nI was supposed to land on July 4, 1976, but the first landing site looked too rough from orbit, so my team spent extra weeks finding a safer one. I touched down on July 20. The first thing I did was photograph my own foot, to check it was sitting on solid ground. It was.",
+                          "start":  0.132,
+                          "end":  21.954,
+                          "words":  [
+                                        {
+                                            "word":  "For",
+                                            "start":  0.132,
+                                            "end":  0.273
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  0.284,
+                                            "end":  0.339
+                                        },
+                                        {
+                                            "word":  "long",
+                                            "start":  0.349,
+                                            "end":  0.599
+                                        },
+                                        {
+                                            "word":  "time,",
+                                            "start":  0.61,
+                                            "end":  1.023
+                                        },
+                                        {
+                                            "word":  "nobody",
+                                            "start":  1.045,
+                                            "end":  1.426
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  1.436,
+                                            "end":  1.545
+                                        },
+                                        {
+                                            "word":  "Earth",
+                                            "start":  1.556,
+                                            "end":  1.817
+                                        },
+                                        {
+                                            "word":  "knew",
+                                            "start":  1.828,
+                                            "end":  2.089
+                                        },
+                                        {
+                                            "word":  "what",
+                                            "start":  2.099,
+                                            "end":  2.241
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.252,
+                                            "end":  2.317
+                                        },
+                                        {
+                                            "word":  "ground",
+                                            "start":  2.328,
+                                            "end":  2.676
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  2.686,
+                                            "end":  2.806
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  2.817,
+                                            "end":  3.186
+                                        },
+                                        {
+                                            "word":  "looked",
+                                            "start":  3.197,
+                                            "end":  3.393
+                                        },
+                                        {
+                                            "word":  "like",
+                                            "start":  3.404,
+                                            "end":  3.567
+                                        },
+                                        {
+                                            "word":  "up",
+                                            "start":  3.578,
+                                            "end":  3.686
+                                        },
+                                        {
+                                            "word":  "close.",
+                                            "start":  3.697,
+                                            "end":  4.143
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  4.48,
+                                            "end":  4.534
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  4.545,
+                                            "end":  4.676
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  4.686,
+                                            "end":  4.904
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  4.915,
+                                            "end":  4.991
+                                        },
+                                        {
+                                            "word":  "find",
+                                            "start":  5.002,
+                                            "end":  5.339
+                                        },
+                                        {
+                                            "word":  "out.",
+                                            "start":  5.349,
+                                            "end":  5.665
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.013,
+                                            "end":  6.099
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  6.11,
+                                            "end":  6.23
+                                        },
+                                        {
+                                            "word":  "supposed",
+                                            "start":  6.241,
+                                            "end":  6.534
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  6.545,
+                                            "end":  6.61
+                                        },
+                                        {
+                                            "word":  "land",
+                                            "start":  6.621,
+                                            "end":  6.958
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  6.969,
+                                            "end":  7.078
+                                        },
+                                        {
+                                            "word":  "July",
+                                            "start":  7.078,
+                                            "end":  7.833
+                                        },
+                                        {
+                                            "word":  "4,",
+                                            "start":  7.833,
+                                            "end":  8.21
+                                        },
+                                        {
+                                            "word":  "1976,",
+                                            "start":  8.21,
+                                            "end":  9.154
+                                        },
+                                        {
+                                            "word":  "but",
+                                            "start":  9.154,
+                                            "end":  9.263
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  9.273,
+                                            "end":  9.339
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  9.349,
+                                            "end":  9.643
+                                        },
+                                        {
+                                            "word":  "landing",
+                                            "start":  9.654,
+                                            "end":  9.936
+                                        },
+                                        {
+                                            "word":  "site",
+                                            "start":  9.947,
+                                            "end":  10.252
+                                        },
+                                        {
+                                            "word":  "looked",
+                                            "start":  10.263,
+                                            "end":  10.48
+                                        },
+                                        {
+                                            "word":  "too",
+                                            "start":  10.491,
+                                            "end":  10.708
+                                        },
+                                        {
+                                            "word":  "rough",
+                                            "start":  10.719,
+                                            "end":  10.915
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  10.926,
+                                            "end":  11.089
+                                        },
+                                        {
+                                            "word":  "orbit,",
+                                            "start":  11.099,
+                                            "end":  11.426
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  11.915,
+                                            "end":  12.034
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  12.045,
+                                            "end":  12.165
+                                        },
+                                        {
+                                            "word":  "team",
+                                            "start":  12.176,
+                                            "end":  12.48
+                                        },
+                                        {
+                                            "word":  "spent",
+                                            "start":  12.491,
+                                            "end":  12.795
+                                        },
+                                        {
+                                            "word":  "extra",
+                                            "start":  12.86,
+                                            "end":  13.154
+                                        },
+                                        {
+                                            "word":  "weeks",
+                                            "start":  13.165,
+                                            "end":  13.48
+                                        },
+                                        {
+                                            "word":  "finding",
+                                            "start":  13.491,
+                                            "end":  13.806
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  13.817,
+                                            "end":  13.849
+                                        },
+                                        {
+                                            "word":  "safer",
+                                            "start":  13.86,
+                                            "end":  14.186
+                                        },
+                                        {
+                                            "word":  "one.",
+                                            "start":  14.197,
+                                            "end":  14.426
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  14.752,
+                                            "end":  14.806
+                                        },
+                                        {
+                                            "word":  "touched",
+                                            "start":  14.817,
+                                            "end":  15.121
+                                        },
+                                        {
+                                            "word":  "down",
+                                            "start":  15.132,
+                                            "end":  15.447
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  15.458,
+                                            "end":  15.632
+                                        },
+                                        {
+                                            "word":  "July",
+                                            "start":  15.632,
+                                            "end":  16.365
+                                        },
+                                        {
+                                            "word":  "20.",
+                                            "start":  16.365,
+                                            "end":  16.915
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  16.915,
+                                            "end":  16.98
+                                        },
+                                        {
+                                            "word":  "first",
+                                            "start":  16.991,
+                                            "end":  17.252
+                                        },
+                                        {
+                                            "word":  "thing",
+                                            "start":  17.263,
+                                            "end":  17.426
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  17.436,
+                                            "end":  17.523
+                                        },
+                                        {
+                                            "word":  "did",
+                                            "start":  17.534,
+                                            "end":  17.773
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  17.784,
+                                            "end":  17.947
+                                        },
+                                        {
+                                            "word":  "photograph",
+                                            "start":  17.958,
+                                            "end":  18.458
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  18.469,
+                                            "end":  18.621
+                                        },
+                                        {
+                                            "word":  "own",
+                                            "start":  18.632,
+                                            "end":  18.795
+                                        },
+                                        {
+                                            "word":  "foot,",
+                                            "start":  18.806,
+                                            "end":  19.197
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  19.436,
+                                            "end":  19.534
+                                        },
+                                        {
+                                            "word":  "check",
+                                            "start":  19.545,
+                                            "end":  19.806
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  19.817,
+                                            "end":  19.882
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  19.893,
+                                            "end":  20.002
+                                        },
+                                        {
+                                            "word":  "sitting",
+                                            "start":  20.013,
+                                            "end":  20.284
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  20.295,
+                                            "end":  20.415
+                                        },
+                                        {
+                                            "word":  "solid",
+                                            "start":  20.426,
+                                            "end":  20.741
+                                        },
+                                        {
+                                            "word":  "ground.",
+                                            "start":  20.752,
+                                            "end":  21.176
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  21.497,
+                                            "end":  21.639
+                                        },
+                                        {
+                                            "word":  "was.",
+                                            "start":  21.649,
+                                            "end":  21.954
+                                        }
+                                    ]
+                      }
+                  ]
 }

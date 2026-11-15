@@ -1,430 +1,398 @@
-{
-  "story": "03-lunar-roving-vehicle-1",
-  "card": "card-3",
-  "duration": 18.62,
-  "speechStart": 0.13,
-  "speechEnd": 18.2,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "On the last day, Dave parked me a short way from the lander so my camera could watch them leave.",
-      "start": 0.13,
-      "end": 4.41,
-      "words": [
-        {
-          "word": "On",
-          "start": 0.13,
-          "end": 0.3
-        },
-        {
-          "word": "the",
-          "start": 0.3,
-          "end": 0.48
-        },
-        {
-          "word": "last",
-          "start": 0.48,
-          "end": 0.67
-        },
-        {
-          "word": "day,",
-          "start": 0.67,
-          "end": 0.96
-        },
-        {
-          "word": "Dave",
-          "start": 0.96,
-          "end": 1.15
-        },
-        {
-          "word": "parked",
-          "start": 1.15,
-          "end": 1.47
-        },
-        {
-          "word": "me",
-          "start": 1.47,
-          "end": 1.64
-        },
-        {
-          "word": "a",
-          "start": 1.64,
-          "end": 1.8
-        },
-        {
-          "word": "short",
-          "start": 1.8,
-          "end": 1.99
-        },
-        {
-          "word": "way",
-          "start": 1.99,
-          "end": 2.17
-        },
-        {
-          "word": "from",
-          "start": 2.17,
-          "end": 2.36
-        },
-        {
-          "word": "the",
-          "start": 2.36,
-          "end": 2.54
-        },
-        {
-          "word": "lander",
-          "start": 2.54,
-          "end": 2.86
-        },
-        {
-          "word": "so",
-          "start": 2.86,
-          "end": 3.03
-        },
-        {
-          "word": "my",
-          "start": 3.03,
-          "end": 3.2
-        },
-        {
-          "word": "camera",
-          "start": 3.2,
-          "end": 3.63
-        },
-        {
-          "word": "could",
-          "start": 3.63,
-          "end": 3.83
-        },
-        {
-          "word": "watch",
-          "start": 3.83,
-          "end": 4.02
-        },
-        {
-          "word": "them",
-          "start": 4.02,
-          "end": 4.21
-        },
-        {
-          "word": "leave.",
-          "start": 4.21,
-          "end": 4.41
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "First he stood in front of the camera and dropped a hammer and a feather at the same moment.",
-      "start": 4.94,
-      "end": 8.58,
-      "words": [
-        {
-          "word": "First",
-          "start": 4.94,
-          "end": 5.11
-        },
-        {
-          "word": "he",
-          "start": 5.11,
-          "end": 5.26
-        },
-        {
-          "word": "stood",
-          "start": 5.26,
-          "end": 5.43
-        },
-        {
-          "word": "in",
-          "start": 5.43,
-          "end": 5.57
-        },
-        {
-          "word": "front",
-          "start": 5.57,
-          "end": 5.74
-        },
-        {
-          "word": "of",
-          "start": 5.74,
-          "end": 5.89
-        },
-        {
-          "word": "the",
-          "start": 5.89,
-          "end": 6.04
-        },
-        {
-          "word": "camera",
-          "start": 6.04,
-          "end": 6.42
-        },
-        {
-          "word": "and",
-          "start": 6.42,
-          "end": 6.57
-        },
-        {
-          "word": "dropped",
-          "start": 6.57,
-          "end": 6.85
-        },
-        {
-          "word": "a",
-          "start": 6.85,
-          "end": 6.99
-        },
-        {
-          "word": "hammer",
-          "start": 6.99,
-          "end": 7.27
-        },
-        {
-          "word": "and",
-          "start": 7.27,
-          "end": 7.42
-        },
-        {
-          "word": "a",
-          "start": 7.42,
-          "end": 7.56
-        },
-        {
-          "word": "feather",
-          "start": 7.56,
-          "end": 7.84
-        },
-        {
-          "word": "at",
-          "start": 7.84,
-          "end": 7.99
-        },
-        {
-          "word": "the",
-          "start": 7.99,
-          "end": 8.14
-        },
-        {
-          "word": "same",
-          "start": 8.14,
-          "end": 8.31
-        },
-        {
-          "word": "moment.",
-          "start": 8.31,
-          "end": 8.58
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "With no air to slow the feather, they hit the ground together, just as Galileo said they would.",
-      "start": 9.06,
-      "end": 13.61,
-      "words": [
-        {
-          "word": "With",
-          "start": 9.06,
-          "end": 9.26
-        },
-        {
-          "word": "no",
-          "start": 9.26,
-          "end": 9.45
-        },
-        {
-          "word": "air",
-          "start": 9.45,
-          "end": 9.64
-        },
-        {
-          "word": "to",
-          "start": 9.64,
-          "end": 9.83
-        },
-        {
-          "word": "slow",
-          "start": 9.83,
-          "end": 10.03
-        },
-        {
-          "word": "the",
-          "start": 10.03,
-          "end": 10.22
-        },
-        {
-          "word": "feather,",
-          "start": 10.22,
-          "end": 10.7
-        },
-        {
-          "word": "they",
-          "start": 10.7,
-          "end": 10.9
-        },
-        {
-          "word": "hit",
-          "start": 10.9,
-          "end": 11.1
-        },
-        {
-          "word": "the",
-          "start": 11.1,
-          "end": 11.29
-        },
-        {
-          "word": "ground",
-          "start": 11.29,
-          "end": 11.52
-        },
-        {
-          "word": "together,",
-          "start": 11.52,
-          "end": 12.12
-        },
-        {
-          "word": "just",
-          "start": 12.12,
-          "end": 12.33
-        },
-        {
-          "word": "as",
-          "start": 12.33,
-          "end": 12.51
-        },
-        {
-          "word": "Galileo",
-          "start": 12.51,
-          "end": 12.99
-        },
-        {
-          "word": "said",
-          "start": 12.99,
-          "end": 13.19
-        },
-        {
-          "word": "they",
-          "start": 13.19,
-          "end": 13.4
-        },
-        {
-          "word": "would.",
-          "start": 13.4,
-          "end": 13.61
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Then the engine fired and they were gone.",
-      "start": 14.01,
-      "end": 15.63,
-      "words": [
-        {
-          "word": "Then",
-          "start": 14.01,
-          "end": 14.19
-        },
-        {
-          "word": "the",
-          "start": 14.19,
-          "end": 14.35
-        },
-        {
-          "word": "engine",
-          "start": 14.35,
-          "end": 14.65
-        },
-        {
-          "word": "fired",
-          "start": 14.65,
-          "end": 14.94
-        },
-        {
-          "word": "and",
-          "start": 14.94,
-          "end": 15.1
-        },
-        {
-          "word": "they",
-          "start": 15.1,
-          "end": 15.28
-        },
-        {
-          "word": "were",
-          "start": 15.28,
-          "end": 15.45
-        },
-        {
-          "word": "gone.",
-          "start": 15.45,
-          "end": 15.63
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "I am still parked here, facing the spot where they left.",
-      "start": 16.03,
-      "end": 18.2,
-      "words": [
-        {
-          "word": "I",
-          "start": 16.03,
-          "end": 16.18
-        },
-        {
-          "word": "am",
-          "start": 16.18,
-          "end": 16.33
-        },
-        {
-          "word": "still",
-          "start": 16.33,
-          "end": 16.51
-        },
-        {
-          "word": "parked",
-          "start": 16.51,
-          "end": 16.79
-        },
-        {
-          "word": "here,",
-          "start": 16.79,
-          "end": 17.06
-        },
-        {
-          "word": "facing",
-          "start": 17.06,
-          "end": 17.35
-        },
-        {
-          "word": "the",
-          "start": 17.35,
-          "end": 17.51
-        },
-        {
-          "word": "spot",
-          "start": 17.51,
-          "end": 17.68
-        },
-        {
-          "word": "where",
-          "start": 17.68,
-          "end": 17.86
-        },
-        {
-          "word": "they",
-          "start": 17.86,
-          "end": 18.03
-        },
-        {
-          "word": "left.",
-          "start": 18.03,
-          "end": 18.2
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "03-lunar-roving-vehicle-1",
+    "card":  "card-3",
+    "duration":  20.496,
+    "speechStart":  0.132,
+    "speechEnd":  20.219,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "On the last day, Dave parked me a short way from the lander so my camera could watch them leave. First he stood in front of the camera and dropped a hammer and a feather at the same moment. With no air to slow the feather, they hit the ground together, just as Galileo said they would.\n\nThen the engine fired and they were gone. I am still parked here, facing the spot where they left.",
+                          "start":  0.132,
+                          "end":  20.219,
+                          "words":  [
+                                        {
+                                            "word":  "On",
+                                            "start":  0.132,
+                                            "end":  0.23
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.241,
+                                            "end":  0.306
+                                        },
+                                        {
+                                            "word":  "last",
+                                            "start":  0.317,
+                                            "end":  0.6
+                                        },
+                                        {
+                                            "word":  "day,",
+                                            "start":  0.61,
+                                            "end":  0.915
+                                        },
+                                        {
+                                            "word":  "Dave",
+                                            "start":  1.36,
+                                            "end":  1.643
+                                        },
+                                        {
+                                            "word":  "parked",
+                                            "start":  1.654,
+                                            "end":  1.915
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  1.926,
+                                            "end":  2.056
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  2.067,
+                                            "end":  2.099
+                                        },
+                                        {
+                                            "word":  "short",
+                                            "start":  2.11,
+                                            "end":  2.404
+                                        },
+                                        {
+                                            "word":  "way",
+                                            "start":  2.415,
+                                            "end":  2.632
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  2.643,
+                                            "end":  2.773
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  2.784,
+                                            "end":  2.849
+                                        },
+                                        {
+                                            "word":  "lander",
+                                            "start":  2.86,
+                                            "end":  3.165
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  3.176,
+                                            "end":  3.306
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  3.317,
+                                            "end":  3.436
+                                        },
+                                        {
+                                            "word":  "camera",
+                                            "start":  3.447,
+                                            "end":  3.817
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  3.828,
+                                            "end":  3.98
+                                        },
+                                        {
+                                            "word":  "watch",
+                                            "start":  3.991,
+                                            "end":  4.23
+                                        },
+                                        {
+                                            "word":  "them",
+                                            "start":  4.241,
+                                            "end":  4.382
+                                        },
+                                        {
+                                            "word":  "leave.",
+                                            "start":  4.393,
+                                            "end":  4.73
+                                        },
+                                        {
+                                            "word":  "First",
+                                            "start":  5.078,
+                                            "end":  5.382
+                                        },
+                                        {
+                                            "word":  "he",
+                                            "start":  5.393,
+                                            "end":  5.48
+                                        },
+                                        {
+                                            "word":  "stood",
+                                            "start":  5.491,
+                                            "end":  5.795
+                                        },
+                                        {
+                                            "word":  "in",
+                                            "start":  5.806,
+                                            "end":  5.936
+                                        },
+                                        {
+                                            "word":  "front",
+                                            "start":  5.947,
+                                            "end":  6.143
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  6.154,
+                                            "end":  6.197
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.208,
+                                            "end":  6.262
+                                        },
+                                        {
+                                            "word":  "camera",
+                                            "start":  6.273,
+                                            "end":  6.73
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  6.741,
+                                            "end":  6.871
+                                        },
+                                        {
+                                            "word":  "dropped",
+                                            "start":  6.882,
+                                            "end":  7.186
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  7.197,
+                                            "end":  7.241
+                                        },
+                                        {
+                                            "word":  "hammer",
+                                            "start":  7.252,
+                                            "end":  7.708
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  7.719,
+                                            "end":  7.817
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  7.828,
+                                            "end":  7.882
+                                        },
+                                        {
+                                            "word":  "feather",
+                                            "start":  7.893,
+                                            "end":  8.273
+                                        },
+                                        {
+                                            "word":  "at",
+                                            "start":  8.284,
+                                            "end":  8.382
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  8.393,
+                                            "end":  8.458
+                                        },
+                                        {
+                                            "word":  "same",
+                                            "start":  8.469,
+                                            "end":  8.719
+                                        },
+                                        {
+                                            "word":  "moment.",
+                                            "start":  8.73,
+                                            "end":  9.11
+                                        },
+                                        {
+                                            "word":  "With",
+                                            "start":  9.469,
+                                            "end":  9.589
+                                        },
+                                        {
+                                            "word":  "no",
+                                            "start":  9.599,
+                                            "end":  9.839
+                                        },
+                                        {
+                                            "word":  "air",
+                                            "start":  9.849,
+                                            "end":  10.089
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  10.099,
+                                            "end":  10.186
+                                        },
+                                        {
+                                            "word":  "slow",
+                                            "start":  10.197,
+                                            "end":  10.512
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.523,
+                                            "end":  10.599
+                                        },
+                                        {
+                                            "word":  "feather,",
+                                            "start":  10.61,
+                                            "end":  11.056
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  11.491,
+                                            "end":  11.632
+                                        },
+                                        {
+                                            "word":  "hit",
+                                            "start":  11.643,
+                                            "end":  11.871
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  11.882,
+                                            "end":  11.947
+                                        },
+                                        {
+                                            "word":  "ground",
+                                            "start":  11.958,
+                                            "end":  12.262
+                                        },
+                                        {
+                                            "word":  "together,",
+                                            "start":  12.273,
+                                            "end":  12.752
+                                        },
+                                        {
+                                            "word":  "just",
+                                            "start":  13.121,
+                                            "end":  13.404
+                                        },
+                                        {
+                                            "word":  "as",
+                                            "start":  13.415,
+                                            "end":  13.513
+                                        },
+                                        {
+                                            "word":  "Galileo",
+                                            "start":  13.523,
+                                            "end":  14.023
+                                        },
+                                        {
+                                            "word":  "said",
+                                            "start":  14.034,
+                                            "end":  14.241
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  14.252,
+                                            "end":  14.371
+                                        },
+                                        {
+                                            "word":  "would.",
+                                            "start":  14.382,
+                                            "end":  14.676
+                                        },
+                                        {
+                                            "word":  "Then",
+                                            "start":  15.013,
+                                            "end":  15.208
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.219,
+                                            "end":  15.273
+                                        },
+                                        {
+                                            "word":  "engine",
+                                            "start":  15.284,
+                                            "end":  15.643
+                                        },
+                                        {
+                                            "word":  "fired",
+                                            "start":  15.654,
+                                            "end":  16.165
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  16.176,
+                                            "end":  16.284
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  16.295,
+                                            "end":  16.404
+                                        },
+                                        {
+                                            "word":  "were",
+                                            "start":  16.415,
+                                            "end":  16.534
+                                        },
+                                        {
+                                            "word":  "gone.",
+                                            "start":  16.545,
+                                            "end":  16.947
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  17.284,
+                                            "end":  17.349
+                                        },
+                                        {
+                                            "word":  "am",
+                                            "start":  17.36,
+                                            "end":  17.436
+                                        },
+                                        {
+                                            "word":  "still",
+                                            "start":  17.447,
+                                            "end":  17.708
+                                        },
+                                        {
+                                            "word":  "parked",
+                                            "start":  17.719,
+                                            "end":  18.012
+                                        },
+                                        {
+                                            "word":  "here,",
+                                            "start":  18.023,
+                                            "end":  18.371
+                                        },
+                                        {
+                                            "word":  "facing",
+                                            "start":  18.686,
+                                            "end":  19.089
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  19.099,
+                                            "end":  19.165
+                                        },
+                                        {
+                                            "word":  "spot",
+                                            "start":  19.176,
+                                            "end":  19.545
+                                        },
+                                        {
+                                            "word":  "where",
+                                            "start":  19.556,
+                                            "end":  19.676
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  19.686,
+                                            "end":  19.795
+                                        },
+                                        {
+                                            "word":  "left.",
+                                            "start":  19.806,
+                                            "end":  20.219
+                                        }
+                                    ]
+                      }
+                  ]
 }

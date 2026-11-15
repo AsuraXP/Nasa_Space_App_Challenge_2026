@@ -1,446 +1,398 @@
-{
-  "story": "05-lunar-roving-vehicle-3",
-  "card": "card-2",
-  "duration": 21.12,
-  "speechStart": 0.13,
-  "speechEnd": 20.85,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Early on, Gene caught his hammer on my rear fender and broke a piece off.",
-      "start": 0.13,
-      "end": 3.66,
-      "words": [
-        {
-          "word": "Early",
-          "start": 0.13,
-          "end": 0.47
-        },
-        {
-          "word": "on,",
-          "start": 0.47,
-          "end": 0.77
-        },
-        {
-          "word": "Gene",
-          "start": 0.77,
-          "end": 0.98
-        },
-        {
-          "word": "caught",
-          "start": 0.98,
-          "end": 1.2
-        },
-        {
-          "word": "his",
-          "start": 1.2,
-          "end": 1.4
-        },
-        {
-          "word": "hammer",
-          "start": 1.4,
-          "end": 1.74
-        },
-        {
-          "word": "on",
-          "start": 1.74,
-          "end": 1.93
-        },
-        {
-          "word": "my",
-          "start": 1.93,
-          "end": 2.11
-        },
-        {
-          "word": "rear",
-          "start": 2.11,
-          "end": 2.32
-        },
-        {
-          "word": "fender",
-          "start": 2.32,
-          "end": 2.67
-        },
-        {
-          "word": "and",
-          "start": 2.67,
-          "end": 2.86
-        },
-        {
-          "word": "broke",
-          "start": 2.86,
-          "end": 3.08
-        },
-        {
-          "word": "a",
-          "start": 3.08,
-          "end": 3.25
-        },
-        {
-          "word": "piece",
-          "start": 3.25,
-          "end": 3.47
-        },
-        {
-          "word": "off.",
-          "start": 3.47,
-          "end": 3.66
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "Without it, my wheel sprayed dust all over the two of them.",
-      "start": 4.13,
-      "end": 6.62,
-      "words": [
-        {
-          "word": "Without",
-          "start": 4.13,
-          "end": 4.45
-        },
-        {
-          "word": "it,",
-          "start": 4.45,
-          "end": 4.72
-        },
-        {
-          "word": "my",
-          "start": 4.72,
-          "end": 4.88
-        },
-        {
-          "word": "wheel",
-          "start": 4.88,
-          "end": 5.07
-        },
-        {
-          "word": "sprayed",
-          "start": 5.07,
-          "end": 5.28
-        },
-        {
-          "word": "dust",
-          "start": 5.28,
-          "end": 5.46
-        },
-        {
-          "word": "all",
-          "start": 5.46,
-          "end": 5.64
-        },
-        {
-          "word": "over",
-          "start": 5.64,
-          "end": 5.93
-        },
-        {
-          "word": "the",
-          "start": 5.93,
-          "end": 6.1
-        },
-        {
-          "word": "two",
-          "start": 6.1,
-          "end": 6.27
-        },
-        {
-          "word": "of",
-          "start": 6.27,
-          "end": 6.44
-        },
-        {
-          "word": "them.",
-          "start": 6.44,
-          "end": 6.62
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "The fix was four maps, some duct tape and two clamps.",
-      "start": 7.05,
-      "end": 9.87,
-      "words": [
-        {
-          "word": "The",
-          "start": 7.05,
-          "end": 7.28
-        },
-        {
-          "word": "fix",
-          "start": 7.28,
-          "end": 7.52
-        },
-        {
-          "word": "was",
-          "start": 7.52,
-          "end": 7.75
-        },
-        {
-          "word": "four",
-          "start": 7.75,
-          "end": 8.0
-        },
-        {
-          "word": "maps,",
-          "start": 8.0,
-          "end": 8.39
-        },
-        {
-          "word": "some",
-          "start": 8.39,
-          "end": 8.64
-        },
-        {
-          "word": "duct",
-          "start": 8.64,
-          "end": 8.89
-        },
-        {
-          "word": "tape",
-          "start": 8.89,
-          "end": 9.13
-        },
-        {
-          "word": "and",
-          "start": 9.13,
-          "end": 9.37
-        },
-        {
-          "word": "two",
-          "start": 9.37,
-          "end": 9.6
-        },
-        {
-          "word": "clamps.",
-          "start": 9.6,
-          "end": 9.87
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "It lasted the rest of the trip.",
-      "start": 10.28,
-      "end": 11.39,
-      "words": [
-        {
-          "word": "It",
-          "start": 10.28,
-          "end": 10.42
-        },
-        {
-          "word": "lasted",
-          "start": 10.42,
-          "end": 10.67
-        },
-        {
-          "word": "the",
-          "start": 10.67,
-          "end": 10.81
-        },
-        {
-          "word": "rest",
-          "start": 10.81,
-          "end": 10.96
-        },
-        {
-          "word": "of",
-          "start": 10.96,
-          "end": 11.1
-        },
-        {
-          "word": "the",
-          "start": 11.1,
-          "end": 11.24
-        },
-        {
-          "word": "trip.",
-          "start": 11.24,
-          "end": 11.39
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "At a crater called Shorty, Jack suddenly called out that the soil was orange.",
-      "start": 11.84,
-      "end": 15.44,
-      "words": [
-        {
-          "word": "At",
-          "start": 11.84,
-          "end": 12.01
-        },
-        {
-          "word": "a",
-          "start": 12.01,
-          "end": 12.17
-        },
-        {
-          "word": "crater",
-          "start": 12.17,
-          "end": 12.49
-        },
-        {
-          "word": "called",
-          "start": 12.49,
-          "end": 12.81
-        },
-        {
-          "word": "Shorty,",
-          "start": 12.81,
-          "end": 13.24
-        },
-        {
-          "word": "Jack",
-          "start": 13.24,
-          "end": 13.43
-        },
-        {
-          "word": "suddenly",
-          "start": 13.43,
-          "end": 13.88
-        },
-        {
-          "word": "called",
-          "start": 13.88,
-          "end": 14.2
-        },
-        {
-          "word": "out",
-          "start": 14.2,
-          "end": 14.38
-        },
-        {
-          "word": "that",
-          "start": 14.38,
-          "end": 14.57
-        },
-        {
-          "word": "the",
-          "start": 14.57,
-          "end": 14.75
-        },
-        {
-          "word": "soil",
-          "start": 14.75,
-          "end": 14.94
-        },
-        {
-          "word": "was",
-          "start": 14.94,
-          "end": 15.12
-        },
-        {
-          "word": "orange.",
-          "start": 15.12,
-          "end": 15.44
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "It really was.",
-      "start": 15.84,
-      "end": 16.4,
-      "words": [
-        {
-          "word": "It",
-          "start": 15.84,
-          "end": 15.98
-        },
-        {
-          "word": "really",
-          "start": 15.98,
-          "end": 16.25
-        },
-        {
-          "word": "was.",
-          "start": 16.25,
-          "end": 16.4
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "Tiny beads of volcanic glass from an eruption more than three billion years ago.",
-      "start": 16.8,
-      "end": 20.85,
-      "words": [
-        {
-          "word": "Tiny",
-          "start": 16.8,
-          "end": 17.15
-        },
-        {
-          "word": "beads",
-          "start": 17.15,
-          "end": 17.37
-        },
-        {
-          "word": "of",
-          "start": 17.37,
-          "end": 17.57
-        },
-        {
-          "word": "volcanic",
-          "start": 17.57,
-          "end": 18.09
-        },
-        {
-          "word": "glass",
-          "start": 18.09,
-          "end": 18.32
-        },
-        {
-          "word": "from",
-          "start": 18.32,
-          "end": 18.53
-        },
-        {
-          "word": "an",
-          "start": 18.53,
-          "end": 18.73
-        },
-        {
-          "word": "eruption",
-          "start": 18.73,
-          "end": 19.25
-        },
-        {
-          "word": "more",
-          "start": 19.25,
-          "end": 19.46
-        },
-        {
-          "word": "than",
-          "start": 19.46,
-          "end": 19.68
-        },
-        {
-          "word": "three",
-          "start": 19.68,
-          "end": 19.91
-        },
-        {
-          "word": "billion",
-          "start": 19.91,
-          "end": 20.29
-        },
-        {
-          "word": "years",
-          "start": 20.29,
-          "end": 20.51
-        },
-        {
-          "word": "ago.",
-          "start": 20.51,
-          "end": 20.85
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "05-lunar-roving-vehicle-3",
+    "card":  "card-2",
+    "duration":  21.936,
+    "speechStart":  0.132,
+    "speechEnd":  21.665,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Early on, Gene caught his hammer on my rear fender and broke a piece off. Without it, my wheel sprayed dust all over the two of them. The fix was four maps, some duct tape and two clamps. It lasted the rest of the trip.\n\nAt a crater called Shorty, Jack suddenly called out that the soil was orange. It really was. Tiny beads of volcanic glass from an eruption more than three billion years ago.",
+                          "start":  0.132,
+                          "end":  21.665,
+                          "words":  [
+                                        {
+                                            "word":  "Early",
+                                            "start":  0.132,
+                                            "end":  0.382
+                                        },
+                                        {
+                                            "word":  "on,",
+                                            "start":  0.393,
+                                            "end":  0.752
+                                        },
+                                        {
+                                            "word":  "Gene",
+                                            "start":  1.186,
+                                            "end":  1.512
+                                        },
+                                        {
+                                            "word":  "caught",
+                                            "start":  1.523,
+                                            "end":  1.708
+                                        },
+                                        {
+                                            "word":  "his",
+                                            "start":  1.719,
+                                            "end":  1.839
+                                        },
+                                        {
+                                            "word":  "hammer",
+                                            "start":  1.849,
+                                            "end":  2.208
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  2.219,
+                                            "end":  2.317
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  2.328,
+                                            "end":  2.469
+                                        },
+                                        {
+                                            "word":  "rear",
+                                            "start":  2.48,
+                                            "end":  2.719
+                                        },
+                                        {
+                                            "word":  "fender",
+                                            "start":  2.73,
+                                            "end":  3.121
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  3.132,
+                                            "end":  3.252
+                                        },
+                                        {
+                                            "word":  "broke",
+                                            "start":  3.263,
+                                            "end":  3.48
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  3.491,
+                                            "end":  3.545
+                                        },
+                                        {
+                                            "word":  "piece",
+                                            "start":  3.556,
+                                            "end":  3.795
+                                        },
+                                        {
+                                            "word":  "off.",
+                                            "start":  3.806,
+                                            "end":  4.11
+                                        },
+                                        {
+                                            "word":  "Without",
+                                            "start":  4.458,
+                                            "end":  4.773
+                                        },
+                                        {
+                                            "word":  "it,",
+                                            "start":  4.784,
+                                            "end":  4.958
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  4.98,
+                                            "end":  5.154
+                                        },
+                                        {
+                                            "word":  "wheel",
+                                            "start":  5.165,
+                                            "end":  5.284
+                                        },
+                                        {
+                                            "word":  "sprayed",
+                                            "start":  5.295,
+                                            "end":  5.762
+                                        },
+                                        {
+                                            "word":  "dust",
+                                            "start":  5.773,
+                                            "end":  6.023
+                                        },
+                                        {
+                                            "word":  "all",
+                                            "start":  6.045,
+                                            "end":  6.262
+                                        },
+                                        {
+                                            "word":  "over",
+                                            "start":  6.273,
+                                            "end":  6.447
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  6.458,
+                                            "end":  6.534
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  6.545,
+                                            "end":  6.73
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  6.741,
+                                            "end":  6.839
+                                        },
+                                        {
+                                            "word":  "them.",
+                                            "start":  6.849,
+                                            "end":  7.099
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  7.447,
+                                            "end":  7.512
+                                        },
+                                        {
+                                            "word":  "fix",
+                                            "start":  7.523,
+                                            "end":  7.795
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  7.806,
+                                            "end":  7.969
+                                        },
+                                        {
+                                            "word":  "four",
+                                            "start":  7.98,
+                                            "end":  8.219
+                                        },
+                                        {
+                                            "word":  "maps,",
+                                            "start":  8.23,
+                                            "end":  8.599
+                                        },
+                                        {
+                                            "word":  "some",
+                                            "start":  8.61,
+                                            "end":  8.828
+                                        },
+                                        {
+                                            "word":  "duct",
+                                            "start":  8.839,
+                                            "end":  9.078
+                                        },
+                                        {
+                                            "word":  "tape",
+                                            "start":  9.089,
+                                            "end":  9.349
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  9.36,
+                                            "end":  9.447
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  9.458,
+                                            "end":  9.599
+                                        },
+                                        {
+                                            "word":  "clamps.",
+                                            "start":  9.61,
+                                            "end":  10.067
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  10.389,
+                                            "end":  10.541
+                                        },
+                                        {
+                                            "word":  "lasted",
+                                            "start":  10.552,
+                                            "end":  11.019
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  11.03,
+                                            "end":  11.106
+                                        },
+                                        {
+                                            "word":  "rest",
+                                            "start":  11.117,
+                                            "end":  11.41
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  11.421,
+                                            "end":  11.486
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  11.497,
+                                            "end":  11.562
+                                        },
+                                        {
+                                            "word":  "trip.",
+                                            "start":  11.573,
+                                            "end":  12.019
+                                        },
+                                        {
+                                            "word":  "At",
+                                            "start":  12.36,
+                                            "end":  12.426
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  12.436,
+                                            "end":  12.48
+                                        },
+                                        {
+                                            "word":  "crater",
+                                            "start":  12.491,
+                                            "end":  12.806
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  12.817,
+                                            "end":  13.023
+                                        },
+                                        {
+                                            "word":  "Shorty,",
+                                            "start":  13.034,
+                                            "end":  13.512
+                                        },
+                                        {
+                                            "word":  "Jack",
+                                            "start":  13.936,
+                                            "end":  14.241
+                                        },
+                                        {
+                                            "word":  "suddenly",
+                                            "start":  14.252,
+                                            "end":  14.578
+                                        },
+                                        {
+                                            "word":  "called",
+                                            "start":  14.589,
+                                            "end":  14.849
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  14.86,
+                                            "end":  15.078
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  15.089,
+                                            "end":  15.208
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.219,
+                                            "end":  15.284
+                                        },
+                                        {
+                                            "word":  "soil",
+                                            "start":  15.295,
+                                            "end":  15.643
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  15.654,
+                                            "end":  15.784
+                                        },
+                                        {
+                                            "word":  "orange.",
+                                            "start":  15.795,
+                                            "end":  16.295
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  16.617,
+                                            "end":  16.747
+                                        },
+                                        {
+                                            "word":  "really",
+                                            "start":  16.758,
+                                            "end":  16.997
+                                        },
+                                        {
+                                            "word":  "was.",
+                                            "start":  17.008,
+                                            "end":  17.399
+                                        },
+                                        {
+                                            "word":  "Tiny",
+                                            "start":  17.741,
+                                            "end":  18.056
+                                        },
+                                        {
+                                            "word":  "beads",
+                                            "start":  18.067,
+                                            "end":  18.382
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  18.393,
+                                            "end":  18.48
+                                        },
+                                        {
+                                            "word":  "volcanic",
+                                            "start":  18.491,
+                                            "end":  18.926
+                                        },
+                                        {
+                                            "word":  "glass",
+                                            "start":  18.936,
+                                            "end":  19.339
+                                        },
+                                        {
+                                            "word":  "from",
+                                            "start":  19.349,
+                                            "end":  19.534
+                                        },
+                                        {
+                                            "word":  "an",
+                                            "start":  19.545,
+                                            "end":  19.599
+                                        },
+                                        {
+                                            "word":  "eruption",
+                                            "start":  19.61,
+                                            "end":  20.11
+                                        },
+                                        {
+                                            "word":  "more",
+                                            "start":  20.121,
+                                            "end":  20.349
+                                        },
+                                        {
+                                            "word":  "than",
+                                            "start":  20.36,
+                                            "end":  20.502
+                                        },
+                                        {
+                                            "word":  "three",
+                                            "start":  20.513,
+                                            "end":  20.795
+                                        },
+                                        {
+                                            "word":  "billion",
+                                            "start":  20.806,
+                                            "end":  21.099
+                                        },
+                                        {
+                                            "word":  "years",
+                                            "start":  21.11,
+                                            "end":  21.339
+                                        },
+                                        {
+                                            "word":  "ago.",
+                                            "start":  21.349,
+                                            "end":  21.665
+                                        }
+                                    ]
+                      }
+                  ]
 }

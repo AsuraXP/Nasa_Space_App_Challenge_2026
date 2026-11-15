@@ -1,343 +1,303 @@
-{
-  "story": "04-lunar-roving-vehicle-2",
-  "card": "card-3",
-  "duration": 15.22,
-  "speechStart": 0.14,
-  "speechEnd": 14.9,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "One of the rocks we collected weighs almost 12 kilograms.",
-      "start": 0.14,
-      "end": 3.0,
-      "words": [
-        {
-          "word": "One",
-          "start": 0.14,
-          "end": 0.34
-        },
-        {
-          "word": "of",
-          "start": 0.34,
-          "end": 0.54
-        },
-        {
-          "word": "the",
-          "start": 0.54,
-          "end": 0.74
-        },
-        {
-          "word": "rocks",
-          "start": 0.74,
-          "end": 0.97
-        },
-        {
-          "word": "we",
-          "start": 0.97,
-          "end": 1.16
-        },
-        {
-          "word": "collected",
-          "start": 1.16,
-          "end": 1.68
-        },
-        {
-          "word": "weighs",
-          "start": 1.68,
-          "end": 1.92
-        },
-        {
-          "word": "almost",
-          "start": 1.92,
-          "end": 2.28
-        },
-        {
-          "word": "12",
-          "start": 2.28,
-          "end": 2.48
-        },
-        {
-          "word": "kilograms.",
-          "start": 2.48,
-          "end": 3.0
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "It is the biggest rock any Apollo crew took home.",
-      "start": 3.41,
-      "end": 5.79,
-      "words": [
-        {
-          "word": "It",
-          "start": 3.41,
-          "end": 3.58
-        },
-        {
-          "word": "is",
-          "start": 3.58,
-          "end": 3.76
-        },
-        {
-          "word": "the",
-          "start": 3.76,
-          "end": 3.94
-        },
-        {
-          "word": "biggest",
-          "start": 3.94,
-          "end": 4.28
-        },
-        {
-          "word": "rock",
-          "start": 4.28,
-          "end": 4.47
-        },
-        {
-          "word": "any",
-          "start": 4.47,
-          "end": 4.77
-        },
-        {
-          "word": "Apollo",
-          "start": 4.77,
-          "end": 5.21
-        },
-        {
-          "word": "crew",
-          "start": 5.21,
-          "end": 5.4
-        },
-        {
-          "word": "took",
-          "start": 5.4,
-          "end": 5.6
-        },
-        {
-          "word": "home.",
-          "start": 5.6,
-          "end": 5.79
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "They named it Big Muley.",
-      "start": 6.21,
-      "end": 7.07,
-      "words": [
-        {
-          "word": "They",
-          "start": 6.21,
-          "end": 6.35
-        },
-        {
-          "word": "named",
-          "start": 6.35,
-          "end": 6.58
-        },
-        {
-          "word": "it",
-          "start": 6.58,
-          "end": 6.71
-        },
-        {
-          "word": "Big",
-          "start": 6.71,
-          "end": 6.84
-        },
-        {
-          "word": "Muley.",
-          "start": 6.84,
-          "end": 7.07
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Before they left, Charlie placed a photo of his family on the ground.",
-      "start": 7.46,
-      "end": 10.36,
-      "words": [
-        {
-          "word": "Before",
-          "start": 7.46,
-          "end": 7.75
-        },
-        {
-          "word": "they",
-          "start": 7.75,
-          "end": 7.93
-        },
-        {
-          "word": "left,",
-          "start": 7.93,
-          "end": 8.2
-        },
-        {
-          "word": "Charlie",
-          "start": 8.2,
-          "end": 8.4
-        },
-        {
-          "word": "placed",
-          "start": 8.4,
-          "end": 8.7
-        },
-        {
-          "word": "a",
-          "start": 8.7,
-          "end": 8.84
-        },
-        {
-          "word": "photo",
-          "start": 8.84,
-          "end": 9.13
-        },
-        {
-          "word": "of",
-          "start": 9.13,
-          "end": 9.29
-        },
-        {
-          "word": "his",
-          "start": 9.29,
-          "end": 9.45
-        },
-        {
-          "word": "family",
-          "start": 9.45,
-          "end": 9.85
-        },
-        {
-          "word": "on",
-          "start": 9.85,
-          "end": 10.01
-        },
-        {
-          "word": "the",
-          "start": 10.01,
-          "end": 10.17
-        },
-        {
-          "word": "ground.",
-          "start": 10.17,
-          "end": 10.36
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Then they flew home and I stayed.",
-      "start": 10.83,
-      "end": 12.11,
-      "words": [
-        {
-          "word": "Then",
-          "start": 10.83,
-          "end": 11.02
-        },
-        {
-          "word": "they",
-          "start": 11.02,
-          "end": 11.2
-        },
-        {
-          "word": "flew",
-          "start": 11.2,
-          "end": 11.39
-        },
-        {
-          "word": "home",
-          "start": 11.39,
-          "end": 11.57
-        },
-        {
-          "word": "and",
-          "start": 11.57,
-          "end": 11.75
-        },
-        {
-          "word": "I",
-          "start": 11.75,
-          "end": 11.91
-        },
-        {
-          "word": "stayed.",
-          "start": 11.91,
-          "end": 12.11
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "The photo and I have been keeping each other company ever since.",
-      "start": 12.56,
-      "end": 14.9,
-      "words": [
-        {
-          "word": "The",
-          "start": 12.56,
-          "end": 12.7
-        },
-        {
-          "word": "photo",
-          "start": 12.7,
-          "end": 12.95
-        },
-        {
-          "word": "and",
-          "start": 12.95,
-          "end": 13.09
-        },
-        {
-          "word": "I",
-          "start": 13.09,
-          "end": 13.21
-        },
-        {
-          "word": "have",
-          "start": 13.21,
-          "end": 13.36
-        },
-        {
-          "word": "been",
-          "start": 13.36,
-          "end": 13.51
-        },
-        {
-          "word": "keeping",
-          "start": 13.51,
-          "end": 13.77
-        },
-        {
-          "word": "each",
-          "start": 13.77,
-          "end": 13.92
-        },
-        {
-          "word": "other",
-          "start": 13.92,
-          "end": 14.16
-        },
-        {
-          "word": "company",
-          "start": 14.16,
-          "end": 14.51
-        },
-        {
-          "word": "ever",
-          "start": 14.51,
-          "end": 14.74
-        },
-        {
-          "word": "since.",
-          "start": 14.74,
-          "end": 14.9
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "04-lunar-roving-vehicle-2",
+    "card":  "card-3",
+    "duration":  16.92,
+    "speechStart":  0.132,
+    "speechEnd":  16.654,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "One of the rocks we collected weighs almost 12 kilograms. It is the biggest rock any Apollo crew took home. They named it Big Muley.\n\nBefore they left, Charlie placed a photo of his family on the ground. Then they flew home and I stayed. The photo and I have been keeping each other company ever since.",
+                          "start":  0.132,
+                          "end":  16.654,
+                          "words":  [
+                                        {
+                                            "word":  "One",
+                                            "start":  0.132,
+                                            "end":  0.273
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  0.284,
+                                            "end":  0.349
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  0.36,
+                                            "end":  0.436
+                                        },
+                                        {
+                                            "word":  "rocks",
+                                            "start":  0.447,
+                                            "end":  0.839
+                                        },
+                                        {
+                                            "word":  "we",
+                                            "start":  0.849,
+                                            "end":  0.98
+                                        },
+                                        {
+                                            "word":  "collected",
+                                            "start":  0.991,
+                                            "end":  1.436
+                                        },
+                                        {
+                                            "word":  "weighs",
+                                            "start":  1.447,
+                                            "end":  1.795
+                                        },
+                                        {
+                                            "word":  "almost",
+                                            "start":  1.817,
+                                            "end":  2.176
+                                        },
+                                        {
+                                            "word":  "12",
+                                            "start":  2.186,
+                                            "end":  2.469
+                                        },
+                                        {
+                                            "word":  "kilograms.",
+                                            "start":  2.48,
+                                            "end":  3.154
+                                        },
+                                        {
+                                            "word":  "It",
+                                            "start":  3.476,
+                                            "end":  3.584
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  3.595,
+                                            "end":  3.715
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  3.726,
+                                            "end":  3.834
+                                        },
+                                        {
+                                            "word":  "biggest",
+                                            "start":  3.845,
+                                            "end":  4.193
+                                        },
+                                        {
+                                            "word":  "rock",
+                                            "start":  4.204,
+                                            "end":  4.519
+                                        },
+                                        {
+                                            "word":  "any",
+                                            "start":  4.541,
+                                            "end":  4.747
+                                        },
+                                        {
+                                            "word":  "Apollo",
+                                            "start":  4.758,
+                                            "end":  5.117
+                                        },
+                                        {
+                                            "word":  "crew",
+                                            "start":  5.128,
+                                            "end":  5.378
+                                        },
+                                        {
+                                            "word":  "took",
+                                            "start":  5.389,
+                                            "end":  5.563
+                                        },
+                                        {
+                                            "word":  "home.",
+                                            "start":  5.573,
+                                            "end":  5.921
+                                        },
+                                        {
+                                            "word":  "They",
+                                            "start":  6.241,
+                                            "end":  6.328
+                                        },
+                                        {
+                                            "word":  "named",
+                                            "start":  6.339,
+                                            "end":  6.632
+                                        },
+                                        {
+                                            "word":  "it",
+                                            "start":  6.643,
+                                            "end":  6.773
+                                        },
+                                        {
+                                            "word":  "Big",
+                                            "start":  6.784,
+                                            "end":  6.98
+                                        },
+                                        {
+                                            "word":  "Muley.",
+                                            "start":  6.991,
+                                            "end":  7.436
+                                        },
+                                        {
+                                            "word":  "Before",
+                                            "start":  7.773,
+                                            "end":  8.056
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  8.067,
+                                            "end":  8.186
+                                        },
+                                        {
+                                            "word":  "left,",
+                                            "start":  8.197,
+                                            "end":  8.632
+                                        },
+                                        {
+                                            "word":  "Charlie",
+                                            "start":  8.958,
+                                            "end":  9.349
+                                        },
+                                        {
+                                            "word":  "placed",
+                                            "start":  9.36,
+                                            "end":  9.676
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.686,
+                                            "end":  9.741
+                                        },
+                                        {
+                                            "word":  "photo",
+                                            "start":  9.752,
+                                            "end":  10.154
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  10.165,
+                                            "end":  10.23
+                                        },
+                                        {
+                                            "word":  "his",
+                                            "start":  10.241,
+                                            "end":  10.382
+                                        },
+                                        {
+                                            "word":  "family",
+                                            "start":  10.393,
+                                            "end":  10.763
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  10.773,
+                                            "end":  10.904
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  10.915,
+                                            "end":  10.969
+                                        },
+                                        {
+                                            "word":  "ground.",
+                                            "start":  10.98,
+                                            "end":  11.436
+                                        },
+                                        {
+                                            "word":  "Then",
+                                            "start":  11.773,
+                                            "end":  11.936
+                                        },
+                                        {
+                                            "word":  "they",
+                                            "start":  11.947,
+                                            "end":  12.067
+                                        },
+                                        {
+                                            "word":  "flew",
+                                            "start":  12.078,
+                                            "end":  12.317
+                                        },
+                                        {
+                                            "word":  "home",
+                                            "start":  12.328,
+                                            "end":  12.654
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  12.676,
+                                            "end":  12.784
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  12.795,
+                                            "end":  12.871
+                                        },
+                                        {
+                                            "word":  "stayed.",
+                                            "start":  12.882,
+                                            "end":  13.349
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  13.686,
+                                            "end":  13.752
+                                        },
+                                        {
+                                            "word":  "photo",
+                                            "start":  13.763,
+                                            "end":  14.241
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  14.252,
+                                            "end":  14.393
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  14.404,
+                                            "end":  14.556
+                                        },
+                                        {
+                                            "word":  "have",
+                                            "start":  14.567,
+                                            "end":  14.719
+                                        },
+                                        {
+                                            "word":  "been",
+                                            "start":  14.73,
+                                            "end":  14.893
+                                        },
+                                        {
+                                            "word":  "keeping",
+                                            "start":  14.904,
+                                            "end":  15.197
+                                        },
+                                        {
+                                            "word":  "each",
+                                            "start":  15.208,
+                                            "end":  15.36
+                                        },
+                                        {
+                                            "word":  "other",
+                                            "start":  15.371,
+                                            "end":  15.534
+                                        },
+                                        {
+                                            "word":  "company",
+                                            "start":  15.545,
+                                            "end":  15.947
+                                        },
+                                        {
+                                            "word":  "ever",
+                                            "start":  15.958,
+                                            "end":  16.165
+                                        },
+                                        {
+                                            "word":  "since.",
+                                            "start":  16.176,
+                                            "end":  16.654
+                                        }
+                                    ]
+                      }
+                  ]
 }

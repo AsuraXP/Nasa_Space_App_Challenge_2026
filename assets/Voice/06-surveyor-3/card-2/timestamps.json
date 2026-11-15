@@ -1,509 +1,453 @@
-{
-  "story": "06-surveyor-3",
-  "card": "card-2",
-  "duration": 23.18,
-  "speechStart": 0.14,
-  "speechEnd": 22.83,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "I was fine, though.",
-      "start": 0.14,
-      "end": 0.75,
-      "words": [
-        {
-          "word": "I",
-          "start": 0.14,
-          "end": 0.26
-        },
-        {
-          "word": "was",
-          "start": 0.26,
-          "end": 0.38
-        },
-        {
-          "word": "fine,",
-          "start": 0.38,
-          "end": 0.6
-        },
-        {
-          "word": "though.",
-          "start": 0.6,
-          "end": 0.75
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "And I had something no Surveyor before me had: an arm with a scoop.",
-      "start": 1.11,
-      "end": 4.2,
-      "words": [
-        {
-          "word": "And",
-          "start": 1.11,
-          "end": 1.29
-        },
-        {
-          "word": "I",
-          "start": 1.29,
-          "end": 1.44
-        },
-        {
-          "word": "had",
-          "start": 1.44,
-          "end": 1.62
-        },
-        {
-          "word": "something",
-          "start": 1.62,
-          "end": 2.07
-        },
-        {
-          "word": "no",
-          "start": 2.07,
-          "end": 2.23
-        },
-        {
-          "word": "Surveyor",
-          "start": 2.23,
-          "end": 2.56
-        },
-        {
-          "word": "before",
-          "start": 2.56,
-          "end": 2.87
-        },
-        {
-          "word": "me",
-          "start": 2.87,
-          "end": 3.04
-        },
-        {
-          "word": "had:",
-          "start": 3.04,
-          "end": 3.32
-        },
-        {
-          "word": "an",
-          "start": 3.32,
-          "end": 3.49
-        },
-        {
-          "word": "arm",
-          "start": 3.49,
-          "end": 3.67
-        },
-        {
-          "word": "with",
-          "start": 3.67,
-          "end": 3.85
-        },
-        {
-          "word": "a",
-          "start": 3.85,
-          "end": 4.01
-        },
-        {
-          "word": "scoop.",
-          "start": 4.01,
-          "end": 4.2
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "People on Earth sent commands and I dug four little trenches, pressed on the soil, and even dropped some on my own footpad so my camera could take a look.",
-      "start": 4.68,
-      "end": 11.72,
-      "words": [
-        {
-          "word": "People",
-          "start": 4.68,
-          "end": 5.0
-        },
-        {
-          "word": "on",
-          "start": 5.0,
-          "end": 5.17
-        },
-        {
-          "word": "Earth",
-          "start": 5.17,
-          "end": 5.37
-        },
-        {
-          "word": "sent",
-          "start": 5.37,
-          "end": 5.56
-        },
-        {
-          "word": "commands",
-          "start": 5.56,
-          "end": 5.9
-        },
-        {
-          "word": "and",
-          "start": 5.9,
-          "end": 6.08
-        },
-        {
-          "word": "I",
-          "start": 6.08,
-          "end": 6.24
-        },
-        {
-          "word": "dug",
-          "start": 6.24,
-          "end": 6.42
-        },
-        {
-          "word": "four",
-          "start": 6.42,
-          "end": 6.61
-        },
-        {
-          "word": "little",
-          "start": 6.61,
-          "end": 6.93
-        },
-        {
-          "word": "trenches,",
-          "start": 6.93,
-          "end": 7.38
-        },
-        {
-          "word": "pressed",
-          "start": 7.38,
-          "end": 7.71
-        },
-        {
-          "word": "on",
-          "start": 7.71,
-          "end": 7.88
-        },
-        {
-          "word": "the",
-          "start": 7.88,
-          "end": 8.06
-        },
-        {
-          "word": "soil,",
-          "start": 8.06,
-          "end": 8.36
-        },
-        {
-          "word": "and",
-          "start": 8.36,
-          "end": 8.54
-        },
-        {
-          "word": "even",
-          "start": 8.54,
-          "end": 8.84
-        },
-        {
-          "word": "dropped",
-          "start": 8.84,
-          "end": 9.17
-        },
-        {
-          "word": "some",
-          "start": 9.17,
-          "end": 9.36
-        },
-        {
-          "word": "on",
-          "start": 9.36,
-          "end": 9.53
-        },
-        {
-          "word": "my",
-          "start": 9.53,
-          "end": 9.7
-        },
-        {
-          "word": "own",
-          "start": 9.7,
-          "end": 9.88
-        },
-        {
-          "word": "footpad",
-          "start": 9.88,
-          "end": 10.21
-        },
-        {
-          "word": "so",
-          "start": 10.21,
-          "end": 10.38
-        },
-        {
-          "word": "my",
-          "start": 10.38,
-          "end": 10.55
-        },
-        {
-          "word": "camera",
-          "start": 10.55,
-          "end": 10.98
-        },
-        {
-          "word": "could",
-          "start": 10.98,
-          "end": 11.18
-        },
-        {
-          "word": "take",
-          "start": 11.18,
-          "end": 11.37
-        },
-        {
-          "word": "a",
-          "start": 11.37,
-          "end": 11.53
-        },
-        {
-          "word": "look.",
-          "start": 11.53,
-          "end": 11.72
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "We learned the ground was firm, a bit like damp sand.",
-      "start": 12.2,
-      "end": 14.67,
-      "words": [
-        {
-          "word": "We",
-          "start": 12.2,
-          "end": 12.39
-        },
-        {
-          "word": "learned",
-          "start": 12.39,
-          "end": 12.74
-        },
-        {
-          "word": "the",
-          "start": 12.74,
-          "end": 12.94
-        },
-        {
-          "word": "ground",
-          "start": 12.94,
-          "end": 13.16
-        },
-        {
-          "word": "was",
-          "start": 13.16,
-          "end": 13.36
-        },
-        {
-          "word": "firm,",
-          "start": 13.36,
-          "end": 13.68
-        },
-        {
-          "word": "a",
-          "start": 13.68,
-          "end": 13.86
-        },
-        {
-          "word": "bit",
-          "start": 13.86,
-          "end": 14.06
-        },
-        {
-          "word": "like",
-          "start": 14.06,
-          "end": 14.26
-        },
-        {
-          "word": "damp",
-          "start": 14.26,
-          "end": 14.47
-        },
-        {
-          "word": "sand.",
-          "start": 14.47,
-          "end": 14.67
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Firm enough for astronauts.",
-      "start": 15.2,
-      "end": 16.27,
-      "words": [
-        {
-          "word": "Firm",
-          "start": 15.2,
-          "end": 15.37
-        },
-        {
-          "word": "enough",
-          "start": 15.37,
-          "end": 15.67
-        },
-        {
-          "word": "for",
-          "start": 15.67,
-          "end": 15.84
-        },
-        {
-          "word": "astronauts.",
-          "start": 15.84,
-          "end": 16.27
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "Two weeks after I landed, the Sun set.",
-      "start": 16.69,
-      "end": 18.57,
-      "words": [
-        {
-          "word": "Two",
-          "start": 16.69,
-          "end": 16.88
-        },
-        {
-          "word": "weeks",
-          "start": 16.88,
-          "end": 17.08
-        },
-        {
-          "word": "after",
-          "start": 17.08,
-          "end": 17.4
-        },
-        {
-          "word": "I",
-          "start": 17.4,
-          "end": 17.57
-        },
-        {
-          "word": "landed,",
-          "start": 17.57,
-          "end": 18.01
-        },
-        {
-          "word": "the",
-          "start": 18.01,
-          "end": 18.2
-        },
-        {
-          "word": "Sun",
-          "start": 18.2,
-          "end": 18.38
-        },
-        {
-          "word": "set.",
-          "start": 18.38,
-          "end": 18.57
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "Night on the Moon lasts about two weeks and gets terribly cold.",
-      "start": 19.01,
-      "end": 21.81,
-      "words": [
-        {
-          "word": "Night",
-          "start": 19.01,
-          "end": 19.22
-        },
-        {
-          "word": "on",
-          "start": 19.22,
-          "end": 19.4
-        },
-        {
-          "word": "the",
-          "start": 19.4,
-          "end": 19.59
-        },
-        {
-          "word": "Moon",
-          "start": 19.59,
-          "end": 19.79
-        },
-        {
-          "word": "lasts",
-          "start": 19.79,
-          "end": 20.0
-        },
-        {
-          "word": "about",
-          "start": 20.0,
-          "end": 20.34
-        },
-        {
-          "word": "two",
-          "start": 20.34,
-          "end": 20.53
-        },
-        {
-          "word": "weeks",
-          "start": 20.53,
-          "end": 20.74
-        },
-        {
-          "word": "and",
-          "start": 20.74,
-          "end": 20.93
-        },
-        {
-          "word": "gets",
-          "start": 20.93,
-          "end": 21.13
-        },
-        {
-          "word": "terribly",
-          "start": 21.13,
-          "end": 21.61
-        },
-        {
-          "word": "cold.",
-          "start": 21.61,
-          "end": 21.81
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "text": "I never woke up.",
-      "start": 22.25,
-      "end": 22.83,
-      "words": [
-        {
-          "word": "I",
-          "start": 22.25,
-          "end": 22.36
-        },
-        {
-          "word": "never",
-          "start": 22.36,
-          "end": 22.58
-        },
-        {
-          "word": "woke",
-          "start": 22.58,
-          "end": 22.71
-        },
-        {
-          "word": "up.",
-          "start": 22.71,
-          "end": 22.83
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "06-surveyor-3",
+    "card":  "card-2",
+    "duration":  24.384,
+    "speechStart":  0.101,
+    "speechEnd":  24.099,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "I was fine, though. And I had something no Surveyor before me had: an arm with a scoop. People on Earth sent commands and I dug four little trenches, pressed on the soil, and even dropped some on my own footpad so my camera could take a look. We learned the ground was firm, a bit like damp sand. Firm enough for astronauts.\n\nTwo weeks after I landed, the Sun set. Night on the Moon lasts about two weeks and gets terribly cold. I never woke up.",
+                          "start":  0.101,
+                          "end":  24.099,
+                          "words":  [
+                                        {
+                                            "word":  "I",
+                                            "start":  0.101,
+                                            "end":  0.166
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  0.177,
+                                            "end":  0.329
+                                        },
+                                        {
+                                            "word":  "fine,",
+                                            "start":  0.34,
+                                            "end":  0.699
+                                        },
+                                        {
+                                            "word":  "though.",
+                                            "start":  0.721,
+                                            "end":  0.949
+                                        },
+                                        {
+                                            "word":  "And",
+                                            "start":  1.295,
+                                            "end":  1.415
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  1.426,
+                                            "end":  1.513
+                                        },
+                                        {
+                                            "word":  "had",
+                                            "start":  1.523,
+                                            "end":  1.676
+                                        },
+                                        {
+                                            "word":  "something",
+                                            "start":  1.686,
+                                            "end":  2.023
+                                        },
+                                        {
+                                            "word":  "no",
+                                            "start":  2.034,
+                                            "end":  2.208
+                                        },
+                                        {
+                                            "word":  "Surveyor",
+                                            "start":  2.219,
+                                            "end":  2.654
+                                        },
+                                        {
+                                            "word":  "before",
+                                            "start":  2.665,
+                                            "end":  2.936
+                                        },
+                                        {
+                                            "word":  "me",
+                                            "start":  2.947,
+                                            "end":  3.11
+                                        },
+                                        {
+                                            "word":  "had:",
+                                            "start":  3.121,
+                                            "end":  3.48
+                                        },
+                                        {
+                                            "word":  "an",
+                                            "start":  3.86,
+                                            "end":  3.991
+                                        },
+                                        {
+                                            "word":  "arm",
+                                            "start":  4.002,
+                                            "end":  4.306
+                                        },
+                                        {
+                                            "word":  "with",
+                                            "start":  4.317,
+                                            "end":  4.426
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  4.436,
+                                            "end":  4.469
+                                        },
+                                        {
+                                            "word":  "scoop.",
+                                            "start":  4.48,
+                                            "end":  4.958
+                                        },
+                                        {
+                                            "word":  "People",
+                                            "start":  5.306,
+                                            "end":  5.523
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  5.534,
+                                            "end":  5.643
+                                        },
+                                        {
+                                            "word":  "Earth",
+                                            "start":  5.654,
+                                            "end":  5.86
+                                        },
+                                        {
+                                            "word":  "sent",
+                                            "start":  5.871,
+                                            "end":  6.067
+                                        },
+                                        {
+                                            "word":  "commands",
+                                            "start":  6.078,
+                                            "end":  6.502
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  6.513,
+                                            "end":  6.599
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  6.61,
+                                            "end":  6.697
+                                        },
+                                        {
+                                            "word":  "dug",
+                                            "start":  6.708,
+                                            "end":  6.915
+                                        },
+                                        {
+                                            "word":  "four",
+                                            "start":  6.926,
+                                            "end":  7.099
+                                        },
+                                        {
+                                            "word":  "little",
+                                            "start":  7.11,
+                                            "end":  7.252
+                                        },
+                                        {
+                                            "word":  "trenches,",
+                                            "start":  7.263,
+                                            "end":  7.752
+                                        },
+                                        {
+                                            "word":  "pressed",
+                                            "start":  7.773,
+                                            "end":  8.078
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  8.089,
+                                            "end":  8.154
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  8.165,
+                                            "end":  8.23
+                                        },
+                                        {
+                                            "word":  "soil,",
+                                            "start":  8.241,
+                                            "end":  8.708
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  8.947,
+                                            "end":  9.121
+                                        },
+                                        {
+                                            "word":  "even",
+                                            "start":  9.132,
+                                            "end":  9.328
+                                        },
+                                        {
+                                            "word":  "dropped",
+                                            "start":  9.339,
+                                            "end":  9.632
+                                        },
+                                        {
+                                            "word":  "some",
+                                            "start":  9.643,
+                                            "end":  9.784
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  9.795,
+                                            "end":  9.871
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  9.882,
+                                            "end":  10.023
+                                        },
+                                        {
+                                            "word":  "own",
+                                            "start":  10.034,
+                                            "end":  10.176
+                                        },
+                                        {
+                                            "word":  "footpad",
+                                            "start":  10.186,
+                                            "end":  10.632
+                                        },
+                                        {
+                                            "word":  "so",
+                                            "start":  10.643,
+                                            "end":  10.752
+                                        },
+                                        {
+                                            "word":  "my",
+                                            "start":  10.763,
+                                            "end":  10.871
+                                        },
+                                        {
+                                            "word":  "camera",
+                                            "start":  10.882,
+                                            "end":  11.219
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  11.23,
+                                            "end":  11.339
+                                        },
+                                        {
+                                            "word":  "take",
+                                            "start":  11.349,
+                                            "end":  11.512
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  11.523,
+                                            "end":  11.556
+                                        },
+                                        {
+                                            "word":  "look.",
+                                            "start":  11.567,
+                                            "end":  11.893
+                                        },
+                                        {
+                                            "word":  "We",
+                                            "start":  12.23,
+                                            "end":  12.306
+                                        },
+                                        {
+                                            "word":  "learned",
+                                            "start":  12.317,
+                                            "end":  12.556
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  12.567,
+                                            "end":  12.621
+                                        },
+                                        {
+                                            "word":  "ground",
+                                            "start":  12.632,
+                                            "end":  12.936
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  12.947,
+                                            "end":  13.099
+                                        },
+                                        {
+                                            "word":  "firm,",
+                                            "start":  13.11,
+                                            "end":  13.534
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  13.849,
+                                            "end":  13.947
+                                        },
+                                        {
+                                            "word":  "bit",
+                                            "start":  13.958,
+                                            "end":  14.121
+                                        },
+                                        {
+                                            "word":  "like",
+                                            "start":  14.132,
+                                            "end":  14.339
+                                        },
+                                        {
+                                            "word":  "damp",
+                                            "start":  14.349,
+                                            "end":  14.589
+                                        },
+                                        {
+                                            "word":  "sand.",
+                                            "start":  14.599,
+                                            "end":  14.991
+                                        },
+                                        {
+                                            "word":  "Firm",
+                                            "start":  15.339,
+                                            "end":  15.589
+                                        },
+                                        {
+                                            "word":  "enough",
+                                            "start":  15.599,
+                                            "end":  15.915
+                                        },
+                                        {
+                                            "word":  "for",
+                                            "start":  15.926,
+                                            "end":  16.143
+                                        },
+                                        {
+                                            "word":  "astronauts.",
+                                            "start":  16.154,
+                                            "end":  16.839
+                                        },
+                                        {
+                                            "word":  "Two",
+                                            "start":  17.186,
+                                            "end":  17.339
+                                        },
+                                        {
+                                            "word":  "weeks",
+                                            "start":  17.349,
+                                            "end":  17.632
+                                        },
+                                        {
+                                            "word":  "after",
+                                            "start":  17.643,
+                                            "end":  17.904
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  17.915,
+                                            "end":  17.969
+                                        },
+                                        {
+                                            "word":  "landed,",
+                                            "start":  17.98,
+                                            "end":  18.426
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.849,
+                                            "end":  18.926
+                                        },
+                                        {
+                                            "word":  "Sun",
+                                            "start":  18.936,
+                                            "end":  19.208
+                                        },
+                                        {
+                                            "word":  "set.",
+                                            "start":  19.219,
+                                            "end":  19.556
+                                        },
+                                        {
+                                            "word":  "Night",
+                                            "start":  19.904,
+                                            "end":  20.154
+                                        },
+                                        {
+                                            "word":  "on",
+                                            "start":  20.165,
+                                            "end":  20.273
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  20.284,
+                                            "end":  20.349
+                                        },
+                                        {
+                                            "word":  "Moon",
+                                            "start":  20.36,
+                                            "end":  20.61
+                                        },
+                                        {
+                                            "word":  "lasts",
+                                            "start":  20.621,
+                                            "end":  20.969
+                                        },
+                                        {
+                                            "word":  "about",
+                                            "start":  20.98,
+                                            "end":  21.23
+                                        },
+                                        {
+                                            "word":  "two",
+                                            "start":  21.241,
+                                            "end":  21.393
+                                        },
+                                        {
+                                            "word":  "weeks",
+                                            "start":  21.404,
+                                            "end":  21.741
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  21.752,
+                                            "end":  21.849
+                                        },
+                                        {
+                                            "word":  "gets",
+                                            "start":  21.86,
+                                            "end":  22.056
+                                        },
+                                        {
+                                            "word":  "terribly",
+                                            "start":  22.067,
+                                            "end":  22.447
+                                        },
+                                        {
+                                            "word":  "cold.",
+                                            "start":  22.458,
+                                            "end":  22.86
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  23.186,
+                                            "end":  23.241
+                                        },
+                                        {
+                                            "word":  "never",
+                                            "start":  23.252,
+                                            "end":  23.534
+                                        },
+                                        {
+                                            "word":  "woke",
+                                            "start":  23.545,
+                                            "end":  23.795
+                                        },
+                                        {
+                                            "word":  "up.",
+                                            "start":  23.806,
+                                            "end":  24.099
+                                        }
+                                    ]
+                      }
+                  ]
 }

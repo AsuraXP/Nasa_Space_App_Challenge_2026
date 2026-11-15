@@ -3,10 +3,13 @@
   "card": "card-3",
   "audio": "audio/15-perseverance/card-3/narration.mp3",
   "script": "audio/15-perseverance/card-3/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/15-perseverance/card-3/timings.json",
+  "vtt": "audio/15-perseverance/card-3/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 140400,
-  "duration_seconds": 23.4,
-  "words": 78
+  "bytes": 143568,
+  "duration_seconds": 23.928,
+  "words": 78,
+  "coverage": 1.0
 }

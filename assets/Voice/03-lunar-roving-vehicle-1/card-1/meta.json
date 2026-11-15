@@ -3,10 +3,13 @@
   "card": "card-1",
   "audio": "audio/03-lunar-roving-vehicle-1/card-1/narration.mp3",
   "script": "audio/03-lunar-roving-vehicle-1/card-1/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/03-lunar-roving-vehicle-1/card-1/timings.json",
+  "vtt": "audio/03-lunar-roving-vehicle-1/card-1/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 135792,
-  "duration_seconds": 22.63,
-  "words": 78
+  "bytes": 139392,
+  "duration_seconds": 23.232,
+  "words": 78,
+  "coverage": 0.9615
 }

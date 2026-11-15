@@ -1,401 +1,353 @@
-{
-  "story": "18-pioneer-10",
-  "card": "card-1",
-  "duration": 18.91,
-  "speechStart": 0.14,
-  "speechEnd": 18.6,
-  "method": "sentences aligned to detected pauses in the audio; word times estimated by syllable count",
-  "sentences": [
-    {
-      "index": 0,
-      "text": "Somebody has to go first.",
-      "start": 0.14,
-      "end": 1.13,
-      "words": [
-        {
-          "word": "Somebody",
-          "start": 0.14,
-          "end": 0.58
-        },
-        {
-          "word": "has",
-          "start": 0.58,
-          "end": 0.71
-        },
-        {
-          "word": "to",
-          "start": 0.71,
-          "end": 0.85
-        },
-        {
-          "word": "go",
-          "start": 0.85,
-          "end": 0.98
-        },
-        {
-          "word": "first.",
-          "start": 0.98,
-          "end": 1.13
-        }
-      ]
-    },
-    {
-      "index": 1,
-      "text": "In 1972, that was me.",
-      "start": 1.58,
-      "end": 3.31,
-      "words": [
-        {
-          "word": "In",
-          "start": 1.58,
-          "end": 1.87
-        },
-        {
-          "word": "1972,",
-          "start": 1.87,
-          "end": 2.39
-        },
-        {
-          "word": "that",
-          "start": 2.39,
-          "end": 2.71
-        },
-        {
-          "word": "was",
-          "start": 2.71,
-          "end": 3.02
-        },
-        {
-          "word": "me.",
-          "start": 3.02,
-          "end": 3.31
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "text": "Between Mars and Jupiter there is a wide belt of asteroids.",
-      "start": 3.71,
-      "end": 6.58,
-      "words": [
-        {
-          "word": "Between",
-          "start": 3.71,
-          "end": 4.06
-        },
-        {
-          "word": "Mars",
-          "start": 4.06,
-          "end": 4.26
-        },
-        {
-          "word": "and",
-          "start": 4.26,
-          "end": 4.46
-        },
-        {
-          "word": "Jupiter",
-          "start": 4.46,
-          "end": 4.93
-        },
-        {
-          "word": "there",
-          "start": 4.93,
-          "end": 5.14
-        },
-        {
-          "word": "is",
-          "start": 5.14,
-          "end": 5.33
-        },
-        {
-          "word": "a",
-          "start": 5.33,
-          "end": 5.5
-        },
-        {
-          "word": "wide",
-          "start": 5.5,
-          "end": 5.7
-        },
-        {
-          "word": "belt",
-          "start": 5.7,
-          "end": 5.9
-        },
-        {
-          "word": "of",
-          "start": 5.9,
-          "end": 6.09
-        },
-        {
-          "word": "asteroids.",
-          "start": 6.09,
-          "end": 6.58
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "text": "Before I launched, nobody knew if a spacecraft could cross it.",
-      "start": 6.99,
-      "end": 9.73,
-      "words": [
-        {
-          "word": "Before",
-          "start": 6.99,
-          "end": 7.29
-        },
-        {
-          "word": "I",
-          "start": 7.29,
-          "end": 7.44
-        },
-        {
-          "word": "launched,",
-          "start": 7.44,
-          "end": 7.86
-        },
-        {
-          "word": "nobody",
-          "start": 7.86,
-          "end": 8.27
-        },
-        {
-          "word": "knew",
-          "start": 8.27,
-          "end": 8.45
-        },
-        {
-          "word": "if",
-          "start": 8.45,
-          "end": 8.61
-        },
-        {
-          "word": "a",
-          "start": 8.61,
-          "end": 8.76
-        },
-        {
-          "word": "spacecraft",
-          "start": 8.76,
-          "end": 9.2
-        },
-        {
-          "word": "could",
-          "start": 9.2,
-          "end": 9.38
-        },
-        {
-          "word": "cross",
-          "start": 9.38,
-          "end": 9.57
-        },
-        {
-          "word": "it.",
-          "start": 9.57,
-          "end": 9.73
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "text": "Some people thought I would be hit and destroyed.",
-      "start": 10.18,
-      "end": 12.05,
-      "words": [
-        {
-          "word": "Some",
-          "start": 10.18,
-          "end": 10.36
-        },
-        {
-          "word": "people",
-          "start": 10.36,
-          "end": 10.67
-        },
-        {
-          "word": "thought",
-          "start": 10.67,
-          "end": 10.87
-        },
-        {
-          "word": "I",
-          "start": 10.87,
-          "end": 11.03
-        },
-        {
-          "word": "would",
-          "start": 11.03,
-          "end": 11.21
-        },
-        {
-          "word": "be",
-          "start": 11.21,
-          "end": 11.38
-        },
-        {
-          "word": "hit",
-          "start": 11.38,
-          "end": 11.55
-        },
-        {
-          "word": "and",
-          "start": 11.55,
-          "end": 11.72
-        },
-        {
-          "word": "destroyed.",
-          "start": 11.72,
-          "end": 12.05
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "text": "I spent seven months flying through, and I came out the other side without a scratch that mattered.",
-      "start": 12.47,
-      "end": 16.6,
-      "words": [
-        {
-          "word": "I",
-          "start": 12.47,
-          "end": 12.63
-        },
-        {
-          "word": "spent",
-          "start": 12.63,
-          "end": 12.83
-        },
-        {
-          "word": "seven",
-          "start": 12.83,
-          "end": 13.14
-        },
-        {
-          "word": "months",
-          "start": 13.14,
-          "end": 13.34
-        },
-        {
-          "word": "flying",
-          "start": 13.34,
-          "end": 13.55
-        },
-        {
-          "word": "through,",
-          "start": 13.55,
-          "end": 13.88
-        },
-        {
-          "word": "and",
-          "start": 13.88,
-          "end": 14.06
-        },
-        {
-          "word": "I",
-          "start": 14.06,
-          "end": 14.22
-        },
-        {
-          "word": "came",
-          "start": 14.22,
-          "end": 14.4
-        },
-        {
-          "word": "out",
-          "start": 14.4,
-          "end": 14.58
-        },
-        {
-          "word": "the",
-          "start": 14.58,
-          "end": 14.76
-        },
-        {
-          "word": "other",
-          "start": 14.76,
-          "end": 15.07
-        },
-        {
-          "word": "side",
-          "start": 15.07,
-          "end": 15.26
-        },
-        {
-          "word": "without",
-          "start": 15.26,
-          "end": 15.59
-        },
-        {
-          "word": "a",
-          "start": 15.59,
-          "end": 15.75
-        },
-        {
-          "word": "scratch",
-          "start": 15.75,
-          "end": 15.96
-        },
-        {
-          "word": "that",
-          "start": 15.96,
-          "end": 16.15
-        },
-        {
-          "word": "mattered.",
-          "start": 16.15,
-          "end": 16.6
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "text": "The road to the outer planets was open.",
-      "start": 17.04,
-      "end": 18.6,
-      "words": [
-        {
-          "word": "The",
-          "start": 17.04,
-          "end": 17.19
-        },
-        {
-          "word": "road",
-          "start": 17.19,
-          "end": 17.35
-        },
-        {
-          "word": "to",
-          "start": 17.35,
-          "end": 17.5
-        },
-        {
-          "word": "the",
-          "start": 17.5,
-          "end": 17.65
-        },
-        {
-          "word": "outer",
-          "start": 17.65,
-          "end": 17.91
-        },
-        {
-          "word": "planets",
-          "start": 17.91,
-          "end": 18.19
-        },
-        {
-          "word": "was",
-          "start": 18.19,
-          "end": 18.34
-        },
-        {
-          "word": "open.",
-          "start": 18.34,
-          "end": 18.6
-        }
-      ]
-    }
-  ]
+﻿{
+    "story":  "18-pioneer-10",
+    "card":  "card-1",
+    "duration":  20.376,
+    "speechStart":  0.103,
+    "speechEnd":  20.11,
+    "method":  "Word timings generated for replacement narration",
+    "sentences":  [
+                      {
+                          "index":  0,
+                          "text":  "Somebody has to go first. In 1972, that was me.\n\nBetween Mars and Jupiter there is a wide belt of asteroids. Before I launched, nobody knew if a spacecraft could cross it. Some people thought I would be hit and destroyed. I spent seven months flying through, and I came out the other side without a scratch that mattered. The road to the outer planets was open.",
+                          "start":  0.103,
+                          "end":  20.11,
+                          "words":  [
+                                        {
+                                            "word":  "Somebody",
+                                            "start":  0.103,
+                                            "end":  0.451
+                                        },
+                                        {
+                                            "word":  "has",
+                                            "start":  0.461,
+                                            "end":  0.657
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  0.668,
+                                            "end":  0.744
+                                        },
+                                        {
+                                            "word":  "go",
+                                            "start":  0.755,
+                                            "end":  0.929
+                                        },
+                                        {
+                                            "word":  "first.",
+                                            "start":  0.94,
+                                            "end":  1.461
+                                        },
+                                        {
+                                            "word":  "In",
+                                            "start":  1.461,
+                                            "end":  1.876
+                                        },
+                                        {
+                                            "word":  "1972,",
+                                            "start":  1.876,
+                                            "end":  2.915
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  2.915,
+                                            "end":  3.099
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  3.11,
+                                            "end":  3.273
+                                        },
+                                        {
+                                            "word":  "me.",
+                                            "start":  3.284,
+                                            "end":  3.621
+                                        },
+                                        {
+                                            "word":  "Between",
+                                            "start":  3.969,
+                                            "end":  4.306
+                                        },
+                                        {
+                                            "word":  "Mars",
+                                            "start":  4.317,
+                                            "end":  4.676
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  4.686,
+                                            "end":  4.795
+                                        },
+                                        {
+                                            "word":  "Jupiter",
+                                            "start":  4.806,
+                                            "end":  5.252
+                                        },
+                                        {
+                                            "word":  "there",
+                                            "start":  5.263,
+                                            "end":  5.513
+                                        },
+                                        {
+                                            "word":  "is",
+                                            "start":  5.523,
+                                            "end":  5.654
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  5.665,
+                                            "end":  5.741
+                                        },
+                                        {
+                                            "word":  "wide",
+                                            "start":  5.752,
+                                            "end":  6.078
+                                        },
+                                        {
+                                            "word":  "belt",
+                                            "start":  6.089,
+                                            "end":  6.339
+                                        },
+                                        {
+                                            "word":  "of",
+                                            "start":  6.349,
+                                            "end":  6.426
+                                        },
+                                        {
+                                            "word":  "asteroids.",
+                                            "start":  6.436,
+                                            "end":  7.078
+                                        },
+                                        {
+                                            "word":  "Before",
+                                            "start":  7.415,
+                                            "end":  7.697
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  7.708,
+                                            "end":  7.773
+                                        },
+                                        {
+                                            "word":  "launched,",
+                                            "start":  7.784,
+                                            "end":  8.273
+                                        },
+                                        {
+                                            "word":  "nobody",
+                                            "start":  8.295,
+                                            "end":  8.621
+                                        },
+                                        {
+                                            "word":  "knew",
+                                            "start":  8.632,
+                                            "end":  8.871
+                                        },
+                                        {
+                                            "word":  "if",
+                                            "start":  8.882,
+                                            "end":  8.991
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  9.002,
+                                            "end":  9.045
+                                        },
+                                        {
+                                            "word":  "spacecraft",
+                                            "start":  9.056,
+                                            "end":  9.643
+                                        },
+                                        {
+                                            "word":  "could",
+                                            "start":  9.654,
+                                            "end":  9.763
+                                        },
+                                        {
+                                            "word":  "cross",
+                                            "start":  9.773,
+                                            "end":  10.089
+                                        },
+                                        {
+                                            "word":  "it.",
+                                            "start":  10.099,
+                                            "end":  10.317
+                                        },
+                                        {
+                                            "word":  "Some",
+                                            "start":  10.654,
+                                            "end":  10.839
+                                        },
+                                        {
+                                            "word":  "people",
+                                            "start":  10.849,
+                                            "end":  11.089
+                                        },
+                                        {
+                                            "word":  "thought",
+                                            "start":  11.099,
+                                            "end":  11.426
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  11.436,
+                                            "end":  11.545
+                                        },
+                                        {
+                                            "word":  "would",
+                                            "start":  11.556,
+                                            "end":  11.697
+                                        },
+                                        {
+                                            "word":  "be",
+                                            "start":  11.708,
+                                            "end":  11.817
+                                        },
+                                        {
+                                            "word":  "hit",
+                                            "start":  11.828,
+                                            "end":  12.132
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  12.143,
+                                            "end":  12.263
+                                        },
+                                        {
+                                            "word":  "destroyed.",
+                                            "start":  12.273,
+                                            "end":  12.893
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  13.241,
+                                            "end":  13.284
+                                        },
+                                        {
+                                            "word":  "spent",
+                                            "start":  13.295,
+                                            "end":  13.534
+                                        },
+                                        {
+                                            "word":  "seven",
+                                            "start":  13.545,
+                                            "end":  13.839
+                                        },
+                                        {
+                                            "word":  "months",
+                                            "start":  13.849,
+                                            "end":  14.121
+                                        },
+                                        {
+                                            "word":  "flying",
+                                            "start":  14.132,
+                                            "end":  14.491
+                                        },
+                                        {
+                                            "word":  "through,",
+                                            "start":  14.502,
+                                            "end":  14.86
+                                        },
+                                        {
+                                            "word":  "and",
+                                            "start":  15.121,
+                                            "end":  15.295
+                                        },
+                                        {
+                                            "word":  "I",
+                                            "start":  15.306,
+                                            "end":  15.382
+                                        },
+                                        {
+                                            "word":  "came",
+                                            "start":  15.393,
+                                            "end":  15.61
+                                        },
+                                        {
+                                            "word":  "out",
+                                            "start":  15.621,
+                                            "end":  15.773
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  15.784,
+                                            "end":  15.849
+                                        },
+                                        {
+                                            "word":  "other",
+                                            "start":  15.86,
+                                            "end":  16.045
+                                        },
+                                        {
+                                            "word":  "side",
+                                            "start":  16.056,
+                                            "end":  16.393
+                                        },
+                                        {
+                                            "word":  "without",
+                                            "start":  16.404,
+                                            "end":  16.654
+                                        },
+                                        {
+                                            "word":  "a",
+                                            "start":  16.665,
+                                            "end":  16.697
+                                        },
+                                        {
+                                            "word":  "scratch",
+                                            "start":  16.708,
+                                            "end":  17.121
+                                        },
+                                        {
+                                            "word":  "that",
+                                            "start":  17.132,
+                                            "end":  17.284
+                                        },
+                                        {
+                                            "word":  "mattered.",
+                                            "start":  17.295,
+                                            "end":  17.719
+                                        },
+                                        {
+                                            "word":  "The",
+                                            "start":  17.719,
+                                            "end":  18.068
+                                        },
+                                        {
+                                            "word":  "road",
+                                            "start":  18.068,
+                                            "end":  18.534
+                                        },
+                                        {
+                                            "word":  "to",
+                                            "start":  18.534,
+                                            "end":  18.654
+                                        },
+                                        {
+                                            "word":  "the",
+                                            "start":  18.665,
+                                            "end":  18.752
+                                        },
+                                        {
+                                            "word":  "outer",
+                                            "start":  18.763,
+                                            "end":  19.023
+                                        },
+                                        {
+                                            "word":  "planets",
+                                            "start":  19.034,
+                                            "end":  19.469
+                                        },
+                                        {
+                                            "word":  "was",
+                                            "start":  19.48,
+                                            "end":  19.676
+                                        },
+                                        {
+                                            "word":  "open.",
+                                            "start":  19.686,
+                                            "end":  20.11
+                                        }
+                                    ]
+                      }
+                  ]
 }

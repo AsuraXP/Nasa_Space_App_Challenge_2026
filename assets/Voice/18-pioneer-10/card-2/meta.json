@@ -3,10 +3,13 @@
   "card": "card-2",
   "audio": "audio/18-pioneer-10/card-2/narration.mp3",
   "script": "audio/18-pioneer-10/card-2/script.txt",
-  "voice": "en-US-AndrewNeural",
+  "timings": "audio/18-pioneer-10/card-2/timings.json",
+  "vtt": "audio/18-pioneer-10/card-2/words.vtt",
+  "voice": "en-US-BrianNeural",
   "rate": "+15%",
   "format": "mp3",
-  "bytes": 87264,
-  "duration_seconds": 14.54,
-  "words": 47
+  "bytes": 92448,
+  "duration_seconds": 15.408,
+  "words": 47,
+  "coverage": 0.9574
 }
