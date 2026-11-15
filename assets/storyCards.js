@@ -85,6 +85,13 @@ function countWords(text) {
   return m ? m.length : 0;
 }
 
+// tell the rest of the app when narration starts or stops, so it can quiet the scene sound (Mars wind etc.)
+function setNarrating(on) {
+  if (window.__narrating === on) return;
+  window.__narrating = on;
+  window.dispatchEvent(new Event('narration-change'));
+}
+
 var flipSound = new Audio('./assets/sfx/card-flip.mp3');
 flipSound.preload = 'auto';
 
@@ -206,7 +213,7 @@ export default function StoryCards(props) {
   }, []);
 
   // stop whatever narration is playing (and cancel a play-all chain)
-  function stopVoice() {
+  function stopVoice(restarting) {
     runId.current = runId.current + 1;
     if (voiceRef.current) {
       voiceRef.current.pause();
@@ -216,6 +223,7 @@ export default function StoryCards(props) {
     window.cancelAnimationFrame(frameRef.current);
     setCurrentWord(-1);
     setPlaying(-1);
+    if (!restarting) setNarrating(false);
   }
 
   // load the word times for a card (once), then keep the highlight in step with the audio
@@ -274,8 +282,11 @@ export default function StoryCards(props) {
     var url = narrationUrl(props.id, index);
     var mine;
     var audio;
-    stopVoice();
-    if (!url) return;
+    stopVoice(true);
+    if (!url) {
+      setNarrating(false);
+      return;
+    }
     mine = runId.current;
     audio = voiceRef.current || new Audio();
     voiceRef.current = audio;
@@ -286,16 +297,22 @@ export default function StoryCards(props) {
         playVoice(index + 1, true);
       } else {
         setPlaying(-1);
+        setNarrating(false);
       }
     };
     audio.onerror = function () {
       if (runId.current !== mine) return;
       setPlaying(-1);
+      setNarrating(false);
     };
     setPlaying(index);
+    setNarrating(true);
     followWords(index, audio, mine);
     audio.play().catch(function () {
-      if (runId.current === mine) setPlaying(-1);
+      if (runId.current === mine) {
+        setPlaying(-1);
+        setNarrating(false);
+      }
     });
   }
 
@@ -303,7 +320,9 @@ export default function StoryCards(props) {
   React.useEffect(function () {
     return function () {
       runId.current = runId.current + 1;
+      window.cancelAnimationFrame(frameRef.current);
       if (voiceRef.current) voiceRef.current.pause();
+      setNarrating(false);
     };
   }, []);
 
